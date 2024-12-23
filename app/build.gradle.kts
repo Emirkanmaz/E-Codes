@@ -56,6 +56,7 @@ dependencies {
     implementation(libs.kotlinx.coroutines.android)
     implementation(libs.hilt.android)
     ksp(libs.dagger.hilt.compiler)
+    implementation(libs.androidx.security.crypto)
 
     testImplementation(libs.junit)
 

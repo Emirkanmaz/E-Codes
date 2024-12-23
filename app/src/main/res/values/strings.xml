@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">E Codes</string>
+    <string name="success_snackbar_message">Successful.</string>
+    <string name="error_snackbar_message">An error occurred.</string>
+    <string name="info_snackbar_message">Info message.</string>
+
 </resources>

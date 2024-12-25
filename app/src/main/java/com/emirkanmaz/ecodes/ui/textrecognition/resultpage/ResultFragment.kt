@@ -1,30 +1,22 @@
-package com.emirkanmaz.ecodes.ui.resultpage
+package com.emirkanmaz.ecodes.ui.textrecognition.resultpage
 
 import android.graphics.Bitmap
 import android.graphics.Canvas
 import android.graphics.Color
 import android.graphics.Paint
-import android.net.Uri
-import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
-import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
-import androidx.navigation.fragment.navArgs
-import com.emirkanmaz.ecodes.R
 import com.emirkanmaz.ecodes.base.BaseFragment
 import com.emirkanmaz.ecodes.base.BaseNavigationEvent
 import com.emirkanmaz.ecodes.databinding.FragmentResultBinding
-import com.emirkanmaz.ecodes.databinding.FragmentTextRecognitionBinding
-import com.emirkanmaz.ecodes.ui.textrecognition.TextRecognitionViewModel
 import com.google.mlkit.vision.common.InputImage
 import com.google.mlkit.vision.text.TextRecognition
 import com.google.mlkit.vision.text.latin.TextRecognizerOptions
 
 
-class ResultFragment : BaseFragment<FragmentResultBinding, TextRecognitionViewModel, BaseNavigationEvent>(
-        TextRecognitionViewModel::class.java
+class ResultFragment : BaseFragment<FragmentResultBinding, ResultViewModel, BaseNavigationEvent>(
+    ResultViewModel::class.java
     ) {
     override val bindingInflater: (LayoutInflater, ViewGroup?, Boolean) -> FragmentResultBinding =
         FragmentResultBinding::inflate

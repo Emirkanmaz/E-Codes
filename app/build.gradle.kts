@@ -57,6 +57,16 @@ dependencies {
     implementation(libs.hilt.android)
     ksp(libs.dagger.hilt.compiler)
     implementation(libs.androidx.security.crypto)
+    implementation(libs.text.recognition)
+    implementation(libs.androidx.camera.core)
+    implementation(libs.androidx.camera.camera2)
+    implementation(libs.androidx.camera.lifecycle)
+    implementation(libs.androidx.camera.view)
+    implementation(libs.androidx.camera.extensions)
+    implementation(libs.text.recognition)
+    implementation(libs.android.image.cropper)
+
+
 
     testImplementation(libs.junit)
 

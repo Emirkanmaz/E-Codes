@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homePageFragment">
+
+    <fragment
+        android:id="@+id/homePageFragment"
+        android:name="com.emirkanmaz.ecodes.ui.homepage.HomePageFragment"
+        android:label="fragment_home_page"
+        tools:layout="@layout/fragment_home_page">
+        <action
+            android:id="@+id/action_homePageFragment_to_cropFragment"
+            app:destination="@id/cropFragment" />
+        <action
+            android:id="@+id/action_homePageFragment_to_resultFragment"
+            app:destination="@id/resultFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/textRecognitionFragment"
+        android:name="com.emirkanmaz.ecodes.ui.textrecognition.TextRecognitionFragment"
+        android:label="fragment_text_recognition"
+        tools:layout="@layout/fragment_text_recognition">
+        <action
+            android:id="@+id/action_textRecognitionFragment_to_resultFragment"
+            app:destination="@id/resultFragment" />
+        <action
+            android:id="@+id/action_textRecognitionFragment_to_cropFragment"
+            app:destination="@id/cropFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/cropFragment"
+        android:name="com.emirkanmaz.ecodes.ui.textrecognition.cropimage.CropFragment"
+        android:label="CropFragment">
+        <argument
+            android:name="photoUri"
+            app:argType="android.net.Uri" />
+    </fragment>
+    <fragment
+        android:id="@+id/resultFragment"
+        android:name="com.emirkanmaz.ecodes.ui.textrecognition.resultpage.ResultFragment"
+        android:label="ResultFragment">
+        <argument
+            android:name="photoBitmap"
+            app:argType="android.graphics.Bitmap" />
+    </fragment>
+
+
+</navigation>

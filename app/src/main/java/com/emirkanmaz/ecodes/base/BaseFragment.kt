@@ -61,6 +61,8 @@ abstract class BaseFragment<VBinding : ViewBinding, VModel : BaseViewModel<T>, T
         observeNavigationEvent()
         observeLoadingState()
         observeErrorState()
+        observeViewModel()
+        setupListeners()
     }
 
     protected open fun observeNavigationEvent(){
@@ -70,6 +72,9 @@ abstract class BaseFragment<VBinding : ViewBinding, VModel : BaseViewModel<T>, T
             }
         }
     }
+
+    protected open fun observeViewModel() = Unit
+    protected open fun setupListeners() = Unit
 
     //    overriding in fragment classes
     protected open fun handleNavigationEvent(event: BaseNavigationEvent){}

@@ -1,6 +1,7 @@
 package com.emirkanmaz.diyet.utils.extensions
 
 import android.content.res.Resources
+import android.net.Uri
 import android.util.TypedValue
 
 fun Int.dpToPx(): Int {
@@ -9,4 +10,8 @@ fun Int.dpToPx(): Int {
         this.toFloat(),
         Resources.getSystem().displayMetrics
     ).toInt()
+}
+
+fun Uri?.isValid(): Boolean {
+    return this != null && toString().isNotEmpty()
 }

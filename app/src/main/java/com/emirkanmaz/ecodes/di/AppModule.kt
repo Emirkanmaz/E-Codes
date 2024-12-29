@@ -5,6 +5,9 @@ import android.content.SharedPreferences
 import androidx.security.crypto.EncryptedSharedPreferences
 import androidx.security.crypto.MasterKey
 import com.emirkanmaz.ecodes.security.KeystoreManager
+import com.google.mlkit.vision.text.TextRecognition
+import com.google.mlkit.vision.text.TextRecognizer
+import com.google.mlkit.vision.text.latin.TextRecognizerOptions
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
@@ -15,6 +18,12 @@ import javax.inject.Singleton
 @Module
 @InstallIn(SingletonComponent::class)
 class AppModule {
+
+    @Singleton
+    @Provides
+    fun provideTextRecognizer(): TextRecognizer {
+        return TextRecognition.getClient(TextRecognizerOptions.DEFAULT_OPTIONS)
+    }
 
     @Provides
     @Singleton

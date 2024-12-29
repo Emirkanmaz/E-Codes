@@ -4,7 +4,8 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
-import com.emirkanmaz.diyet.utils.singleclicklistener.setOnSingleClickListener
+import com.emirkanmaz.ecodes.R
+import com.emirkanmaz.ecodes.utils.singleclicklistener.setOnSingleClickListener
 import com.emirkanmaz.ecodes.base.BaseFragment
 import com.emirkanmaz.ecodes.base.BaseNavigationEvent
 import com.emirkanmaz.ecodes.databinding.FragmentCropBinding
@@ -54,7 +55,7 @@ class CropFragment : BaseFragment<FragmentCropBinding, CropViewModel, CropNaviga
                     viewModel.navigateToResultFragment(croppedImage)
                 }
             } catch (e: Exception) {
-                viewModel.setError(true, "Kırpma işlemi sırasında bir hata oluştu.")
+                viewModel.setError(true, getString(R.string.an_error_occurred_during_crop))
             }
         }
         binding.btnCancel.setOnSingleClickListener {

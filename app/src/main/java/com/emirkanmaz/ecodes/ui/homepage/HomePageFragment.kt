@@ -6,13 +6,14 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.navigation.fragment.findNavController
-import com.emirkanmaz.diyet.utils.extensions.isValid
-import com.emirkanmaz.diyet.utils.singleclicklistener.setOnSingleClickListener
+import com.emirkanmaz.ecodes.R
+import com.emirkanmaz.ecodes.utils.singleclicklistener.setOnSingleClickListener
 import com.emirkanmaz.ecodes.base.BaseFragment
 import com.emirkanmaz.ecodes.base.BaseNavigationEvent
 import com.emirkanmaz.ecodes.databinding.FragmentHomePageBinding
 import com.emirkanmaz.ecodes.ui.homepage.camerahandler.CameraHandler
 import com.emirkanmaz.ecodes.ui.homepage.navigationevent.HomePageNavigationEvent
+import com.emirkanmaz.ecodes.utils.extensions.isValid
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
@@ -32,7 +33,7 @@ class HomePageFragment : BaseFragment<FragmentHomePageBinding, HomePageViewModel
             photoUri?.let { uri ->
                 viewModel.navigateToCrop(photoUri!!)
             } ?: run {
-                viewModel.setError(true, "Fotoğraf bulunamadı.")
+                viewModel.setError(true, getString(R.string.no_photo_found))
             }
         }
     }
@@ -64,7 +65,7 @@ class HomePageFragment : BaseFragment<FragmentHomePageBinding, HomePageViewModel
             capturePhotoLauncher.launch(cameraIntent)
         } catch (e: Exception) {
             photoUri = null
-            viewModel.setError(true, "Kamera açılırken hata oluştu")
+            viewModel.setError(true, getString(R.string.camera_could_not_be_opened))
         }
     }
 

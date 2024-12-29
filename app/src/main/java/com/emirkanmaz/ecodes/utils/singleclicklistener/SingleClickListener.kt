@@ -1,4 +1,4 @@
-package com.emirkanmaz.diyet.utils.singleclicklistener
+package com.emirkanmaz.ecodes.utils.singleclicklistener
 
 import android.os.SystemClock
 import android.view.View

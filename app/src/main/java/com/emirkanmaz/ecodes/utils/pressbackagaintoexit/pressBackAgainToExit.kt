@@ -1,4 +1,4 @@
-package com.emirkanmaz.diyet.utils.extensions.pressbackagaintoexit
+package com.emirkanmaz.ecodes.utils.pressbackagaintoexit
 
 import androidx.activity.OnBackPressedCallback
 import androidx.fragment.app.Fragment

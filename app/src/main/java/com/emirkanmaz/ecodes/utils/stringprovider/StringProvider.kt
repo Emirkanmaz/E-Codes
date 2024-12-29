@@ -1,4 +1,4 @@
-package com.emirkanmaz.diyet.utils.stringprovider
+package com.emirkanmaz.ecodes.utils.stringprovider
 
 import android.content.Context
 

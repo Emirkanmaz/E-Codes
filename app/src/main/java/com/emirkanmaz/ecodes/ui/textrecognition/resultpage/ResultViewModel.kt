@@ -5,8 +5,10 @@ import android.graphics.Canvas
 import android.graphics.Color
 import android.graphics.Paint
 import androidx.lifecycle.viewModelScope
+import com.emirkanmaz.ecodes.R
 import com.emirkanmaz.ecodes.base.BaseNavigationEvent
 import com.emirkanmaz.ecodes.base.BaseViewModel
+import com.emirkanmaz.ecodes.utils.stringprovider.StringProvider
 import com.google.mlkit.vision.common.InputImage
 import com.google.mlkit.vision.text.Text
 import com.google.mlkit.vision.text.TextRecognition
@@ -19,7 +21,9 @@ import kotlinx.coroutines.launch
 import javax.inject.Inject
 
 @HiltViewModel
-class ResultViewModel @Inject constructor(): BaseViewModel<BaseNavigationEvent>() {
+class ResultViewModel @Inject constructor(
+    private val stringProvider: StringProvider
+): BaseViewModel<BaseNavigationEvent>() {
 
     private val _recognizedText = MutableStateFlow<String>("")
     val recognizedText: StateFlow<String> = _recognizedText.asStateFlow()
@@ -41,9 +45,8 @@ class ResultViewModel @Inject constructor(): BaseViewModel<BaseNavigationEvent>(
                         _processedBitmap.value = drawBoundingBoxes(bitmap, visionText, targetWords)
                     }
 
-
             } catch (e: Exception) {
-                setError(true, "Text recognition failed: ${e.message}")
+                setError(true, stringProvider.getString(R.string.text_recognition_failed))
             } finally {
                 setLoading(false)
             }

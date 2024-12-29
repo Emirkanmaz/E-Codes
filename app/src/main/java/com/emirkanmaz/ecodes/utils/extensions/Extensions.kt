@@ -1,4 +1,4 @@
-package com.emirkanmaz.diyet.utils.extensions
+package com.emirkanmaz.ecodes.utils.extensions
 
 import android.content.res.Resources
 import android.net.Uri

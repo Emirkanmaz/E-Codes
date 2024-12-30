@@ -13,21 +13,6 @@
         <action
             android:id="@+id/action_homePageFragment_to_cropFragment"
             app:destination="@id/cropFragment" />
-        <action
-            android:id="@+id/action_homePageFragment_to_resultFragment"
-            app:destination="@id/resultFragment" />
-    </fragment>
-    <fragment
-        android:id="@+id/textRecognitionFragment"
-        android:name="com.emirkanmaz.ecodes.ui.textrecognition.TextRecognitionFragment"
-        android:label="fragment_text_recognition"
-        tools:layout="@layout/fragment_text_recognition">
-        <action
-            android:id="@+id/action_textRecognitionFragment_to_resultFragment"
-            app:destination="@id/resultFragment" />
-        <action
-            android:id="@+id/action_textRecognitionFragment_to_cropFragment"
-            app:destination="@id/cropFragment" />
     </fragment>
     <fragment
         android:id="@+id/cropFragment"
@@ -36,6 +21,9 @@
         <argument
             android:name="photoUri"
             app:argType="android.net.Uri" />
+        <action
+            android:id="@+id/action_cropFragment_to_resultFragment"
+            app:destination="@id/resultFragment" />
     </fragment>
     <fragment
         android:id="@+id/resultFragment"

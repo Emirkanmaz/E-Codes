@@ -1,66 +1,66 @@
 package com.emirkanmaz.ecodes.ui.textrecognition.cropimage
 
-import android.os.Bundle
-import android.util.Log
 import android.view.LayoutInflater
-import android.view.View
 import android.view.ViewGroup
-import androidx.core.os.bundleOf
-import androidx.fragment.app.Fragment
-import androidx.fragment.app.setFragmentResult
 import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
-import com.emirkanmaz.diyet.utils.singleclicklistener.setOnSingleClickListener
+import com.emirkanmaz.ecodes.R
+import com.emirkanmaz.ecodes.utils.singleclicklistener.setOnSingleClickListener
+import com.emirkanmaz.ecodes.base.BaseFragment
+import com.emirkanmaz.ecodes.base.BaseNavigationEvent
 import com.emirkanmaz.ecodes.databinding.FragmentCropBinding
+import com.emirkanmaz.ecodes.ui.textrecognition.cropimage.navigationevent.CropNavigationEvent
+import dagger.hilt.android.AndroidEntryPoint
 
-class CropFragment : Fragment() {
-    private var _binding: FragmentCropBinding? = null
-    private val binding get() = _binding!!
+@AndroidEntryPoint
+class CropFragment : BaseFragment<FragmentCropBinding, CropViewModel, CropNavigationEvent>(
+    CropViewModel::class.java
+) {
+    override val bindingInflater: (LayoutInflater, ViewGroup?, Boolean) -> FragmentCropBinding =
+        FragmentCropBinding::inflate
 
     private val args: CropFragmentArgs by navArgs()
 
-    override fun onCreateView(
-        inflater: LayoutInflater,
-        container: ViewGroup?,
-        savedInstanceState: Bundle?
-    ): View {
-        _binding = FragmentCropBinding.inflate(inflater, container, false)
-        return binding.root
+    override fun init() {
+        super.init()
+        loadImageToCropper()
+        setupListeners()
     }
 
-    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-        super.onViewCreated(view, savedInstanceState)
-
+    private fun loadImageToCropper() {
         val imageUri = args.photoUri
         binding.cropImageView.setImageUriAsync(imageUri)
+    }
 
+    override fun handleNavigationEvent(event: BaseNavigationEvent) {
+        super.handleNavigationEvent(event)
+        when (event) {
+            is CropNavigationEvent.NavigateToHomePage -> {
+                findNavController().navigateUp()
+            }
+            is CropNavigationEvent.NavigateToResultFragment -> {
+                val action = CropFragmentDirections.actionCropFragmentToResultFragment(event.croppedImage)
+                findNavController().safeNavigate(action)
+            }
+        }
+    }
+
+    override fun setupListeners() {
         binding.btnRotate.setOnClickListener {
             binding.cropImageView.rotateImage(90)
         }
-
         binding.btnCrop.setOnSingleClickListener {
             try {
-                val croppedImageBitmap = binding.cropImageView.getCroppedImage()
-
-                setFragmentResult(
-                    "cropResult",
-                    bundleOf("croppedBitmap" to croppedImageBitmap)
-                )
-                findNavController().navigateUp()
+                binding.cropImageView.getCroppedImage()?.let { croppedImage ->
+                    viewModel.navigateToResultFragment(croppedImage)
+                }
             } catch (e: Exception) {
-                Log.e("CropFragment", "Error cropping: ${e.message}")
+                viewModel.setError(true, getString(R.string.an_error_occurred_during_crop))
             }
         }
-
-        binding.btnCancel.setOnClickListener {
-            findNavController().navigateUp()
+        binding.btnCancel.setOnSingleClickListener {
+            viewModel.navigateToHomePage()
         }
     }
 
-
-
-    override fun onDestroyView() {
-        super.onDestroyView()
-        _binding = null
-    }
 }

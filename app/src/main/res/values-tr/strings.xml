@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">E Codes</string>
+    <string name="success_snackbar_message">Başarılı.</string>
+    <string name="error_snackbar_message">Bir hatayla karşılaşıldı.</string>
+    <string name="info_snackbar_message">Bilgi mesajı.</string>
+    <string name="camera_could_not_be_opened">Kamera açılamadı.</string>
+    <string name="no_photo_found">Fotoğraf bulunamadı.</string>
+    <string name="an_error_occurred_during_crop">Kırpma sırasında bir hata oluştu.</string>
+    <string name="text_recognition_failed">Metin tanıma başarısız oldu.</string>
+    <string name="navigation_error_please_try_again">Navigasyon hatası. Lütfen tekrar deneyiniz.</string>
+
+</resources>

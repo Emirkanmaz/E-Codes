@@ -84,7 +84,7 @@ abstract class BaseFragment<VBinding : ViewBinding, VModel : BaseViewModel<T>, T
         try {
             currentDestination?.getAction(direction.actionId)?.run { navigate(direction) }
         } catch (e: Exception) {
-            handleError()
+            handleError(getString(R.string.navigation_error_please_try_again))
         }
     }
 

@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">E Codes</string>
+    <string name="success_snackbar_message">Successful.</string>
+    <string name="error_snackbar_message">An error occurred.</string>
+    <string name="info_snackbar_message">Info message.</string>
+    <string name="camera_could_not_be_opened">Camera could not be opened.</string>
+    <string name="no_photo_found">No photo found.</string>
+    <string name="an_error_occurred_during_crop">An error occurred during crop.</string>
+    <string name="text_recognition_failed">Text recognition failed.</string>
+    <string name="navigation_error_please_try_again">Navigation error. Please try again.</string>
+
 </resources>

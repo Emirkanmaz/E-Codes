@@ -56,12 +56,6 @@ dependencies {
     implementation(libs.kotlinx.coroutines.android)
     implementation(libs.hilt.android)
     ksp(libs.dagger.hilt.compiler)
-    implementation(libs.androidx.security.crypto)
-    implementation(libs.text.recognition)
-    implementation(libs.text.recognition)
-    implementation(libs.android.image.cropper)
-
-
 
     testImplementation(libs.junit)
 

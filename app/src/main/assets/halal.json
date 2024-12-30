@@ -1,0 +1,68 @@
+[
+  {
+    "halal": 1,
+    "desc": {
+      "tr": "Helaldir.",
+      "en": ""
+    },
+    "type": {
+      "tr": "Hayvansal kaynaklardan üretilmemiştir.",
+      "en": ""
+    }
+  },
+  {
+    "halal": 2,
+    "desc": {
+      "tr": "Helaldir fakat helal olmayan yağlarla karışmış olabilir.",
+      "en": ""
+    },
+    "type": {
+      "tr": "Hayvansal kaynaklardan üretilmemiştir fakat üretim aşamasında helal olmayan hayvansal yağlarla karışmış olabilir.",
+      "en": ""
+    }
+  },
+  {
+    "halal": 3,
+    "desc": {
+      "tr": "Helal olmayabilir.",
+      "en": ""
+    },
+    "type": {
+      "tr": "Hem hayvansal hem diğer kaynaklardan üretilebilir.",
+      "en": ""
+    }
+  },
+  {
+    "halal": 4,
+    "desc": {
+      "tr": "Helaldir",
+      "en": ""
+    },
+    "type": {
+      "tr": "Hayvansal kaynaklardan üretilmiştir.",
+      "en": ""
+    }
+  },
+  {
+    "halal": 5,
+    "desc": {
+      "tr": "Bazı mesheplere göre helal olup, bazı mesheplere göre caiz değildir.",
+      "en": ""
+    },
+    "type": {
+      "tr": "Hayvansal kaynaklardan üretilmiştir.",
+      "en": ""
+    }
+  },
+  {
+    "halal": 6,
+    "desc": {
+      "tr": "Helal olmayabilir.",
+      "en": ""
+    },
+    "type": {
+      "tr": "Etil alkol içerebilir.",
+      "en": ""
+    }
+  }
+]

@@ -1,0 +1,149 @@
+[
+  {
+    "warning": 1,
+    "desc": {
+      "tr": "Alerjik bünyelilerin kaçınması önerilir.",
+      "en": ""
+    }
+  },
+  {
+    "warning": 2,
+    "desc": {
+      "tr": "Ağır metal içerdiğinden sağlığa zararlı olabilir.",
+      "en": ""
+    }
+  },
+  {
+    "warning": 3,
+    "desc": {
+      "tr": "Böbrek hastalarının kaçınması önerilir.",
+      "en": ""
+    }
+  },
+  {
+    "warning": 4,
+    "desc": {
+      "tr": "Gut hastalarının kaçınması önerilir.",
+      "en": ""
+    }
+  },
+  {
+    "warning": 5,
+    "desc": {
+      "tr": "Gen hasarına yol açma potansiyeline sahiptir.",
+      "en": ""
+    }
+  },
+  {
+    "warning": 6,
+    "desc": {
+      "tr": "Hiperaktif kişilerin kaçınması önerilir.",
+      "en": ""
+    }
+  },
+  {
+    "warning": 7,
+    "desc": {
+      "tr": "Karaciğer hastalıklarını artırma potansiyeline sahiptir.",
+      "en": ""
+    }
+  },
+  {
+    "warning": 8,
+    "desc": {
+      "tr": "Kanser riskini artırma potansiyeline sahiptir",
+      "en": ""
+    }
+  },
+  {
+    "warning": 9,
+    "desc": {
+      "tr": "Kron (Crohn) hastalarının kaçınması önerilir.",
+      "en": ""
+    }
+  },
+  {
+    "warning": 10,
+    "desc": {
+      "tr": "Migren veya baş ağrısı olanların kaçınması önerilir.",
+      "en": ""
+    }
+  },
+  {
+    "warning": 11,
+    "desc": {
+      "tr": "Obeziteye yol açma veya artırma potansiyeline sahiptir.",
+      "en": ""
+    }
+  },
+  {
+    "warning": 12,
+    "desc": {
+      "tr": "Osteoporozu artırma potansiyeline sahiptir.",
+      "en": ""
+    }
+  },
+  {
+    "warning": 13,
+    "desc": {
+      "tr": "Pankreas hastalıklarını artırma potansiyeline sahiptir.",
+      "en": ""
+    }
+  },
+  {
+    "warning": 14,
+    "desc": {
+      "tr": "Sinir sistemine zarar verme potansiyeline sahiptir.",
+      "en": ""
+    }
+  },
+  {
+    "warning": 15,
+    "desc": {
+      "tr": "Spastik kolonlu hastaların kaçınması önerilir.",
+      "en": ""
+    }
+  },
+  {
+    "warning": 16,
+    "desc": {
+      "tr": "Sentetik tatlandırıcı olduğu için öngörülemeyen sağlık risklerine yol açabilir.",
+      "en": ""
+    }
+  },
+  {
+    "warning": 17,
+    "desc": {
+      "tr": "Şeker hastalığına yol açma/artırma potansiyeline sahiptir.",
+      "en": ""
+    }
+  },
+  {
+    "warning": 18,
+    "desc": {
+      "tr": "İdrar yolları taşı olan hastaların kaçınması önerilir.",
+      "en": ""
+    }
+  },
+  {
+    "warning": 19,
+    "desc": {
+      "tr": "Ülseratif kolitli hastaların kaçınması önerililir.",
+      "en": ""
+    }
+  },
+  {
+    "warning": 20,
+    "desc": {
+      "tr": "Yeterli araştırma verisi bulunmadığı için öngörülemeyen sağlık riski içerebilir.",
+      "en": ""
+    }
+  },
+  {
+    "warning": 21,
+    "desc": {
+      "tr": "Yenidoğan ve bebeklik dönemlerinde sorun olabilir.",
+      "en": ""
+    }
+  }
+]

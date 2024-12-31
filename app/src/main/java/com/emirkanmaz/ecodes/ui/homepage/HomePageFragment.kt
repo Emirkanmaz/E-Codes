@@ -11,6 +11,7 @@ import com.emirkanmaz.ecodes.utils.singleclicklistener.setOnSingleClickListener
 import com.emirkanmaz.ecodes.base.BaseFragment
 import com.emirkanmaz.ecodes.base.BaseNavigationEvent
 import com.emirkanmaz.ecodes.databinding.FragmentHomePageBinding
+import com.emirkanmaz.ecodes.ui.homepage.adapter.ECodesAdapter
 import com.emirkanmaz.ecodes.ui.homepage.camerahandler.CameraHandler
 import com.emirkanmaz.ecodes.ui.homepage.navigationevent.HomePageNavigationEvent
 import com.emirkanmaz.ecodes.utils.extensions.isValid
@@ -24,6 +25,7 @@ class HomePageFragment : BaseFragment<FragmentHomePageBinding, HomePageViewModel
         FragmentHomePageBinding::inflate
 
     private var photoUri: Uri? = null
+    private lateinit var eCodesAdapter: ECodesAdapter
 
     private val capturePhotoLauncher = registerForActivityResult(ActivityResultContracts.StartActivityForResult()) { result ->
         if (result.resultCode == Activity.RESULT_OK) {
@@ -36,6 +38,11 @@ class HomePageFragment : BaseFragment<FragmentHomePageBinding, HomePageViewModel
                 viewModel.setError(true, getString(R.string.no_photo_found))
             }
         }
+    }
+
+    override fun init() {
+        super.init()
+        setupRecyclerView()
     }
 
     override fun handleNavigationEvent(event: BaseNavigationEvent) {
@@ -67,6 +74,15 @@ class HomePageFragment : BaseFragment<FragmentHomePageBinding, HomePageViewModel
             photoUri = null
             viewModel.setError(true, getString(R.string.camera_could_not_be_opened))
         }
+    }
+
+    private fun setupRecyclerView() {
+        binding?.let {
+
+            it.eCodesRecyclerView
+        }
+        eCodesAdapter = ECodesAdapter()
+        binding.recyclerView.adapter = eCodesAdapter
     }
 
 }

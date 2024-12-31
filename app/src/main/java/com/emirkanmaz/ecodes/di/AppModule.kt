@@ -4,9 +4,12 @@ import android.content.Context
 import android.content.SharedPreferences
 import androidx.security.crypto.EncryptedSharedPreferences
 import androidx.security.crypto.MasterKey
+import com.emirkanmaz.ecodes.data.ECodeRepository
 import com.emirkanmaz.ecodes.security.KeystoreManager
 import com.emirkanmaz.ecodes.utils.stringprovider.DefaultStringProvider
 import com.emirkanmaz.ecodes.utils.stringprovider.StringProvider
+import com.google.gson.Gson
+import com.google.gson.GsonBuilder
 import com.google.mlkit.vision.text.TextRecognition
 import com.google.mlkit.vision.text.TextRecognizer
 import com.google.mlkit.vision.text.latin.TextRecognizerOptions
@@ -20,6 +23,21 @@ import javax.inject.Singleton
 @Module
 @InstallIn(SingletonComponent::class)
 object AppModule {
+
+    @Provides
+    @Singleton
+    fun provideECodeRepository(
+        @ApplicationContext context: Context,
+        gson: Gson
+    ): ECodeRepository {
+        return ECodeRepository(context, gson)
+    }
+
+    @Provides
+    @Singleton
+    fun provideGson(): Gson {
+        return GsonBuilder().create()
+    }
 
     @Singleton
     @Provides

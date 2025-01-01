@@ -9,5 +9,6 @@
     <string name="an_error_occurred_during_crop">Kırpma sırasında bir hata oluştu.</string>
     <string name="text_recognition_failed">Metin tanıma başarısız oldu.</string>
     <string name="navigation_error_please_try_again">Navigasyon hatası. Lütfen tekrar deneyiniz.</string>
-
+    <string name="press_back_again_to_exit">Çıkmak için tekrar basınız.</string>
+    <string name="search">Ara…</string>
 </resources>

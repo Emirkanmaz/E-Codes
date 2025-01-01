@@ -2,18 +2,27 @@ package com.emirkanmaz.ecodes.ui.homepage
 
 import android.app.Activity
 import android.net.Uri
+import android.os.Bundle
+import android.text.Editable
+import android.text.TextWatcher
 import android.view.LayoutInflater
+import android.view.View
 import android.view.ViewGroup
 import androidx.activity.result.contract.ActivityResultContracts
+import androidx.appcompat.widget.SearchView
 import androidx.navigation.fragment.findNavController
+import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.RecyclerView
 import com.emirkanmaz.ecodes.R
 import com.emirkanmaz.ecodes.utils.singleclicklistener.setOnSingleClickListener
 import com.emirkanmaz.ecodes.base.BaseFragment
 import com.emirkanmaz.ecodes.base.BaseNavigationEvent
 import com.emirkanmaz.ecodes.databinding.FragmentHomePageBinding
+import com.emirkanmaz.ecodes.ui.homepage.adapter.ECodesAdapter
 import com.emirkanmaz.ecodes.ui.homepage.camerahandler.CameraHandler
 import com.emirkanmaz.ecodes.ui.homepage.navigationevent.HomePageNavigationEvent
 import com.emirkanmaz.ecodes.utils.extensions.isValid
+import com.emirkanmaz.ecodes.utils.pressbackagaintoexit.pressBackAgainToExit
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
@@ -23,7 +32,16 @@ class HomePageFragment : BaseFragment<FragmentHomePageBinding, HomePageViewModel
     override val bindingInflater: (LayoutInflater, ViewGroup?, Boolean) -> FragmentHomePageBinding =
         FragmentHomePageBinding::inflate
 
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        pressBackAgainToExit(
+            onExitAction = { requireActivity().finish() },
+            onWarningAction = { showSnackBar(getString(R.string.press_back_again_to_exit), SnackbarType.Error) }
+        )
+    }
+
     private var photoUri: Uri? = null
+    private lateinit var eCodesAdapter: ECodesAdapter
 
     private val capturePhotoLauncher = registerForActivityResult(ActivityResultContracts.StartActivityForResult()) { result ->
         if (result.resultCode == Activity.RESULT_OK) {
@@ -35,6 +53,18 @@ class HomePageFragment : BaseFragment<FragmentHomePageBinding, HomePageViewModel
             } ?: run {
                 viewModel.setError(true, getString(R.string.no_photo_found))
             }
+        }
+    }
+
+    override fun init() {
+        super.init()
+        setupRecyclerView()
+    }
+
+    override fun observeViewModel() {
+        super.observeViewModel()
+        viewModel.eCodes.observe(viewLifecycleOwner) {
+            eCodesAdapter.setData(it)
         }
     }
 
@@ -53,8 +83,23 @@ class HomePageFragment : BaseFragment<FragmentHomePageBinding, HomePageViewModel
 
     override fun setupListeners() {
         super.setupListeners()
-        binding.CameraFloatingActionButton.setOnSingleClickListener {
-            viewModel.navigateToCamera()
+        binding.apply {
+            CameraFloatingActionButton.setOnSingleClickListener {
+                viewModel.navigateToCamera()
+            }
+            searchEditText.addTextChangedListener(object : TextWatcher {
+                override fun beforeTextChanged(s: CharSequence?, start: Int, count: Int, after: Int) {}
+                override fun onTextChanged(s: CharSequence?, start: Int, before: Int, count: Int) {
+                    eCodesAdapter.filter(s.toString())
+                    clearButton.visibility = if (s.isNullOrEmpty()) View.GONE else View.VISIBLE
+                }
+                override fun afterTextChanged(s: Editable?) {}
+            })
+
+            clearButton.setOnClickListener {
+                searchEditText.text.clear()
+            }
+
         }
     }
 
@@ -66,6 +111,13 @@ class HomePageFragment : BaseFragment<FragmentHomePageBinding, HomePageViewModel
         } catch (e: Exception) {
             photoUri = null
             viewModel.setError(true, getString(R.string.camera_could_not_be_opened))
+        }
+    }
+
+    private fun setupRecyclerView() {
+        binding?.let {
+            eCodesAdapter = ECodesAdapter(onECodeClick = {})
+            it.eCodesRecyclerView.adapter = eCodesAdapter
         }
     }
 

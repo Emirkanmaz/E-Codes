@@ -60,8 +60,7 @@ dependencies {
     implementation(libs.text.recognition)
     implementation(libs.text.recognition)
     implementation(libs.android.image.cropper)
-
-
+    implementation (libs.google.gson)
 
     testImplementation(libs.junit)
 

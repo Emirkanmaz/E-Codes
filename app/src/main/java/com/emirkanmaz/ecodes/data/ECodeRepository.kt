@@ -48,7 +48,7 @@ class ECodeRepository @Inject constructor(
         }
     }
 
-    fun getECodes(): List<ECode> = eCodes
+    fun getECodeList(): List<ECode> = eCodes
 
     fun getECodeDetail(eCode: String): ECodeDetail? {
         val eCode = eCodes.find { it.ecode == eCode } ?: return null
@@ -59,7 +59,8 @@ class ECodeRepository @Inject constructor(
             risk = risk.find { it.risk == eCode.risk },
             warningList = eCode.warning.split("|").mapNotNull { warningId ->
                 warning.find { it.warning == warningId.toInt() }
-            }
+            },
+            names = eCode.names
         )
     }
 

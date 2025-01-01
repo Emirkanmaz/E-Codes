@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/background_item_ecode"
+    android:layout_marginStart="8dp"
+    android:layout_marginEnd="8dp"
+    android:layout_marginBottom="10dp"
+    android:padding="10dp"
+    android:orientation="horizontal">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <View
+            android:id="@+id/circleShape"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:background="@drawable/shape_hollow_circle_low_risk"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" />
+
+        <TextView
+            android:id="@+id/eCodeTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="E5566"
+            app:layout_constraintStart_toStartOf="@id/circleShape"
+            app:layout_constraintTop_toTopOf="@id/circleShape"
+            app:layout_constraintEnd_toEndOf="@id/circleShape"
+            app:layout_constraintBottom_toBottomOf="@id/circleShape"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <TextView
+        android:id="@+id/eCodeNameTextView"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="E kod ismi"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:layout_marginStart="15dp"
+        android:layout_gravity="center_vertical"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/arrow_right"
+        android:layout_gravity="center_vertical"/>
+
+
+
+
+
+</LinearLayout>

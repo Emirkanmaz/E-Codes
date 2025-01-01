@@ -5,4 +5,5 @@ data class ECodeDetail (
     val halal: Halal?,
     val risk: Risk?,
     val warningList: List<Warning>,
+    val names: MultiLanguageText
 )

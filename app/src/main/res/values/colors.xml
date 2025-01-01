@@ -2,4 +2,54 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <!-- Neutral Colors -->
+    <color name="neutral_black">#151522</color>
+    <color name="neutral_gray_1">#333333</color>
+    <color name="neutral_gray_2">#666666</color>
+    <color name="neutral_gray_3">#999999</color>
+    <color name="neutral_gray_4">#E0E0E0</color>
+    <color name="neutral_white">#FFFFFF</color>
+
+    <!-- Primary Colors -->
+    <color name="primary_lila">#BE52F2</color>
+    <color name="primary_lila_1">#D48CF6</color>
+    <color name="primary_lila_2">#E9C5FB</color>
+    <color name="primary_purple">#6979F8</color>
+    <color name="primary_purple_1">#9BA6FA</color>
+    <color name="primary_purple_2">#CDD2FD</color>
+    <color name="primary_sunflower">#FFCF5C</color>
+    <color name="primary_sunflower_1">#FFDF92</color>
+    <color name="primary_sunflower_2">#FFEFC9</color>
+    <color name="primary_orange">#F2994A</color>
+    <color name="primary_orange_1">#F6BB86</color>
+    <color name="primary_orange_2">#FBDDC3</color>
+    <color name="primary_blue">#0084F4</color>
+    <color name="primary_blue_1">#4EAEFF</color>
+    <color name="primary_blue_2">#A6D6FF</color>
+    <color name="primary_green">#00C48C</color>
+    <color name="primary_green_1">#2EFFC3</color>
+    <color name="primary_green_2">#96FFE1</color>
+    <color name="primary_red">#FF647C</color>
+    <color name="primary_red_1">#FF98A8</color>
+    <color name="primary_red_2">#FFCBD3</color>
+
+    <!-- Finance Colors -->
+    <color name="finance">#343D63</color>
+    <color name="finance_1">#3D639D</color>
+    <color name="finance_2">#3D639D</color>
+
+    <!-- Divider Colors -->
+    <color name="divider_light_1px_20">#E4E4E4</color>
+    <color name="divider_light_1px_30">#E4E4E4</color>
+    <color name="divider_light_1px_40">#E4E4E4</color>
+    <color name="divider_light_1px_60">#E4E4E4</color>
+    <color name="divider_light_dashed_1px_60">#F1F3F6</color>
+    <color name="divider_dark_1px_20">#FFFFFF</color>
+    <color name="divider_dark_1px_30">#FFFFFF</color>
+    <color name="divider_dark_1px_40">#FFFFFF</color>
+    <color name="divider_dark_1px_60">#FFFFFF</color>
+    <color name="divider_dark_dashed_1px_60">#FFFFFF</color>
+
+
 </resources>

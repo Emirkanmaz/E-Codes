@@ -6,47 +6,98 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".ui.homepage.HomePageFragment">
 
-
-    <View
-        android:id="@+id/topbar"
+    <ImageButton
+        android:id="@+id/drawerButton"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="16dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/menu"
         app:layout_constraintTop_toTopOf="parent"
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:background="@color/black"/>
+        app:layout_constraintStart_toStartOf="parent"/>
 
-
-    <SearchView
+    <LinearLayout
         android:id="@+id/searchView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="15dp"
-        android:iconifiedByDefault="false"
-        android:queryHint="Search"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/topbar"/>
+        android:layout_width="0dp"
+        android:layout_height="56dp"
+        android:orientation="horizontal"
+        android:background="@drawable/backgroud_search_bar"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:paddingHorizontal="16dp"
+        android:elevation="6dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toEndOf="@id/drawerButton"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <!-- EditText -->
+        <EditText
+            android:id="@+id/searchEditText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:drawableStart="@drawable/search"
+            android:drawablePadding="8dp"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:hint="@string/search"
+            android:imeOptions="actionDone"
+            android:inputType="text"
+            android:paddingEnd="8dp"
+            android:textColor="@android:color/black"
+            android:textColorHint="@color/neutral_gray_2" />
+
+        <!-- Clear Button -->
+        <ImageView
+            android:id="@+id/clearButton"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/x"
+            android:visibility="gone"
+            app:tint="@color/neutral_gray_1" />
+    </LinearLayout>
+
+<!--    <com.google.android.material.search.SearchBar-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"/>-->
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/eCodesRecyclerView"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:clipToPadding="false"
+        android:layout_height="0dp"
         android:orientation="vertical"
-        android:padding="10dp"
+        android:layout_margin="8dp"
+        android:scrollbars="vertical"
         app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/searchView"/>
+        app:layout_constraintTop_toBottomOf="@id/searchView"
+        app:layout_constraintBottom_toBottomOf="parent"/>
 
+<!--    <androidx.core.widget.NestedScrollView-->
+<!--        android:id="@+id/scrollIndicator"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:scrollbars="vertical"-->
+<!--        android:visibility="gone"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:layout_alignParentBottom="true"/>-->
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/CameraFloatingActionButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="25dp"
-        android:src="@android:drawable/ic_menu_camera"
-        android:backgroundTint="#97B1D1"
+        android:layout_margin="16dp"
+        android:backgroundTint="@color/primary_blue_1"
+        android:src="@drawable/camera"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"/>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

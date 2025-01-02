@@ -12,12 +12,13 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical">
 
         <View
             android:id="@+id/circleShape"
-            android:layout_width="55dp"
-            android:layout_height="55dp"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
             android:background="@drawable/shape_hollow_circle_low_risk"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
@@ -27,34 +28,78 @@
             android:id="@+id/eCodeTextView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/inter_bold"
+            android:textStyle="bold"
             android:text="E5566"
-            app:layout_constraintStart_toStartOf="@id/circleShape"
-            app:layout_constraintTop_toTopOf="@id/circleShape"
+            android:textSize="14sp"
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toBottomOf="@id/circleShape"
             app:layout_constraintEnd_toEndOf="@id/circleShape"
-            app:layout_constraintBottom_toBottomOf="@id/circleShape"/>
+            app:layout_constraintStart_toStartOf="@id/circleShape"
+            app:layout_constraintTop_toTopOf="@id/circleShape" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
-
-    <TextView
-        android:id="@+id/eCodeNameTextView"
+    <LinearLayout
         android:layout_width="0dp"
-        android:layout_weight="1"
         android:layout_height="wrap_content"
-        android:text="E kod ismi"
-        android:ellipsize="end"
-        android:maxLines="1"
         android:layout_marginStart="15dp"
-        android:layout_gravity="center_vertical"/>
+        android:layout_weight="1"
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/eCodeNameTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:fontFamily="@font/inter_bold"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:maxLines="1"
+            android:textColor="@color/black"
+            android:text="E kod ismi" />
+
+        <TextView
+            android:id="@+id/eCodeHalalTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/inter"
+            android:textSize="14sp"
+            android:textColor="@color/neutral_black"
+            android:text="It is permissible according to some Madhhabs and not permissible according to others."/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/veganImageView"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_vertical"
+            android:visibility="visible"
+            android:src="@drawable/vegan"/>
+        <ImageView
+            android:id="@+id/halalImageView"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_vertical"
+            android:visibility="visible"
+            android:src="@drawable/halal"/>
+
+    </LinearLayout>
+
+
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/arrow_right"
         android:layout_gravity="center_vertical"/>
-
-
-
-
 
 </LinearLayout>

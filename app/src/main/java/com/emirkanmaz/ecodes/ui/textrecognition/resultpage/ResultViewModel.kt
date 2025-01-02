@@ -8,6 +8,7 @@ import androidx.lifecycle.viewModelScope
 import com.emirkanmaz.ecodes.R
 import com.emirkanmaz.ecodes.base.BaseNavigationEvent
 import com.emirkanmaz.ecodes.base.BaseViewModel
+import com.emirkanmaz.ecodes.utils.extensions.dpToPx
 import com.emirkanmaz.ecodes.utils.stringprovider.StringProvider
 import com.google.mlkit.vision.common.InputImage
 import com.google.mlkit.vision.text.Text
@@ -63,7 +64,7 @@ class ResultViewModel @Inject constructor(
         val paint = Paint().apply {
             color = Color.RED
             style = Paint.Style.STROKE
-            strokeWidth = 3f
+            strokeWidth = 4.dpToPx().toFloat()
         }
 
         for (block in visionText.textBlocks) {

@@ -1,8 +1,10 @@
 package com.emirkanmaz.ecodes.data
 
 import android.content.Context
+import android.util.Log
 import com.emirkanmaz.ecodes.domain.models.ecode.ECode
 import com.emirkanmaz.ecodes.domain.models.ecode.ECodeDetail
+import com.emirkanmaz.ecodes.domain.models.ecode.ECodeItemUI
 import com.emirkanmaz.ecodes.domain.models.ecode.Halal
 import com.emirkanmaz.ecodes.domain.models.ecode.Risk
 import com.emirkanmaz.ecodes.domain.models.ecode.Warning
@@ -49,6 +51,22 @@ class ECodeRepository @Inject constructor(
     }
 
     fun getECodeList(): List<ECode> = eCodes
+
+    fun getECodeItemUIList(): List<ECodeItemUI> {
+        return eCodes.mapNotNull { eCode ->
+            try {
+                ECodeItemUI(
+                    eCode = eCode.ecode,
+                    halal = halal.find { it.halal == eCode.halal }!!,
+                    risk = risk.find { it.risk == eCode.risk }!!.risk,
+                    names = eCode.names
+                )
+            } catch (e: Exception) {
+                Log.e("hata", e.toString())
+                null
+            }
+        }
+    }
 
     fun getECodeDetail(eCode: String): ECodeDetail? {
         val eCode = eCodes.find { it.ecode == eCode } ?: return null

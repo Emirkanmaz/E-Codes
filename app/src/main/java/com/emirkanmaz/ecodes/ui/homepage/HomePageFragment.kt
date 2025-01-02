@@ -8,8 +8,10 @@ import android.text.TextWatcher
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Toast
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.widget.SearchView
+import androidx.core.view.GravityCompat
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
@@ -83,10 +85,31 @@ class HomePageFragment : BaseFragment<FragmentHomePageBinding, HomePageViewModel
 
     override fun setupListeners() {
         super.setupListeners()
+
         binding.apply {
+
+            drawerButton.setOnSingleClickListener {
+                drawerLayout.openDrawer(GravityCompat.START)
+            }
+
+            navigationView.setNavigationItemSelectedListener { menuItem ->
+                when (menuItem.itemId) {
+                    R.id.nav_home -> {
+                        Toast.makeText(context, "Home seçildi!", Toast.LENGTH_SHORT).show()
+                    }
+                    R.id.nav_settings -> {
+                        Toast.makeText(context, "Settings seçildi!", Toast.LENGTH_SHORT).show()
+                    }
+                }
+                drawerLayout.closeDrawer(GravityCompat.START)
+                true
+            }
+
+
             CameraFloatingActionButton.setOnSingleClickListener {
                 viewModel.navigateToCamera()
             }
+
             searchEditText.addTextChangedListener(object : TextWatcher {
                 override fun beforeTextChanged(s: CharSequence?, start: Int, count: Int, after: Int) {}
                 override fun onTextChanged(s: CharSequence?, start: Int, before: Int, count: Int) {

@@ -10,6 +10,7 @@ import com.emirkanmaz.ecodes.base.BaseNavigationEvent
 import com.emirkanmaz.ecodes.base.BaseViewModel
 import com.emirkanmaz.ecodes.data.ECodeRepository
 import com.emirkanmaz.ecodes.domain.models.ecode.ECode
+import com.emirkanmaz.ecodes.domain.models.ecode.ECodeItemUI
 import com.emirkanmaz.ecodes.utils.extensions.cleanText
 import com.emirkanmaz.ecodes.utils.extensions.dpToPx
 import com.emirkanmaz.ecodes.utils.stringprovider.StringProvider
@@ -33,8 +34,12 @@ class ResultViewModel @Inject constructor(
     private val _processedBitmap = MutableStateFlow<Bitmap?>(null)
     val processedBitmap: StateFlow<Bitmap?> = _processedBitmap.asStateFlow()
 
-    private val _matchedECodes = MutableStateFlow<List<ECode>?>(emptyList())
-    val matchedECodes: StateFlow<List<ECode>?> = _matchedECodes.asStateFlow()
+    private val _matchedECodes = MutableStateFlow<List<ECodeItemUI>?>(emptyList())
+    val matchedECodes: StateFlow<List<ECodeItemUI>?> = _matchedECodes.asStateFlow()
+
+    fun removeItem(eCode: ECodeItemUI) {
+        _matchedECodes.value = _matchedECodes.value?.filterNot { it == eCode }
+    }
 
     fun processImage(bitmap: Bitmap) {
         viewModelScope.launch {
@@ -45,7 +50,7 @@ class ResultViewModel @Inject constructor(
 
                 recognizer.process(image)
                     .addOnSuccessListener { visionText ->
-                        val eCodesList = mutableListOf<ECode>()
+                        val eCodesList = mutableListOf<ECodeItemUI>()
                         val processedTexts = mutableSetOf<String>()
 
                         for (block in visionText.textBlocks) {
@@ -85,7 +90,7 @@ class ResultViewModel @Inject constructor(
                             }
                         }
 
-                        _matchedECodes.value = eCodesList.distinctBy { it.ecode }
+                        _matchedECodes.value = eCodesList.distinctBy { it.eCode }
                         _processedBitmap.value = drawBoundingBoxes(bitmap, visionText, eCodesList)
                     }
             } catch (e: Exception) {
@@ -99,7 +104,7 @@ class ResultViewModel @Inject constructor(
     private fun drawBoundingBoxes(
         originalBitmap: Bitmap,
         visionText: Text,
-        eCodesList: List<ECode>
+        eCodesList: List<ECodeItemUI>
     ): Bitmap {
         val mutableBitmap = originalBitmap.copy(Bitmap.Config.ARGB_8888, true)
         val canvas = Canvas(mutableBitmap)
@@ -115,7 +120,7 @@ class ResultViewModel @Inject constructor(
                 if (eCodesList.any {
                         it.names.tr.equals(cleanLineText, ignoreCase = true) ||
                                 it.names.en.equals(cleanLineText, ignoreCase = true) ||
-                                it.ecode.equals(cleanLineText, ignoreCase = true)
+                                it.eCode.equals(cleanLineText, ignoreCase = true)
                     }) {
                     line.boundingBox?.let { box ->
                         canvas.drawRect(box, paint)
@@ -128,7 +133,7 @@ class ResultViewModel @Inject constructor(
                     if (eCodesList.any {
                             it.names.tr.equals(cleanElementText, ignoreCase = true) ||
                                     it.names.en.equals(cleanElementText, ignoreCase = true) ||
-                                    it.ecode.equals(cleanElementText, ignoreCase = true)
+                                    it.eCode.equals(cleanElementText, ignoreCase = true)
                         }) {
                         element.boundingBox?.let { box ->
                             canvas.drawRect(box, paint)

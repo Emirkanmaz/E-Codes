@@ -83,24 +83,38 @@ class ECodeRepository @Inject constructor(
         )
     }
 
-    fun searchECodes(query: String): List<ECode> {
-        return eCodes.filter { eCode ->
-            eCode.ecode.contains(query, ignoreCase = true) ||
-            eCode.names.tr.contains(query, ignoreCase = true) ||
-            eCode.names.en.contains(query, ignoreCase = true)
-        }
-    }
+//    fun searchECodes(query: String): List<ECode> {
+//        return eCodes.filter { eCode ->
+//            eCode.ecode.contains(query, ignoreCase = true) ||
+//            eCode.names.tr.contains(query, ignoreCase = true) ||
+//            eCode.names.en.contains(query, ignoreCase = true)
+//        }
+//    }
 
-    fun searchECode(query: String): ECode? {
+    fun searchECode(query: String): ECodeItemUI? {
         val cleanQuery = query.cleanText()
 
-        if (cleanQuery.matches(Regex("E\\d+.*", RegexOption.IGNORE_CASE))) {
-            return eCodes.find { it.ecode.equals(cleanQuery, ignoreCase = true) }
+        val foundECode = if (cleanQuery.matches(Regex("E\\d+.*", RegexOption.IGNORE_CASE))) {
+            eCodes.find { it.ecode.equals(cleanQuery, ignoreCase = true) }
+        } else {
+            eCodes.find { eCode ->
+                eCode.names.tr.equals(cleanQuery, ignoreCase = true) ||
+                        eCode.names.en.equals(cleanQuery, ignoreCase = true)
+            }
         }
 
-        return eCodes.find { eCode ->
-            eCode.names.tr.equals(cleanQuery, ignoreCase = true) ||
-                    eCode.names.en.equals(cleanQuery, ignoreCase = true)
+        return foundECode?.let { eCode ->
+            try {
+                ECodeItemUI(
+                    eCode = eCode.ecode,
+                    halal = halal.find { it.halal == eCode.halal }!!,
+                    risk = risk.find { it.risk == eCode.risk }!!.risk,
+                    names = eCode.names
+                )
+            } catch (e: Exception) {
+                Log.e("hata", e.toString())
+                null
+            }
         }
     }
     

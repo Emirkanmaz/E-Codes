@@ -7,6 +7,8 @@ import androidx.navigation.fragment.navArgs
 import com.emirkanmaz.ecodes.base.BaseFragment
 import com.emirkanmaz.ecodes.base.BaseNavigationEvent
 import com.emirkanmaz.ecodes.databinding.FragmentResultBinding
+import com.emirkanmaz.ecodes.ui.homepage.adapter.ECodesAdapter
+import com.emirkanmaz.ecodes.ui.textrecognition.adapter.ResultECodesAdapter
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.launch
 
@@ -18,8 +20,9 @@ class ResultFragment : BaseFragment<FragmentResultBinding, ResultViewModel, Base
         FragmentResultBinding::inflate
 
     private val args: ResultFragmentArgs by navArgs()
-
+    private lateinit var resultECodesAdapter: ResultECodesAdapter
     override fun init() {
+        setupRecyclerView()
         super.init()
         processImage()
     }
@@ -32,7 +35,9 @@ class ResultFragment : BaseFragment<FragmentResultBinding, ResultViewModel, Base
         super.observeViewModel()
         viewLifecycleOwner.lifecycleScope.launch{
             viewModel.matchedECodes.collect{
-                binding.recognizedTextView.text = it.toString()
+                it?.let {
+                    resultECodesAdapter.submitList(it)
+                }
             }
         }
         viewLifecycleOwner.lifecycleScope.launch{
@@ -40,7 +45,15 @@ class ResultFragment : BaseFragment<FragmentResultBinding, ResultViewModel, Base
                 binding.capturedImageView.setImageBitmap(it)
             }
         }
-
-
     }
+
+    private fun setupRecyclerView() {
+        binding?.let {
+            resultECodesAdapter = ResultECodesAdapter(onCancelClick = {
+                viewModel.removeItem(it)
+            })
+            it.eCodesRecyclerView.adapter = resultECodesAdapter
+        }
+    }
+
 }

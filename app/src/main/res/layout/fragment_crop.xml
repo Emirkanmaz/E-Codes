@@ -2,24 +2,25 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@color/neutral_black">
+    android:layout_height="match_parent">
 
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/topBar"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/neutral_gray_2"
+        android:layout_height="80dp"
+        android:background="@color/primary_blue_1"
         app:layout_constraintTop_toTopOf="parent">
 
-        <ImageButton
+        <Button
             android:id="@+id/btnCancel"
-            android:layout_width="80dp"
-            android:layout_height="80dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
             android:background="?attr/selectableItemBackgroundBorderless"
-            android:contentDescription="Cancel Button"
-            android:src="@drawable/arrow_left"
+            android:fontFamily="@font/inter"
+            android:text="İptal"
+            android:textSize="18sp"
+            app:icon="@drawable/x"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
@@ -29,22 +30,26 @@
             android:id="@+id/btnRotate"
             android:layout_width="80dp"
             android:layout_height="80dp"
-            android:layout_marginEnd="8dp"
-            android:contentDescription="Rotate Button"
             android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="Rotate Button"
             android:src="@drawable/rotate_cw"
             app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@id/btnCancel"
             app:layout_constraintEnd_toStartOf="@+id/btnCrop"
             app:layout_constraintTop_toTopOf="parent"
             app:tint="@color/white" />
 
-        <ImageButton
+        <Button
             android:id="@+id/btnCrop"
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:contentDescription="Crop Button"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
             android:background="?attr/selectableItemBackgroundBorderless"
-            android:src="@drawable/arrow_right"
+            android:contentDescription="Crop Button"
+            android:fontFamily="@font/inter"
+            android:text="Devam"
+            android:textSize="18sp"
+            app:icon="@drawable/arrow_right"
+            app:iconGravity="textEnd"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent"

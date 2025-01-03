@@ -63,7 +63,7 @@ class HomePageFragment : BaseFragment<FragmentHomePageBinding, HomePageViewModel
     override fun observeViewModel() {
         super.observeViewModel()
         viewModel.eCodeDetails.observe(viewLifecycleOwner) {
-            eCodesAdapter.setData(it)
+            eCodesAdapter.submitList(it)
         }
     }
 

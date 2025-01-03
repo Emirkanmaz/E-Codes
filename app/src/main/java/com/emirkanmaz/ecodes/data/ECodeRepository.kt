@@ -8,6 +8,7 @@ import com.emirkanmaz.ecodes.domain.models.ecode.ECodeItemUI
 import com.emirkanmaz.ecodes.domain.models.ecode.Halal
 import com.emirkanmaz.ecodes.domain.models.ecode.Risk
 import com.emirkanmaz.ecodes.domain.models.ecode.Warning
+import com.emirkanmaz.ecodes.utils.extensions.cleanText
 import com.google.gson.Gson
 import javax.inject.Inject
 import javax.inject.Singleton
@@ -87,6 +88,19 @@ class ECodeRepository @Inject constructor(
             eCode.ecode.contains(query, ignoreCase = true) ||
             eCode.names.tr.contains(query, ignoreCase = true) ||
             eCode.names.en.contains(query, ignoreCase = true)
+        }
+    }
+
+    fun searchECode(query: String): ECode? {
+        val cleanQuery = query.cleanText()
+
+        if (cleanQuery.matches(Regex("E\\d+.*", RegexOption.IGNORE_CASE))) {
+            return eCodes.find { it.ecode.equals(cleanQuery, ignoreCase = true) }
+        }
+
+        return eCodes.find { eCode ->
+            eCode.names.tr.equals(cleanQuery, ignoreCase = true) ||
+                    eCode.names.en.equals(cleanQuery, ignoreCase = true)
         }
     }
     

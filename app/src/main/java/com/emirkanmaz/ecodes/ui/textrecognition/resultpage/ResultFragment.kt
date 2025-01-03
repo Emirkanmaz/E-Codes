@@ -25,15 +25,14 @@ class ResultFragment : BaseFragment<FragmentResultBinding, ResultViewModel, Base
     }
 
     private fun processImage() {
-        val targetWords = listOf("kakaolu", "poligliserol")
-        viewModel.processImage(args.photoBitmap, targetWords)
+        viewModel.processImage(args.photoBitmap)
     }
 
     override fun observeViewModel() {
         super.observeViewModel()
         viewLifecycleOwner.lifecycleScope.launch{
-            viewModel.recognizedText.collect{
-                binding.recognizedTextView.text = it
+            viewModel.matchedECodes.collect{
+                binding.recognizedTextView.text = it.toString()
             }
         }
         viewLifecycleOwner.lifecycleScope.launch{
@@ -41,5 +40,7 @@ class ResultFragment : BaseFragment<FragmentResultBinding, ResultViewModel, Base
                 binding.capturedImageView.setImageBitmap(it)
             }
         }
+
+
     }
 }

@@ -11,6 +11,7 @@ import com.emirkanmaz.ecodes.base.BaseViewModel
 import com.emirkanmaz.ecodes.data.ECodeRepository
 import com.emirkanmaz.ecodes.domain.models.ecode.ECode
 import com.emirkanmaz.ecodes.domain.models.ecode.ECodeItemUI
+import com.emirkanmaz.ecodes.ui.textrecognition.resultpage.navigationevent.ResultNavigationEvent
 import com.emirkanmaz.ecodes.utils.extensions.cleanText
 import com.emirkanmaz.ecodes.utils.extensions.dpToPx
 import com.emirkanmaz.ecodes.utils.stringprovider.StringProvider
@@ -29,7 +30,7 @@ import javax.inject.Inject
 class ResultViewModel @Inject constructor(
     private val eCodeRepository: ECodeRepository,
     private val stringProvider: StringProvider
-): BaseViewModel<BaseNavigationEvent>() {
+): BaseViewModel<ResultNavigationEvent>() {
 
     private val _processedBitmap = MutableStateFlow<Bitmap?>(null)
     val processedBitmap: StateFlow<Bitmap?> = _processedBitmap.asStateFlow()
@@ -144,5 +145,11 @@ class ResultViewModel @Inject constructor(
         }
 
         return mutableBitmap
+    }
+
+    fun navigateCrop() {
+        viewModelScope.launch{
+            navigateTo(ResultNavigationEvent.NavigateToCropPage)
+        }
     }
 }

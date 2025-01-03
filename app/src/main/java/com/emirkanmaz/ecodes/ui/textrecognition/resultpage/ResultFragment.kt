@@ -2,18 +2,23 @@ package com.emirkanmaz.ecodes.ui.textrecognition.resultpage
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
+import androidx.core.view.isVisible
 import androidx.lifecycle.lifecycleScope
+import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
 import com.emirkanmaz.ecodes.base.BaseFragment
 import com.emirkanmaz.ecodes.base.BaseNavigationEvent
 import com.emirkanmaz.ecodes.databinding.FragmentResultBinding
+import com.emirkanmaz.ecodes.domain.models.ecode.ECodeItemUI
 import com.emirkanmaz.ecodes.ui.homepage.adapter.ECodesAdapter
 import com.emirkanmaz.ecodes.ui.textrecognition.adapter.ResultECodesAdapter
+import com.emirkanmaz.ecodes.ui.textrecognition.resultpage.navigationevent.ResultNavigationEvent
+import com.emirkanmaz.ecodes.utils.singleclicklistener.setOnSingleClickListener
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.launch
 
 @AndroidEntryPoint
-class ResultFragment : BaseFragment<FragmentResultBinding, ResultViewModel, BaseNavigationEvent>(
+class ResultFragment : BaseFragment<FragmentResultBinding, ResultViewModel, ResultNavigationEvent>(
     ResultViewModel::class.java
     ) {
     override val bindingInflater: (LayoutInflater, ViewGroup?, Boolean) -> FragmentResultBinding =
@@ -36,7 +41,7 @@ class ResultFragment : BaseFragment<FragmentResultBinding, ResultViewModel, Base
         viewLifecycleOwner.lifecycleScope.launch{
             viewModel.matchedECodes.collect{
                 it?.let {
-                    resultECodesAdapter.submitList(it)
+                    updateUI(it)
                 }
             }
         }
@@ -44,6 +49,33 @@ class ResultFragment : BaseFragment<FragmentResultBinding, ResultViewModel, Base
             viewModel.processedBitmap.collect{
                 binding.capturedImageView.setImageBitmap(it)
             }
+        }
+    }
+
+    private fun updateUI(matchedECodes: List<ECodeItemUI>) {
+        if (matchedECodes.isEmpty()) {
+            binding.emptyViewHolder.isVisible = true
+            binding.listViewHolder.isVisible = false
+        } else {
+            binding.emptyViewHolder.isVisible = false
+            binding.listViewHolder.isVisible = true
+            resultECodesAdapter.submitList(matchedECodes)
+        }
+    }
+
+    override fun handleNavigationEvent(event: BaseNavigationEvent) {
+        super.handleNavigationEvent(event)
+        when (event) {
+            is ResultNavigationEvent.NavigateToCropPage -> {
+                findNavController().navigateUp()
+            }
+        }
+    }
+
+    override fun setupListeners() {
+        super.setupListeners()
+        binding.btnBack.setOnSingleClickListener {
+            viewModel.navigateCrop()
         }
     }
 

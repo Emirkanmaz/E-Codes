@@ -1,8 +1,9 @@
-package com.emirkanmaz.ecodes.ui.textrecognition.adapter
+package com.emirkanmaz.ecodes.ui.textrecognition.resultpage.adapter
 
 import android.content.Context
 import android.graphics.drawable.Drawable
 import android.view.LayoutInflater
+import android.view.View
 import android.view.ViewGroup
 import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.RecyclerView
@@ -32,14 +33,14 @@ class ResultECodesAdapter(
                 eCodeNameTextView.text = name
                 eCodeHalalTextView.text = halal
                 veganImageView.visibility = if (veganCertf) {
-                    android.view.View.VISIBLE
+                    View.VISIBLE
                 } else {
-                    android.view.View.GONE
+                    View.GONE
                 }
                 halalImageView.visibility = if (halalCertf) {
-                    android.view.View.VISIBLE
+                    View.VISIBLE
                 } else {
-                    android.view.View.GONE
+                    View.GONE
                 }
                 circleShape.background = getCircleBackground(binding.root.context, eCode.risk)
                 btnRemove.setOnClickListener {

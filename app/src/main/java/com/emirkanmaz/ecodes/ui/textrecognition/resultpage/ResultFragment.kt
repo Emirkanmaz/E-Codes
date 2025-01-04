@@ -3,6 +3,7 @@ package com.emirkanmaz.ecodes.ui.textrecognition.resultpage
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.core.view.isVisible
+import androidx.fragment.app.activityViewModels
 import androidx.lifecycle.lifecycleScope
 import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
@@ -10,9 +11,9 @@ import com.emirkanmaz.ecodes.base.BaseFragment
 import com.emirkanmaz.ecodes.base.BaseNavigationEvent
 import com.emirkanmaz.ecodes.databinding.FragmentResultBinding
 import com.emirkanmaz.ecodes.domain.models.ecode.ECodeItemUI
-import com.emirkanmaz.ecodes.ui.homepage.adapter.ECodesAdapter
-import com.emirkanmaz.ecodes.ui.textrecognition.adapter.ResultECodesAdapter
+import com.emirkanmaz.ecodes.ui.textrecognition.resultpage.adapter.ResultECodesAdapter
 import com.emirkanmaz.ecodes.ui.textrecognition.resultpage.navigationevent.ResultNavigationEvent
+import com.emirkanmaz.ecodes.ui.textrecognition.shared.SharedImageViewModel
 import com.emirkanmaz.ecodes.utils.singleclicklistener.setOnSingleClickListener
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.launch
@@ -24,20 +25,28 @@ class ResultFragment : BaseFragment<FragmentResultBinding, ResultViewModel, Resu
     override val bindingInflater: (LayoutInflater, ViewGroup?, Boolean) -> FragmentResultBinding =
         FragmentResultBinding::inflate
 
-    private val args: ResultFragmentArgs by navArgs()
+    private val sharedViewModel: SharedImageViewModel by activityViewModels()
+//    private val args: ResultFragmentArgs by navArgs()
     private lateinit var resultECodesAdapter: ResultECodesAdapter
     override fun init() {
         setupRecyclerView()
         super.init()
-        processImage()
+//        processImage()
     }
 
-    private fun processImage() {
-        viewModel.processImage(args.photoBitmap)
-    }
+//    private fun processImage() {
+//        viewModel.processImage(args.photoBitmap)
+//    }
 
     override fun observeViewModel() {
         super.observeViewModel()
+        viewLifecycleOwner.lifecycleScope.launch{
+            sharedViewModel.bitmap.collect{ bitmap ->
+                bitmap?.let {
+                    viewModel.processImage(bitmap)
+                }
+            }
+        }
         viewLifecycleOwner.lifecycleScope.launch{
             viewModel.matchedECodes.collect{
                 it?.let {

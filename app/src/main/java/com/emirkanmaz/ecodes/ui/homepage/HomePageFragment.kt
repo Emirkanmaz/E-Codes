@@ -1,6 +1,7 @@
 package com.emirkanmaz.ecodes.ui.homepage
 
 import android.app.Activity
+import android.content.Context
 import android.net.Uri
 import android.os.Bundle
 import android.text.Editable
@@ -56,8 +57,17 @@ class HomePageFragment : BaseFragment<FragmentHomePageBinding, HomePageViewModel
     }
 
     override fun init() {
+        clearTempFiles(requireContext())
         super.init()
         setupRecyclerView()
+    }
+
+    fun clearTempFiles(context: Context) {
+        context.cacheDir.listFiles()?.forEach { file ->
+            if (file.name.startsWith("photo_")) {
+                file.delete()
+            }
+        }
     }
 
     override fun observeViewModel() {

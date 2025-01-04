@@ -28,11 +28,7 @@
     <fragment
         android:id="@+id/resultFragment"
         android:name="com.emirkanmaz.ecodes.ui.textrecognition.resultpage.ResultFragment"
-        android:label="ResultFragment">
-        <argument
-            android:name="photoBitmap"
-            app:argType="android.graphics.Bitmap" />
-    </fragment>
+        android:label="ResultFragment"/>
 
 
 </navigation>

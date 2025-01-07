@@ -1,26 +1,26 @@
-package com.emirkanmaz.ecodes.ui.homepage.adapter
+package com.emirkanmaz.ecodes.ui.textrecognition.resultpage.adapter
 
 import android.content.Context
 import android.graphics.drawable.Drawable
 import android.view.LayoutInflater
+import android.view.View
 import android.view.ViewGroup
 import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.RecyclerView
 import com.emirkanmaz.ecodes.R
-import com.emirkanmaz.ecodes.databinding.ItemEcodeBinding
+import com.emirkanmaz.ecodes.databinding.ItemResultEcodeBinding
 import com.emirkanmaz.ecodes.domain.models.ecode.ECodeItemUI
 import java.util.Locale
 
-class ECodesAdapter(
-    private val onECodeClick: () -> Unit
-) : RecyclerView.Adapter<ECodesAdapter.ECodesViewHolder>() {
+class ResultECodesAdapter(
+    private val onCancelClick: (ECodeItemUI) -> Unit
+) : RecyclerView.Adapter<ResultECodesAdapter.ECodesViewHolder>() {
 
-    private var originalList: List<ECodeItemUI> = emptyList()
-    private var filteredList: List<ECodeItemUI> = emptyList()
+    private var eCodeList: List<ECodeItemUI> = emptyList()
     val language = Locale.getDefault().language
 
     inner class ECodesViewHolder(
-        private val binding: ItemEcodeBinding
+        private val binding: ItemResultEcodeBinding
     ) : RecyclerView.ViewHolder(binding.root) {
 
         fun bind(eCode: ECodeItemUI) {
@@ -33,49 +33,36 @@ class ECodesAdapter(
                 eCodeNameTextView.text = name
                 eCodeHalalTextView.text = halal
                 veganImageView.visibility = if (veganCertf) {
-                    android.view.View.VISIBLE
+                    View.VISIBLE
                 } else {
-                    android.view.View.GONE
+                    View.GONE
                 }
                 halalImageView.visibility = if (halalCertf) {
-                    android.view.View.VISIBLE
+                    View.VISIBLE
                 } else {
-                    android.view.View.GONE
+                    View.GONE
                 }
                 circleShape.background = getCircleBackground(binding.root.context, eCode.risk)
-                root.setOnClickListener {
-                    onECodeClick()
+                btnRemove.setOnClickListener {
+                    onCancelClick(eCode)
                 }
             }
         }
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ECodesViewHolder {
-        val binding = ItemEcodeBinding.inflate(LayoutInflater.from(parent.context), parent, false)
+        val binding = ItemResultEcodeBinding.inflate(LayoutInflater.from(parent.context), parent, false)
         return ECodesViewHolder(binding)
     }
 
     override fun onBindViewHolder(holder: ECodesViewHolder, position: Int) {
-        holder.bind(filteredList[position])
+        holder.bind(eCodeList[position])
     }
 
-    override fun getItemCount(): Int = filteredList.size
+    override fun getItemCount(): Int = eCodeList.size
 
     fun submitList(newList: List<ECodeItemUI>) {
-        originalList = newList
-        filteredList = newList
-        notifyDataSetChanged()
-    }
-
-    fun filter(query: String) {
-        filteredList = if (query.isEmpty()) {
-            originalList
-        } else {
-            originalList.filter {
-                it.names.tr.contains(query, ignoreCase = true) ||
-                        it.eCode.contains(query, ignoreCase = true)
-            }
-        }
+        eCodeList = newList
         notifyDataSetChanged()
     }
 

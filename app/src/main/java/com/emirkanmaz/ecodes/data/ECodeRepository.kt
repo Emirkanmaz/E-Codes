@@ -1,11 +1,14 @@
 package com.emirkanmaz.ecodes.data
 
 import android.content.Context
+import android.util.Log
 import com.emirkanmaz.ecodes.domain.models.ecode.ECode
 import com.emirkanmaz.ecodes.domain.models.ecode.ECodeDetail
+import com.emirkanmaz.ecodes.domain.models.ecode.ECodeItemUI
 import com.emirkanmaz.ecodes.domain.models.ecode.Halal
 import com.emirkanmaz.ecodes.domain.models.ecode.Risk
 import com.emirkanmaz.ecodes.domain.models.ecode.Warning
+import com.emirkanmaz.ecodes.utils.extensions.cleanText
 import com.google.gson.Gson
 import javax.inject.Inject
 import javax.inject.Singleton
@@ -50,6 +53,22 @@ class ECodeRepository @Inject constructor(
 
     fun getECodeList(): List<ECode> = eCodes
 
+    fun getECodeItemUIList(): List<ECodeItemUI> {
+        return eCodes.mapNotNull { eCode ->
+            try {
+                ECodeItemUI(
+                    eCode = eCode.ecode,
+                    halal = halal.find { it.halal == eCode.halal }!!,
+                    risk = risk.find { it.risk == eCode.risk }!!.risk,
+                    names = eCode.names
+                )
+            } catch (e: Exception) {
+                Log.e("hata", e.toString())
+                null
+            }
+        }
+    }
+
     fun getECodeDetail(eCode: String): ECodeDetail? {
         val eCode = eCodes.find { it.ecode == eCode } ?: return null
 
@@ -64,11 +83,38 @@ class ECodeRepository @Inject constructor(
         )
     }
 
-    fun searchECodes(query: String): List<ECode> {
-        return eCodes.filter { eCode ->
-            eCode.ecode.contains(query, ignoreCase = true) ||
-            eCode.names.tr.contains(query, ignoreCase = true) ||
-            eCode.names.en.contains(query, ignoreCase = true)
+//    fun searchECodes(query: String): List<ECode> {
+//        return eCodes.filter { eCode ->
+//            eCode.ecode.contains(query, ignoreCase = true) ||
+//            eCode.names.tr.contains(query, ignoreCase = true) ||
+//            eCode.names.en.contains(query, ignoreCase = true)
+//        }
+//    }
+
+    fun searchECode(query: String): ECodeItemUI? {
+        val cleanQuery = query.cleanText()
+
+        val foundECode = if (cleanQuery.matches(Regex("E\\d+.*", RegexOption.IGNORE_CASE))) {
+            eCodes.find { it.ecode.equals(cleanQuery, ignoreCase = true) }
+        } else {
+            eCodes.find { eCode ->
+                eCode.names.tr.equals(cleanQuery, ignoreCase = true) ||
+                        eCode.names.en.equals(cleanQuery, ignoreCase = true)
+            }
+        }
+
+        return foundECode?.let { eCode ->
+            try {
+                ECodeItemUI(
+                    eCode = eCode.ecode,
+                    halal = halal.find { it.halal == eCode.halal }!!,
+                    risk = risk.find { it.risk == eCode.risk }!!.risk,
+                    names = eCode.names
+                )
+            } catch (e: Exception) {
+                Log.e("hata", e.toString())
+                null
+            }
         }
     }
     

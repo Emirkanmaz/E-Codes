@@ -1,6 +1,7 @@
 package com.emirkanmaz.ecodes.ui.homepage
 
 import android.app.Activity
+import android.content.Context
 import android.net.Uri
 import android.os.Bundle
 import android.text.Editable
@@ -10,13 +11,9 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
 import androidx.activity.result.contract.ActivityResultContracts
-import androidx.appcompat.widget.SearchView
 import androidx.core.view.GravityCompat
 import androidx.navigation.fragment.findNavController
-import androidx.recyclerview.widget.LinearLayoutManager
-import androidx.recyclerview.widget.RecyclerView
 import com.emirkanmaz.ecodes.R
-import com.emirkanmaz.ecodes.utils.singleclicklistener.setOnSingleClickListener
 import com.emirkanmaz.ecodes.base.BaseFragment
 import com.emirkanmaz.ecodes.base.BaseNavigationEvent
 import com.emirkanmaz.ecodes.databinding.FragmentHomePageBinding
@@ -25,6 +22,7 @@ import com.emirkanmaz.ecodes.ui.homepage.camerahandler.CameraHandler
 import com.emirkanmaz.ecodes.ui.homepage.navigationevent.HomePageNavigationEvent
 import com.emirkanmaz.ecodes.utils.extensions.isValid
 import com.emirkanmaz.ecodes.utils.pressbackagaintoexit.pressBackAgainToExit
+import com.emirkanmaz.ecodes.utils.singleclicklistener.setOnSingleClickListener
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
@@ -59,14 +57,23 @@ class HomePageFragment : BaseFragment<FragmentHomePageBinding, HomePageViewModel
     }
 
     override fun init() {
+        clearTempFiles(requireContext())
         super.init()
         setupRecyclerView()
     }
 
+    fun clearTempFiles(context: Context) {
+        context.cacheDir.listFiles()?.forEach { file ->
+            if (file.name.startsWith("photo_")) {
+                file.delete()
+            }
+        }
+    }
+
     override fun observeViewModel() {
         super.observeViewModel()
-        viewModel.eCodes.observe(viewLifecycleOwner) {
-            eCodesAdapter.setData(it)
+        viewModel.eCodeDetails.observe(viewLifecycleOwner) {
+            eCodesAdapter.submitList(it)
         }
     }
 

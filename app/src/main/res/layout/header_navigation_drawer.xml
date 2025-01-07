@@ -2,7 +2,7 @@
     android:layout_width="match_parent"
     android:layout_height="150dp"
     android:orientation="vertical"
-    android:background="@color/primary_green_1"
+    android:background="@color/neutral_gray_4"
     android:padding="16dp">
 
     <ImageView

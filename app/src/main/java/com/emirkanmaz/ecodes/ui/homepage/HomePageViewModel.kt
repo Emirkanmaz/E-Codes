@@ -5,7 +5,7 @@ import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.viewModelScope
 import com.emirkanmaz.ecodes.base.BaseViewModel
 import com.emirkanmaz.ecodes.data.ECodeRepository
-import com.emirkanmaz.ecodes.domain.models.ecode.ECode
+import com.emirkanmaz.ecodes.domain.models.ecode.ECodeItemUI
 import com.emirkanmaz.ecodes.ui.homepage.navigationevent.HomePageNavigationEvent
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.launch
@@ -16,17 +16,17 @@ class HomePageViewModel @Inject constructor(
     val eCodeRepository: ECodeRepository
 ) : BaseViewModel<HomePageNavigationEvent>() {
 
-    private val _eCodes = MutableLiveData<List<ECode>>()
-    val eCodes: MutableLiveData<List<ECode>> = _eCodes
+    private val _eCodeDetails = MutableLiveData<List<ECodeItemUI>>()
+    val eCodeDetails: MutableLiveData<List<ECodeItemUI>> = _eCodeDetails
 
     init {
-        getECodesList()
+        getECodeDetails()
     }
 
-    fun getECodesList() {
-        viewModelScope.launch {
+    fun getECodeDetails() {
+        viewModelScope.launch{
             setLoading(true)
-            _eCodes.value = eCodeRepository.getECodeList()
+            _eCodeDetails.value = eCodeRepository.getECodeItemUIList()
             setLoading(false)
         }
     }

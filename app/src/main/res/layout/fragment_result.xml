@@ -50,8 +50,10 @@
         android:layout_height="0dp"
         android:layout_marginTop="16dp"
         android:scaleType="fitCenter"
-        app:layout_constraintHeight_percent="0.25"
-        app:layout_constraintTop_toBottomOf="@id/topBar" />
+        app:layout_constraintHeight_percent="0.3"
+        app:layout_constraintTop_toBottomOf="@id/topBar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
 
     <!--    empty View Holder-->
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -72,13 +74,12 @@
             android:fontFamily="@font/inter"
             android:textAlignment="center"
             android:layout_marginTop="20dp"
-            android:text="Görselden katkı maddeleri bulunamadı. Tekrardan fotoğraf çekerek deneyebilirsinz."
+            android:text="Görselden katkı maddeleri bulunamadı. Tekrardan fotoğraf çekerek deneyebilirsiniz."
             android:textColor="@color/neutral_black"
             android:textSize="18sp"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"/>
-
 
 <!--        <Button-->
 <!--            android:id="@+id/btnEmptyAdd"-->
@@ -94,7 +95,6 @@
 <!--            app:layout_constraintTop_toBottomOf="@id/emptyText"-->
 <!--            app:layout_constraintStart_toStartOf="parent"-->
 <!--            app:layout_constraintEnd_toEndOf="parent"/>-->
-
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

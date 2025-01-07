@@ -25,21 +25,21 @@
             app:layout_constraintTop_toTopOf="parent"
             app:tint="@color/white" />
 
-        <Button
-            android:id="@+id/btnSave"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:background="?attr/selectableItemBackgroundBorderless"
-            android:contentDescription="Crop Button"
-            android:fontFamily="@font/inter"
-            android:text="Kaydet"
-            android:textSize="18sp"
-            app:icon="@drawable/bookmark"
-            app:iconGravity="textEnd"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:tint="@color/white" />
+<!--        <Button-->
+<!--            android:id="@+id/btnSave"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:background="?attr/selectableItemBackgroundBorderless"-->
+<!--            android:contentDescription="Crop Button"-->
+<!--            android:fontFamily="@font/inter"-->
+<!--            android:text="Kaydet"-->
+<!--            android:textSize="18sp"-->
+<!--            app:icon="@drawable/bookmark"-->
+<!--            app:iconGravity="textEnd"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="parent"-->
+<!--            app:tint="@color/white" />-->
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
@@ -59,7 +59,7 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:padding="16dp"
-        android:visibility="visible"
+        android:visibility="gone"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/capturedImageView"
@@ -72,7 +72,7 @@
             android:fontFamily="@font/inter"
             android:textAlignment="center"
             android:layout_marginTop="20dp"
-            android:text="Görselden katkı maddeleri bulunamadı. Aşağıdaki butona basarak ekleyebilirsiniz."
+            android:text="Görselden katkı maddeleri bulunamadı. Tekrardan fotoğraf çekerek deneyebilirsinz."
             android:textColor="@color/neutral_black"
             android:textSize="18sp"
             app:layout_constraintTop_toTopOf="parent"
@@ -80,20 +80,20 @@
             app:layout_constraintStart_toStartOf="parent"/>
 
 
-        <Button
-            android:id="@+id/btnEmptyAdd"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:backgroundTint="@color/primary_blue_1"
-            android:fontFamily="@font/inter"
-            android:text="Ekle"
-            android:layout_marginTop="20dp"
-            android:textColor="@color/white"
-            android:textSize="18sp"
-            app:icon="@drawable/plus_circle"
-            app:layout_constraintTop_toBottomOf="@id/emptyText"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"/>
+<!--        <Button-->
+<!--            android:id="@+id/btnEmptyAdd"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:backgroundTint="@color/primary_blue_1"-->
+<!--            android:fontFamily="@font/inter"-->
+<!--            android:text="Ekle"-->
+<!--            android:layout_marginTop="20dp"-->
+<!--            android:textColor="@color/white"-->
+<!--            android:textSize="18sp"-->
+<!--            app:icon="@drawable/plus_circle"-->
+<!--            app:layout_constraintTop_toBottomOf="@id/emptyText"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"/>-->
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
@@ -103,7 +103,7 @@
         android:id="@+id/listViewHolder"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:visibility="gone"
+        android:visibility="visible"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/capturedImageView">
@@ -123,22 +123,24 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
                 android:layout_weight="1"
-                android:fontFamily="@font/inter"
+                android:gravity="center"
+                android:fontFamily="@font/inter_bold"
+                android:textStyle="bold"
                 android:text="Bulunan Katkı Maddeleri"
                 android:textColor="@color/neutral_black"
-                android:textSize="18sp"
+                android:textSize="22sp"
                 app:icon="@drawable/arrow_left" />
 
-            <Button
-                android:id="@+id/btnAdd"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:backgroundTint="@color/primary_blue_1"
-                android:fontFamily="@font/inter"
-                android:text="Ekle"
-                android:textColor="@color/white"
-                android:textSize="18sp"
-                app:icon="@drawable/plus_circle" />
+<!--            <Button-->
+<!--                android:id="@+id/btnAdd"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:backgroundTint="@color/primary_blue_1"-->
+<!--                android:fontFamily="@font/inter"-->
+<!--                android:text="Ekle"-->
+<!--                android:textColor="@color/white"-->
+<!--                android:textSize="18sp"-->
+<!--                app:icon="@drawable/plus_circle" />-->
 
         </LinearLayout>
 

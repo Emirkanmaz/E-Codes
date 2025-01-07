@@ -6,12 +6,11 @@ import androidx.core.view.isVisible
 import androidx.fragment.app.activityViewModels
 import androidx.lifecycle.lifecycleScope
 import androidx.navigation.fragment.findNavController
-import androidx.navigation.fragment.navArgs
 import com.emirkanmaz.ecodes.base.BaseFragment
 import com.emirkanmaz.ecodes.base.BaseNavigationEvent
 import com.emirkanmaz.ecodes.databinding.FragmentResultBinding
 import com.emirkanmaz.ecodes.domain.models.ecode.ECodeItemUI
-import com.emirkanmaz.ecodes.ui.textrecognition.resultpage.adapter.ResultECodesAdapter
+import com.emirkanmaz.ecodes.ui.homepage.adapter.ECodesAdapter
 import com.emirkanmaz.ecodes.ui.textrecognition.resultpage.navigationevent.ResultNavigationEvent
 import com.emirkanmaz.ecodes.ui.textrecognition.shared.SharedImageViewModel
 import com.emirkanmaz.ecodes.utils.singleclicklistener.setOnSingleClickListener
@@ -27,7 +26,9 @@ class ResultFragment : BaseFragment<FragmentResultBinding, ResultViewModel, Resu
 
     private val sharedViewModel: SharedImageViewModel by activityViewModels()
 //    private val args: ResultFragmentArgs by navArgs()
-    private lateinit var resultECodesAdapter: ResultECodesAdapter
+// TODO: kaydetme işlevi, empty ise ekleme. (bottomsheet ile olabilir.)
+//    private lateinit var resultECodesAdapter: ResultECodesAdapter
+    private lateinit var eCodesAdapter: ECodesAdapter
     override fun init() {
         setupRecyclerView()
         super.init()
@@ -68,7 +69,8 @@ class ResultFragment : BaseFragment<FragmentResultBinding, ResultViewModel, Resu
         } else {
             binding.emptyViewHolder.isVisible = false
             binding.listViewHolder.isVisible = true
-            resultECodesAdapter.submitList(matchedECodes)
+            eCodesAdapter.submitList(matchedECodes)
+//            resultECodesAdapter.submitList(matchedECodes)
         }
     }
 
@@ -90,10 +92,14 @@ class ResultFragment : BaseFragment<FragmentResultBinding, ResultViewModel, Resu
 
     private fun setupRecyclerView() {
         binding?.let {
-            resultECodesAdapter = ResultECodesAdapter(onCancelClick = {
-                viewModel.removeItem(it)
+            eCodesAdapter = ECodesAdapter(onECodeClick = {
+
             })
-            it.eCodesRecyclerView.adapter = resultECodesAdapter
+//            resultECodesAdapter = ResultECodesAdapter(onCancelClick = {
+//                viewModel.removeItem(it)
+//            })
+            it.eCodesRecyclerView.adapter = eCodesAdapter
+//            it.eCodesRecyclerView.adapter = resultECodesAdapter
         }
     }
 

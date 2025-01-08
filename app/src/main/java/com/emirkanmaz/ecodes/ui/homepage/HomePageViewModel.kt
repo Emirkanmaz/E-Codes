@@ -31,6 +31,12 @@ class HomePageViewModel @Inject constructor(
         }
     }
 
+    fun navigateToDetail(){
+        viewModelScope.launch{
+         navigateTo(HomePageNavigationEvent.NavigateToDetail)
+        }
+    }
+
     fun navigateToCrop(photoUri: Uri) {
         viewModelScope.launch {
             navigateTo(HomePageNavigationEvent.NavigateToCrop(photoUri))

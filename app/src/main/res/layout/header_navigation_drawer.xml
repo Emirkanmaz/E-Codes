@@ -2,13 +2,14 @@
     android:layout_width="match_parent"
     android:layout_height="150dp"
     android:orientation="vertical"
-    android:background="@color/neutral_gray_4"
-    android:padding="16dp">
+    android:background="@color/primary_purple"
+    android:paddingHorizontal="16dp"
+    android:paddingTop="40dp">
 
     <ImageView
         android:layout_width="64dp"
         android:layout_height="64dp"
-        android:src="@drawable/arrow_right_circle" />
+        android:src="@drawable/camera" />
 
     <TextView
         android:layout_width="wrap_content"

@@ -73,6 +73,7 @@ class ECodesAdapter(
         } else {
             originalList.filter {
                 it.names.tr.contains(query, ignoreCase = true) ||
+                        it.names.en.contains(query, ignoreCase = true) ||
                         it.eCode.contains(query, ignoreCase = true)
             }
         }

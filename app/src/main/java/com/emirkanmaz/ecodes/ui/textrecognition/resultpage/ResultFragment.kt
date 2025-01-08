@@ -29,7 +29,9 @@ class ResultFragment : BaseFragment<FragmentResultBinding, ResultViewModel, Resu
 // TODO: kaydetme işlevi, empty ise ekleme. (bottomsheet ile olabilir.)
 //    private lateinit var resultECodesAdapter: ResultECodesAdapter
     private lateinit var eCodesAdapter: ECodesAdapter
+
     override fun init() {
+        viewModel.setLoading(true)
         setupRecyclerView()
         super.init()
 //        processImage()

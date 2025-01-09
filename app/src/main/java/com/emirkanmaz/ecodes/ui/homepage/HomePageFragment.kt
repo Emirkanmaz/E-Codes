@@ -87,6 +87,10 @@ class HomePageFragment : BaseFragment<FragmentHomePageBinding, HomePageViewModel
             is HomePageNavigationEvent.NavigateToCamera -> {
                 launchCamera()
             }
+            is HomePageNavigationEvent.NavigateToDetail -> {
+                val action = HomePageFragmentDirections.actionHomePageFragmentToECodeDetailFragment(event.eCode)
+                findNavController().safeNavigate(action)
+            }
         }
     }
 
@@ -111,8 +115,7 @@ class HomePageFragment : BaseFragment<FragmentHomePageBinding, HomePageViewModel
                 drawerLayout.closeDrawer(GravityCompat.START)
                 true
             }
-
-
+            
             CameraFloatingActionButton.setOnSingleClickListener {
                 viewModel.navigateToCamera()
             }
@@ -146,7 +149,9 @@ class HomePageFragment : BaseFragment<FragmentHomePageBinding, HomePageViewModel
 
     private fun setupRecyclerView() {
         binding?.let {
-            eCodesAdapter = ECodesAdapter(onECodeClick = {})
+            eCodesAdapter = ECodesAdapter(onECodeClick = { eCodeItemUI ->
+                viewModel.navigateToDetail(eCodeItemUI.eCode)
+            })
             it.eCodesRecyclerView.adapter = eCodesAdapter
         }
     }

@@ -12,7 +12,7 @@ import com.emirkanmaz.ecodes.domain.models.ecode.ECodeItemUI
 import java.util.Locale
 
 class ECodesAdapter(
-    private val onECodeClick: () -> Unit
+    private val onECodeClick: (eCode: ECodeItemUI) -> Unit
 ) : RecyclerView.Adapter<ECodesAdapter.ECodesViewHolder>() {
 
     private var originalList: List<ECodeItemUI> = emptyList()
@@ -44,7 +44,7 @@ class ECodesAdapter(
                 }
                 circleShape.background = getCircleBackground(binding.root.context, eCode.risk)
                 root.setOnClickListener {
-                    onECodeClick()
+                    onECodeClick(eCode)
                 }
             }
         }
@@ -73,6 +73,7 @@ class ECodesAdapter(
         } else {
             originalList.filter {
                 it.names.tr.contains(query, ignoreCase = true) ||
+                        it.names.en.contains(query, ignoreCase = true) ||
                         it.eCode.contains(query, ignoreCase = true)
             }
         }

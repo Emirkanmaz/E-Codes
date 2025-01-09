@@ -7,23 +7,36 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/topBar"
         android:layout_width="match_parent"
-        android:layout_height="80dp"
-        android:background="@color/primary_blue_1"
+        android:layout_height="100dp"
+        android:paddingTop="20dp"
+        android:background="@color/primary_purple"
         app:layout_constraintTop_toTopOf="parent">
 
-        <Button
+        <ImageButton
             android:id="@+id/btnBack"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
             android:background="?attr/selectableItemBackgroundBorderless"
-            android:fontFamily="@font/inter"
-            android:text="Geri"
-            android:textSize="18sp"
-            app:icon="@drawable/arrow_left"
+            android:src="@drawable/ic_arrow_back_24"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:tint="@color/white" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:fontFamily="@font/inter"
+            android:text="@string/found_additives"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"/>
 
 <!--        <Button-->
 <!--            android:id="@+id/btnSave"-->
@@ -40,7 +53,6 @@
 <!--            app:layout_constraintEnd_toEndOf="parent"-->
 <!--            app:layout_constraintTop_toTopOf="parent"-->
 <!--            app:tint="@color/white" />-->
-
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -73,8 +85,8 @@
             android:layout_height="wrap_content"
             android:fontFamily="@font/inter"
             android:textAlignment="center"
-            android:layout_marginTop="20dp"
-            android:text="Görselden katkı maddeleri bulunamadı. Tekrardan fotoğraf çekerek deneyebilirsiniz."
+            android:layout_margin="20dp"
+            android:text="Görselden katkı maddeleri bulunamadı. Tekrardan fotoğraf çekerek deneyebilir veya listeden aratabilirsiniz."
             android:textColor="@color/neutral_black"
             android:textSize="18sp"
             app:layout_constraintTop_toTopOf="parent"
@@ -124,12 +136,10 @@
                 android:layout_gravity="center_vertical"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:fontFamily="@font/inter_bold"
-                android:textStyle="bold"
-                android:text="Bulunan Katkı Maddeleri"
+                android:fontFamily="@font/inter"
+                android:text="@string/e_codes"
                 android:textColor="@color/neutral_black"
-                android:textSize="22sp"
-                app:icon="@drawable/arrow_left" />
+                android:textSize="20sp"/>
 
 <!--            <Button-->
 <!--                android:id="@+id/btnAdd"-->

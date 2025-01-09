@@ -11,5 +11,12 @@
     <string name="navigation_error_please_try_again">Navigation error. Please try again.</string>
     <string name="press_back_again_to_exit">Press back again to exit.</string>
     <string name="search">Search…</string>
+    <string name="found_additives">Found Additives</string>
+    <string name="e_codes">E-Codes:</string>
+    <string name="e_code_details">E-Code Details</string>
+    <string name="health_perspective">Health Perspective:</string>
+    <string name="halal_status">Halal status:</string>
+    <string name="source">Source:</string>
+    <string name="warning">Warning:</string>
 
 </resources>

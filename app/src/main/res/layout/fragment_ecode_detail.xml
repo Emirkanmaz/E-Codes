@@ -6,48 +6,231 @@
     android:layout_height="match_parent"
     tools:context=".ui.ecodedetail.ECodeDetailFragment">
 
-    <LinearLayout
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/topBar"
         android:layout_width="match_parent"
-        android:layout_height="80dp"
-        android:background="@color/primary_blue_1"
+        android:layout_height="100dp"
+        android:background="@color/primary_purple"
+        android:paddingTop="20dp"
         app:layout_constraintTop_toTopOf="parent">
 
-        <Button
+        <ImageButton
             android:id="@+id/btnBack"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
             android:background="?attr/selectableItemBackgroundBorderless"
-            android:fontFamily="@font/inter"
-            android:text="Geri"
-            android:textSize="18sp"
-            app:icon="@drawable/arrow_left"
+            android:src="@drawable/ic_arrow_back_24"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
             app:tint="@color/white" />
 
         <TextView
             android:layout_width="0dp"
-            android:layout_weight="1"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:text="Potasyum sorbat"/>
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:fontFamily="@font/inter"
+            android:gravity="center"
+            android:text="@string/e_code_details"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
-        <!--        <Button-->
-        <!--            android:id="@+id/btnSave"-->
-        <!--            android:layout_width="wrap_content"-->
-        <!--            android:layout_height="match_parent"-->
-        <!--            android:background="?attr/selectableItemBackgroundBorderless"-->
-        <!--            android:contentDescription="Crop Button"-->
-        <!--            android:fontFamily="@font/inter"-->
-        <!--            android:text="Kaydet"-->
-        <!--            android:textSize="18sp"-->
-        <!--            app:icon="@drawable/bookmark"-->
-        <!--            app:iconGravity="textEnd"-->
-        <!--            app:layout_constraintBottom_toBottomOf="parent"-->
-        <!--            app:layout_constraintEnd_toEndOf="parent"-->
-        <!--            app:layout_constraintTop_toTopOf="parent"-->
-        <!--            app:tint="@color/white" />-->
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:paddingHorizontal="10dp"
+        android:paddingBottom="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/topBar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/eCodeTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/background_item_ecode"
+                android:fontFamily="@font/inter_bold"
+                android:backgroundTint="@color/primary_red"
+                android:paddingHorizontal="16dp"
+                android:paddingVertical="3dp"
+                android:text="E173"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/nameTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:paddingHorizontal="16dp"
+                android:layout_marginTop="5dp"
+                android:paddingVertical="3dp"
+                android:fontFamily="@font/inter"
+                android:gravity="center_horizontal"
+                android:textColor="@color/neutral_black"
+                android:text="Alüminyum"
+                android:textSize="26sp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center">
+
+                <ImageView
+                    android:id="@+id/warningImageView"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="5dp"
+                    android:layout_gravity="center_vertical"
+                    android:visibility="gone"
+                    android:src="@drawable/warning"/>
+                <ImageView
+                    android:id="@+id/halalImageView"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="5dp"
+                    android:layout_gravity="center_vertical"
+                    android:visibility="gone"
+                    android:src="@drawable/halal"/>
+                <ImageView
+                    android:id="@+id/veganImageView"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="5dp"
+                    android:layout_gravity="center_vertical"
+                    android:visibility="gone"
+                    android:src="@drawable/vegan"/>
 
 
-    </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/riskLinearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:gravity="center"
+                android:paddingHorizontal="10dp"
+                android:paddingVertical="8dp"
+                android:orientation="vertical"
+                android:backgroundTint="@color/primary_red"
+                android:background="@drawable/backgroud_result_item">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/inter_bold"
+                    android:textColor="@color/neutral_gray_1"
+                    android:text="@string/health_perspective"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/riskTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/inter"
+                    android:textAlignment="center"
+                    android:textColor="@color/neutral_black"
+                    android:text="Dikkat ediniz! Sağlığınız için risklidir."
+                    android:textSize="22sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/halalLinearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:gravity="center"
+                android:paddingHorizontal="10dp"
+                android:paddingVertical="8dp"
+                android:orientation="vertical"
+                android:backgroundTint="@color/primary_green"
+                android:background="@drawable/backgroud_result_item">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/inter_bold"
+                    android:textColor="@color/neutral_gray_1"
+                    android:text="@string/halal_status"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/halalTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/inter"
+                    android:textAlignment="center"
+                    android:text="Helal"
+                    android:textSize="22sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/inter_bold"
+                    android:textColor="@color/neutral_gray_1"
+                    android:layout_marginTop="6dp"
+                    android:text="@string/source"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/sourceTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/inter"
+                    android:textAlignment="center"
+                    android:textColor="@color/neutral_black"
+                    android:text="Hayvansal kaynaklardan üretilmemiştir."
+                    android:textSize="22sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/warningLinearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:paddingHorizontal="10dp"
+                android:paddingVertical="8dp"
+                android:orientation="vertical"
+                android:backgroundTint="@color/primary_red"
+                android:background="@drawable/backgroud_result_item">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/inter_bold"
+                    android:layout_gravity="start"
+                    android:textColor="@color/neutral_gray_1"
+                    android:text="@string/warning"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </androidx.core.widget.NestedScrollView>
+
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

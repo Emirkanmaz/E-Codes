@@ -11,4 +11,12 @@
     <string name="navigation_error_please_try_again">Navigasyon hatası. Lütfen tekrar deneyiniz.</string>
     <string name="press_back_again_to_exit">Çıkmak için tekrar basınız.</string>
     <string name="search">Ara…</string>
+    <string name="found_additives">Bulunan Katkı Maddeleri</string>
+    <string name="e_codes">E-Kodlar:</string>
+    <string name="e_code_details">E-Kod Detayları</string>
+    <string name="health_perspective">Sağlık Açısından:</string>
+    <string name="halal_status">Helallik:</string>
+    <string name="source">Kaynak:</string>
+    <string name="warning">Uyarı:</string>
+
 </resources>

@@ -29,7 +29,9 @@ class ResultFragment : BaseFragment<FragmentResultBinding, ResultViewModel, Resu
 // TODO: kaydetme işlevi, empty ise ekleme. (bottomsheet ile olabilir.)
 //    private lateinit var resultECodesAdapter: ResultECodesAdapter
     private lateinit var eCodesAdapter: ECodesAdapter
+
     override fun init() {
+        viewModel.setLoading(true)
         setupRecyclerView()
         super.init()
 //        processImage()
@@ -77,6 +79,10 @@ class ResultFragment : BaseFragment<FragmentResultBinding, ResultViewModel, Resu
     override fun handleNavigationEvent(event: BaseNavigationEvent) {
         super.handleNavigationEvent(event)
         when (event) {
+            is ResultNavigationEvent.NavigateToDetail -> {
+                val action = ResultFragmentDirections.actionResultFragmentToECodeDetailFragment(event.eCode)
+                findNavController().safeNavigate(action)
+            }
             is ResultNavigationEvent.NavigateToCropPage -> {
                 findNavController().navigateUp()
             }
@@ -92,8 +98,8 @@ class ResultFragment : BaseFragment<FragmentResultBinding, ResultViewModel, Resu
 
     private fun setupRecyclerView() {
         binding?.let {
-            eCodesAdapter = ECodesAdapter(onECodeClick = {
-
+            eCodesAdapter = ECodesAdapter(onECodeClick = { eCodeItemUI ->
+                viewModel.navigateToDetail(eCodeItemUI.eCode)
             })
 //            resultECodesAdapter = ResultECodesAdapter(onCancelClick = {
 //                viewModel.removeItem(it)

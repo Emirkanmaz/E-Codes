@@ -4,5 +4,5 @@ import com.emirkanmaz.ecodes.base.BaseNavigationEvent
 
 sealed class ResultNavigationEvent : BaseNavigationEvent(){
     object NavigateToCropPage : ResultNavigationEvent()
-//    data class NavigateToResultFragment : ResultNavigationEvent()
+    data class NavigateToDetail(val eCode: String) : ResultNavigationEvent()
 }

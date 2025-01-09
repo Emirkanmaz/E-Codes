@@ -1,149 +1,156 @@
 [
   {
+    "warning": 0,
+    "desc": {
+      "tr": "Herhangi bir uyarı yok.",
+      "en": "There is no warning."
+    }
+  },
+  {
     "warning": 1,
     "desc": {
       "tr": "Alerjik bünyelilerin kaçınması önerilir.",
-      "en": ""
+      "en": "Allergic people are advised to avoid."
     }
   },
   {
     "warning": 2,
     "desc": {
       "tr": "Ağır metal içerdiğinden sağlığa zararlı olabilir.",
-      "en": ""
+      "en": "May be hazardous to health as it contains heavy metals."
     }
   },
   {
     "warning": 3,
     "desc": {
       "tr": "Böbrek hastalarının kaçınması önerilir.",
-      "en": ""
+      "en": "Kidney patients are advised to avoid."
     }
   },
   {
     "warning": 4,
     "desc": {
       "tr": "Gut hastalarının kaçınması önerilir.",
-      "en": ""
+      "en": "Gout patients are advised to avoid."
     }
   },
   {
     "warning": 5,
     "desc": {
       "tr": "Gen hasarına yol açma potansiyeline sahiptir.",
-      "en": ""
+      "en": "It has the potential to cause gene damage."
     }
   },
   {
     "warning": 6,
     "desc": {
       "tr": "Hiperaktif kişilerin kaçınması önerilir.",
-      "en": ""
+      "en": "Hyperactive people are advised to avoid."
     }
   },
   {
     "warning": 7,
     "desc": {
       "tr": "Karaciğer hastalıklarını artırma potansiyeline sahiptir.",
-      "en": ""
+      "en": "It has the potential to increase liver diseases."
     }
   },
   {
     "warning": 8,
     "desc": {
-      "tr": "Kanser riskini artırma potansiyeline sahiptir",
-      "en": ""
+      "tr": "Kanser riskini artırma potansiyeline sahiptir.",
+      "en": "Has the potential to increase cancer risk."
     }
   },
   {
     "warning": 9,
     "desc": {
       "tr": "Kron (Crohn) hastalarının kaçınması önerilir.",
-      "en": ""
+      "en": "Patients with Crohn's disease are advised to avoid."
     }
   },
   {
     "warning": 10,
     "desc": {
       "tr": "Migren veya baş ağrısı olanların kaçınması önerilir.",
-      "en": ""
+      "en": "Those with migraines or headaches are advised to avoid."
     }
   },
   {
     "warning": 11,
     "desc": {
       "tr": "Obeziteye yol açma veya artırma potansiyeline sahiptir.",
-      "en": ""
+      "en": "It has the potential to cause or increase obesity."
     }
   },
   {
     "warning": 12,
     "desc": {
       "tr": "Osteoporozu artırma potansiyeline sahiptir.",
-      "en": ""
+      "en": "It has the potential to increase osteoporosis."
     }
   },
   {
     "warning": 13,
     "desc": {
       "tr": "Pankreas hastalıklarını artırma potansiyeline sahiptir.",
-      "en": ""
+      "en": "It has the potential to increase pancreatic diseases."
     }
   },
   {
     "warning": 14,
     "desc": {
       "tr": "Sinir sistemine zarar verme potansiyeline sahiptir.",
-      "en": ""
+      "en": "It has the potential to damage the nervous system."
     }
   },
   {
     "warning": 15,
     "desc": {
       "tr": "Spastik kolonlu hastaların kaçınması önerilir.",
-      "en": ""
+      "en": "Patients with spastic colon are advised to avoid."
     }
   },
   {
     "warning": 16,
     "desc": {
       "tr": "Sentetik tatlandırıcı olduğu için öngörülemeyen sağlık risklerine yol açabilir.",
-      "en": ""
+      "en": "As it is a synthetic sweetener, it can lead to unforeseen health risks."
     }
   },
   {
     "warning": 17,
     "desc": {
       "tr": "Şeker hastalığına yol açma/artırma potansiyeline sahiptir.",
-      "en": ""
+      "en": "It has the potential to cause/increase diabetes."
     }
   },
   {
     "warning": 18,
     "desc": {
       "tr": "İdrar yolları taşı olan hastaların kaçınması önerilir.",
-      "en": ""
+      "en": "Patients with urinary tract stones are advised to avoid."
     }
   },
   {
     "warning": 19,
     "desc": {
       "tr": "Ülseratif kolitli hastaların kaçınması önerililir.",
-      "en": ""
+      "en": "Patients with ulcerative colitis are advised to avoid."
     }
   },
   {
     "warning": 20,
     "desc": {
       "tr": "Yeterli araştırma verisi bulunmadığı için öngörülemeyen sağlık riski içerebilir.",
-      "en": ""
+      "en": "May pose unpredictable health risks due to lack of sufficient research data."
     }
   },
   {
     "warning": 21,
     "desc": {
       "tr": "Yenidoğan ve bebeklik dönemlerinde sorun olabilir.",
-      "en": ""
+      "en": "It can be a problem in newborns and infancy."
     }
   }
 ]

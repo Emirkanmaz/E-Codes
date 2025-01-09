@@ -12,7 +12,18 @@
         tools:layout="@layout/fragment_home_page">
         <action
             android:id="@+id/action_homePageFragment_to_cropFragment"
-            app:destination="@id/cropFragment" />
+            app:destination="@id/cropFragment"
+            app:enterAnim="@anim/slide_from_right"
+            app:exitAnim="@anim/slide_to_left"
+            app:popEnterAnim="@anim/slide_from_left"
+            app:popExitAnim="@anim/slide_to_right" />
+        <action
+            android:id="@+id/action_homePageFragment_to_ECodeDetailFragment"
+            app:destination="@id/ECodeDetailFragment"
+            app:enterAnim="@anim/slide_from_right"
+            app:exitAnim="@anim/slide_to_left"
+            app:popEnterAnim="@anim/slide_from_left"
+            app:popExitAnim="@anim/slide_to_right" />
     </fragment>
     <fragment
         android:id="@+id/cropFragment"
@@ -23,12 +34,33 @@
             app:argType="android.net.Uri" />
         <action
             android:id="@+id/action_cropFragment_to_resultFragment"
-            app:destination="@id/resultFragment" />
+            app:destination="@id/resultFragment"
+            app:enterAnim="@anim/slide_from_right"
+            app:exitAnim="@anim/slide_to_left"
+            app:popEnterAnim="@anim/slide_from_left"
+            app:popExitAnim="@anim/slide_to_right" />
     </fragment>
     <fragment
         android:id="@+id/resultFragment"
         android:name="com.emirkanmaz.ecodes.ui.textrecognition.resultpage.ResultFragment"
-        android:label="ResultFragment"/>
+        android:label="ResultFragment">
+        <action
+            android:id="@+id/action_resultFragment_to_ECodeDetailFragment"
+            app:destination="@id/ECodeDetailFragment"
+            app:enterAnim="@anim/slide_from_right"
+            app:exitAnim="@anim/slide_to_left"
+            app:popEnterAnim="@anim/slide_from_left"
+            app:popExitAnim="@anim/slide_to_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/ECodeDetailFragment"
+        android:name="com.emirkanmaz.ecodes.ui.ecodedetail.ECodeDetailFragment"
+        android:label="fragment_ecode_detail"
+        tools:layout="@layout/fragment_ecode_detail" >
+        <argument
+            android:name="eCode"
+            app:argType="string" />
+    </fragment>
 
 
 </navigation>

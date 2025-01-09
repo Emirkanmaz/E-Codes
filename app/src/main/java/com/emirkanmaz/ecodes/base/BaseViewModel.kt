@@ -50,7 +50,4 @@ abstract class BaseViewModel<T: BaseNavigationEvent> : ViewModel() {
     protected suspend fun navigateTo(event: T) {
         _navigationEvent.emit(event)
     }
-
-    //    overriding in viewmodels
-    open fun abandonProcess(){}
 }

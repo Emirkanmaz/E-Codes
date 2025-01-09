@@ -30,7 +30,7 @@
             android:layout_weight="1"
             android:gravity="center"
             android:fontFamily="@font/inter"
-            android:text="Bulunan Katkı Maddeleri"
+            android:text="@string/found_additives"
             android:textColor="@color/white"
             android:textSize="20sp"
             app:layout_constraintStart_toStartOf="parent"
@@ -137,7 +137,7 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:fontFamily="@font/inter"
-                android:text="E-Kodlar:"
+                android:text="@string/e_codes"
                 android:textColor="@color/neutral_black"
                 android:textSize="20sp"/>
 

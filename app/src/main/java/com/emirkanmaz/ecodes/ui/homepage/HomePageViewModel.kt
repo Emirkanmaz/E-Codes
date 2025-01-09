@@ -31,9 +31,9 @@ class HomePageViewModel @Inject constructor(
         }
     }
 
-    fun navigateToDetail(){
+    fun navigateToDetail(eCode: String){
         viewModelScope.launch{
-         navigateTo(HomePageNavigationEvent.NavigateToDetail)
+         navigateTo(HomePageNavigationEvent.NavigateToDetail(eCode))
         }
     }
 

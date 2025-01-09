@@ -32,7 +32,7 @@
             android:layout_weight="1"
             android:fontFamily="@font/inter"
             android:gravity="center"
-            android:text="E-Kod Detayları"
+            android:text="@string/e_code_details"
             android:textColor="@color/white"
             android:textSize="20sp"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -45,6 +45,8 @@
     <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"
         android:layout_height="0dp"
+        android:paddingHorizontal="10dp"
+        android:paddingBottom="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -56,10 +58,11 @@
             android:orientation="vertical">
 
             <TextView
+                android:id="@+id/eCodeTextView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
-                android:layout_marginTop="26dp"
+                android:layout_marginTop="16dp"
                 android:background="@drawable/background_item_ecode"
                 android:fontFamily="@font/inter_bold"
                 android:backgroundTint="@color/primary_red"
@@ -70,6 +73,7 @@
                 android:textStyle="bold" />
 
             <TextView
+                android:id="@+id/nameTextView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
@@ -78,16 +82,51 @@
                 android:paddingVertical="3dp"
                 android:fontFamily="@font/inter"
                 android:gravity="center_horizontal"
+                android:textColor="@color/neutral_black"
                 android:text="Alüminyum"
                 android:textSize="26sp" />
 
             <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center">
+
+                <ImageView
+                    android:id="@+id/warningImageView"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="5dp"
+                    android:layout_gravity="center_vertical"
+                    android:visibility="gone"
+                    android:src="@drawable/warning"/>
+                <ImageView
+                    android:id="@+id/halalImageView"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="5dp"
+                    android:layout_gravity="center_vertical"
+                    android:visibility="gone"
+                    android:src="@drawable/halal"/>
+                <ImageView
+                    android:id="@+id/veganImageView"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="5dp"
+                    android:layout_gravity="center_vertical"
+                    android:visibility="gone"
+                    android:src="@drawable/vegan"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/riskLinearLayout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
                 android:gravity="center"
-                android:layout_marginHorizontal="16dp"
-                android:paddingHorizontal="16dp"
+                android:paddingHorizontal="10dp"
                 android:paddingVertical="8dp"
                 android:orientation="vertical"
                 android:backgroundTint="@color/primary_red"
@@ -98,26 +137,28 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/inter_bold"
                     android:textColor="@color/neutral_gray_1"
-                    android:text="Sağlık Açısından:"
+                    android:text="@string/health_perspective"
                     android:textSize="18sp" />
 
                 <TextView
+                    android:id="@+id/riskTextView"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/inter"
                     android:textAlignment="center"
+                    android:textColor="@color/neutral_black"
                     android:text="Dikkat ediniz! Sağlığınız için risklidir."
                     android:textSize="22sp" />
 
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/halalLinearLayout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
                 android:gravity="center"
-                android:layout_marginHorizontal="16dp"
-                android:paddingHorizontal="16dp"
+                android:paddingHorizontal="10dp"
                 android:paddingVertical="8dp"
                 android:orientation="vertical"
                 android:backgroundTint="@color/primary_green"
@@ -128,10 +169,11 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/inter_bold"
                     android:textColor="@color/neutral_gray_1"
-                    android:text="Helallik:"
+                    android:text="@string/halal_status"
                     android:textSize="18sp" />
 
                 <TextView
+                    android:id="@+id/halalTextView"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/inter"
@@ -145,26 +187,27 @@
                     android:fontFamily="@font/inter_bold"
                     android:textColor="@color/neutral_gray_1"
                     android:layout_marginTop="6dp"
-                    android:text="Kaynak:"
+                    android:text="@string/source"
                     android:textSize="18sp" />
 
                 <TextView
+                    android:id="@+id/sourceTextView"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/inter"
                     android:textAlignment="center"
+                    android:textColor="@color/neutral_black"
                     android:text="Hayvansal kaynaklardan üretilmemiştir."
                     android:textSize="22sp" />
 
             </LinearLayout>
 
-
             <LinearLayout
+                android:id="@+id/warningLinearLayout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
-                android:layout_marginHorizontal="16dp"
-                android:paddingHorizontal="16dp"
+                android:paddingHorizontal="10dp"
                 android:paddingVertical="8dp"
                 android:orientation="vertical"
                 android:backgroundTint="@color/primary_red"
@@ -176,43 +219,8 @@
                     android:fontFamily="@font/inter_bold"
                     android:layout_gravity="start"
                     android:textColor="@color/neutral_gray_1"
-                    android:text="Uyarılar:"
+                    android:text="@string/warning"
                     android:textSize="18sp" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:fontFamily="@font/inter"
-                    android:layout_gravity="start"
-                    android:text="- Böbrek hastalarının kaçınması önerilir."
-                    android:textSize="18sp" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:fontFamily="@font/inter"
-                    android:layout_gravity="start"
-                    android:text="- Kron (Crohn) hastalarının kaçınması önerilir."
-                    android:textSize="18sp" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:fontFamily="@font/inter"
-                    android:layout_gravity="start"
-                    android:text="- Kanser riskini artırma potansiyeline sahiptir"
-                    android:textSize="18sp" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:fontFamily="@font/inter"
-                    android:layout_gravity="start"
-                    android:text="- Sinir sistemine zarar verme potansiyeline sahiptir."
-                    android:textSize="18sp" />
-
-
-
 
             </LinearLayout>
 

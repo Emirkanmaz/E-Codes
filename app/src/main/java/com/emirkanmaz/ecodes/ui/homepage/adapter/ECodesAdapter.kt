@@ -12,7 +12,7 @@ import com.emirkanmaz.ecodes.domain.models.ecode.ECodeItemUI
 import java.util.Locale
 
 class ECodesAdapter(
-    private val onECodeClick: () -> Unit
+    private val onECodeClick: (eCode: ECodeItemUI) -> Unit
 ) : RecyclerView.Adapter<ECodesAdapter.ECodesViewHolder>() {
 
     private var originalList: List<ECodeItemUI> = emptyList()
@@ -44,7 +44,7 @@ class ECodesAdapter(
                 }
                 circleShape.background = getCircleBackground(binding.root.context, eCode.risk)
                 root.setOnClickListener {
-                    onECodeClick()
+                    onECodeClick(eCode)
                 }
             }
         }

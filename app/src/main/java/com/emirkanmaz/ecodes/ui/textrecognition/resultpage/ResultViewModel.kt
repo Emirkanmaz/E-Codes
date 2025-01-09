@@ -11,6 +11,7 @@ import com.emirkanmaz.ecodes.base.BaseViewModel
 import com.emirkanmaz.ecodes.data.ECodeRepository
 import com.emirkanmaz.ecodes.domain.models.ecode.ECode
 import com.emirkanmaz.ecodes.domain.models.ecode.ECodeItemUI
+import com.emirkanmaz.ecodes.ui.homepage.navigationevent.HomePageNavigationEvent
 import com.emirkanmaz.ecodes.ui.textrecognition.resultpage.navigationevent.ResultNavigationEvent
 import com.emirkanmaz.ecodes.utils.extensions.cleanText
 import com.emirkanmaz.ecodes.utils.extensions.dpToPx
@@ -145,6 +146,12 @@ class ResultViewModel @Inject constructor(
         }
 
         return mutableBitmap
+    }
+
+    fun navigateToDetail(eCode: String){
+        viewModelScope.launch{
+            navigateTo(ResultNavigationEvent.NavigateToDetail(eCode))
+        }
     }
 
     fun navigateCrop() {

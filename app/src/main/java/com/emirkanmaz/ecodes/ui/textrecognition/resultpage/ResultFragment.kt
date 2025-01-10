@@ -31,7 +31,6 @@ class ResultFragment : BaseFragment<FragmentResultBinding, ResultViewModel, Resu
     private lateinit var eCodesAdapter: ECodesAdapter
 
     override fun init() {
-        viewModel.setLoading(true)
         setupRecyclerView()
         super.init()
 //        processImage()

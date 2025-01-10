@@ -75,6 +75,9 @@ class HomePageFragment : BaseFragment<FragmentHomePageBinding, HomePageViewModel
         viewModel.eCodeDetails.observe(viewLifecycleOwner) {
             eCodesAdapter.submitList(it)
         }
+        viewModel.searchQuery.observe(viewLifecycleOwner) {
+            eCodesAdapter.filter(it)
+        }
     }
 
     override fun handleNavigationEvent(event: BaseNavigationEvent) {
@@ -123,7 +126,7 @@ class HomePageFragment : BaseFragment<FragmentHomePageBinding, HomePageViewModel
             searchEditText.addTextChangedListener(object : TextWatcher {
                 override fun beforeTextChanged(s: CharSequence?, start: Int, count: Int, after: Int) {}
                 override fun onTextChanged(s: CharSequence?, start: Int, before: Int, count: Int) {
-                    eCodesAdapter.filter(s.toString())
+                    viewModel.setSearchQuery(s.toString())
                     clearButton.visibility = if (s.isNullOrEmpty()) View.GONE else View.VISIBLE
                 }
                 override fun afterTextChanged(s: Editable?) {}
@@ -131,6 +134,7 @@ class HomePageFragment : BaseFragment<FragmentHomePageBinding, HomePageViewModel
 
             clearButton.setOnClickListener {
                 searchEditText.text.clear()
+                viewModel.setSearchQuery("")
             }
 
         }

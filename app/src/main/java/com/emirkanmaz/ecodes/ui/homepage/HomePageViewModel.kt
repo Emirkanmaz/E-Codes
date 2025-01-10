@@ -19,6 +19,9 @@ class HomePageViewModel @Inject constructor(
     private val _eCodeDetails = MutableLiveData<List<ECodeItemUI>>()
     val eCodeDetails: MutableLiveData<List<ECodeItemUI>> = _eCodeDetails
 
+    private val _searchQuery = MutableLiveData<String>()
+    val searchQuery: MutableLiveData<String> = _searchQuery
+
     init {
         getECodeDetails()
     }
@@ -29,6 +32,10 @@ class HomePageViewModel @Inject constructor(
             _eCodeDetails.value = eCodeRepository.getECodeItemUIList()
             setLoading(false)
         }
+    }
+
+    fun setSearchQuery(query: String) {
+        _searchQuery.value = query
     }
 
     fun navigateToDetail(eCode: String){

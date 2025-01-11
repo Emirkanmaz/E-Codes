@@ -17,6 +17,7 @@ activity = "1.9.3"
 constraintlayout = "2.2.0"
 navigationFragment = "2.8.5"
 securityCrypto = "1.1.0-alpha06"
+taptargetview = "1.15.0"
 textRecognition = "16.0.1"
 
 [libraries]
@@ -39,6 +40,7 @@ kotlinx-coroutines-android = { module = "org.jetbrains.kotlinx:kotlinx-coroutine
 material = { group = "com.google.android.material", name = "material", version.ref = "material" }
 androidx-activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
 androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+taptargetview = { module = "com.getkeepsafe.taptargetview:taptargetview", version.ref = "taptargetview" }
 text-recognition = { module = "com.google.mlkit:text-recognition", version.ref = "textRecognition" }
 
 [plugins]

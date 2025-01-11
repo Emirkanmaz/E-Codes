@@ -2,6 +2,7 @@ package com.emirkanmaz.ecodes.ui.homepage
 
 import android.app.Activity
 import android.content.Context
+import android.graphics.Typeface
 import android.net.Uri
 import android.os.Bundle
 import android.text.Editable
@@ -9,8 +10,10 @@ import android.text.TextWatcher
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.ImageView
 import android.widget.Toast
 import androidx.activity.result.contract.ActivityResultContracts
+import androidx.core.content.ContextCompat
 import androidx.core.view.GravityCompat
 import androidx.navigation.fragment.findNavController
 import com.emirkanmaz.ecodes.R
@@ -23,6 +26,8 @@ import com.emirkanmaz.ecodes.ui.homepage.navigationevent.HomePageNavigationEvent
 import com.emirkanmaz.ecodes.utils.extensions.isValid
 import com.emirkanmaz.ecodes.utils.pressbackagaintoexit.pressBackAgainToExit
 import com.emirkanmaz.ecodes.utils.singleclicklistener.setOnSingleClickListener
+import com.getkeepsafe.taptargetview.TapTarget
+import com.getkeepsafe.taptargetview.TapTargetView
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
@@ -36,29 +41,36 @@ class HomePageFragment : BaseFragment<FragmentHomePageBinding, HomePageViewModel
         super.onCreate(savedInstanceState)
         pressBackAgainToExit(
             onExitAction = { requireActivity().finish() },
-            onWarningAction = { showSnackBar(getString(R.string.press_back_again_to_exit), SnackbarType.Error) }
+            onWarningAction = {
+                showSnackBar(
+                    getString(R.string.press_back_again_to_exit),
+                    SnackbarType.Error
+                )
+            }
         )
     }
 
     private var photoUri: Uri? = null
     private lateinit var eCodesAdapter: ECodesAdapter
 
-    private val capturePhotoLauncher = registerForActivityResult(ActivityResultContracts.StartActivityForResult()) { result ->
-        if (result.resultCode == Activity.RESULT_OK) {
-            if (!photoUri.isValid()) {
-                photoUri = CameraHandler().getLastCapturedPhotoUri(requireContext())
-            }
-            photoUri?.let { uri ->
-                viewModel.navigateToCrop(photoUri!!)
-            } ?: run {
-                viewModel.setError(true, getString(R.string.no_photo_found))
+    private val capturePhotoLauncher =
+        registerForActivityResult(ActivityResultContracts.StartActivityForResult()) { result ->
+            if (result.resultCode == Activity.RESULT_OK) {
+                if (!photoUri.isValid()) {
+                    photoUri = CameraHandler().getLastCapturedPhotoUri(requireContext())
+                }
+                photoUri?.let { uri ->
+                    viewModel.navigateToCrop(photoUri!!)
+                } ?: run {
+                    viewModel.setError(true, getString(R.string.no_photo_found))
+                }
             }
         }
-    }
 
     override fun init() {
         clearTempFiles(requireContext())
         super.init()
+        isFirstTime()
         setupRecyclerView()
     }
 
@@ -84,14 +96,18 @@ class HomePageFragment : BaseFragment<FragmentHomePageBinding, HomePageViewModel
         super.handleNavigationEvent(event)
         when (event) {
             is HomePageNavigationEvent.NavigateToCrop -> {
-                val action = HomePageFragmentDirections.actionHomePageFragmentToCropFragment(event.photoUri)
+                val action =
+                    HomePageFragmentDirections.actionHomePageFragmentToCropFragment(event.photoUri)
                 findNavController().safeNavigate(action)
             }
+
             is HomePageNavigationEvent.NavigateToCamera -> {
                 launchCamera()
             }
+
             is HomePageNavigationEvent.NavigateToDetail -> {
-                val action = HomePageFragmentDirections.actionHomePageFragmentToECodeDetailFragment(event.eCode)
+                val action =
+                    HomePageFragmentDirections.actionHomePageFragmentToECodeDetailFragment(event.eCode)
                 findNavController().safeNavigate(action)
             }
         }
@@ -111,6 +127,7 @@ class HomePageFragment : BaseFragment<FragmentHomePageBinding, HomePageViewModel
                     R.id.nav_home -> {
                         Toast.makeText(context, "Home seçildi!", Toast.LENGTH_SHORT).show()
                     }
+
                     R.id.nav_settings -> {
                         Toast.makeText(context, "Settings seçildi!", Toast.LENGTH_SHORT).show()
                     }
@@ -118,17 +135,25 @@ class HomePageFragment : BaseFragment<FragmentHomePageBinding, HomePageViewModel
                 drawerLayout.closeDrawer(GravityCompat.START)
                 true
             }
-            
+
             CameraFloatingActionButton.setOnSingleClickListener {
                 viewModel.navigateToCamera()
             }
 
             searchEditText.addTextChangedListener(object : TextWatcher {
-                override fun beforeTextChanged(s: CharSequence?, start: Int, count: Int, after: Int) {}
+                override fun beforeTextChanged(
+                    s: CharSequence?,
+                    start: Int,
+                    count: Int,
+                    after: Int
+                ) {
+                }
+
                 override fun onTextChanged(s: CharSequence?, start: Int, before: Int, count: Int) {
                     viewModel.setSearchQuery(s.toString())
                     clearButton.visibility = if (s.isNullOrEmpty()) View.GONE else View.VISIBLE
                 }
+
                 override fun afterTextChanged(s: Editable?) {}
             })
 
@@ -159,5 +184,110 @@ class HomePageFragment : BaseFragment<FragmentHomePageBinding, HomePageViewModel
             it.eCodesRecyclerView.adapter = eCodesAdapter
         }
     }
+
+    private fun isFirstTime() {
+        if (viewModel.isFirstTime()) {
+            showOverlay()
+        }
+    }
+
+    private fun showOverlay() {
+
+        TapTargetView.showFor(requireActivity(),
+            TapTarget.forView(
+                binding.searchView,
+                "Hoşgeldiniz, arama barı üzerinden arama yapabilir,"
+            )
+                .outerCircleColor(R.color.primary_purple)
+                .outerCircleAlpha(0.96f)
+                .targetCircleColor(R.color.white)
+                .titleTextSize(20)
+                .titleTextColor(R.color.white)
+                .descriptionTextSize(10)
+                .descriptionTextColor(R.color.white)
+                .textColor(R.color.white)
+                .textTypeface(Typeface.SANS_SERIF)
+                .dimColor(R.color.black)
+                .drawShadow(true)
+                .cancelable(false)
+                .tintTarget(true)
+                .transparentTarget(false)
+                .icon(
+                    ContextCompat.getDrawable(
+                        requireContext(),
+                        R.drawable.search
+                    )
+                )
+                .targetRadius(60),
+            object : TapTargetView.Listener() {
+                override fun onTargetClick(view: TapTargetView) {
+                    super.onTargetClick(view)
+
+                    val itemViewHolder =
+                        binding.eCodesRecyclerView.findViewHolderForAdapterPosition(1)
+                    val itemView = itemViewHolder?.itemView
+
+                    if (itemView != null) {
+                        TapTargetView.showFor(requireActivity(),
+                            TapTarget.forView(
+                                itemView.findViewById<ImageView>(R.id.detailImageView),
+                                "Kartlara tıklayarak detay sayfasına gidebilir,"
+                            )
+                                .outerCircleColor(R.color.primary_purple)
+                                .outerCircleAlpha(0.96f)
+                                .targetCircleColor(R.color.white)
+                                .titleTextSize(20)
+                                .titleTextColor(R.color.white)
+                                .descriptionTextSize(10)
+                                .descriptionTextColor(R.color.white)
+                                .textColor(R.color.white)
+                                .textTypeface(Typeface.SANS_SERIF)
+                                .dimColor(R.color.black)
+                                .drawShadow(true)
+                                .cancelable(false)
+                                .tintTarget(true)
+                                .transparentTarget(true)
+                                .targetRadius(60),
+                            object : TapTargetView.Listener() {
+                                override fun onTargetClick(view: TapTargetView) {
+                                    super.onTargetClick(view)
+
+                                    TapTargetView.showFor(requireActivity(),
+                                        TapTarget.forView(
+                                            binding.CameraFloatingActionButton,
+                                            "Kamera butonuna tıklayarak ürün içerik fotoğrafı üzerinden görsel arama yapabilirsiniz.",
+                                            "Teşekkür ederiz."
+                                        )
+                                            .outerCircleColor(R.color.primary_purple)
+                                            .outerCircleAlpha(0.96f)
+                                            .targetCircleColor(R.color.white)
+                                            .titleTextSize(20)
+                                            .titleTextColor(R.color.white)
+                                            .descriptionTextSize(12)
+                                            .descriptionTextColor(R.color.white)
+                                            .textColor(R.color.white)
+                                            .textTypeface(Typeface.SANS_SERIF)
+                                            .dimColor(R.color.black)
+                                            .drawShadow(true)
+                                            .cancelable(false)
+                                            .tintTarget(true)
+                                            .transparentTarget(true)
+                                            .targetRadius(60),
+                                        object : TapTargetView.Listener() {
+                                            override fun onTargetClick(view: TapTargetView) {
+                                                super.onTargetClick(view)
+                                                viewModel.setFirstTime()
+                                            }
+                                        }
+                                    )
+                                }
+                            }
+                        )
+                    }
+                }
+            }
+        )
+    }
+
 
 }

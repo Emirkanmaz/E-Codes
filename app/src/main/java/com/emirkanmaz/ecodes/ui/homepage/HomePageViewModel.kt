@@ -5,6 +5,7 @@ import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.viewModelScope
 import com.emirkanmaz.ecodes.base.BaseViewModel
 import com.emirkanmaz.ecodes.data.ECodeRepository
+import com.emirkanmaz.ecodes.data.SharedPreferencesManager
 import com.emirkanmaz.ecodes.domain.models.ecode.ECodeItemUI
 import com.emirkanmaz.ecodes.ui.homepage.navigationevent.HomePageNavigationEvent
 import dagger.hilt.android.lifecycle.HiltViewModel
@@ -13,7 +14,8 @@ import javax.inject.Inject
 
 @HiltViewModel
 class HomePageViewModel @Inject constructor(
-    val eCodeRepository: ECodeRepository
+    val eCodeRepository: ECodeRepository,
+    val sharedPreferencesManager: SharedPreferencesManager,
 ) : BaseViewModel<HomePageNavigationEvent>() {
 
     private val _eCodeDetails = MutableLiveData<List<ECodeItemUI>>()
@@ -36,6 +38,14 @@ class HomePageViewModel @Inject constructor(
 
     fun setSearchQuery(query: String) {
         _searchQuery.value = query
+    }
+
+    fun isFirstTime(): Boolean {
+        return sharedPreferencesManager.isFirstTime()
+    }
+
+    fun setFirstTime(){
+        sharedPreferencesManager.setFirstTime(false)
     }
 
     fun navigateToDetail(eCode: String){

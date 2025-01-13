@@ -1,12 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
+
     <item
-        android:id="@+id/camera"
-        android:icon="@drawable/arrow_right"
-        android:title="Görsel Tanıma"/>
+        android:id="@+id/shareApp"
+        android:icon="@drawable/share_icon"
+        android:title="@string/share_app" />
+
+    <item
+        android:id="@+id/rateUs"
+        android:icon="@android:drawable/btn_star"
+        android:title="@string/rate_us" />
+
+    <item
+        android:id="@+id/eCodeRecognition"
+        android:icon="@drawable/camera"
+        android:title="@string/e_code_recognition" />
     <item
         android:id="@+id/privacyPolicy"
-        android:icon="@drawable/arrow_right"
-        android:title="Privacy Policy"/>
+        android:icon="@drawable/web_icon"
+        android:title="@string/privacy_policy"/>
 </menu>

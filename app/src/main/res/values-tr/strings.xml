@@ -23,5 +23,9 @@
     <string name="onboarding_camera">Kamera butonuna tıklayarak ürün içerik fotoğrafı üzerinden e-kod arama yapabilirsiniz.</string>
     <string name="onboarding_thanks">Teşekkür ederiz.</string>
     <string name="rate_us">Bizi Değerlendirin</string>
+    <string name="e_codes_not_found">Görselden katkı maddeleri bulunamadı. Tekrardan fotoğraf çekerek deneyebilir veya listeden aratabilirsiniz.</string>
+    <string name="privacy_policy">Gizlilik Sözleşmesi</string>
+    <string name="e_code_recognition">E-Kod Tanıma</string>
+    <string name="share_app">Uygulamayı Paylaş</string>
 
 </resources>

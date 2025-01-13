@@ -64,6 +64,8 @@ dependencies {
     implementation(libs.taptargetview)
     implementation(libs.play.services.ads)
     implementation(libs.lottie)
+    implementation(libs.androidx.browser)
+
 
     testImplementation(libs.junit)
 

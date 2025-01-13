@@ -23,5 +23,9 @@
     <string name="onboarding_camera">You can perform an e-code search on the product ingredients photo by clicking on the camera button.</string>
     <string name="onboarding_thanks">Thank you.</string>
     <string name="rate_us">Rate Us</string>
+    <string name="e_codes_not_found">No additives were found from the image. You can try again by taking another photo or search from the list.</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="e_code_recognition">E-Code Recognition</string>
+    <string name="share_app">Share App</string>
 
 </resources>

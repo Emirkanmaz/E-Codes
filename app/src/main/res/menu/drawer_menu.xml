@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
-        android:id="@+id/nav_home"
+        android:id="@+id/camera"
         android:icon="@drawable/arrow_right"
-        android:title="Home" />
+        android:title="Görsel Tanıma"/>
     <item
-        android:id="@+id/nav_settings"
+        android:id="@+id/privacyPolicy"
         android:icon="@drawable/arrow_right"
-        android:title="Settings" />
+        android:title="Privacy Policy"/>
 </menu>

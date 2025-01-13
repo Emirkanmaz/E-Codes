@@ -60,8 +60,10 @@ dependencies {
     implementation(libs.text.recognition)
     implementation(libs.text.recognition)
     implementation(libs.android.image.cropper)
-    implementation (libs.google.gson)
-    implementation (libs.taptargetview)
+    implementation(libs.google.gson)
+    implementation(libs.taptargetview)
+    implementation(libs.play.services.ads)
+    implementation(libs.lottie)
 
     testImplementation(libs.junit)
 

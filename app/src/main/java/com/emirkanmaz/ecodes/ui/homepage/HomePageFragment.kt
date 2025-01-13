@@ -87,6 +87,9 @@ class HomePageFragment : BaseFragment<FragmentHomePageBinding, HomePageViewModel
         viewModel.eCodeDetails.observe(viewLifecycleOwner) {
             eCodesAdapter.submitList(it)
         }
+        viewModel.nativeAdList.observe(viewLifecycleOwner) {
+            eCodesAdapter.submitAdList(it)
+        }
         viewModel.searchQuery.observe(viewLifecycleOwner) {
             eCodesAdapter.filter(it)
         }
@@ -124,13 +127,13 @@ class HomePageFragment : BaseFragment<FragmentHomePageBinding, HomePageViewModel
 
             navigationView.setNavigationItemSelectedListener { menuItem ->
                 when (menuItem.itemId) {
-                    R.id.nav_home -> {
-                        Toast.makeText(context, "Home seçildi!", Toast.LENGTH_SHORT).show()
-                    }
-
-                    R.id.nav_settings -> {
-                        Toast.makeText(context, "Settings seçildi!", Toast.LENGTH_SHORT).show()
-                    }
+//                    R.id.nav_home -> {
+//                        Toast.makeText(context, "Home seçildi!", Toast.LENGTH_SHORT).show()
+//                    }
+//
+//                    R.id.nav_settings -> {
+//                        Toast.makeText(context, "Settings seçildi!", Toast.LENGTH_SHORT).show()
+//                    }
                 }
                 drawerLayout.closeDrawer(GravityCompat.START)
                 true
@@ -182,6 +185,7 @@ class HomePageFragment : BaseFragment<FragmentHomePageBinding, HomePageViewModel
                 viewModel.navigateToDetail(eCodeItemUI.eCode)
             })
             it.eCodesRecyclerView.adapter = eCodesAdapter
+
         }
     }
 
@@ -196,7 +200,7 @@ class HomePageFragment : BaseFragment<FragmentHomePageBinding, HomePageViewModel
         TapTargetView.showFor(requireActivity(),
             TapTarget.forView(
                 binding.searchView,
-                "Hoşgeldiniz, arama barı üzerinden arama yapabilir,"
+                getString(R.string.onboarding_search)
             )
                 .outerCircleColor(R.color.primary_purple)
                 .outerCircleAlpha(0.96f)
@@ -231,7 +235,7 @@ class HomePageFragment : BaseFragment<FragmentHomePageBinding, HomePageViewModel
                         TapTargetView.showFor(requireActivity(),
                             TapTarget.forView(
                                 itemView.findViewById<ImageView>(R.id.detailImageView),
-                                "Kartlara tıklayarak detay sayfasına gidebilir,"
+                                getString(R.string.onboarding_card_detail)
                             )
                                 .outerCircleColor(R.color.primary_purple)
                                 .outerCircleAlpha(0.96f)
@@ -255,8 +259,8 @@ class HomePageFragment : BaseFragment<FragmentHomePageBinding, HomePageViewModel
                                     TapTargetView.showFor(requireActivity(),
                                         TapTarget.forView(
                                             binding.CameraFloatingActionButton,
-                                            "Kamera butonuna tıklayarak ürün içerik fotoğrafı üzerinden görsel arama yapabilirsiniz.",
-                                            "Teşekkür ederiz."
+                                            getString(R.string.onboarding_camera),
+                                            getString(R.string.onboarding_thanks)
                                         )
                                             .outerCircleColor(R.color.primary_purple)
                                             .outerCircleAlpha(0.96f)

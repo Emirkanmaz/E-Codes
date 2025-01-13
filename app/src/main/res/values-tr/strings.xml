@@ -18,5 +18,10 @@
     <string name="halal_status">Helallik:</string>
     <string name="source">Kaynak:</string>
     <string name="warning">Uyarı:</string>
+    <string name="onboarding_search">Hoşgeldiniz, arama barı üzerinden arama yapabilir,</string>
+    <string name="onboarding_card_detail">Kartlara tıklayarak detay sayfasına gidebilir,</string>
+    <string name="onboarding_camera">Kamera butonuna tıklayarak ürün içerik fotoğrafı üzerinden e-kod arama yapabilirsiniz.</string>
+    <string name="onboarding_thanks">Teşekkür ederiz.</string>
+    <string name="rate_us">Bizi Değerlendirin</string>
 
 </resources>

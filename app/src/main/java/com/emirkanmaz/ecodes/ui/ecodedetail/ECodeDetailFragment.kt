@@ -17,6 +17,7 @@ import com.emirkanmaz.ecodes.base.BaseNavigationEvent
 import com.emirkanmaz.ecodes.databinding.FragmentEcodeDetailBinding
 import com.emirkanmaz.ecodes.domain.models.ecode.ECodeDetail
 import com.emirkanmaz.ecodes.ui.ecodedetail.navigationevent.ECodeDetailNavigationEvent
+import com.google.android.gms.ads.AdRequest
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.launch
 import java.util.Locale
@@ -33,6 +34,7 @@ class ECodeDetailFragment: BaseFragment<FragmentEcodeDetailBinding, ECodeDetailV
     override fun init() {
         super.init()
         viewModel.getECodeDetail(args.eCode)
+        loadBannerAd()
     }
 
     override fun observeViewModel() {
@@ -119,6 +121,11 @@ class ECodeDetailFragment: BaseFragment<FragmentEcodeDetailBinding, ECodeDetailV
             typeface = ResourcesCompat.getFont(requireContext(), R.font.inter)
         }
         binding.warningLinearLayout.addView(textView)
+    }
+
+    private fun loadBannerAd() {
+        val adRequest = AdRequest.Builder().build()
+        binding.adView.loadAd(adRequest)
     }
 
 

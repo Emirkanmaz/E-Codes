@@ -73,7 +73,7 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:padding="16dp"
-        android:visibility="gone"
+        android:visibility="visible"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/capturedImageView"
@@ -92,6 +92,19 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"/>
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/lottieAnimationView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="8dp"
+            app:lottie_rawRes="@raw/lot"
+            app:lottie_loop="true"
+            app:lottie_autoPlay="true"
+            app:layout_constraintTop_toBottomOf="@id/emptyText"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="@id/emptyViewHolder"/>
 
 <!--        <Button-->
 <!--            android:id="@+id/btnEmptyAdd"-->
@@ -115,7 +128,7 @@
         android:id="@+id/listViewHolder"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:visibility="visible"
+        android:visibility="gone"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/capturedImageView">

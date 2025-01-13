@@ -21,7 +21,6 @@ class ECodeDetailViewModel @Inject constructor(
     val eCodeDetails: MutableLiveData<ECodeDetail> = _eCodeDetails
 
 
-
     fun getHalalBackground(halal: Int): Int {
         return when (halal) {
             1,2,4 -> R.color.primary_green

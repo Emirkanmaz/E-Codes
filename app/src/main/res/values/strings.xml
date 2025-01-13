@@ -1,6 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">E Codes</string>
-    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="success_snackbar_message">Successful.</string>
     <string name="error_snackbar_message">An error occurred.</string>
     <string name="info_snackbar_message">Info message.</string>
@@ -18,5 +18,10 @@
     <string name="halal_status">Halal status:</string>
     <string name="source">Source:</string>
     <string name="warning">Warning:</string>
+    <string name="onboarding_search">Welcome, can search via the search bar,</string>
+    <string name="onboarding_card_detail">Click on the cards to go to the detail page,</string>
+    <string name="onboarding_camera">You can perform an e-code search on the product ingredients photo by clicking on the camera button.</string>
+    <string name="onboarding_thanks">Thank you.</string>
+    <string name="rate_us">Rate Us</string>
 
 </resources>

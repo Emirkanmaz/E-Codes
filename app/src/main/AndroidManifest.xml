@@ -4,8 +4,6 @@
 
     <uses-permission android:name="android.permission.INTERNET"/>
 
-
-
     <application
         android:name=".MainApp"
         android:allowBackup="true"
@@ -16,8 +14,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ECodes"
-        tools:targetApi="35">
+        tools:targetApi="35"
+        android:hardwareAccelerated="true">
         <activity
+            android:hardwareAccelerated="true"
             android:name=".ui.MainActivity"
             android:exported="true"
             android:configChanges="orientation|screenSize|keyboardHidden"
@@ -28,7 +28,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <provider
             android:name="androidx.core.content.FileProvider"
             android:authorities="${applicationId}.provider"
@@ -38,6 +37,9 @@
                 android:name="android.support.FILE_PROVIDER_PATHS"
                 android:resource="@xml/file_paths" />
         </provider>
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-6542807046143275~5509290660"/>
     </application>
 
 </manifest>

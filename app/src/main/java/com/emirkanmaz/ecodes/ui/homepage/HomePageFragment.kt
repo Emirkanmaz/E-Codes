@@ -13,9 +13,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
-import android.widget.Toast
 import androidx.activity.result.contract.ActivityResultContracts
-import androidx.browser.customtabs.CustomTabsIntent
 import androidx.core.content.ContextCompat
 import androidx.core.view.GravityCompat
 import androidx.navigation.fragment.findNavController
@@ -116,6 +114,11 @@ class HomePageFragment : BaseFragment<FragmentHomePageBinding, HomePageViewModel
                     HomePageFragmentDirections.actionHomePageFragmentToECodeDetailFragment(event.eCode)
                 findNavController().safeNavigate(action)
             }
+
+            is HomePageNavigationEvent.NavigateToPrivacyPolicy -> {
+                val action = HomePageFragmentDirections.actionHomePageFragmentToPrivacyPolicyFragment()
+                findNavController().safeNavigate(action)
+            }
         }
     }
 
@@ -131,35 +134,20 @@ class HomePageFragment : BaseFragment<FragmentHomePageBinding, HomePageViewModel
             navigationView.setNavigationItemSelectedListener { menuItem ->
                 when (menuItem.itemId) {
                     R.id.shareApp -> {
-                        val shareIntent = Intent().apply {
-                            action = Intent.ACTION_SEND
-                            putExtra(Intent.EXTRA_TEXT, "Bu uygulamayı incelemelisin: https://play.google.com/store/apps/details?id=com.emirkanmaz.ecodes")
-                            type = "text/plain"
-                        }
-                        startActivity(Intent.createChooser(shareIntent, "Bağlantıyı Paylaş"))
+                        shareApp()
                     }
                     R.id.rateUs -> {
-                        val packageName = "com.emirkanmaz.ecodes"
-                        val playStoreLink = "market://details?id=$packageName"
-                        val webLink = "https://play.google.com/store/apps/details?id=$packageName"
-                        try {
-                            val intent = Intent(Intent.ACTION_VIEW, Uri.parse(playStoreLink))
-                            startActivity(intent)
-                        } catch (e: ActivityNotFoundException) {
-                            val webIntent = Intent(Intent.ACTION_VIEW, Uri.parse(webLink))
-                            startActivity(webIntent)
-                        }
+                        rateUs()
                     }
                     R.id.eCodeRecognition -> {
                         viewModel.navigateToCamera()
                     }
                     R.id.privacyPolicy -> {
-                        val privacyPolicyUrl = "https://www.google.com/"
-                        val customTabsIntent = CustomTabsIntent.Builder().build()
-                        customTabsIntent.launchUrl(requireContext(), Uri.parse(privacyPolicyUrl))
+                        viewModel.navigateToPrivacyPolicy()
+//                        val privacyPolicyUrl = "https://emirkanmaz.github.io/E-Codes/privacy-policy.html"
+//                        val customTabsIntent = CustomTabsIntent.Builder().build()
+//                        customTabsIntent.launchUrl(requireContext(), Uri.parse(privacyPolicyUrl))
                     }
-
-
 
                 }
                 drawerLayout.closeDrawer(GravityCompat.START)
@@ -219,6 +207,28 @@ class HomePageFragment : BaseFragment<FragmentHomePageBinding, HomePageViewModel
     private fun isFirstTime() {
         if (viewModel.isFirstTime()) {
             showOverlay()
+        }
+    }
+
+    private fun shareApp() {
+        val shareIntent = Intent().apply {
+            action = Intent.ACTION_SEND
+            putExtra(Intent.EXTRA_TEXT, getString(R.string.app_share_text))
+            type = "text/plain"
+        }
+        startActivity(Intent.createChooser(shareIntent, "Share"))
+    }
+
+    private fun rateUs() {
+        val packageName = "com.emirkanmaz.ecodes"
+        val playStoreLink = "market://details?id=$packageName"
+        val webLink = "https://play.google.com/store/apps/details?id=$packageName"
+        try {
+            val intent = Intent(Intent.ACTION_VIEW, Uri.parse(playStoreLink))
+            startActivity(intent)
+        } catch (e: ActivityNotFoundException) {
+            val webIntent = Intent(Intent.ACTION_VIEW, Uri.parse(webLink))
+            startActivity(webIntent)
         }
     }
 

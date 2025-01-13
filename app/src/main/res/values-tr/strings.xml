@@ -27,5 +27,6 @@
     <string name="privacy_policy">Gizlilik Sözleşmesi</string>
     <string name="e_code_recognition">E-Kod Tanıma</string>
     <string name="share_app">Uygulamayı Paylaş</string>
+    <string name="app_share_text">Bu uygulamayı incelemelisin: https://play.google.com/store/apps/details?id=com.emirkanmaz.ecodes</string>
 
 </resources>

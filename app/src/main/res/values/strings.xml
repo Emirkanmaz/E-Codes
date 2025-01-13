@@ -27,5 +27,6 @@
     <string name="privacy_policy">Privacy Policy</string>
     <string name="e_code_recognition">E-Code Recognition</string>
     <string name="share_app">Share App</string>
+    <string name="app_share_text">Bu uygulamayı incelemelisin: https://play.google.com/store/apps/details?id=com.emirkanmaz.ecodes</string>
 
 </resources>

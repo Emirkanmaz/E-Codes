@@ -24,6 +24,9 @@
             app:exitAnim="@anim/slide_to_left"
             app:popEnterAnim="@anim/slide_from_left"
             app:popExitAnim="@anim/slide_to_right" />
+        <action
+            android:id="@+id/action_homePageFragment_to_privacyPolicyFragment"
+            app:destination="@id/privacyPolicyFragment" />
     </fragment>
     <fragment
         android:id="@+id/cropFragment"
@@ -61,6 +64,11 @@
             android:name="eCode"
             app:argType="string" />
     </fragment>
+    <fragment
+        android:id="@+id/privacyPolicyFragment"
+        android:name="com.emirkanmaz.ecodes.ui.privacypolicy.PrivacyPolicyFragment"
+        android:label="fragment_privacy_policy"
+        tools:layout="@layout/fragment_privacy_policy" />
 
 
 </navigation>

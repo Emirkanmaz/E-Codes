@@ -98,4 +98,10 @@ class HomePageViewModel @Inject constructor(
         }
     }
 
+    fun navigateToPrivacyPolicy() {
+        viewModelScope.launch {
+            navigateTo(HomePageNavigationEvent.NavigateToPrivacyPolicy)
+        }
+    }
+
 }

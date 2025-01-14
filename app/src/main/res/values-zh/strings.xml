@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">E 代码</string>
+    <string name="success_snackbar_message">成功。</string>
+    <string name="error_snackbar_message">发生错误。</string>
+    <string name="info_snackbar_message">信息消息。</string>
+    <string name="camera_could_not_be_opened">无法打开相机。</string>
+    <string name="no_photo_found">​​未找到照片。</string>
+    <string name="an_error_occurred_during_crop">裁剪期间发生错误。</string>
+    <string name="text_recognition_failed">文本识别失败。</string>
+    <string name="navigation_error_please_try_again">导航错误。请重试。</string>
+    <string name="press_back_again_to_exit">再次按“返回”退出。</string>
+    <string name="search">搜索…</string>
+    <string name="found_additives">找到添加剂</string>
+    <string name="e_codes">电子代码：</string>
+    <string name="e_code_details">电子代码详情</string>
+    <string name="health_perspective">健康观点：</string>
+    <string name="halal_status">清真状态：</string>
+    <string name="source">来源：</string>
+    <string name="warning">警告：</string>
+    <string name="onboarding_search">欢迎，可通过搜索栏进行搜索，</string>
+    <string name="onboarding_card_detail">点击卡片进入详情页面，</string>
+    <string name="onboarding_camera">您可以通过点击产品成分照片上的相机按钮。</string>
+    <string name="onboarding_thanks">谢谢。</string>
+    <string name="rate_us">给我们评分</string>
+    <string name="e_codes_not_found">​​未从图片中发现任何添加剂。您可以重拍另一张照片或从列表中搜索。</string>
+    <string name="privacy_policy">隐私政策</string>
+    <string name="e_code_recognition">E-Code 识别</string>
+    <string name="share_app">分享应用</string>
+    <string name="app_share_text">要获取更多信息，请访问：https://play.google.com/store/apps/details?id=com.emirkanmaz.ecodes</string>
+
+</resources>

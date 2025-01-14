@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">E-Codes</string>
+    <string name="success_snackbar_message">Erfolgreich.</string>
+    <string name="error_snackbar_message">Ein Fehler ist aufgetreten.</string>
+    <string name="info_snackbar_message">Info-Nachricht.</string>
+    <string name="camera_could_not_be_opened">Kamera konnte nicht geöffnet werden.</string>
+    <string name="no_photo_found">Kein Foto gefunden.</string>
+    <string name="an_error_occurred_during_crop">Beim Zuschneiden ist ein Fehler aufgetreten.</string>
+    <string name="text_recognition_failed">Texterkennung fehlgeschlagen.</string>
+    <string name="navigation_error_please_try_again">Navigationsfehler. Bitte versuchen Sie es erneut.</string>
+    <string name="press_back_again_to_exit">Drücken Sie erneut auf Zurück, um zu beenden.</string>
+    <string name="search">Suchen…</string>
+    <string name="found_additives">Gefundene Zusatzstoffe</string>
+    <string name="e_codes">E-Codes:</string>
+    <string name="e_code_details">E-Code-Details</string>
+    <string name="health_perspective">Gesundheitsperspektive:</string>
+    <string name="halal_status">Halal-Status:</string>
+    <string name="source">Quelle:</string>
+    <string name="warning">Warnung:</string>
+    <string name="onboarding_search">Willkommen, Sie können über die Suchleiste suchen.</string>
+    <string name="onboarding_card_detail">Klicken Sie auf die Karten, um zur Detailseite zu gelangen.</string>
+    <string name="onboarding_camera">Sie können eine E-Code-Suche auf dem Produktzutatenfoto durchführen, indem Sie auf die Kamera klicken. Schaltfläche.</string>
+    <string name="onboarding_thanks">Vielen Dank.</string>
+    <string name="rate_us">Bewerten Sie uns</string>
+    <string name="e_codes_not_found">Es wurden keine Zusätze im Bild gefunden. Sie können es erneut versuchen, indem Sie ein anderes Foto aufnehmen oder aus der Liste suchen.</string>
+    <string name="privacy_policy">Datenschutzrichtlinie</string>
+    <string name="e_code_recognition">E-Code-Erkennung</string>
+    <string name="share_app">App teilen</string>
+    <string name="app_share_text">Diesen Link finden Sie hier: https://play.google.com/store/apps/details?id=com.emirkanmaz.ecodes</string>
+
+</resources>

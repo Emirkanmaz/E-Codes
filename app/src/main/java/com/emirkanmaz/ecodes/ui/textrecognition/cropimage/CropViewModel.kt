@@ -1,6 +1,5 @@
 package com.emirkanmaz.ecodes.ui.textrecognition.cropimage
 
-import android.graphics.Bitmap
 import androidx.lifecycle.viewModelScope
 import com.emirkanmaz.ecodes.base.BaseViewModel
 import com.emirkanmaz.ecodes.ui.textrecognition.cropimage.navigationevent.CropNavigationEvent
@@ -19,9 +18,9 @@ class CropViewModel @Inject constructor(
         }
     }
 
-    fun navigateToResultFragment(croppedImage: Bitmap) {
+    fun navigateToResultFragment() {
         viewModelScope.launch {
-            navigateTo(CropNavigationEvent.NavigateToResultFragment(croppedImage))
+            navigateTo(CropNavigationEvent.NavigateToResultFragment)
         }
     }
 

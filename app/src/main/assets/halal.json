@@ -2,67 +2,67 @@
   {
     "halal": 1,
     "desc": {
-      "tr": "Helaldir.",
-      "en": ""
+      "tr": "Helal",
+      "en": "Halal"
     },
     "type": {
-      "tr": "Hayvansal kaynaklardan üretilmemiştir.",
-      "en": ""
+      "tr": "Hayvansal kaynak içermez.",
+      "en": "Not produced from animal sources."
     }
   },
   {
     "halal": 2,
     "desc": {
-      "tr": "Helaldir fakat helal olmayan yağlarla karışmış olabilir.",
-      "en": ""
+      "tr": "Helal fakat helal olmayan yağlarla karışmış olabilir.",
+      "en": "It is halal but may be mixed with non-halal fats."
     },
     "type": {
       "tr": "Hayvansal kaynaklardan üretilmemiştir fakat üretim aşamasında helal olmayan hayvansal yağlarla karışmış olabilir.",
-      "en": ""
+      "en": "It is not produced from animal sources, but may be mixed with non-halal animal fats during the production process."
     }
   },
   {
     "halal": 3,
     "desc": {
-      "tr": "Helal olmayabilir.",
-      "en": ""
+      "tr": "Helalliği şüpheli",
+      "en": "Doubtful halalness."
     },
     "type": {
       "tr": "Hem hayvansal hem diğer kaynaklardan üretilebilir.",
-      "en": ""
+      "en": "It can be produced from both animal and other sources."
     }
   },
   {
     "halal": 4,
     "desc": {
-      "tr": "Helaldir",
-      "en": ""
+      "tr": "Helal",
+      "en": "Halal"
     },
     "type": {
       "tr": "Hayvansal kaynaklardan üretilmiştir.",
-      "en": ""
+      "en": "Produced from animal sources."
     }
   },
   {
     "halal": 5,
     "desc": {
       "tr": "Bazı mesheplere göre helal olup, bazı mesheplere göre caiz değildir.",
-      "en": ""
+      "en": "It is permissible according to some Madhhabs and not permissible according to others."
     },
     "type": {
       "tr": "Hayvansal kaynaklardan üretilmiştir.",
-      "en": ""
+      "en": "Produced from animal sources."
     }
   },
   {
     "halal": 6,
     "desc": {
-      "tr": "Helal olmayabilir.",
-      "en": ""
+      "tr": "Helalliği şüpheli",
+      "en": "Doubtful halalness"
     },
     "type": {
       "tr": "Etil alkol içerebilir.",
-      "en": ""
+      "en": "May contain ethyl alcohol."
     }
   }
 ]

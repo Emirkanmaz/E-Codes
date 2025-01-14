@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">E-коды</string>
+    <string name="success_snackbar_message">Успешно.</string>
+    <string name="error_snackbar_message">Произошла ошибка.</string>
+    <string name="info_snackbar_message">Информационное сообщение.</string>
+    <string name="camera_could_not_be_opened">Не удалось открыть камеру.</string>
+    <string name="no_photo_found">Фотографии не найдены.</string>
+    <string name="an_error_occurred_during_crop">Произошла ошибка во время кадрирования.</string>
+    <string name="text_recognition_failed">Не удалось распознать текст.</string>
+    <string name="navigation_error_please_try_again">Ошибка навигации. Попробуйте еще раз.</string>
+    <string name="press_back_again_to_exit">Нажмите «Назад» еще раз, чтобы выйти.</string>
+    <string name="search">Поиск…</string>
+    <string name="found_additives">Найденные добавки</string>
+    <string name="e_codes">Электронные коды:</string>
+    <string name="e_code_details">Сведения об электронном коде</string>
+    <string name="health_perspective">Перспектива здоровья:</string>
+    <string name="halal_status">Статус «Халяль»:</string>
+    <string name="source">Источник:</string>
+    <string name="warning">Предупреждение:</string>
+    <string name="onboarding_search">Добро пожаловать, можете выполнить поиск через строку поиска,</string>
+    <string name="onboarding_card_detail">Нажмите на карты для перехода на страницу с подробностями,</string>
+    <string name="onboarding_camera">Вы можете выполнить поиск электронного кода на фотографии ингредиентов продукта, нажав на кнопку камеры.</string>
+    <string name="onboarding_thanks">Спасибо.</string>
+    <string name="rate_us">Оцените нас</string>
+    <string name="e_codes_not_found">На изображении не обнаружено добавок. Вы можете повторить попытку, сделав еще одно фото или выполнив поиск в списке.</string>
+    <string name="privacy_policy">Политика конфиденциальности</string>
+    <string name="e_code_recognition">Распознавание электронного кода</string>
+    <string name="share_app">Поделиться приложением</string>
+    <string name="app_share_text">Вам необходимо указать: https://play.google.com/store/apps/details?id=com.emirkanmaz.ecodes</string>
+
+</resources>

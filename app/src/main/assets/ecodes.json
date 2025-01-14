@@ -13,7 +13,7 @@
         "ecode": "E101(i)",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Riboflavin",
             "en": "Riboflavin"
@@ -30,7 +30,7 @@
         }
     },
     {
-        "ecode": "E102 ",
+        "ecode": "E102",
         "halal": 1,
         "risk": 3,
         "warning": "1|6|14|7|5",
@@ -40,7 +40,7 @@
         }
     },
     {
-        "ecode": "E104 ",
+        "ecode": "E104",
         "halal": 1,
         "risk": 3,
         "warning": "6",
@@ -50,7 +50,7 @@
         }
     },
     {
-        "ecode": "E110 ",
+        "ecode": "E110",
         "halal": 1,
         "risk": 3,
         "warning": "6|5",
@@ -60,7 +60,7 @@
         }
     },
     {
-        "ecode": "E120 ",
+        "ecode": "E120",
         "halal": 5,
         "risk": 2,
         "warning": "1",
@@ -70,7 +70,7 @@
         }
     },
     {
-        "ecode": "E120 ",
+        "ecode": "E120",
         "halal": 5,
         "risk": 2,
         "warning": "1",
@@ -80,7 +80,7 @@
         }
     },
     {
-        "ecode": "E122 ",
+        "ecode": "E122",
         "halal": 1,
         "risk": 3,
         "warning": "6|7|3",
@@ -90,7 +90,7 @@
         }
     },
     {
-        "ecode": "E122 ",
+        "ecode": "E122",
         "halal": 1,
         "risk": 3,
         "warning": "6",
@@ -100,7 +100,7 @@
         }
     },
     {
-        "ecode": "E123 ",
+        "ecode": "E123",
         "halal": 1,
         "risk": 3,
         "warning": "6|5|14",
@@ -120,7 +120,7 @@
         }
     },
     {
-        "ecode": "E124 ",
+        "ecode": "E124",
         "halal": 1,
         "risk": 3,
         "warning": "1|6",
@@ -130,7 +130,7 @@
         }
     },
     {
-        "ecode": "E127 ",
+        "ecode": "E127",
         "halal": 1,
         "risk": 3,
         "warning": "1|6|5|14",
@@ -140,7 +140,7 @@
         }
     },
     {
-        "ecode": "E129 ",
+        "ecode": "E129",
         "halal": 1,
         "risk": 3,
         "warning": "1|6|14|5",
@@ -150,7 +150,7 @@
         }
     },
     {
-        "ecode": "E131 ",
+        "ecode": "E131",
         "halal": 1,
         "risk": 3,
         "warning": "1|6|5",
@@ -160,7 +160,7 @@
         }
     },
     {
-        "ecode": "E132 ",
+        "ecode": "E132",
         "halal": 1,
         "risk": 3,
         "warning": "1|6",
@@ -170,17 +170,17 @@
         }
     },
     {
-        "ecode": "E132 ",
+        "ecode": "E132",
         "halal": 1,
         "risk": 3,
         "warning": "1|6",
         "names": {
-            "tr": " İndigo karmin",
-            "en": " Indigo carmine"
+            "tr": "İndigo karmin",
+            "en": "Indigo carmine"
         }
     },
     {
-        "ecode": "E133 ",
+        "ecode": "E133",
         "halal": 1,
         "risk": 3,
         "warning": "6|5|14",
@@ -193,7 +193,7 @@
         "ecode": "E140",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Klorofiller ve klorofilinler",
             "en": "Chlorophylis and chlorophyllins"
@@ -203,17 +203,17 @@
         "ecode": "E140(i)",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Klorofiller",
-            "en": "Chlorophylls "
+            "en": "Chlorophylls"
         }
     },
     {
         "ecode": "E140(ii)",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Klorofilinler",
             "en": "Chlorophyllins"
@@ -223,7 +223,7 @@
         "ecode": "E141",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Klorofiller ve klorofilinlerin bakır kompleksleri",
             "en": "Copper complexes of chlorophylls and chlorophyllins"
@@ -233,24 +233,24 @@
         "ecode": "E141(i)",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Klorofillerin bakır kompleksleri",
-            "en": "Copper complexes of chlorophylls "
+            "en": "Copper complexes of chlorophylls"
         }
     },
     {
         "ecode": "E141(ii)",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Klorofilinlerin bakır kompleksleri",
             "en": "Copper complexes of chlorophyllins"
         }
     },
     {
-        "ecode": "E142 ",
+        "ecode": "E142",
         "halal": 1,
         "risk": 3,
         "warning": "6",
@@ -260,7 +260,7 @@
         }
     },
     {
-        "ecode": "E150(a) ",
+        "ecode": "E150(a)",
         "halal": 1,
         "risk": 3,
         "warning": "5|8",
@@ -270,7 +270,7 @@
         }
     },
     {
-        "ecode": "E150(b) ",
+        "ecode": "E150(b)",
         "halal": 1,
         "risk": 3,
         "warning": "5|8",
@@ -280,7 +280,7 @@
         }
     },
     {
-        "ecode": "E150(c) ",
+        "ecode": "E150(c)",
         "halal": 1,
         "risk": 3,
         "warning": "5|6|8",
@@ -290,7 +290,7 @@
         }
     },
     {
-        "ecode": "E150(d) ",
+        "ecode": "E150(d)",
         "halal": 1,
         "risk": 3,
         "warning": "5|6|8",
@@ -300,7 +300,7 @@
         }
     },
     {
-        "ecode": "E151 ",
+        "ecode": "E151",
         "halal": 1,
         "risk": 3,
         "warning": "6|5",
@@ -310,17 +310,17 @@
         }
     },
     {
-        "ecode": "E153 ",
+        "ecode": "E153",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Bitkisel karbon",
             "en": "Vegetable carbon"
         }
     },
     {
-        "ecode": "E155 ",
+        "ecode": "E155",
         "halal": 1,
         "risk": 3,
         "warning": "6",
@@ -330,107 +330,107 @@
         }
     },
     {
-        "ecode": "E160 a (iii)  ",
+        "ecode": "E160a(iii)",
         "halal": 2,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Blakeslea trispora’dan beta karoten",
             "en": "beta-Carotene derived from Blakeslea trispora"
         }
     },
     {
-        "ecode": "E160 d (ii)",
+        "ecode": "E160d(ii)",
         "halal": 11,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
-            "tr": "Kırmızı domates likopeni ",
+            "tr": "Kırmızı domates likopeni",
             "en": "Lycopene extracted from tomatoes"
         }
     },
     {
-        "ecode": "E160 d (iii) ",
+        "ecode": "E160d(iii)",
         "halal": 2,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Blakeslea trispora’dan likopen",
             "en": "Lycopene from Blakeslea trispora"
         }
     },
     {
-        "ecode": "E160(a) ",
+        "ecode": "E160(a)",
         "halal": 2,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Karotenler",
             "en": "Carotenes"
         }
     },
     {
-        "ecode": "E160(a)(i) ",
+        "ecode": "E160(a)(i)",
         "halal": 2,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Beta-karoten",
             "en": "Beta-carotene"
         }
     },
     {
-        "ecode": "E160(a)(ii)  ",
+        "ecode": "E160(a)(ii)",
         "halal": 2,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Bitkisel karotenler",
             "en": "Carotenes (vegetable)"
         }
     },
     {
-        "ecode": "E160(c) ",
+        "ecode": "E160(c)",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Kapsantin",
             "en": "Capsanthin"
         }
     },
     {
-        "ecode": "E160(c) ",
+        "ecode": "E160(c)",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Kapsorubin",
             "en": "Capsorubin"
         }
     },
     {
-        "ecode": "E160(c) ",
+        "ecode": "E160(c)",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Paprika ekstraktı",
             "en": "Paprika extract"
         }
     },
     {
-        "ecode": "E160(d) ",
+        "ecode": "E160(d)",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Likopen",
             "en": "Lycopene"
         }
     },
     {
-        "ecode": "E160(e) ",
+        "ecode": "E160(e)",
         "halal": 2,
         "risk": 3,
         "warning": "5",
@@ -443,7 +443,7 @@
         "ecode": "E160a(iv)",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Algal karotenler",
             "en": "Carotenes (Algea)"
@@ -456,11 +456,11 @@
         "warning": "1|18",
         "names": {
             "tr": "Çözücü ile ekstrakte edilen biksin ve norbiksin",
-            "en": "Solvent-extracted bixin/ norbixin) "
+            "en": "Solvent-extracted bixin/ norbixin)"
         }
     },
     {
-        "ecode": "E160b(iii)  ",
+        "ecode": "E160b(iii)",
         "halal": 3,
         "risk": 2,
         "warning": "1|15",
@@ -473,57 +473,57 @@
         "ecode": "E160d(i)",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Sentetik likopen",
             "en": "Synthetic lycopene"
         }
     },
     {
-        "ecode": "E161(b) ",
+        "ecode": "E161(b)",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Lutein",
             "en": "Lutein"
         }
     },
     {
-        "ecode": "E161(g)   ",
+        "ecode": "E161(g)",
         "halal": 2,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Kantaksantin",
             "en": "Canthaxanthin"
         }
     },
     {
-        "ecode": "E162 ",
+        "ecode": "E162",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Betanin",
             "en": "Betanin"
         }
     },
     {
-        "ecode": "E162 ",
+        "ecode": "E162",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Pancar kökü kırmızısı",
             "en": "Beetroot red"
         }
     },
     {
-        "ecode": "E163 ",
+        "ecode": "E163",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Antosiyaninler",
             "en": "Anthocyanins"
@@ -533,14 +533,14 @@
         "ecode": "E170",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Kalsiyum karbonatlar",
             "en": "Calcium carbonates"
         }
     },
     {
-        "ecode": "E171 ",
+        "ecode": "E171",
         "halal": 1,
         "risk": 3,
         "warning": "19|9|14",
@@ -550,17 +550,17 @@
         }
     },
     {
-        "ecode": "E172 ",
+        "ecode": "E172",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Demir oksit ve hidroksitler",
             "en": "Iron oxides and hydroxides"
         }
     },
     {
-        "ecode": "E173 ",
+        "ecode": "E173",
         "halal": 1,
         "risk": 3,
         "warning": "3|9|14|8",
@@ -570,7 +570,7 @@
         }
     },
     {
-        "ecode": "E174 ",
+        "ecode": "E174",
         "halal": 1,
         "risk": 3,
         "warning": "2",
@@ -580,7 +580,7 @@
         }
     },
     {
-        "ecode": "E175 ",
+        "ecode": "E175",
         "halal": 1,
         "risk": 3,
         "warning": "2",
@@ -590,7 +590,7 @@
         }
     },
     {
-        "ecode": "E180 ",
+        "ecode": "E180",
         "halal": 1,
         "risk": 2,
         "warning": "1",
@@ -600,7 +600,7 @@
         }
     },
     {
-        "ecode": "E200 ",
+        "ecode": "E200",
         "halal": 1,
         "risk": 3,
         "warning": "15|5",
@@ -610,7 +610,7 @@
         }
     },
     {
-        "ecode": "E202 ",
+        "ecode": "E202",
         "halal": 1,
         "risk": 3,
         "warning": "13|5",
@@ -620,7 +620,7 @@
         }
     },
     {
-        "ecode": "E210 ",
+        "ecode": "E210",
         "halal": 1,
         "risk": 3,
         "warning": "1|5|6|14|7",
@@ -630,167 +630,167 @@
         }
     },
     {
-        "ecode": "E211 ",
+        "ecode": "E211",
         "halal": 1,
         "risk": 3,
         "warning": "1|5|6|14|7",
         "names": {
             "tr": "Sodyum benzoat",
-            "en": "Sodium benzoate "
+            "en": "Sodium benzoate"
         }
     },
     {
-        "ecode": "E212 ",
+        "ecode": "E212",
         "halal": 1,
         "risk": 3,
         "warning": "1|5|6|14|7",
         "names": {
             "tr": "Potasyum benzoat",
-            "en": "Potassium benzoate "
+            "en": "Potassium benzoate"
         }
     },
     {
-        "ecode": "E213 ",
+        "ecode": "E213",
         "halal": 1,
         "risk": 3,
         "warning": "1|5|6|14|7",
         "names": {
             "tr": "Kalsiyum benzoat",
-            "en": "Calcium benzoate "
+            "en": "Calcium benzoate"
         }
     },
     {
-        "ecode": "E214 ",
+        "ecode": "E214",
         "halal": 1,
         "risk": 3,
         "warning": "1|11|8",
         "names": {
             "tr": "Etil p-hidroksibenzoat",
-            "en": "Ethyl p-hydroxybenzoate "
+            "en": "Ethyl p-hydroxybenzoate"
         }
     },
     {
-        "ecode": "E215 ",
+        "ecode": "E215",
         "halal": 1,
         "risk": 3,
         "warning": "1|11|8",
         "names": {
             "tr": "Sodyum etil p-hidroksibenzoat",
-            "en": "Sodium ethyl p-hydroxybenzoate "
+            "en": "Sodium ethyl p-hydroxybenzoate"
         }
     },
     {
-        "ecode": "E218 ",
+        "ecode": "E218",
         "halal": 1,
         "risk": 3,
         "warning": "1|11|8",
         "names": {
             "tr": "Metil p-hidroksibenzoat",
-            "en": "Methyl p-hydroxybenzoate "
+            "en": "Methyl p-hydroxybenzoate"
         }
     },
     {
-        "ecode": "E219 ",
+        "ecode": "E219",
         "halal": 1,
         "risk": 3,
         "warning": "1|11|8",
         "names": {
             "tr": "Sodyum metil p-hidroksibenzoat",
-            "en": "Sodium methyl p-hydroxybenzoate "
+            "en": "Sodium methyl p-hydroxybenzoate"
         }
     },
     {
-        "ecode": "E220 ",
+        "ecode": "E220",
         "halal": 1,
         "risk": 2,
         "warning": "1",
         "names": {
             "tr": "Kükürt dioksit",
-            "en": "Sulphur dioxide "
+            "en": "Sulphur dioxide"
         }
     },
     {
-        "ecode": "E221 ",
+        "ecode": "E221",
         "halal": 1,
         "risk": 3,
         "warning": "1|10|19",
         "names": {
             "tr": "Sodyum sülfit",
-            "en": "Sodium sulphite "
+            "en": "Sodium sulphite"
         }
     },
     {
-        "ecode": "E222 ",
+        "ecode": "E222",
         "halal": 1,
         "risk": 3,
         "warning": "1|10|19",
         "names": {
             "tr": "Sodyum hidrojen sülfit",
-            "en": "Sodium hydrogen sulphite "
+            "en": "Sodium hydrogen sulphite"
         }
     },
     {
-        "ecode": "E223 ",
+        "ecode": "E223",
         "halal": 1,
         "risk": 3,
         "warning": "1|10|19",
         "names": {
             "tr": "Sodyum metabisülfit",
-            "en": "Sodium metabisulphite "
+            "en": "Sodium metabisulphite"
         }
     },
     {
-        "ecode": "E224 ",
+        "ecode": "E224",
         "halal": 1,
         "risk": 3,
         "warning": "1|10|19",
         "names": {
             "tr": "Potasyum metabisülfit",
-            "en": "Potassium metabisulphite "
+            "en": "Potassium metabisulphite"
         }
     },
     {
-        "ecode": "E226 ",
+        "ecode": "E226",
         "halal": 1,
         "risk": 3,
         "warning": "1|10|19",
         "names": {
             "tr": "Kalsiyum sülfit",
-            "en": "Calcium sulphite "
+            "en": "Calcium sulphite"
         }
     },
     {
-        "ecode": "E227 ",
+        "ecode": "E227",
         "halal": 1,
         "risk": 3,
         "warning": "1|10|19",
         "names": {
             "tr": "Kalsiyum hidrojen sülfit",
-            "en": "Calcium hydrogen sulphite "
+            "en": "Calcium hydrogen sulphite"
         }
     },
     {
-        "ecode": "E228 ",
+        "ecode": "E228",
         "halal": 1,
         "risk": 3,
         "warning": "1|10|19",
         "names": {
             "tr": "Potasyum hidrojen sülfit",
-            "en": "Potassium hydrogen sulphite "
+            "en": "Potassium hydrogen sulphite"
         }
     },
     {
-        "ecode": "E234 ",
+        "ecode": "E234",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Nisin",
             "en": "Nisin"
         }
     },
     {
-        "ecode": "E235 ",
+        "ecode": "E235",
         "halal": 1,
         "risk": 3,
         "warning": "5",
@@ -800,63 +800,63 @@
         }
     },
     {
-        "ecode": "E239 ",
+        "ecode": "E239",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Hekzametilen tetramin",
             "en": "Hexamethylenetetramine"
         }
     },
     {
-        "ecode": "E242 ",
+        "ecode": "E242",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Dimetil dikarbonat",
-            "en": "Dimethyl dicarbonate "
+            "en": "Dimethyl dicarbonate"
         }
     },
     {
         "ecode": "E243",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Etil laurol arjinat",
             "en": "Ethyl lauroyl arginate"
         }
     },
     {
-        "ecode": "E249 ",
+        "ecode": "E249",
         "halal": 1,
         "risk": 3,
         "warning": "10|8",
         "names": {
             "tr": "Potasyum nitrit",
-            "en": "Potassium nitrite "
+            "en": "Potassium nitrite"
         }
     },
     {
-        "ecode": "E250 ",
+        "ecode": "E250",
         "halal": 1,
         "risk": 3,
         "warning": "10|8",
         "names": {
             "tr": "Sodyum nitrit",
-            "en": "Sodium nitrite "
+            "en": "Sodium nitrite"
         }
     },
     {
-        "ecode": "E251 ",
+        "ecode": "E251",
         "halal": 1,
         "risk": 3,
         "warning": "10|8",
         "names": {
             "tr": "Sodyum nitrat",
-            "en": "Sodium nitrate "
+            "en": "Sodium nitrate"
         }
     },
     {
@@ -880,30 +880,30 @@
         }
     },
     {
-        "ecode": "E252 ",
+        "ecode": "E252",
         "halal": 1,
         "risk": 3,
         "warning": "10|8",
         "names": {
             "tr": "Potasyum nitrat",
-            "en": "Potassium nitrate "
+            "en": "Potassium nitrate"
         }
     },
     {
-        "ecode": "E260 ",
+        "ecode": "E260",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Asetik asit",
             "en": "Acetic acid"
         }
     },
     {
-        "ecode": "E261 ",
+        "ecode": "E261",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Potasyum asetat",
             "en": "Potassium acetate"
@@ -913,7 +913,7 @@
         "ecode": "E261(ii)",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Potasyum diasetat",
             "en": "Potassium diacetate"
@@ -923,7 +923,7 @@
         "ecode": "E262",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Sodyum asetatlar",
             "en": "Sodium acetates"
@@ -933,17 +933,17 @@
         "ecode": "E262(i)",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Sodyum asetat",
-            "en": "Sodium acetate "
+            "en": "Sodium acetate"
         }
     },
     {
         "ecode": "E262(ii)",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Sodyum diasetat",
             "en": "Sodium diacetate"
@@ -953,124 +953,124 @@
         "ecode": "E262(ii)",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Sodyum hidrojen asetat",
             "en": "Sodium hydrogen acetate"
         }
     },
     {
-        "ecode": "E263 ",
+        "ecode": "E263",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Kalsiyum asetat",
-            "en": "Calcium acetate "
+            "en": "Calcium acetate"
         }
     },
     {
-        "ecode": "E270 ",
+        "ecode": "E270",
         "halal": 1,
         "risk": 1,
         "warning": "21",
         "names": {
             "tr": "Laktik asit",
-            "en": "Lactic acid "
+            "en": "Lactic acid"
         }
     },
     {
-        "ecode": "E280 ",
+        "ecode": "E280",
         "halal": 1,
         "risk": 3,
         "warning": "17|11|5",
         "names": {
             "tr": "Propiyonik asit",
-            "en": "Propionic acid "
+            "en": "Propionic acid"
         }
     },
     {
-        "ecode": "E281 ",
+        "ecode": "E281",
         "halal": 1,
         "risk": 3,
         "warning": "17|11|5",
         "names": {
             "tr": "Sodyum propiyonat",
-            "en": "Sodium propionate "
+            "en": "Sodium propionate"
         }
     },
     {
-        "ecode": "E282 ",
+        "ecode": "E282",
         "halal": 1,
         "risk": 3,
         "warning": "17|11|5",
         "names": {
             "tr": "Kalsiyum propiyonat",
-            "en": "Calcium propionate "
+            "en": "Calcium propionate"
         }
     },
     {
-        "ecode": "E283 ",
+        "ecode": "E283",
         "halal": 1,
         "risk": 3,
         "warning": "17|11|5",
         "names": {
             "tr": "Potasyum propiyonat",
-            "en": "Potassium propionate "
+            "en": "Potassium propionate"
         }
     },
     {
-        "ecode": "E284 ",
+        "ecode": "E284",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Borik asit",
-            "en": "Boric acid "
+            "en": "Boric acid"
         }
     },
     {
         "ecode": "E285",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Boraks",
             "en": "Borax"
         }
     },
     {
-        "ecode": "E285 ",
+        "ecode": "E285",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Sodyum tetraborat",
             "en": "Sodium tetraborate"
         }
     },
     {
-        "ecode": "E290 ",
+        "ecode": "E290",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Karbon dioksit",
-            "en": "Carbon dioxide "
+            "en": "Carbon dioxide"
         }
     },
     {
-        "ecode": "E296 ",
+        "ecode": "E296",
         "halal": 1,
         "risk": 1,
         "warning": "21",
         "names": {
             "tr": "Malik asit",
-            "en": "Malic acid "
+            "en": "Malic acid"
         }
     },
     {
-        "ecode": "E297 ",
+        "ecode": "E297",
         "halal": 1,
         "risk": 3,
         "warning": "9|19",
@@ -1110,103 +1110,103 @@
         }
     },
     {
-        "ecode": "E301 ",
+        "ecode": "E301",
         "halal": 1,
         "risk": 1,
         "warning": "18",
         "names": {
             "tr": "Sodyum askorbat",
-            "en": "Sodium ascorbate "
+            "en": "Sodium ascorbate"
         }
     },
     {
-        "ecode": "E302 ",
+        "ecode": "E302",
         "halal": 1,
         "risk": 1,
         "warning": "18",
         "names": {
             "tr": "Kalsiyum askorbat",
-            "en": "Calcium ascorbate "
+            "en": "Calcium ascorbate"
         }
     },
     {
-        "ecode": "E304(i)  ",
+        "ecode": "E304(i)",
         "halal": 3,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Askorbil palmitat",
-            "en": "Ascorbyl palmitate "
+            "en": "Ascorbyl palmitate"
         }
     },
     {
-        "ecode": "E304(ii) ",
+        "ecode": "E304(ii)",
         "halal": 3,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Askorbil stearat",
             "en": "Ascorbyl stearate"
         }
     },
     {
-        "ecode": "E306 ",
+        "ecode": "E306",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Tokoferolce zengin ekstrakt",
-            "en": "Tocopherol-rich extract "
+            "en": "Tocopherol-rich extract"
         }
     },
     {
-        "ecode": "E307 ",
+        "ecode": "E307",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Alfa-tokoferol",
-            "en": "Alpha-tocopherol "
+            "en": "Alpha-tocopherol"
         }
     },
     {
-        "ecode": "E308 ",
+        "ecode": "E308",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Gama-tokoferol",
-            "en": "Gamma-tocopherol "
+            "en": "Gamma-tocopherol"
         }
     },
     {
-        "ecode": "E309 ",
+        "ecode": "E309",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Delta-tokoferol",
-            "en": "Delta-tocopherol "
+            "en": "Delta-tocopherol"
         }
     },
     {
-        "ecode": "E315 ",
+        "ecode": "E315",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Eritorbik asit",
-            "en": "Erythorbic acid "
+            "en": "Erythorbic acid"
         }
     },
     {
-        "ecode": "E316 ",
+        "ecode": "E316",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Sodyum eritorbat",
-            "en": "Sodium erythorbate "
+            "en": "Sodium erythorbate"
         }
     },
     {
@@ -1220,27 +1220,27 @@
         }
     },
     {
-        "ecode": "E320 ",
+        "ecode": "E320",
         "halal": 1,
         "risk": 3,
         "warning": "1|5|8",
         "names": {
             "tr": "Bütillendirilmiş hidroksianisol (BHA)",
-            "en": "Butylated hydroxyanisole (BHA) "
+            "en": "Butylated hydroxyanisole (BHA)"
         }
     },
     {
-        "ecode": "E321 ",
+        "ecode": "E321",
         "halal": 1,
         "risk": 3,
         "warning": "1|5|8",
         "names": {
             "tr": "Bütillendirilmiş hidroksitoluen (BHT)",
-            "en": "Butylated hydroxytoluene (BHT) "
+            "en": "Butylated hydroxytoluene (BHT)"
         }
     },
     {
-        "ecode": "E322 ",
+        "ecode": "E322",
         "halal": 3,
         "risk": 2,
         "warning": "1",
@@ -1250,50 +1250,50 @@
         }
     },
     {
-        "ecode": "E325 ",
+        "ecode": "E325",
         "halal": 1,
         "risk": 1,
         "warning": "21",
         "names": {
             "tr": "Sodyum laktat",
-            "en": "Sodium lactate "
+            "en": "Sodium lactate"
         }
     },
     {
-        "ecode": "E326 ",
+        "ecode": "E326",
         "halal": 1,
         "risk": 1,
         "warning": "21",
         "names": {
             "tr": "Potasyum laktat",
-            "en": "Potassium lactate "
+            "en": "Potassium lactate"
         }
     },
     {
-        "ecode": "E327 ",
+        "ecode": "E327",
         "halal": 1,
         "risk": 1,
         "warning": "21",
         "names": {
             "tr": "Kalsiyum laktat",
-            "en": "Calcium lactate "
+            "en": "Calcium lactate"
         }
     },
     {
-        "ecode": "E330 ",
+        "ecode": "E330",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Sitrik asit",
-            "en": "Citric acid "
+            "en": "Citric acid"
         }
     },
     {
         "ecode": "E331",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Sodyum sitratlar",
             "en": "Sodium citrates"
@@ -1303,27 +1303,27 @@
         "ecode": "E331(i)",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Monosodyum sitrat",
-            "en": "Monosodium citrate "
+            "en": "Monosodium citrate"
         }
     },
     {
         "ecode": "E331(ii)",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Disodyum sitrat",
-            "en": "Disodium citrate "
+            "en": "Disodium citrate"
         }
     },
     {
         "ecode": "E331(iii)",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Trisodyum sitrat",
             "en": "Trisodium citrate"
@@ -1333,7 +1333,7 @@
         "ecode": "E332",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Potasyum sitratlar",
             "en": "Potassium citrates"
@@ -1343,17 +1343,17 @@
         "ecode": "E332(i)",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Monopotasyum sitrat",
-            "en": "Monopotassium citrate "
+            "en": "Monopotassium citrate"
         }
     },
     {
         "ecode": "E332(ii)",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Tripotasyum sitrat",
             "en": "Tripotassium citrate"
@@ -1363,7 +1363,7 @@
         "ecode": "E333",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Kalsiyum sitratlar",
             "en": "Calcium citrates"
@@ -1373,37 +1373,37 @@
         "ecode": "E333(i)",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Monokalsiyum sitrat",
-            "en": "Monocalcium citrate "
+            "en": "Monocalcium citrate"
         }
     },
     {
         "ecode": "E333(ii)",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Dikalsiyum sitrat",
-            "en": "Dicalcium citrate "
+            "en": "Dicalcium citrate"
         }
     },
     {
         "ecode": "E333(iii)",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Trikalsiyum sitrat",
             "en": "Tricalcium citrate"
         }
     },
     {
-        "ecode": "E334 ",
+        "ecode": "E334",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Tartarik asit",
             "en": "Tartaric acid"
@@ -1413,17 +1413,17 @@
         "ecode": "E335(i)",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Monosodyum tartarat",
-            "en": "Monosodium tartrate "
+            "en": "Monosodium tartrate"
         }
     },
     {
         "ecode": "E335(ii)",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Disodyum tartarat",
             "en": "Disodium tartrate"
@@ -1433,34 +1433,34 @@
         "ecode": "E336(i)",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Monopotasyum tartarat",
-            "en": "Monopotassium tartrate "
+            "en": "Monopotassium tartrate"
         }
     },
     {
         "ecode": "E336(ii)",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Dipotasyum tartarat",
             "en": "Dipotassium tartrate"
         }
     },
     {
-        "ecode": "E337 ",
+        "ecode": "E337",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Sodyum potasyum tartarat",
             "en": "Sodium potassium tartrate"
         }
     },
     {
-        "ecode": "E338 ",
+        "ecode": "E338",
         "halal": 1,
         "risk": 3,
         "warning": "3|12",
@@ -1566,7 +1566,7 @@
         "warning": "3|18",
         "names": {
             "tr": "Monokalsiyum fosfat",
-            "en": "Monocalcium phosphate "
+            "en": "Monocalcium phosphate"
         }
     },
     {
@@ -1576,7 +1576,7 @@
         "warning": "3|18",
         "names": {
             "tr": "Dikalsiyum fosfat",
-            "en": "Dicalcium phosphate "
+            "en": "Dicalcium phosphate"
         }
     },
     {
@@ -1606,7 +1606,7 @@
         "warning": "3|18",
         "names": {
             "tr": "Monomagnezyum fosfat",
-            "en": "Monomagnesium phosphate "
+            "en": "Monomagnesium phosphate"
         }
     },
     {
@@ -1636,7 +1636,7 @@
         "warning": "21",
         "names": {
             "tr": "Sodyum malat",
-            "en": "Sodium malate "
+            "en": "Sodium malate"
         }
     },
     {
@@ -1650,7 +1650,7 @@
         }
     },
     {
-        "ecode": "E351 ",
+        "ecode": "E351",
         "halal": 1,
         "risk": 1,
         "warning": "21",
@@ -1676,7 +1676,7 @@
         "warning": "21",
         "names": {
             "tr": "Kalsiyum malat",
-            "en": "Calcium malate "
+            "en": "Calcium malate"
         }
     },
     {
@@ -1690,77 +1690,77 @@
         }
     },
     {
-        "ecode": "E353 ",
+        "ecode": "E353",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Metatartarik asit",
             "en": "Metatartaric acid"
         }
     },
     {
-        "ecode": "E354 ",
+        "ecode": "E354",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Kalsiyum tartarat",
             "en": "Calcium tartrate"
         }
     },
     {
-        "ecode": "E355 ",
+        "ecode": "E355",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Adipik asit",
             "en": "Adipic acid"
         }
     },
     {
-        "ecode": "E356 ",
+        "ecode": "E356",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Sodyum adipat",
-            "en": "Sodium adipate "
+            "en": "Sodium adipate"
         }
     },
     {
-        "ecode": "E357 ",
+        "ecode": "E357",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Potasyum adipat",
-            "en": "Potassium adipate "
+            "en": "Potassium adipate"
         }
     },
     {
-        "ecode": "E363 ",
+        "ecode": "E363",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Süksinik asit",
             "en": "Succinic acid"
         }
     },
     {
-        "ecode": "E380 ",
+        "ecode": "E380",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Triamonyum sitrat",
             "en": "Triammonium citrate"
         }
     },
     {
-        "ecode": "E385 ",
+        "ecode": "E385",
         "halal": 1,
         "risk": 1,
         "warning": "7",
@@ -1773,64 +1773,64 @@
         "ecode": "E392",
         "halal": 6,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Biberiye ekstraktları",
             "en": "Extracts of rosemary"
         }
     },
     {
-        "ecode": "E400 ",
+        "ecode": "E400",
         "halal": 1,
         "risk": 2,
         "warning": "18|21",
         "names": {
             "tr": "Aljinik asit",
-            "en": "Alginic acid "
+            "en": "Alginic acid"
         }
     },
     {
-        "ecode": "E401 ",
+        "ecode": "E401",
         "halal": 1,
         "risk": 2,
         "warning": "18|21",
         "names": {
             "tr": "Sodyum aljinat",
-            "en": "Sodium alginate "
+            "en": "Sodium alginate"
         }
     },
     {
-        "ecode": "E402 ",
+        "ecode": "E402",
         "halal": 1,
         "risk": 2,
         "warning": "18|21",
         "names": {
             "tr": "Potasyum aljinat",
-            "en": "Potassium alginate "
+            "en": "Potassium alginate"
         }
     },
     {
-        "ecode": "E403 ",
+        "ecode": "E403",
         "halal": 1,
         "risk": 2,
         "warning": "18|21",
         "names": {
             "tr": "Amonyum aljinat",
-            "en": "Ammonium alginate "
+            "en": "Ammonium alginate"
         }
     },
     {
-        "ecode": "E404 ",
+        "ecode": "E404",
         "halal": 1,
         "risk": 2,
         "warning": "18|21",
         "names": {
             "tr": "Kalsiyum aljinat",
-            "en": "Calcium alginate "
+            "en": "Calcium alginate"
         }
     },
     {
-        "ecode": "E405 ",
+        "ecode": "E405",
         "halal": 1,
         "risk": 2,
         "warning": "1|21",
@@ -1840,27 +1840,27 @@
         }
     },
     {
-        "ecode": "E406 ",
+        "ecode": "E406",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Agar",
-            "en": "Agar "
+            "en": "Agar"
         }
     },
     {
-        "ecode": "E407 ",
+        "ecode": "E407",
         "halal": 1,
         "risk": 3,
         "warning": "19|9|8",
         "names": {
             "tr": "Karragenan",
-            "en": "Carrageenan "
+            "en": "Carrageenan"
         }
     },
     {
-        "ecode": "E407(a) ",
+        "ecode": "E407(a)",
         "halal": 1,
         "risk": 2,
         "warning": "19",
@@ -1890,37 +1890,37 @@
         }
     },
     {
-        "ecode": "E412 ",
+        "ecode": "E412",
         "halal": 1,
         "risk": 2,
         "warning": "1|21",
         "names": {
             "tr": "Guar gam",
-            "en": "Guar gum "
+            "en": "Guar gum"
         }
     },
     {
-        "ecode": "E413 ",
+        "ecode": "E413",
         "halal": 1,
         "risk": 2,
         "warning": "1",
         "names": {
             "tr": "Kitre gamı",
-            "en": "Tragacanth "
+            "en": "Tragacanth"
         }
     },
     {
-        "ecode": "E413 ",
+        "ecode": "E413",
         "halal": 1,
         "risk": 2,
         "warning": "1",
         "names": {
             "tr": "Tragacanth",
-            "en": "Tragacanth "
+            "en": "Tragacanth"
         }
     },
     {
-        "ecode": "E414 ",
+        "ecode": "E414",
         "halal": 1,
         "risk": 2,
         "warning": "1|7",
@@ -1930,17 +1930,17 @@
         }
     },
     {
-        "ecode": "E415 ",
+        "ecode": "E415",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Ksantan gam,Ksantan zamkı",
-            "en": "Xanthan gum "
+            "en": "Xanthan gum"
         }
     },
     {
-        "ecode": "E416 ",
+        "ecode": "E416",
         "halal": 1,
         "risk": 2,
         "warning": "1",
@@ -1950,23 +1950,23 @@
         }
     },
     {
-        "ecode": "E417 ",
+        "ecode": "E417",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Tara gam",
-            "en": "Tara gum "
+            "en": "Tara gum"
         }
     },
     {
-        "ecode": "E418 ",
+        "ecode": "E418",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Jellan gam",
-            "en": "Gellan gum "
+            "en": "Gellan gum"
         }
     },
     {
@@ -1976,7 +1976,7 @@
         "warning": "15|5",
         "names": {
             "tr": "Sorbitol",
-            "en": "Sorbitol "
+            "en": "Sorbitol"
         }
     },
     {
@@ -1985,12 +1985,12 @@
         "risk": 3,
         "warning": "15|5",
         "names": {
-            "tr": "Sorbitol şurubu ",
+            "tr": "Sorbitol şurubu",
             "en": "Sorbitol syrup"
         }
     },
     {
-        "ecode": "E421 ",
+        "ecode": "E421",
         "halal": 1,
         "risk": 1,
         "warning": "15",
@@ -2015,15 +2015,15 @@
         "risk": 1,
         "warning": "15",
         "names": {
-            "tr": "Fermentasyon ile üretilen mannitol ",
-            "en": "Mannitol manufactured by fermentation)"
+            "tr": "Fermentasyon ile üretilen mannitol",
+            "en": "Mannitol manufactured by fermentation"
         }
     },
     {
-        "ecode": "E422 ",
+        "ecode": "E422",
         "halal": 3,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Gliserol,Gliserin",
             "en": "Glycerol,Glycerin"
@@ -2033,7 +2033,7 @@
         "ecode": "E423",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Gam arabikle modifiye edilmiş oktenil süksinik asit",
             "en": "Octenyl succinic acid modified gum arabic"
@@ -2056,7 +2056,7 @@
         "warning": "1",
         "names": {
             "tr": "Konjak gam",
-            "en": "Konjac gum "
+            "en": "Konjac gum"
         }
     },
     {
@@ -2083,7 +2083,7 @@
         "ecode": "E427",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Cassia gum",
             "en": "Cassia gum"
@@ -2093,117 +2093,117 @@
         "ecode": "E427",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Sinameki gam",
             "en": "Cassia gum"
         }
     },
     {
-        "ecode": "E431 ",
+        "ecode": "E431",
         "halal": 3,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Polioksietilen (40) stearat",
             "en": "Polyoxyethylene (40) stearate"
         }
     },
     {
-        "ecode": "E432 ",
+        "ecode": "E432",
         "halal": 3,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Polioksietilen sorbitan monolaurat (polisorbat 20)",
-            "en": "Polyoxyethylene sorbitan monolaurate (polysorbate 20) "
+            "en": "Polyoxyethylene sorbitan monolaurate (polysorbate 20)"
         }
     },
     {
-        "ecode": "E432  ",
+        "ecode": "E432",
         "halal": 3,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Polisorbat 20",
             "en": "Polysorbate 20"
         }
     },
     {
-        "ecode": "E433  ",
+        "ecode": "E433",
         "halal": 3,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Polioksietilen sorbitan monooleat (polisorbat 80)",
-            "en": "Polyoxyethylene sorbitan monooleate (polysorbate 80) "
+            "en": "Polyoxyethylene sorbitan monooleate (polysorbate 80)"
         }
     },
     {
-        "ecode": "E433 ",
+        "ecode": "E433",
         "halal": 3,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Polisorbat 80",
             "en": "Polysorbate 80"
         }
     },
     {
-        "ecode": "E434 ",
+        "ecode": "E434",
         "halal": 3,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Polioksietilen sorbitan monopalmitat (polisorbat 40)",
-            "en": "Polyoxyethylene sorbitan monopalmitate (polysorbate 40) "
+            "en": "Polyoxyethylene sorbitan monopalmitate (polysorbate 40)"
         }
     },
     {
-        "ecode": "E434  ",
+        "ecode": "E434",
         "halal": 3,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Polisorbat 40",
             "en": "Polysorbate 40"
         }
     },
     {
-        "ecode": "E435 ",
+        "ecode": "E435",
         "halal": 3,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Polioksietilen sorbitan monostearat (polisorbat 60)",
-            "en": "Polyoxyethylene sorbitan monostearate (polysorbate 60) "
+            "en": "Polyoxyethylene sorbitan monostearate (polysorbate 60)"
         }
     },
     {
-        "ecode": "E435 ",
+        "ecode": "E435",
         "halal": 3,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Polisorbat 60",
             "en": "Polysorbate 60"
         }
     },
     {
-        "ecode": "E436  ",
+        "ecode": "E436",
         "halal": 3,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Polioksietilen sorbitan tristearat (polisorbat 65)",
-            "en": "Polyoxyethylene sorbitan tristearate (polysorbate 65) "
+            "en": "Polyoxyethylene sorbitan tristearate (polysorbate 65)"
         }
     },
     {
-        "ecode": "E436 ",
+        "ecode": "E436",
         "halal": 3,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Polisorbat 65",
             "en": "Polysorbate 65"
@@ -2216,7 +2216,7 @@
         "warning": "1",
         "names": {
             "tr": "Pektin",
-            "en": "Pectin "
+            "en": "Pectin"
         }
     },
     {
@@ -2230,27 +2230,27 @@
         }
     },
     {
-        "ecode": "E442 ",
+        "ecode": "E442",
         "halal": 3,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Amonyum fosfatidler",
             "en": "Ammonium phosphatides"
         }
     },
     {
-        "ecode": "E444 ",
+        "ecode": "E444",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Sukroz asetat izobütirat",
             "en": "Sucrose acetate isobutyrate"
         }
     },
     {
-        "ecode": "E445 ",
+        "ecode": "E445",
         "halal": 3,
         "risk": 2,
         "warning": "1",
@@ -2275,8 +2275,8 @@
         "risk": 2,
         "warning": "3|18",
         "names": {
-            "tr": "Disodyum difosfat,Sodyum asit pirofosfat",
-            "en": "Disodium diphosphate,Sodium acid pyrophosphate"
+            "tr": "Disodyum difosfat",
+            "en": "Disodium diphosphate"
         }
     },
     {
@@ -2296,7 +2296,7 @@
         "warning": "3|18",
         "names": {
             "tr": "Trisodyum difosfat",
-            "en": "Trisodium diphosphate "
+            "en": "Trisodium diphosphate"
         }
     },
     {
@@ -2335,7 +2335,7 @@
         "risk": 2,
         "warning": "3|18",
         "names": {
-            "tr": "Magnezyum dihidrojen difosfat ",
+            "tr": "Magnezyum dihidrojen difosfat",
             "en": "Magnesium dihydrogen diphosphate"
         }
     },
@@ -2346,7 +2346,7 @@
         "warning": "3|18",
         "names": {
             "tr": "Tetrapotasyum difosfat",
-            "en": "Tetrapotassium diphosphate "
+            "en": "Tetrapotassium diphosphate"
         }
     },
     {
@@ -2356,7 +2356,7 @@
         "warning": "3|18",
         "names": {
             "tr": "Dikalsiyum difosfat",
-            "en": "Dicalcium diphosphate "
+            "en": "Dicalcium diphosphate"
         }
     },
     {
@@ -2386,7 +2386,7 @@
         "warning": "3",
         "names": {
             "tr": "Pentasodyum trifosfat",
-            "en": "Pentasodium triphosphate "
+            "en": "Pentasodium triphosphate"
         }
     },
     {
@@ -2446,7 +2446,7 @@
         "warning": "3",
         "names": {
             "tr": "Potasyum polifosfat",
-            "en": "Potassium polyphosphates "
+            "en": "Potassium polyphosphates"
         }
     },
     {
@@ -2456,7 +2456,7 @@
         "warning": "3",
         "names": {
             "tr": "Sodyum kalsiyum polifosfat",
-            "en": "Sodium calcium polyphosphate "
+            "en": "Sodium calcium polyphosphate"
         }
     },
     {
@@ -2473,17 +2473,17 @@
         "ecode": "E456",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
-            "tr": " Potasyum poliaspartat",
+            "tr": "Potasyum poliaspartat",
             "en": "Potassium polyaspartate"
         }
     },
     {
-        "ecode": "E459 ",
+        "ecode": "E459",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Beta-siklodekstrin",
             "en": "Beta-cyclodextrine"
@@ -2493,84 +2493,84 @@
         "ecode": "E460(i)",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Mikrokristalin selüloz",
-            "en": "Microcrystalline cellulose "
+            "en": "Microcrystalline cellulose"
         }
     },
     {
         "ecode": "E460(ii)",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Toz selüloz",
             "en": "Powdered cellulose"
         }
     },
     {
-        "ecode": "E461 ",
+        "ecode": "E461",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Metil selüloz",
-            "en": "Methyl cellulose "
+            "en": "Methyl cellulose"
         }
     },
     {
         "ecode": "E462",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Etil selüloz",
             "en": "Ethyl cellulose"
         }
     },
     {
-        "ecode": "E463 ",
+        "ecode": "E463",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Hidroksipropil selüloz",
-            "en": "Hydroxypropyl cellulose "
+            "en": "Hydroxypropyl cellulose"
         }
     },
     {
         "ecode": "E463a",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Düşük sübstitüe-hidroksipropil selüloz (L-HPC)",
             "en": "Low-substituted hydroxypropyl cellulose"
         }
     },
     {
-        "ecode": "E464 ",
+        "ecode": "E464",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Hidroksipropil metil selüloz",
-            "en": "Hydroxypropyl methyl cellulose "
+            "en": "Hydroxypropyl methyl cellulose"
         }
     },
     {
         "ecode": "E465",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Etil metil selüloz",
-            "en": "Ethyl methyl cellulose "
+            "en": "Ethyl methyl cellulose"
         }
     },
     {
-        "ecode": "E466  ",
+        "ecode": "E466",
         "halal": 1,
         "risk": 1,
         "warning": "18",
@@ -2580,7 +2580,7 @@
         }
     },
     {
-        "ecode": "E468 ",
+        "ecode": "E468",
         "halal": 1,
         "risk": 1,
         "warning": "18",
@@ -2590,300 +2590,300 @@
         }
     },
     {
-        "ecode": "E469 ",
+        "ecode": "E469",
         "halal": 1,
         "risk": 1,
         "warning": "18",
         "names": {
             "tr": "Enzimatik hidrolize karboksimetil selüloz",
-            "en": "Enzymatically hydrolysed carboxymethyl cellulose "
+            "en": "Enzymatically hydrolysed carboxymethyl cellulose"
         }
     },
     {
-        "ecode": "E470(a)  ",
+        "ecode": "E470(a)",
         "halal": 3,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Yağ asitlerinin sodyum,potasyum ve kalsiyum tuzları",
-            "en": "Sodium,potassium and calcium salts of fatty acids "
+            "en": "Sodium,potassium and calcium salts of fatty acids"
         }
     },
     {
-        "ecode": "E470(b)  ",
+        "ecode": "E470(b)",
         "halal": 3,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Yağ asitlerinin magnezyum tuzları",
-            "en": "Magnesium salts of fatty acids "
+            "en": "Magnesium salts of fatty acids"
         }
     },
     {
-        "ecode": "E471 ",
+        "ecode": "E471",
         "halal": 3,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Gliseril distearat",
             "en": "Glyceryl distearate"
         }
     },
     {
-        "ecode": "E471 ",
+        "ecode": "E471",
         "halal": 3,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Gliseril monostearat",
             "en": "Glyceryl monostearate"
         }
     },
     {
-        "ecode": "E471 ",
+        "ecode": "E471",
         "halal": 3,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Yağ asitlerinin mono ve digliseritleri",
             "en": "Mono- and diglycerides of fatty acids"
         }
     },
     {
-        "ecode": "E472(a)  ",
+        "ecode": "E472(a)",
         "halal": 3,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Yağ asitlerinin mono ve digliseridlerinin asetik asit esterleri",
-            "en": "Acetic acid esters of mono- and diglycerides of fatty acids "
+            "en": "Acetic acid esters of mono- and diglycerides of fatty acids"
         }
     },
     {
-        "ecode": "E472(b)  ",
+        "ecode": "E472(b)",
         "halal": 3,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Yağ asitlerinin mono ve digliseridlerinin laktik asit esterleri",
-            "en": "Lactic acid esters of mono- and diglycerides of fatty acids "
+            "en": "Lactic acid esters of mono- and diglycerides of fatty acids"
         }
     },
     {
-        "ecode": "E472(c)  ",
+        "ecode": "E472(c)",
         "halal": 3,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Yağ asitlerinin mono ve digliseridlerinin sitrik asit esterleri",
-            "en": "Citric acid esters of mono- and diglycerides of fatty acids "
+            "en": "Citric acid esters of mono- and diglycerides of fatty acids"
         }
     },
     {
-        "ecode": "E472(d) ",
+        "ecode": "E472(d)",
         "halal": 3,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Yağ asitlerinin mono ve digliseritlerinin tartarik asit esterleri",
-            "en": "Tartaric acid esters of mono- and diglycerides of fatty acids "
+            "en": "Tartaric acid esters of mono- and diglycerides of fatty acids"
         }
     },
     {
-        "ecode": "E472(e) ",
+        "ecode": "E472(e)",
         "halal": 3,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Yağ asitlerinin mono ve digliseritlerinin mono ve diasetil tartarik asit esterleri",
-            "en": "Mono- and diacetyl tartaric acid esters of mono- and diglycerides of fatty acids "
+            "en": "Mono- and diacetyl tartaric acid esters of mono- and diglycerides of fatty acids"
         }
     },
     {
-        "ecode": "E472(f) ",
+        "ecode": "E472(f)",
         "halal": 3,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Yağ asitlerinin mono ve digliseritlerinin karışık asetik ve tartarik asit esterleri",
-            "en": "Mixed acetic and tartaric acid esters of mono- and diglycerides of fatty acids "
+            "en": "Mixed acetic and tartaric acid esters of mono- and diglycerides of fatty acids"
         }
     },
     {
-        "ecode": "E473  ",
+        "ecode": "E473",
         "halal": 3,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Yağ asitlerinin sukroz esterleri",
-            "en": "Sucrose esters of fatty acids "
+            "en": "Sucrose esters of fatty acids"
         }
     },
     {
-        "ecode": "E474  ",
+        "ecode": "E474",
         "halal": 3,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Sukrogliseridler",
-            "en": "Sucroglycerides "
+            "en": "Sucroglycerides"
         }
     },
     {
-        "ecode": "E475 ",
+        "ecode": "E475",
         "halal": 3,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Yağ asitlerinin poligliserol esterleri",
-            "en": "Polyglycerol esters of fatty acids "
+            "en": "Polyglycerol esters of fatty acids"
         }
     },
     {
-        "ecode": "E476  ",
+        "ecode": "E476",
         "halal": 3,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Poligliserol polirisinolat",
-            "en": "Polyglycerol polyricinoleate "
+            "en": "Polyglycerol polyricinoleate"
         }
     },
     {
-        "ecode": "E477 ",
+        "ecode": "E477",
         "halal": 3,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Yağ asitlerinin propan-1,2-diol esterleri",
-            "en": "Propane-1,2-diol esters of fatty acids "
+            "en": "Propane-1,2-diol esters of fatty acids"
         }
     },
     {
-        "ecode": "E479(b)  ",
+        "ecode": "E479(b)",
         "halal": 3,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Yağ asitlerinin mono ve digliseridleri ile reaksiyona girmiş,ısıl işlemle okside edilmiş soya fasulyesi yağı",
-            "en": "Thermally oxidized soya bean oil interacted with mono- and diglycerides of fatty acids "
+            "en": "Thermally oxidized soya bean oil interacted with mono- and diglycerides of fatty acids"
         }
     },
     {
-        "ecode": "E481  ",
+        "ecode": "E481",
         "halal": 3,
         "risk": 2,
         "warning": "1",
         "names": {
             "tr": "Sodyum stearol-2-laktilat",
-            "en": "Sodium stearoyl-2-lactylate "
+            "en": "Sodium stearoyl-2-lactylate"
         }
     },
     {
-        "ecode": "E482 ",
+        "ecode": "E482",
         "halal": 3,
         "risk": 2,
         "warning": "1",
         "names": {
             "tr": "Kalsiyum stearol-2-laktilat",
-            "en": "Calcium stearoyl-2-lactylate "
+            "en": "Calcium stearoyl-2-lactylate"
         }
     },
     {
-        "ecode": "E483  ",
+        "ecode": "E483",
         "halal": 3,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Stearil tartarat",
-            "en": "Stearyl tartrate "
+            "en": "Stearyl tartrate"
         }
     },
     {
-        "ecode": "E491  ",
+        "ecode": "E491",
         "halal": 3,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Sorbitan monostearat",
-            "en": "Sorbitan monostearate "
+            "en": "Sorbitan monostearate"
         }
     },
     {
-        "ecode": "E492  ",
+        "ecode": "E492",
         "halal": 3,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Sorbitan tristearat",
-            "en": "Sorbitan tristearate "
+            "en": "Sorbitan tristearate"
         }
     },
     {
-        "ecode": "E493  ",
+        "ecode": "E493",
         "halal": 3,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Sorbitan monolaurat",
-            "en": "Sorbitan monolaurate "
+            "en": "Sorbitan monolaurate"
         }
     },
     {
-        "ecode": "E494 ",
+        "ecode": "E494",
         "halal": 3,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Sorbitan monooleat",
-            "en": "Sorbitan monooleate "
+            "en": "Sorbitan monooleate"
         }
     },
     {
-        "ecode": "E495 ",
+        "ecode": "E495",
         "halal": 3,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Sorbitan monopalmitat",
-            "en": "Sorbitan monopalmitate "
+            "en": "Sorbitan monopalmitate"
         }
     },
     {
         "ecode": "E499",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Stigmasterol yönünden zengin bitki sterolleri",
             "en": "Stigmasterol-rich plant sterols"
         }
     },
     {
-        "ecode": "E500 ",
+        "ecode": "E500",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Sodyum karbonatlar",
-            "en": "Sodium carbonates "
+            "en": "Sodium carbonates"
         }
     },
     {
         "ecode": "E500(i)",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Sodyum karbonat",
-            "en": "Sodium carbonate "
+            "en": "Sodium carbonate"
         }
     },
     {
         "ecode": "E500(ii)",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Sodyum hidrojen karbonat",
             "en": "Sodium hydrogen carbonate"
@@ -2893,67 +2893,67 @@
         "ecode": "E500(iii)",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Sodyum seskui karbonat",
             "en": "Sodium sesquicarbonate"
         }
     },
     {
-        "ecode": "E501 ",
+        "ecode": "E501",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Potasyum karbonatlar",
-            "en": "Potassium carbonates "
+            "en": "Potassium carbonates"
         }
     },
     {
         "ecode": "E501(i)",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Potasyum karbonat",
-            "en": "Potassium carbonate "
+            "en": "Potassium carbonate"
         }
     },
     {
         "ecode": "E501(ii)",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Potasyum hidrojen karbonat",
             "en": "Potassium hydrogen carbonate"
         }
     },
     {
-        "ecode": "E503 ",
+        "ecode": "E503",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Amonyum karbonatlar",
-            "en": "Ammonium carbonates "
+            "en": "Ammonium carbonates"
         }
     },
     {
         "ecode": "E503(i)",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
-            "tr": "Amonyum karbonat ",
-            "en": "Ammonium carbonate "
+            "tr": "Amonyum karbonat",
+            "en": "Ammonium carbonate"
         }
     },
     {
         "ecode": "E503(ii)",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Amonyum bikarbonat",
             "en": "Ammonium bicarbonate"
@@ -2963,37 +2963,37 @@
         "ecode": "E503(ii)",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Amonyum hidrojen karbonat,Amonyum bikarbonat",
             "en": "Ammonium hydrogen carbonate,Ammonium bicarbonate"
         }
     },
     {
-        "ecode": "E504 ",
+        "ecode": "E504",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Magnezyum karbonatlar",
-            "en": "Magnesium carbonates "
+            "en": "Magnesium carbonates"
         }
     },
     {
         "ecode": "E504(i)",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Magnezyum karbonat",
-            "en": "Magnesium carbonate "
+            "en": "Magnesium carbonate"
         }
     },
     {
         "ecode": "E504(ii)",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Magnezyum hidrojen karbonat",
             "en": "Magnesium hydrogen carbonate"
@@ -3003,54 +3003,54 @@
         "ecode": "E504(ii)",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Magnezyum hidroksit karbonat",
             "en": "Magnesium hydroxide carbonate"
         }
     },
     {
-        "ecode": "E507 ",
+        "ecode": "E507",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Hidroklorik asit",
-            "en": "Hydrochloric acid "
+            "en": "Hydrochloric acid"
         }
     },
     {
-        "ecode": "E508 ",
+        "ecode": "E508",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Potasyum klorür",
-            "en": "Potassium chloride "
+            "en": "Potassium chloride"
         }
     },
     {
-        "ecode": "E509 ",
+        "ecode": "E509",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Kalsiyum klorür",
-            "en": "Calcium chloride "
+            "en": "Calcium chloride"
         }
     },
     {
-        "ecode": "E511 ",
+        "ecode": "E511",
         "halal": 1,
         "risk": 1,
         "warning": "3",
         "names": {
             "tr": "Magnezyum klorür",
-            "en": "Magnesium chloride "
+            "en": "Magnesium chloride"
         }
     },
     {
-        "ecode": "E512 ",
+        "ecode": "E512",
         "halal": 1,
         "risk": 3,
         "warning": "2",
@@ -3060,97 +3060,97 @@
         }
     },
     {
-        "ecode": "E513 ",
+        "ecode": "E513",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Sülfürik asit",
-            "en": "Sulfuric acid "
+            "en": "Sulfuric acid"
         }
     },
     {
-        "ecode": "E514 ",
+        "ecode": "E514",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Sodyum sülfatlar",
-            "en": "Sodium sulphates "
+            "en": "Sodium sulphates"
         }
     },
     {
         "ecode": "E514(i)",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Sodyum sülfat",
-            "en": "Sodium sulphate "
+            "en": "Sodium sulphate"
         }
     },
     {
         "ecode": "E514(ii)",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Sodyum hidrojen sülfat",
             "en": "Sodium hydrogen sulphate"
         }
     },
     {
-        "ecode": "E515 ",
+        "ecode": "E515",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Potasyum sülfatlar",
-            "en": "Potassium sulphates "
+            "en": "Potassium sulphates"
         }
     },
     {
         "ecode": "E515(i)",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Potasyum sülfat",
-            "en": "Potassium sulphate "
+            "en": "Potassium sulphate"
         }
     },
     {
         "ecode": "E515(ii)",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Potasyum hidrojen sülfat",
             "en": "Potassium hydrogen sulphate"
         }
     },
     {
-        "ecode": "E516 ",
+        "ecode": "E516",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Kalsiyum sülfat",
             "en": "Calcium sulphate"
         }
     },
     {
-        "ecode": "E517 ",
+        "ecode": "E517",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Amonyum sülfat",
             "en": "Ammonium sulphate"
         }
     },
     {
-        "ecode": "E520 ",
+        "ecode": "E520",
         "halal": 1,
         "risk": 3,
         "warning": "3|9|14|8",
@@ -3160,103 +3160,103 @@
         }
     },
     {
-        "ecode": "E521 ",
+        "ecode": "E521",
         "halal": 1,
         "risk": 3,
         "warning": "3|9|14|8",
         "names": {
             "tr": "Alüminyum sodyum sülfat",
-            "en": "Aluminium sodium sulphate "
+            "en": "Aluminium sodium sulphate"
         }
     },
     {
-        "ecode": "E522 ",
+        "ecode": "E522",
         "halal": 1,
         "risk": 3,
         "warning": "3|9|14|8",
         "names": {
             "tr": "Alüminyum potasyum sülfat",
-            "en": "Aluminium potassium sulphate "
+            "en": "Aluminium potassium sulphate"
         }
     },
     {
-        "ecode": "E523 ",
+        "ecode": "E523",
         "halal": 1,
         "risk": 3,
         "warning": "3|9|14|8",
         "names": {
             "tr": "Alüminyum amonyum sülfat",
-            "en": "Aluminium ammonium sulphate "
+            "en": "Aluminium ammonium sulphate"
         }
     },
     {
-        "ecode": "E524 ",
+        "ecode": "E524",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Sodyum hidroksit",
             "en": "Sodium hydroxide"
         }
     },
     {
-        "ecode": "E525 ",
+        "ecode": "E525",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Potasyum hidroksit",
-            "en": "Potassium hydroxide "
+            "en": "Potassium hydroxide"
         }
     },
     {
-        "ecode": "E526 ",
+        "ecode": "E526",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Kalsiyum hidroksit",
-            "en": "Calcium hydroxide "
+            "en": "Calcium hydroxide"
         }
     },
     {
-        "ecode": "E527 ",
+        "ecode": "E527",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Amonyum hidroksit",
-            "en": "Ammonium hydroxide "
+            "en": "Ammonium hydroxide"
         }
     },
     {
-        "ecode": "E528 ",
+        "ecode": "E528",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Magnezyum hidroksit",
-            "en": "Magnesium hydroxide "
+            "en": "Magnesium hydroxide"
         }
     },
     {
-        "ecode": "E529 ",
+        "ecode": "E529",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Kalsiyum oksit",
-            "en": "Calcium oxide "
+            "en": "Calcium oxide"
         }
     },
     {
-        "ecode": "E530 ",
+        "ecode": "E530",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Magnezyum oksit",
-            "en": "Magnesium oxide "
+            "en": "Magnesium oxide"
         }
     },
     {
@@ -3266,41 +3266,41 @@
         "warning": "20",
         "names": {
             "tr": "Demir tartarat",
-            "en": "Ferrous tartrate "
+            "en": "Ferrous tartrate"
         }
     },
     {
-        "ecode": "E535 ",
+        "ecode": "E535",
         "halal": 1,
         "risk": 1,
         "warning": "3|33|8",
         "names": {
             "tr": "Sodyum ferrosiyanür",
-            "en": "Sodium ferrocyanide "
+            "en": "Sodium ferrocyanide"
         }
     },
     {
-        "ecode": "E536 ",
+        "ecode": "E536",
         "halal": 1,
         "risk": 1,
         "warning": "3",
         "names": {
             "tr": "Potasyum ferrosiyanür",
-            "en": "Potassium ferrocyanide "
+            "en": "Potassium ferrocyanide"
         }
     },
     {
-        "ecode": "E538 ",
+        "ecode": "E538",
         "halal": 1,
         "risk": 1,
         "warning": "3",
         "names": {
             "tr": "Kalsiyum ferrosiyanür",
-            "en": "Calcium ferrocyanide "
+            "en": "Calcium ferrocyanide"
         }
     },
     {
-        "ecode": "E541 ",
+        "ecode": "E541",
         "halal": 1,
         "risk": 3,
         "warning": "3|9|14|8",
@@ -3310,57 +3310,57 @@
         }
     },
     {
-        "ecode": "E551 ",
+        "ecode": "E551",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Silikon dioksit",
             "en": "Silicon dioxide"
         }
     },
     {
-        "ecode": "E552 ",
+        "ecode": "E552",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Kalsiyum silikat",
-            "en": "Calcium silicate "
+            "en": "Calcium silicate"
         }
     },
     {
         "ecode": "E553(a)(i)",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Magnezyum silikat",
-            "en": "Magnesium silicate "
+            "en": "Magnesium silicate"
         }
     },
     {
         "ecode": "E553(a)(ii)",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Magnezyum trisilikat (asbestsiz)",
             "en": "Magnesium trisilicate"
         }
     },
     {
-        "ecode": "E553(b) ",
+        "ecode": "E553(b)",
         "halal": 1,
         "risk": 3,
         "warning": "8",
         "names": {
             "tr": "Talk",
-            "en": "Talc "
+            "en": "Talc"
         }
     },
     {
-        "ecode": "E554 ",
+        "ecode": "E554",
         "halal": 1,
         "risk": 3,
         "warning": "3|9|14|8",
@@ -3370,7 +3370,7 @@
         }
     },
     {
-        "ecode": "E554 ",
+        "ecode": "E554",
         "halal": 1,
         "risk": 3,
         "warning": "3|9|14|8",
@@ -3380,37 +3380,37 @@
         }
     },
     {
-        "ecode": "E555 ",
+        "ecode": "E555",
         "halal": 1,
         "risk": 3,
         "warning": "3|9|14|8",
         "names": {
             "tr": "Potasyum alüminyum silikat",
-            "en": "Potassium aluminium silicate "
+            "en": "Potassium aluminium silicate"
         }
     },
     {
-        "ecode": "E556 ",
+        "ecode": "E556",
         "halal": 1,
         "risk": 3,
         "warning": "3|9|14|8",
         "names": {
             "tr": "Kalsiyum alüminyum silikat",
-            "en": "Calcium aluminium silicate "
+            "en": "Calcium aluminium silicate"
         }
     },
     {
         "ecode": "E558",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Bentonit",
             "en": "Bentonite"
         }
     },
     {
-        "ecode": "E559 ",
+        "ecode": "E559",
         "halal": 1,
         "risk": 3,
         "warning": "3|9|14|8",
@@ -3420,7 +3420,7 @@
         }
     },
     {
-        "ecode": "E559 ",
+        "ecode": "E559",
         "halal": 1,
         "risk": 3,
         "warning": "3|9|14|8",
@@ -3430,83 +3430,83 @@
         }
     },
     {
-        "ecode": "E570  ",
+        "ecode": "E570",
         "halal": 3,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Yağ asitleri",
-            "en": "Fatty acids "
+            "en": "Fatty acids"
         }
     },
     {
-        "ecode": "E574 ",
+        "ecode": "E574",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Glukonik asit",
-            "en": "Gluconic acid "
+            "en": "Gluconic acid"
         }
     },
     {
-        "ecode": "E575 ",
+        "ecode": "E575",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Glukonodeltalakton",
-            "en": "Glucono-delta-lactone "
+            "en": "Glucono-delta-lactone"
         }
     },
     {
-        "ecode": "E576 ",
+        "ecode": "E576",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Sodyum glukonat",
             "en": "Sodium gluconate"
         }
     },
     {
-        "ecode": "E577 ",
+        "ecode": "E577",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Potasyum glukonat",
-            "en": "Potassium gluconate "
+            "en": "Potassium gluconate"
         }
     },
     {
-        "ecode": "E578 ",
+        "ecode": "E578",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Kalsiyum glukonat",
-            "en": "Calcium gluconate "
+            "en": "Calcium gluconate"
         }
     },
     {
-        "ecode": "E579 ",
+        "ecode": "E579",
         "halal": 1,
         "risk": 1,
         "warning": "7",
         "names": {
             "tr": "Ferroglukonat",
-            "en": "Ferrous gluconate "
+            "en": "Ferrous gluconate"
         }
     },
     {
-        "ecode": "E585 ",
+        "ecode": "E585",
         "halal": 1,
         "risk": 2,
         "warning": "1",
         "names": {
             "tr": "Ferrolaktat",
-            "en": "Ferrous lactate "
+            "en": "Ferrous lactate"
         }
     },
     {
@@ -3520,253 +3520,253 @@
         }
     },
     {
-        "ecode": "E620 ",
+        "ecode": "E620",
         "halal": 1,
         "risk": 3,
         "warning": "1|10|3|14|11|17",
         "names": {
             "tr": "Glutamik asit",
-            "en": "Glutamic acid "
+            "en": "Glutamic acid"
         }
     },
     {
-        "ecode": "E621 ",
+        "ecode": "E621",
         "halal": 1,
         "risk": 3,
         "warning": "1|10|3|14|11|17",
         "names": {
             "tr": "Monosodyum glutamat",
-            "en": "Monosodium glutamate "
+            "en": "Monosodium glutamate"
         }
     },
     {
-        "ecode": "E622 ",
+        "ecode": "E622",
         "halal": 1,
         "risk": 2,
         "warning": "10",
         "names": {
             "tr": "Monopotasyum glutamat",
-            "en": "Monopotassium glutamate "
+            "en": "Monopotassium glutamate"
         }
     },
     {
-        "ecode": "E623 ",
+        "ecode": "E623",
         "halal": 1,
         "risk": 2,
         "warning": "10",
         "names": {
             "tr": "Kalsiyum diglutamat",
-            "en": "Calcium diglutamate "
+            "en": "Calcium diglutamate"
         }
     },
     {
-        "ecode": "E624 ",
+        "ecode": "E624",
         "halal": 1,
         "risk": 2,
         "warning": "10",
         "names": {
             "tr": "Monoamonyum glutamat",
-            "en": "Monoammonium glutamate "
+            "en": "Monoammonium glutamate"
         }
     },
     {
-        "ecode": "E625 ",
+        "ecode": "E625",
         "halal": 1,
         "risk": 2,
         "warning": "10",
         "names": {
             "tr": "Magnezyum diglutamat",
-            "en": "Magnesium diglutamate "
+            "en": "Magnesium diglutamate"
         }
     },
     {
-        "ecode": "E626 ",
+        "ecode": "E626",
         "halal": 1,
         "risk": 2,
         "warning": "4|18",
         "names": {
             "tr": "Guanilik asit",
-            "en": "Guanylic acid "
+            "en": "Guanylic acid"
         }
     },
     {
-        "ecode": "E627 ",
+        "ecode": "E627",
         "halal": 1,
         "risk": 2,
         "warning": "4|18",
         "names": {
             "tr": "Disodyum guanilat",
-            "en": "Disodium guanylate "
+            "en": "Disodium guanylate"
         }
     },
     {
-        "ecode": "E628 ",
+        "ecode": "E628",
         "halal": 1,
         "risk": 2,
         "warning": "4|18",
         "names": {
             "tr": "Dipotasyum guanilat",
-            "en": "Dipotassium guanylate "
+            "en": "Dipotassium guanylate"
         }
     },
     {
-        "ecode": "E629 ",
+        "ecode": "E629",
         "halal": 1,
         "risk": 2,
         "warning": "4|18",
         "names": {
             "tr": "Kalsiyum guanilat",
-            "en": "Calcium guanylate "
+            "en": "Calcium guanylate"
         }
     },
     {
-        "ecode": "E630 ",
+        "ecode": "E630",
         "halal": 1,
         "risk": 2,
         "warning": "4|18",
         "names": {
             "tr": "İnosinik asit",
-            "en": "Inosinic acid "
+            "en": "Inosinic acid"
         }
     },
     {
-        "ecode": "E631 ",
+        "ecode": "E631",
         "halal": 1,
         "risk": 2,
         "warning": "4|18",
         "names": {
             "tr": "Disodyum inosinat",
-            "en": "Disodium inosinate "
+            "en": "Disodium inosinate"
         }
     },
     {
-        "ecode": "E632 ",
+        "ecode": "E632",
         "halal": 1,
         "risk": 2,
         "warning": "4|18",
         "names": {
             "tr": "Dipotasyum inosinat",
-            "en": "Dipotassium inosinate "
+            "en": "Dipotassium inosinate"
         }
     },
     {
-        "ecode": "E633 ",
+        "ecode": "E633",
         "halal": 1,
         "risk": 2,
         "warning": "4|18",
         "names": {
             "tr": "Kalsiyum inosinat",
-            "en": "Calcium inosinate "
+            "en": "Calcium inosinate"
         }
     },
     {
-        "ecode": "E634 ",
+        "ecode": "E634",
         "halal": 1,
         "risk": 2,
         "warning": "4|18",
         "names": {
             "tr": "Kalsiyum 5’-ribonükleotidler",
-            "en": "Calcium 5-ribonucleotides "
+            "en": "Calcium 5-ribonucleotides"
         }
     },
     {
-        "ecode": "E635 ",
+        "ecode": "E635",
         "halal": 1,
         "risk": 2,
         "warning": "4|18",
         "names": {
             "tr": "Disodyum 5’-ribonükleotidler",
-            "en": "Disodium 5-ribonucleotides "
+            "en": "Disodium 5-ribonucleotides"
         }
     },
     {
-        "ecode": "E640 ",
+        "ecode": "E640",
         "halal": 3,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Glisin ve sodyum tuzu",
             "en": "Glycine and its sodium salt"
         }
     },
     {
-        "ecode": "E640(ii) ",
+        "ecode": "E640(ii)",
         "halal": 3,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Sodyum glisinat",
             "en": "Sodium glycinate"
         }
     },
     {
-        "ecode": "E650 ",
+        "ecode": "E650",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Çinko asetat",
             "en": "Zinc acetate"
         }
     },
     {
-        "ecode": "E900 ",
+        "ecode": "E900",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Dimetil polisiloksan",
-            "en": "Dimethyl polysiloxane "
+            "en": "Dimethyl polysiloxane"
         }
     },
     {
-        "ecode": "E901 ",
+        "ecode": "E901",
         "halal": 4,
         "risk": 2,
         "warning": "1",
         "names": {
             "tr": "Balmumu (beyaz ve sarı)",
-            "en": "Beeswax,white and yellow "
+            "en": "Beeswax,white and yellow"
         }
     },
     {
-        "ecode": "E902 ",
+        "ecode": "E902",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Kandelila mumu",
-            "en": "Candelilla wax "
+            "en": "Candelilla wax"
         }
     },
     {
-        "ecode": "E903 ",
+        "ecode": "E903",
         "halal": 1,
         "risk": 2,
         "warning": "1",
         "names": {
             "tr": "Karnauba mumu",
-            "en": "Carnauba wax "
+            "en": "Carnauba wax"
         }
     },
     {
-        "ecode": "E904 ",
+        "ecode": "E904",
         "halal": 4,
         "risk": 2,
         "warning": "1",
         "names": {
             "tr": "Şellak",
-            "en": "Shellac "
+            "en": "Shellac"
         }
     },
     {
-        "ecode": "E905 ",
+        "ecode": "E905",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Mikrokristalin mum",
-            "en": "Microcrystalline wax "
+            "en": "Microcrystalline wax"
         }
     },
     {
@@ -3780,37 +3780,37 @@
         }
     },
     {
-        "ecode": "E912 ",
+        "ecode": "E912",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Montan asit esterleri",
-            "en": "Montanic acid esters "
+            "en": "Montanic acid esters"
         }
     },
     {
-        "ecode": "E914 ",
+        "ecode": "E914",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Oksitlenmiş polietilen mumu",
-            "en": "Oxidized polyethylene wax "
+            "en": "Oxidized polyethylene wax"
         }
     },
     {
-        "ecode": "E920 ",
+        "ecode": "E920",
         "halal": 3,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "L-Sistein",
             "en": "L-Cysteine"
         }
     },
     {
-        "ecode": "E927(b) ",
+        "ecode": "E927(b)",
         "halal": 1,
         "risk": 1,
         "warning": "3",
@@ -3820,97 +3820,97 @@
         }
     },
     {
-        "ecode": "E938 ",
+        "ecode": "E938",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Argon",
-            "en": "Argon "
+            "en": "Argon"
         }
     },
     {
-        "ecode": "E939 ",
+        "ecode": "E939",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Helyum",
-            "en": "Helium "
+            "en": "Helium"
         }
     },
     {
-        "ecode": "E941 ",
+        "ecode": "E941",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Azot",
-            "en": "Nitrogen "
+            "en": "Nitrogen"
         }
     },
     {
-        "ecode": "E942 ",
+        "ecode": "E942",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Azot oksit",
-            "en": "Nitrous oxide "
+            "en": "Nitrous oxide"
         }
     },
     {
-        "ecode": "E943(a) ",
+        "ecode": "E943(a)",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Bütan",
-            "en": "Butane "
+            "en": "Butane"
         }
     },
     {
-        "ecode": "E943(b) ",
+        "ecode": "E943(b)",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "İzobütan",
-            "en": "Isobutane "
+            "en": "Isobutane"
         }
     },
     {
-        "ecode": "E944 ",
+        "ecode": "E944",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Propan",
-            "en": "Propane "
+            "en": "Propane"
         }
     },
     {
-        "ecode": "E948 ",
+        "ecode": "E948",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Oksijen",
-            "en": "Oxygen "
+            "en": "Oxygen"
         }
     },
     {
-        "ecode": "E949 ",
+        "ecode": "E949",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Hidrojen",
-            "en": "Hydrogen "
+            "en": "Hydrogen"
         }
     },
     {
-        "ecode": "E950 ",
+        "ecode": "E950",
         "halal": 1,
         "risk": 3,
         "warning": "5|11|14|16",
@@ -3920,7 +3920,7 @@
         }
     },
     {
-        "ecode": "E951 ",
+        "ecode": "E951",
         "halal": 1,
         "risk": 3,
         "warning": "1|6|10|3|8|14|5|11|16|17",
@@ -3930,7 +3930,7 @@
         }
     },
     {
-        "ecode": "E952(i) ",
+        "ecode": "E952(i)",
         "halal": 1,
         "risk": 3,
         "warning": "1|8|5|16",
@@ -3950,7 +3950,7 @@
         }
     },
     {
-        "ecode": "E952(iii) ",
+        "ecode": "E952(iii)",
         "halal": 1,
         "risk": 3,
         "warning": "1|8|5|16",
@@ -3960,7 +3960,7 @@
         }
     },
     {
-        "ecode": "E953 ",
+        "ecode": "E953",
         "halal": 1,
         "risk": 3,
         "warning": "15|18|16",
@@ -3970,7 +3970,7 @@
         }
     },
     {
-        "ecode": "E954(ii) ",
+        "ecode": "E954(ii)",
         "halal": 1,
         "risk": 3,
         "warning": "1|5|17|7|14|16|8",
@@ -3980,7 +3980,7 @@
         }
     },
     {
-        "ecode": "E954(iii) ",
+        "ecode": "E954(iii)",
         "halal": 1,
         "risk": 3,
         "warning": "1|5|17|7|14|16|8",
@@ -3990,7 +3990,7 @@
         }
     },
     {
-        "ecode": "E954(iv) ",
+        "ecode": "E954(iv)",
         "halal": 1,
         "risk": 3,
         "warning": "A|Gn|Ş|Kc|Sn|St|Kn",
@@ -4000,7 +4000,7 @@
         }
     },
     {
-        "ecode": "E955 ",
+        "ecode": "E955",
         "halal": 1,
         "risk": 3,
         "warning": "10|14|16|17",
@@ -4010,20 +4010,20 @@
         }
     },
     {
-        "ecode": "E957 ",
+        "ecode": "E957",
         "halal": 1,
         "risk": 2,
         "warning": "1",
         "names": {
             "tr": "Taumatin",
-            "en": "Thaumatin "
+            "en": "Thaumatin"
         }
     },
     {
-        "ecode": "E959 ",
+        "ecode": "E959",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Neohesperidin dihidrokalkon",
             "en": "Neohesperidine dihydrochalcone"
@@ -4035,7 +4035,7 @@
         "risk": 2,
         "warning": "1",
         "names": {
-            "tr": "Steviol glikozitleri ",
+            "tr": "Steviol glikozitleri",
             "en": "Steviol glycosides"
         }
     },
@@ -4086,7 +4086,7 @@
         "warning": "15",
         "names": {
             "tr": "Maltitol",
-            "en": "Maltitol "
+            "en": "Maltitol"
         }
     },
     {
@@ -4095,28 +4095,28 @@
         "risk": 1,
         "warning": "15",
         "names": {
-            "tr": "Maltitol şurubu ",
+            "tr": "Maltitol şurubu",
             "en": "Maltitol syrup"
         }
     },
     {
-        "ecode": "E966 ",
+        "ecode": "E966",
         "halal": 4,
         "risk": 1,
         "warning": "15",
         "names": {
             "tr": "Laktitol",
-            "en": "Lactitol "
+            "en": "Lactitol"
         }
     },
     {
-        "ecode": "E967 ",
+        "ecode": "E967",
         "halal": 1,
         "risk": 2,
         "warning": "1|15",
         "names": {
             "tr": "Ksilitol",
-            "en": "Xylitol "
+            "en": "Xylitol"
         }
     },
     {
@@ -4140,27 +4140,27 @@
         }
     },
     {
-        "ecode": "E999 ",
+        "ecode": "E999",
         "halal": 6,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Kuilaya ekstraktı",
             "en": "Quillaia extract"
         }
     },
     {
-        "ecode": "E1103 ",
+        "ecode": "E1103",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "İnvertaz",
             "en": "Invertase"
         }
     },
     {
-        "ecode": "E1105 ",
+        "ecode": "E1105",
         "halal": 4,
         "risk": 2,
         "warning": "1",
@@ -4170,40 +4170,40 @@
         }
     },
     {
-        "ecode": "E1200 ",
+        "ecode": "E1200",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Polidekstroz",
             "en": "Polydextrose"
         }
     },
     {
-        "ecode": "E1201 ",
+        "ecode": "E1201",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Polivinilpirolidon",
-            "en": "Polyvinylpyrrolidone "
+            "en": "Polyvinylpyrrolidone"
         }
     },
     {
-        "ecode": "E1202 ",
+        "ecode": "E1202",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Polivinil polipirolidon",
-            "en": "Polyvinylpolypyrrolidone "
+            "en": "Polyvinylpolypyrrolidone"
         }
     },
     {
         "ecode": "E1203",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Polivinil alkol",
             "en": "Polyvinyl alcohol"
@@ -4213,7 +4213,7 @@
         "ecode": "E1204",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Pullulan",
             "en": "Pullulan"
@@ -4265,38 +4265,38 @@
         "risk": 2,
         "warning": "20",
         "names": {
-            "tr": "Polivinil alkol-polietilen glikol-aşılı-kopolimer ",
+            "tr": "Polivinil alkol-polietilen glikol-aşılı-kopolimer",
             "en": "Polyvinyl alcohol-polyethylene glycol-graft-co-polymer"
         }
     },
     {
-        "ecode": "E1404 ",
+        "ecode": "E1404",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Oksitlenmiş nişasta",
-            "en": "Oxidized starch "
+            "en": "Oxidized starch"
         }
     },
     {
         "ecode": "E1410",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Mononişasta fosfat",
-            "en": "Monostarch phosphate "
+            "en": "Monostarch phosphate"
         }
     },
     {
         "ecode": "E1412",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Dinişasta fosfat",
-            "en": "Distarch phosphate "
+            "en": "Distarch phosphate"
         }
     },
     {
@@ -4306,7 +4306,7 @@
         "warning": "18",
         "names": {
             "tr": "Fosfatlandırılmış dinişasta fosfat",
-            "en": "Phosphated distarch phosphate "
+            "en": "Phosphated distarch phosphate"
         }
     },
     {
@@ -4316,7 +4316,7 @@
         "warning": "18",
         "names": {
             "tr": "Asetillendirilmiş dinişasta fosfat",
-            "en": "Acetylated distarch phosphate "
+            "en": "Acetylated distarch phosphate"
         }
     },
     {
@@ -4326,7 +4326,7 @@
         "warning": "18",
         "names": {
             "tr": "Asetillendirilmiş nişasta",
-            "en": "Acetylated starch "
+            "en": "Acetylated starch"
         }
     },
     {
@@ -4336,17 +4336,17 @@
         "warning": "18",
         "names": {
             "tr": "Asetillendirilmiş dinişasta adipat",
-            "en": "Acetylated distarch adipate "
+            "en": "Acetylated distarch adipate"
         }
     },
     {
         "ecode": "E1440",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Hidroksipropil nişasta",
-            "en": "Hydroxypropyl starch "
+            "en": "Hydroxypropyl starch"
         }
     },
     {
@@ -4356,7 +4356,7 @@
         "warning": "18",
         "names": {
             "tr": "Hidroksipropil dinişasta fosfat",
-            "en": "Hydroxypropyl distarch phosphate "
+            "en": "Hydroxypropyl distarch phosphate"
         }
     },
     {
@@ -4366,7 +4366,7 @@
         "warning": "18",
         "names": {
             "tr": "Nişasta sodyum oktenil süksinat",
-            "en": "Starch sodium octenyl succinate "
+            "en": "Starch sodium octenyl succinate"
         }
     },
     {
@@ -4376,7 +4376,7 @@
         "warning": "18",
         "names": {
             "tr": "Asetillendirilmiş okside nişasta",
-            "en": "Acetylated oxidized starch "
+            "en": "Acetylated oxidized starch"
         }
     },
     {
@@ -4386,24 +4386,24 @@
         "warning": "3|9|14|8",
         "names": {
             "tr": "Nişasta alüminyum oktenil süksinat",
-            "en": "Starch aluminium octenyl succinate "
+            "en": "Starch aluminium octenyl succinate"
         }
     },
     {
         "ecode": "E1505",
         "halal": 1,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Trietil sitrat",
-            "en": "Triethyl citrate "
+            "en": "Triethyl citrate"
         }
     },
     {
         "ecode": "E1517",
         "halal": 3,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Diasetin",
             "en": "Diacetin"
@@ -4413,7 +4413,7 @@
         "ecode": "E1517",
         "halal": 3,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Gliseril diasetat,Diasetin",
             "en": "Glyceryl diacetate,Diacetin"
@@ -4423,7 +4423,7 @@
         "ecode": "E1518",
         "halal": 3,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Gliseril triasetat,Triasetin",
             "en": "Glyceryl triacetate,Triacetin"
@@ -4433,7 +4433,7 @@
         "ecode": "E1518",
         "halal": 3,
         "risk": 1,
-        "warning": "",
+        "warning": "0",
         "names": {
             "tr": "Triasetin",
             "en": "Triacetin"
@@ -4466,7 +4466,7 @@
         "warning": "1",
         "names": {
             "tr": "Polietilen glikol",
-            "en": "Polyethylene glycol "
+            "en": "Polyethylene glycol"
         }
     }
 ]

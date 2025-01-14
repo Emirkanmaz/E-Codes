@@ -1,6 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">E Codes</string>
-    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="success_snackbar_message">Successful.</string>
     <string name="error_snackbar_message">An error occurred.</string>
     <string name="info_snackbar_message">Info message.</string>
@@ -11,5 +11,22 @@
     <string name="navigation_error_please_try_again">Navigation error. Please try again.</string>
     <string name="press_back_again_to_exit">Press back again to exit.</string>
     <string name="search">Search…</string>
+    <string name="found_additives">Found Additives</string>
+    <string name="e_codes">E-Codes:</string>
+    <string name="e_code_details">E-Code Details</string>
+    <string name="health_perspective">Health Perspective:</string>
+    <string name="halal_status">Halal status:</string>
+    <string name="source">Source:</string>
+    <string name="warning">Warning:</string>
+    <string name="onboarding_search">Welcome, can search via the search bar,</string>
+    <string name="onboarding_card_detail">Click on the cards to go to the detail page,</string>
+    <string name="onboarding_camera">You can perform an e-code search on the product ingredients photo by clicking on the camera button.</string>
+    <string name="onboarding_thanks">Thank you.</string>
+    <string name="rate_us">Rate Us</string>
+    <string name="e_codes_not_found">No additives were found from the image. You can try again by taking another photo or search from the list.</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="e_code_recognition">E-Code Recognition</string>
+    <string name="share_app">Share App</string>
+    <string name="app_share_text">Bu uygulamayı incelemelisin: https://play.google.com/store/apps/details?id=com.emirkanmaz.ecodes</string>
 
 </resources>

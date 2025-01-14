@@ -3,21 +3,21 @@
     "risk": 1,
     "desc": {
       "tr": "Tüketebilirsiniz. Sağlık riski yoktur.",
-      "en": ""
+      "en": "You can consume it. There is no health risk."
     }
   },
   {
     "risk": 2,
     "desc": {
       "tr": "Kullanımını azaltınız. Kısmen risklidir.",
-      "en": ""
+      "en": "Reduce its use. It is partly risky."
     }
   },
   {
     "risk": 3,
     "desc": {
-      "tr": "Dikkat ediniz! Sağlık için risklidir.",
-      "en": ""
+      "tr": "Dikkat ediniz! Sağlığınız için risklidir.",
+      "en": "Beware! It is risky for your health."
     }
   }
 ]

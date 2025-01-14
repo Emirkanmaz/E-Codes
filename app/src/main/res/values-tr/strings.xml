@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">E Codes</string>
+    <string name="app_name">E Kodları</string>
     <string name="success_snackbar_message">Başarılı.</string>
     <string name="error_snackbar_message">Bir hatayla karşılaşıldı.</string>
     <string name="info_snackbar_message">Bilgi mesajı.</string>
@@ -11,4 +11,22 @@
     <string name="navigation_error_please_try_again">Navigasyon hatası. Lütfen tekrar deneyiniz.</string>
     <string name="press_back_again_to_exit">Çıkmak için tekrar basınız.</string>
     <string name="search">Ara…</string>
+    <string name="found_additives">Bulunan Katkı Maddeleri</string>
+    <string name="e_codes">E-Kodlar:</string>
+    <string name="e_code_details">E-Kod Detayları</string>
+    <string name="health_perspective">Sağlık Açısından:</string>
+    <string name="halal_status">Helallik:</string>
+    <string name="source">Kaynak:</string>
+    <string name="warning">Uyarı:</string>
+    <string name="onboarding_search">Hoşgeldiniz, arama barı üzerinden arama yapabilir,</string>
+    <string name="onboarding_card_detail">Kartlara tıklayarak detay sayfasına gidebilir,</string>
+    <string name="onboarding_camera">Kamera butonuna tıklayarak ürün içerik fotoğrafı üzerinden e-kod arama yapabilirsiniz.</string>
+    <string name="onboarding_thanks">Teşekkür ederiz.</string>
+    <string name="rate_us">Bizi Değerlendirin</string>
+    <string name="e_codes_not_found">Görselden katkı maddeleri bulunamadı. Tekrardan fotoğraf çekerek deneyebilir veya listeden aratabilirsiniz.</string>
+    <string name="privacy_policy">Gizlilik Sözleşmesi</string>
+    <string name="e_code_recognition">E-Kod Tanıma</string>
+    <string name="share_app">Uygulamayı Paylaş</string>
+    <string name="app_share_text">Bu uygulamayı incelemelisin: https://play.google.com/store/apps/details?id=com.emirkanmaz.ecodes</string>
+
 </resources>

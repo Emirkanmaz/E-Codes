@@ -15,3 +15,7 @@ fun Int.dpToPx(): Int {
 fun Uri?.isValid(): Boolean {
     return this != null && toString().isNotEmpty()
 }
+
+fun String.cleanText(): String {
+    return this.replace(Regex("[(),]"), "").trim()
+}

@@ -2,7 +2,6 @@ package com.emirkanmaz.ecodes.ui.homepage
 
 import android.content.Context
 import android.net.Uri
-import android.util.Log
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.viewModelScope
 import com.emirkanmaz.ecodes.base.BaseViewModel
@@ -39,7 +38,6 @@ class HomePageViewModel @Inject constructor(
     init {
         getECodeDetails()
         if (_nativeAdList.value?.isEmpty() ?: true){
-            Log.d("çağır", "çağır")
             preloadAds("ca-app-pub-3940256099942544/2247696110", 5)
         }
     }

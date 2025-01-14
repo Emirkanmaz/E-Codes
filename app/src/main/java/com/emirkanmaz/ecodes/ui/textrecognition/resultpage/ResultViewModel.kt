@@ -36,9 +36,9 @@ class ResultViewModel @Inject constructor(
     private val _matchedECodes = MutableStateFlow<List<ECodeItemUI>?>(emptyList())
     val matchedECodes: StateFlow<List<ECodeItemUI>?> = _matchedECodes.asStateFlow()
 
-    fun removeItem(eCode: ECodeItemUI) {
-        _matchedECodes.value = _matchedECodes.value?.filterNot { it == eCode }
-    }
+//    fun removeItem(eCode: ECodeItemUI) {
+//        _matchedECodes.value = _matchedECodes.value?.filterNot { it == eCode }
+//    }
 
     init {
         setLoading(true)

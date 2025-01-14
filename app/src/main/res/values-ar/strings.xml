@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">رموز E</string>
+    <string name="success_snackbar_message">ناجح.</string>
+    <string name="error_snackbar_message">حدث خطأ.</string>
+    <string name="info_snackbar_message">رسالة معلومات.</string>
+    <string name="camera_could_not_be_opened">تعذر فتح الكاميرا.</string>
+    <string name="no_photo_found">لم يتم العثور على صورة.</string>
+    <string name="an_error_occurred_during_crop">حدث خطأ أثناء القص.</string>
+    <string name="text_recognition_failed">فشل التعرف على النص.</string>
+    <string name="navigation_error_please_try_again">التنقل خطأ. يُرجى المحاولة مرة أخرى.</string>
+    <string name="press_back_again_to_exit">اضغط على الرجوع مرة أخرى للخروج.</string>
+    <string name="search">بحث…</string>
+    <string name="found_additives">المواد المضافة التي تم العثور عليها</string>
+    <string name="e_codes">الرموز الإلكترونية:</string>
+    <string name="e_code_details">تفاصيل الرموز الإلكترونية</string>
+    <string name="health_perspective">المنظور الصحي:</string>
+    <string name="halal_status">حالة الحلال:</string>
+    <string name="source">المصدر:</string>
+    <string name="warning">تحذير:</string>
+    <string name="onboarding_search">مرحبًا، يمكنك البحث عبر شريط البحث،</string>
+    <string name="onboarding_card_detail">انقر فوق البطاقات للانتقال إلى صفحة التفاصيل،</string>
+    <string name="onboarding_camera">يمكنك إجراء بحث باستخدام الرمز الإلكتروني على صورة مكونات المنتج من خلال النقر على زر الكاميرا.</string>
+    <string name="onboarding_thanks">شكرًا لك.</string>
+    <string name="rate_us">قم بتقييمنا</string>
+    <string name="e_codes_not_found">لم يتم العثور على أي إضافات في الصورة. يمكنك المحاولة مرة أخرى من خلال التقاط صورة أخرى أو البحث من القائمة.</string>
+    <string name="privacy_policy">سياسة الخصوصية</string>
+    <string name="e_code_recognition">التعرف على الرمز الإلكتروني</string>
+    <string name="share_app">تطبيق Share</string>
+    <string name="app_share_text">يمكنك الاطلاع على هذا الرابط: https://play.google.com/store/apps/details?id=com.emirkanmaz.ecodes</string>
+
+</resources>

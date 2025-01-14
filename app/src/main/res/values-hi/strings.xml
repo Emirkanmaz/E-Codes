@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">E कोड</string>
+    <string name="success_snackbar_message">सफल.</string>
+    <string name="error_snackbar_message">एक त्रुटि हुई.</string>
+    <string name="info_snackbar_message">सूचना संदेश.</string>
+    <string name="camera_could_not_be_opened">कैमरा नहीं खोला जा सका.</string>
+    <string name="no_photo_found">कोई फ़ोटो नहीं मिली.</string>
+    <string name="an_error_occurred_during_crop">क्रॉप के दौरान एक त्रुटि हुई.</string>
+    <string name="text_recognition_failed">टेक्स्ट पहचान विफल.</string>
+    <string name="navigation_error_please_try_again">नेविगेशन त्रुटि. कृपया पुनः प्रयास करें।</string>
+    <string name="press_back_again_to_exit">बाहर निकलने के लिए फिर से वापस दबाएँ।</string>
+    <string name="search">खोजें…</string>
+    <string name="found_additives">पाए गए योजक</string>
+    <string name="e_codes">ई-कोड:</string>
+    <string name="e_code_details">ई-कोड विवरण</string>
+    <string name="health_perspective">स्वास्थ्य परिप्रेक्ष्य:</string>
+    <string name="halal_status">हलाल स्थिति:</string>
+    <string name="source">स्रोत:</string>
+    <string name="warning">चेतावनी:</string>
+    <string name="onboarding_search">स्वागत है, खोज बार के माध्यम से खोज सकते हैं,</string>
+    <string name="onboarding_card_detail">पर क्लिक करें कार्ड पर क्लिक करके विस्तृत पृष्ठ पर जाएँ,</string>
+    <string name="onboarding_camera">आप कैमरा बटन पर क्लिक करके उत्पाद सामग्री फ़ोटो पर ई-कोड खोज कर सकते हैं।</string>
+    <string name="onboarding_thanks">धन्यवाद।</string>
+    <string name="rate_us">हमें रेट करें</string>
+    <string name="e_codes_not_found">छवि से कोई योजक नहीं मिला। आप कोई दूसरी फ़ोटो लेकर या सूची से खोज करके फिर से कोशिश कर सकते हैं।</string>
+    <string name="privacy_policy">गोपनीयता नीति</string>
+    <string name="e_code_recognition">ई-कोड पहचान</string>
+    <string name="share_app">ऐप साझा करें</string>
+    <string name="app_share_text">यह भी देखें: https://play.google.com/store/apps/details?id=com.emirkanmaz.ecodes</string>
+</resources>

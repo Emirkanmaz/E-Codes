@@ -9,49 +9,67 @@ import com.emirkanmaz.ecodes.domain.models.ecode.Halal
 import com.emirkanmaz.ecodes.domain.models.ecode.Risk
 import com.emirkanmaz.ecodes.domain.models.ecode.Warning
 import com.emirkanmaz.ecodes.utils.extensions.cleanText
-import com.google.gson.Gson
+import kotlinx.serialization.json.Json
 import javax.inject.Inject
 import javax.inject.Singleton
 
 @Singleton
 class ECodeRepository @Inject constructor(
     private val context: Context,
-    private val gson: Gson,
 ) {
+
     private val eCodes: List<ECode> by lazy { loadECodes() }
     private val halal: List<Halal> by lazy { loadHalal() }
     private val risk: List<Risk> by lazy { loadRisk() }
     private val warning: List<Warning> by lazy { loadWarning() }
 
     private fun loadECodes(): List<ECode> {
-        return context.assets.open("ecodes.json").use { inputStream ->
-            val json = inputStream.bufferedReader().use { it.readText() }
-            gson.fromJson(json, Array<ECode>::class.java).toList()
+        return try {
+            context.assets.open("ecodes.json").use { inputStream ->
+                val json = inputStream.bufferedReader().use { it.readText() }
+                Json.decodeFromString(json)
+            }
+        } catch (e: Exception) {
+            Log.e("ECodeRepository", "Error parsing ecodes.json: ${e.message}", e)
+            emptyList()
         }
     }
 
     private fun loadHalal(): List<Halal> {
-        return context.assets.open("halal.json").use { inputStream ->
-            val json = inputStream.bufferedReader().use { it.readText() }
-            gson.fromJson(json, Array<Halal>::class.java).toList()
+        return try {
+            context.assets.open("halal.json").use { inputStream ->
+                val json = inputStream.bufferedReader().use { it.readText() }
+                Json.decodeFromString(json)
+            }
+        } catch (e: Exception) {
+            Log.e("ECodeRepository", "Error parsing halal.json: ${e.message}", e)
+            emptyList()
         }
     }
 
     private fun loadRisk(): List<Risk> {
-        return context.assets.open("risk.json").use { inputStream ->
-            val json = inputStream.bufferedReader().use { it.readText() }
-            gson.fromJson(json, Array<Risk>::class.java).toList()
+        return try {
+            context.assets.open("risk.json").use { inputStream ->
+                val json = inputStream.bufferedReader().use { it.readText() }
+                Json.decodeFromString(json)
+            }
+        } catch (e: Exception) {
+            Log.e("ECodeRepository", "Error parsing risk.json: ${e.message}", e)
+            emptyList()
         }
     }
 
     private fun loadWarning(): List<Warning> {
-        return context.assets.open("warning.json").use { inputStream ->
-            val json = inputStream.bufferedReader().use { it.readText() }
-            gson.fromJson(json, Array<Warning>::class.java).toList()
+        return try {
+            context.assets.open("warning.json").use { inputStream ->
+                val json = inputStream.bufferedReader().use { it.readText() }
+                Json.decodeFromString(json)
+            }
+        } catch (e: Exception) {
+            Log.e("ECodeRepository", "Error parsing warning.json: ${e.message}", e)
+            emptyList()
         }
     }
-
-    fun getECodeList(): List<ECode> = eCodes
 
     fun getECodeItemUIList(): List<ECodeItemUI> {
         return eCodes.mapNotNull { eCode ->
@@ -82,14 +100,6 @@ class ECodeRepository @Inject constructor(
             names = eCode.names
         )
     }
-
-//    fun searchECodes(query: String): List<ECode> {
-//        return eCodes.filter { eCode ->
-//            eCode.ecode.contains(query, ignoreCase = true) ||
-//            eCode.names.tr.contains(query, ignoreCase = true) ||
-//            eCode.names.en.contains(query, ignoreCase = true)
-//        }
-//    }
 
     fun searchECode(query: String): ECodeItemUI? {
         val cleanQuery = query.cleanText()

@@ -3,154 +3,264 @@
     "warning": 0,
     "desc": {
       "tr": "Herhangi bir uyarı yok.",
-      "en": "There is no warning."
+      "en": "There is no warning.",
+      "ar": "لا يوجد تحذير.",
+      "de": "Es gibt keine Warnung.",
+      "hi": "कोई चेतावनी नहीं है।",
+      "ru": "Нет предупреждений.",
+      "zh": "没有警告。"
     }
   },
   {
     "warning": 1,
     "desc": {
       "tr": "Alerjik bünyelilerin kaçınması önerilir.",
-      "en": "Allergic people are advised to avoid."
+      "en": "Allergic people are advised to avoid.",
+      "ar": "يُنصح الأشخاص الذين يعانون من الحساسية بتجنب ذلك.",
+      "de": "Allergiker wird geraten, dies zu vermeiden.",
+      "hi": "एलर्जी वाले लोगों को इससे बचने की सलाह दी जाती है।",
+      "ru": "Людям с аллергией рекомендуется избегать.",
+      "zh": "建议过敏者避免使用。"
     }
   },
   {
     "warning": 2,
     "desc": {
       "tr": "Ağır metal içerdiğinden sağlığa zararlı olabilir.",
-      "en": "May be hazardous to health as it contains heavy metals."
+      "en": "May be hazardous to health as it contains heavy metals.",
+      "ar": "قد يكون ضارًا بالصحة لأنه يحتوي على معادن ثقيلة.",
+      "de": "Kann gesundheitsschädlich sein, da es Schwermetalle enthält.",
+      "hi": "यह स्वास्थ्य के लिए हानिकारक हो सकता है क्योंकि इसमें भारी धातु होते हैं।",
+      "ru": "Может быть опасно для здоровья, так как содержит тяжёлые металлы.",
+      "zh": "由于含有重金属，可能对健康有害。"
     }
   },
   {
     "warning": 3,
     "desc": {
       "tr": "Böbrek hastalarının kaçınması önerilir.",
-      "en": "Kidney patients are advised to avoid."
+      "en": "Kidney patients are advised to avoid.",
+      "ar": "يُنصح مرضى الكلى بتجنب ذلك.",
+      "de": "Nierenkranke wird geraten, dies zu vermeiden.",
+      "hi": "गुर्दे रोगियों को इससे बचने की सलाह दी जाती है।",
+      "ru": "Пациентам с заболеваниями почек рекомендуется избегать.",
+      "zh": "建议肾病患者避免使用。"
     }
   },
   {
     "warning": 4,
     "desc": {
       "tr": "Gut hastalarının kaçınması önerilir.",
-      "en": "Gout patients are advised to avoid."
+      "en": "Gout patients are advised to avoid.",
+      "ar": "يُنصح مرضى النقرس بتجنب ذلك.",
+      "de": "Gichtpatienten wird geraten, dies zu vermeiden.",
+      "hi": "गाउट रोगियों को इससे बचने की सलाह दी जाती है।",
+      "ru": "Пациентам с подагрой рекомендуется избегать.",
+      "zh": "建议痛风患者避免使用。"
     }
   },
   {
     "warning": 5,
     "desc": {
       "tr": "Gen hasarına yol açma potansiyeline sahiptir.",
-      "en": "It has the potential to cause gene damage."
+      "en": "It has the potential to cause gene damage.",
+      "ar": "له القدرة على التسبب في تلف الجينات.",
+      "de": "Es hat das Potenzial, Gen-Schäden zu verursachen.",
+      "hi": "इसमें जीन को नुकसान पहुंचाने की क्षमता हो सकती है।",
+      "ru": "Это может вызвать повреждение генов.",
+      "zh": "它可能导致基因损伤。"
     }
   },
   {
     "warning": 6,
     "desc": {
       "tr": "Hiperaktif kişilerin kaçınması önerilir.",
-      "en": "Hyperactive people are advised to avoid."
+      "en": "Hyperactive people are advised to avoid.",
+      "ar": "يُنصح الأشخاص ذوو النشاط المفرط بتجنب ذلك.",
+      "de": "Hyperaktive Menschen wird geraten, dies zu vermeiden.",
+      "hi": "अत्यधिक सक्रिय व्यक्तियों को इससे बचने की सलाह दी जाती है।",
+      "ru": "Гиперактивным людям рекомендуется избегать.",
+      "zh": "建议多动症患者避免使用。"
     }
   },
   {
     "warning": 7,
     "desc": {
       "tr": "Karaciğer hastalıklarını artırma potansiyeline sahiptir.",
-      "en": "It has the potential to increase liver diseases."
+      "en": "It has the potential to increase liver diseases.",
+      "ar": "له القدرة على زيادة أمراض الكبد.",
+      "de": "Es hat das Potenzial, Lebererkrankungen zu erhöhen.",
+      "hi": "इसमें जिगर की बीमारियों को बढ़ाने की क्षमता हो सकती है।",
+      "ru": "Это может увеличить заболевания печени.",
+      "zh": "它可能增加肝脏疾病的风险。"
     }
   },
   {
     "warning": 8,
     "desc": {
       "tr": "Kanser riskini artırma potansiyeline sahiptir.",
-      "en": "Has the potential to increase cancer risk."
+      "en": "Has the potential to increase cancer risk.",
+      "ar": "له القدرة على زيادة خطر الإصابة بالسرطان.",
+      "de": "Hat das Potenzial, das Krebsrisiko zu erhöhen.",
+      "hi": "इसमें कैंसर के जोखिम को बढ़ाने की क्षमता हो सकती है।",
+      "ru": "Это может увеличить риск рака.",
+      "zh": "它可能增加癌症的风险。"
     }
   },
   {
     "warning": 9,
     "desc": {
       "tr": "Kron (Crohn) hastalarının kaçınması önerilir.",
-      "en": "Patients with Crohn's disease are advised to avoid."
+      "en": "Patients with Crohn's disease are advised to avoid.",
+      "ar": "يُنصح مرضى داء كرون بتجنب ذلك.",
+      "de": "Patienten mit Morbus Crohn wird geraten, dies zu vermeiden.",
+      "hi": "क्रोन रोग वाले मरीजों को इससे बचने की सलाह दी जाती है।",
+      "ru": "Пациентам с болезнью Крона рекомендуется избегать.",
+      "zh": "建议克罗恩病患者避免使用。"
     }
   },
   {
     "warning": 10,
     "desc": {
       "tr": "Migren veya baş ağrısı olanların kaçınması önerilir.",
-      "en": "Those with migraines or headaches are advised to avoid."
+      "en": "Those with migraines or headaches are advised to avoid.",
+      "ar": "يُنصح الأشخاص الذين يعانون من الصداع النصفي أو الصداع بتجنب ذلك.",
+      "de": "Migräne- oder Kopfschmerzpatienten wird geraten, dies zu vermeiden.",
+      "hi": "माइग्रेन या सिरदर्द वाले लोगों को इससे बचने की सलाह दी जाती है।",
+      "ru": "Людям с мигренью или головной болью рекомендуется избегать.",
+      "zh": "建议有偏头痛或头痛的人避免使用。"
     }
   },
   {
     "warning": 11,
     "desc": {
       "tr": "Obeziteye yol açma veya artırma potansiyeline sahiptir.",
-      "en": "It has the potential to cause or increase obesity."
+      "en": "It has the potential to cause or increase obesity.",
+      "ar": "له القدرة على التسبب في السمنة أو زيادتها.",
+      "de": "Es hat das Potenzial, Fettleibigkeit zu verursachen oder zu erhöhen.",
+      "hi": "इसमें मोटापे का कारण बनने या बढ़ाने की क्षमता हो सकती है।",
+      "ru": "Это может вызвать или увеличить ожирение.",
+      "zh": "它可能导致或增加肥胖的风险。"
     }
   },
   {
     "warning": 12,
     "desc": {
       "tr": "Osteoporozu artırma potansiyeline sahiptir.",
-      "en": "It has the potential to increase osteoporosis."
+      "en": "It has the potential to increase osteoporosis.",
+      "ar": "له القدرة على زيادة هشاشة العظام.",
+      "de": "Es hat das Potenzial, Osteoporose zu erhöhen.",
+      "hi": "इसमें हड्डी के रोगों को बढ़ाने की क्षमता हो सकती है।",
+      "ru": "Это может увеличить остеопороз.",
+      "zh": "它可能增加骨质疏松的风险。"
     }
   },
   {
     "warning": 13,
     "desc": {
       "tr": "Pankreas hastalıklarını artırma potansiyeline sahiptir.",
-      "en": "It has the potential to increase pancreatic diseases."
+      "en": "It has the potential to increase pancreatic diseases.",
+      "ar": "له القدرة على زيادة أمراض البنكرياس.",
+      "de": "Es hat das Potenzial, Bauchspeicheldrüsenerkrankungen zu erhöhen.",
+      "hi": "इसमें अग्न्याशय संबंधी रोगों को बढ़ाने की क्षमता हो सकती है।",
+      "ru": "Это может увеличить заболевания поджелудочной железы.",
+      "zh": "它可能增加胰腺疾病的风险。"
     }
   },
   {
     "warning": 14,
     "desc": {
       "tr": "Sinir sistemine zarar verme potansiyeline sahiptir.",
-      "en": "It has the potential to damage the nervous system."
+      "en": "It has the potential to damage the nervous system.",
+      "ar": "له القدرة على إلحاق الضرر بالجهاز العصبي.",
+      "de": "Es hat das Potenzial, das Nervensystem zu schädigen.",
+      "hi": "इसमें तंत्रिका तंत्र को नुकसान पहुंचाने की क्षमता हो सकती है।",
+      "ru": "Это может повредить нервную систему.",
+      "zh": "它可能会损害神经系统。"
     }
   },
   {
     "warning": 15,
     "desc": {
       "tr": "Spastik kolonlu hastaların kaçınması önerilir.",
-      "en": "Patients with spastic colon are advised to avoid."
+      "en": "Patients with spastic colon are advised to avoid.",
+      "ar": "يُنصح مرضى القولون التشنجي بتجنب ذلك.",
+      "de": "Patienten mit spastischem Kolon wird geraten, dies zu vermeiden.",
+      "hi": "स्पास्टिक कोलोन वाले मरीजों को इससे बचने की सलाह दी जाती है।",
+      "ru": "Пациентам с спастическим колитом рекомендуется избегать.",
+      "zh": "建议患有痉挛性结肠的患者避免使用。"
     }
   },
   {
     "warning": 16,
     "desc": {
       "tr": "Sentetik tatlandırıcı olduğu için öngörülemeyen sağlık risklerine yol açabilir.",
-      "en": "As it is a synthetic sweetener, it can lead to unforeseen health risks."
+      "en": "As it is a synthetic sweetener, it can lead to unforeseen health risks.",
+      "ar": "نظرًا لأنه محلي صناعي، فقد يؤدي إلى مخاطر صحية غير متوقعة.",
+      "de": "Da es sich um einen synthetischen Süßstoff handelt, kann es zu unvorhergesehenen Gesundheitsrisiken führen.",
+      "hi": "क्योंकि यह एक सिंथेटिक स्वीटनर है, यह अप्रत्याशित स्वास्थ्य जोखिमों का कारण बन सकता है।",
+      "ru": "Так как это синтетический подсластитель, он может привести к непредсказуемым рискам для здоровья.",
+      "zh": "由于它是合成甜味剂，它可能会导致无法预见的健康风险。"
     }
   },
   {
     "warning": 17,
     "desc": {
       "tr": "Şeker hastalığına yol açma/artırma potansiyeline sahiptir.",
-      "en": "It has the potential to cause/increase diabetes."
+      "en": "It has the potential to cause/increase diabetes.",
+      "ar": "له القدرة على التسبب في مرض السكري أو زيادته.",
+      "de": "Es hat das Potenzial, Diabetes zu verursachen oder zu erhöhen.",
+      "hi": "इसमें मधुमेह का कारण बनने या बढ़ाने की क्षमता हो सकती है।",
+      "ru": "Это может вызвать или увеличить диабет.",
+      "zh": "它可能导致或增加糖尿病的风险。"
     }
   },
   {
     "warning": 18,
     "desc": {
       "tr": "İdrar yolları taşı olan hastaların kaçınması önerilir.",
-      "en": "Patients with urinary tract stones are advised to avoid."
+      "en": "Patients with urinary tract stones are advised to avoid.",
+      "ar": "يُنصح مرضى حصوات المسالك البولية بتجنب ذلك.",
+      "de": "Patienten mit Harnwegsteinen wird geraten, dies zu vermeiden.",
+      "hi": "मूत्र पथ में पथरी वाले मरीजों को इससे बचने की सलाह दी जाती है।",
+      "ru": "Пациентам с камнями в мочевых путях рекомендуется избегать.",
+      "zh": "建议患有尿路结石的患者避免使用。"
     }
   },
   {
     "warning": 19,
     "desc": {
       "tr": "Ülseratif kolitli hastaların kaçınması önerililir.",
-      "en": "Patients with ulcerative colitis are advised to avoid."
+      "en": "Patients with ulcerative colitis are advised to avoid.",
+      "ar": "يُنصح مرضى التهاب القولون التقرحي بتجنب ذلك.",
+      "de": "Patienten mit Colitis ulcerosa wird geraten, dies zu vermeiden.",
+      "hi": "आल्सरेटिव कोलाइटिस वाले मरीजों को इससे बचने की सलाह दी जाती है।",
+      "ru": "Пациентам с язвенным колитом рекомендуется избегать.",
+      "zh": "建议患有溃疡性结肠炎的患者避免使用。"
     }
   },
   {
     "warning": 20,
     "desc": {
       "tr": "Yeterli araştırma verisi bulunmadığı için öngörülemeyen sağlık riski içerebilir.",
-      "en": "May pose unpredictable health risks due to lack of sufficient research data."
+      "en": "May pose unpredictable health risks due to lack of sufficient research data.",
+      "ar": "قد يشكل مخاطر صحية غير متوقعة بسبب نقص البيانات البحثية الكافية.",
+      "de": "Kann unvorhersehbare Gesundheitsrisiken aufgrund fehlender ausreichender Forschungsdaten darstellen.",
+      "hi": "पर्याप्त शोध डेटा की कमी के कारण यह अप्रत्याशित स्वास्थ्य जोखिम पैदा कर सकता है।",
+      "ru": "Может представлять непредсказуемые риски для здоровья из-за недостатка достаточных данных исследований.",
+      "zh": "由于缺乏足够的研究数据，可能带来不可预测的健康风险。"
     }
   },
   {
     "warning": 21,
     "desc": {
       "tr": "Yenidoğan ve bebeklik dönemlerinde sorun olabilir.",
-      "en": "It can be a problem in newborns and infancy."
+      "en": "It can be a problem in newborns and infancy.",
+      "ar": "قد يكون مشكلة في المواليد الجدد وفترة الرضاعة.",
+      "de": "Es kann ein Problem bei Neugeborenen und im Säuglingsalter sein.",
+      "hi": "यह नवजात शिशुओं और शैशवावस्था में समस्या हो सकती है।",
+      "ru": "Это может быть проблемой для новорожденных и младенцев.",
+      "zh": "在新生儿和婴儿期可能是一个问题。"
     }
   }
 ]

@@ -3,66 +3,126 @@
     "halal": 1,
     "desc": {
       "tr": "Helal",
-      "en": "Halal"
+      "en": "Halal",
+      "ar": "حلال",
+      "de": "Halal",
+      "hi": "हलाल",
+      "ru": "Халяль",
+      "zh": "清真"
     },
     "type": {
       "tr": "Hayvansal kaynak içermez.",
-      "en": "Not produced from animal sources."
+      "en": "Not produced from animal sources.",
+      "ar": "لا يحتوي على مصادر حيوانية.",
+      "de": "Nicht aus tierischen Quellen hergestellt.",
+      "hi": "जानवरों के स्रोतों से उत्पन्न नहीं।",
+      "ru": "Не производится из животных источников.",
+      "zh": "不含动物来源成分。"
     }
   },
   {
     "halal": 2,
     "desc": {
       "tr": "Helal fakat helal olmayan yağlarla karışmış olabilir.",
-      "en": "It is halal but may be mixed with non-halal fats."
+      "en": "It is halal but may be mixed with non-halal fats.",
+      "ar": "حلال ولكنه قد يختلط بدهون غير حلال.",
+      "de": "Es ist halal, kann aber mit nicht-halal Fetten vermischt sein.",
+      "hi": "यह हलाल है लेकिन इसमें गैर-हलाल वसा मिल सकता है।",
+      "ru": "Халяль, но может быть смешан с не халяльными жирами.",
+      "zh": "清真，但可能混有非清真脂肪。"
     },
     "type": {
       "tr": "Hayvansal kaynaklardan üretilmemiştir fakat üretim aşamasında helal olmayan hayvansal yağlarla karışmış olabilir.",
-      "en": "It is not produced from animal sources, but may be mixed with non-halal animal fats during the production process."
+      "en": "It is not produced from animal sources, but may be mixed with non-halal animal fats during the production process.",
+      "ar": "لم يتم إنتاجه من مصادر حيوانية، لكنه قد يختلط بدهون حيوانية غير حلال أثناء عملية الإنتاج.",
+      "de": "Es wird nicht aus tierischen Quellen hergestellt, kann aber während des Produktionsprozesses mit nicht-halal tierischen Fetten vermischt sein.",
+      "hi": "यह जानवरों के स्रोतों से उत्पन्न नहीं होता है, लेकिन उत्पादन प्रक्रिया के दौरान गैर-हलाल पशु वसा से मिल सकता है।",
+      "ru": "Не производится из животных источников, но может быть смешан с не халяльными жирами животных в процессе производства.",
+      "zh": "不含动物来源成分，但生产过程中可能混有非清真动物脂肪。"
     }
   },
   {
     "halal": 3,
     "desc": {
       "tr": "Helalliği şüpheli",
-      "en": "Doubtful halalness."
+      "en": "Doubtful halalness.",
+      "ar": "حلاليته مشكوك فيها.",
+      "de": "Halalität zweifelhaft.",
+      "hi": "हलाल स्थिति संदिग्ध।",
+      "ru": "Сомнительная халяльность.",
+      "zh": "清真状态存疑。"
     },
     "type": {
       "tr": "Hem hayvansal hem diğer kaynaklardan üretilebilir.",
-      "en": "It can be produced from both animal and other sources."
+      "en": "It can be produced from both animal and other sources.",
+      "ar": "يمكن إنتاجه من مصادر حيوانية وغير حيوانية.",
+      "de": "Es kann aus tierischen und anderen Quellen hergestellt werden.",
+      "hi": "यह जानवरों और अन्य स्रोतों से उत्पन्न हो सकता है।",
+      "ru": "Может производиться из животных и других источников.",
+      "zh": "可以由动物和其他来源制成。"
     }
   },
   {
     "halal": 4,
     "desc": {
       "tr": "Helal",
-      "en": "Halal"
+      "en": "Halal",
+      "ar": "حلال",
+      "de": "Halal",
+      "hi": "हलाल",
+      "ru": "Халяль",
+      "zh": "清真"
     },
     "type": {
       "tr": "Hayvansal kaynaklardan üretilmiştir.",
-      "en": "Produced from animal sources."
+      "en": "Produced from animal sources.",
+      "ar": "منتج من مصادر حيوانية.",
+      "de": "Hergestellt aus tierischen Quellen.",
+      "hi": "जानवरों के स्रोतों से उत्पन्न।",
+      "ru": "Произведено из животных источников.",
+      "zh": "由动物来源制成。"
     }
   },
   {
     "halal": 5,
     "desc": {
       "tr": "Bazı mesheplere göre helal olup, bazı mesheplere göre caiz değildir.",
-      "en": "It is permissible according to some Madhhabs and not permissible according to others."
+      "en": "It is permissible according to some Madhhabs and not permissible according to others.",
+      "ar": "يُعتبر حلالًا وفقًا لبعض المذاهب وغير جائز وفقًا لأخرى.",
+      "de": "Nach einigen Madhhabs erlaubt, nach anderen nicht erlaubt.",
+      "hi": "कुछ मज़हबों के अनुसार यह हलाल है और कुछ के अनुसार यह हलाल नहीं।",
+      "ru": "Халяль согласно некоторым мазхабам, но не разрешен согласно другим.",
+      "zh": "根据某些教法学派允许，但其他教法学派不允许。"
     },
     "type": {
       "tr": "Hayvansal kaynaklardan üretilmiştir.",
-      "en": "Produced from animal sources."
+      "en": "Produced from animal sources.",
+      "ar": "منتج من مصادر حيوانية.",
+      "de": "Hergestellt aus tierischen Quellen.",
+      "hi": "जानवरों के स्रोतों से उत्पन्न।",
+      "ru": "Произведено из животных источников.",
+      "zh": "由动物来源制成。"
     }
   },
   {
     "halal": 6,
     "desc": {
       "tr": "Helalliği şüpheli",
-      "en": "Doubtful halalness"
+      "en": "Doubtful halalness",
+      "ar": "حلاليته مشكوك فيها",
+      "de": "Halalität zweifelhaft",
+      "hi": "हलाल स्थिति संदिग्ध",
+      "ru": "Сомнительная халяльность",
+      "zh": "清真状态存疑"
     },
     "type": {
       "tr": "Etil alkol içerebilir.",
-      "en": "May contain ethyl alcohol."
+      "en": "May contain ethyl alcohol.",
+      "ar": "قد يحتوي على كحول الإيثيل.",
+      "de": "Kann Ethylalkohol enthalten.",
+      "hi": "इसमें एथिल अल्कोहल हो सकता है।",
+      "ru": "Может содержать этиловый спирт.",
+      "zh": "可能含有乙醇。"
     }
   }
 ]

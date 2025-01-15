@@ -4,6 +4,7 @@ plugins {
     id("androidx.navigation.safeargs.kotlin")
     id("dagger.hilt.android.plugin")
     id("com.google.devtools.ksp")
+    id("org.jetbrains.kotlin.plugin.serialization")
 }
 
 android {
@@ -14,19 +15,23 @@ android {
         applicationId = "com.emirkanmaz.ecodes"
         minSdk = 24
         targetSdk = 35
-        versionCode = 1
-        versionName = "1.0"
+        versionCode = 2
+        versionName = "1.0.1"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
 
     buildTypes {
         release {
-            isMinifyEnabled = false
+            isShrinkResources = true
+            isMinifyEnabled = true
             proguardFiles(
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro"
             )
+            ndk {
+                debugSymbolLevel = "FULL"
+            }
         }
     }
     compileOptions {
@@ -59,10 +64,10 @@ dependencies {
     implementation(libs.androidx.security.crypto)
     implementation(libs.text.recognition)
     implementation(libs.android.image.cropper)
-    implementation(libs.google.gson)
     implementation(libs.taptargetview)
     implementation(libs.play.services.ads)
     implementation(libs.lottie)
+    implementation(libs.kotlinx.serialization.json)
 
     testImplementation(libs.junit)
 

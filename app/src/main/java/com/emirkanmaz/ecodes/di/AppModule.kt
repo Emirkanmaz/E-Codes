@@ -8,8 +8,6 @@ import com.emirkanmaz.ecodes.data.ECodeRepository
 import com.emirkanmaz.ecodes.security.KeystoreManager
 import com.emirkanmaz.ecodes.utils.stringprovider.DefaultStringProvider
 import com.emirkanmaz.ecodes.utils.stringprovider.StringProvider
-import com.google.gson.Gson
-import com.google.gson.GsonBuilder
 import com.google.mlkit.vision.text.TextRecognition
 import com.google.mlkit.vision.text.TextRecognizer
 import com.google.mlkit.vision.text.latin.TextRecognizerOptions
@@ -27,16 +25,9 @@ object AppModule {
     @Provides
     @Singleton
     fun provideECodeRepository(
-        @ApplicationContext context: Context,
-        gson: Gson
+        @ApplicationContext context: Context
     ): ECodeRepository {
-        return ECodeRepository(context, gson)
-    }
-
-    @Provides
-    @Singleton
-    fun provideGson(): Gson {
-        return GsonBuilder().create()
+        return ECodeRepository(context)
     }
 
     @Singleton

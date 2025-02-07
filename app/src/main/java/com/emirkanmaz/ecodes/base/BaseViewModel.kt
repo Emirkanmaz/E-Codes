@@ -6,7 +6,9 @@ import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.MutableSharedFlow
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.SharedFlow
+import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.StateFlow
+import kotlinx.coroutines.flow.stateIn
 import kotlinx.coroutines.launch
 
 abstract class BaseViewModel<T: BaseNavigationEvent> : ViewModel() {
@@ -16,9 +18,19 @@ abstract class BaseViewModel<T: BaseNavigationEvent> : ViewModel() {
 
     private val _loadingState: MutableStateFlow<Boolean> = MutableStateFlow(false)
     val loadingState: StateFlow<Boolean> get() = _loadingState
+        .stateIn(
+        scope = viewModelScope,
+        started = SharingStarted.WhileSubscribed(5000L),
+        initialValue = false
+    )
 
     private val _errorState: MutableStateFlow<Pair<Boolean, String?>> = MutableStateFlow(false to null)
     val errorState: StateFlow<Pair<Boolean, String?>> get() = _errorState
+        .stateIn(
+            scope = viewModelScope,
+            started = SharingStarted.WhileSubscribed(5000L),
+            initialValue = false to null
+        )
 
     private var loadingJob = loadingCancel()
 

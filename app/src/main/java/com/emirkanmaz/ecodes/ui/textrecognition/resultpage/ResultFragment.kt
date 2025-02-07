@@ -13,6 +13,7 @@ import com.emirkanmaz.ecodes.domain.models.ecode.ECodeItemUI
 import com.emirkanmaz.ecodes.ui.homepage.adapter.ECodesAdapter
 import com.emirkanmaz.ecodes.ui.textrecognition.resultpage.navigationevent.ResultNavigationEvent
 import com.emirkanmaz.ecodes.ui.textrecognition.shared.SharedImageViewModel
+import com.emirkanmaz.ecodes.utils.rateus.rateUs
 import com.emirkanmaz.ecodes.utils.singleclicklistener.setOnSingleClickListener
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.launch
@@ -71,7 +72,6 @@ class ResultFragment : BaseFragment<FragmentResultBinding, ResultViewModel, Resu
             binding.emptyViewHolder.isVisible = false
             binding.listViewHolder.isVisible = true
             eCodesAdapter.submitList(matchedECodes)
-//            resultECodesAdapter.submitList(matchedECodes)
         }
     }
 
@@ -97,14 +97,16 @@ class ResultFragment : BaseFragment<FragmentResultBinding, ResultViewModel, Resu
 
     private fun setupRecyclerView() {
         binding?.let {
-            eCodesAdapter = ECodesAdapter(onECodeClick = { eCodeItemUI ->
-                viewModel.navigateToDetail(eCodeItemUI.eCode)
-            })
-//            resultECodesAdapter = ResultECodesAdapter(onCancelClick = {
-//                viewModel.removeItem(it)
-//            })
+            eCodesAdapter = ECodesAdapter(
+                onECodeClick = { eCodeItemUI ->
+                    viewModel.navigateToDetail(eCodeItemUI.eCode)
+                },
+                onEmptyAddClick = {
+                    requireContext().rateUs()
+                }
+            )
+
             it.eCodesRecyclerView.adapter = eCodesAdapter
-//            it.eCodesRecyclerView.adapter = resultECodesAdapter
         }
     }
 

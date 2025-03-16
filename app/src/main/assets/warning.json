@@ -3,154 +3,176 @@
     "warning": 0,
     "desc": {
       "tr": "Herhangi bir uyarı yok.",
-      "en": "There is no warning."
+      "en": "There is no warning.",
+      "ru": "Нет предупреждений."
     }
   },
   {
     "warning": 1,
     "desc": {
       "tr": "Alerjik bünyelilerin kaçınması önerilir.",
-      "en": "Allergic people are advised to avoid."
+      "en": "Allergic people are advised to avoid.",
+      "ru": "Людям с аллергией рекомендуется избегать."
     }
   },
   {
     "warning": 2,
     "desc": {
       "tr": "Ağır metal içerdiğinden sağlığa zararlı olabilir.",
-      "en": "May be hazardous to health as it contains heavy metals."
+      "en": "May be hazardous to health as it contains heavy metals.",
+      "ru": "Может быть опасно для здоровья, так как содержит тяжёлые металлы."
     }
   },
   {
     "warning": 3,
     "desc": {
       "tr": "Böbrek hastalarının kaçınması önerilir.",
-      "en": "Kidney patients are advised to avoid."
+      "en": "Kidney patients are advised to avoid.",
+      "ru": "Пациентам с заболеваниями почек рекомендуется избегать."
     }
   },
   {
     "warning": 4,
     "desc": {
       "tr": "Gut hastalarının kaçınması önerilir.",
-      "en": "Gout patients are advised to avoid."
+      "en": "Gout patients are advised to avoid.",
+      "ru": "Пациентам с подагрой рекомендуется избегать."
     }
   },
   {
     "warning": 5,
     "desc": {
       "tr": "Gen hasarına yol açma potansiyeline sahiptir.",
-      "en": "It has the potential to cause gene damage."
+      "en": "It has the potential to cause gene damage.",
+      "ru": "Это может вызвать повреждение генов."
     }
   },
   {
     "warning": 6,
     "desc": {
       "tr": "Hiperaktif kişilerin kaçınması önerilir.",
-      "en": "Hyperactive people are advised to avoid."
+      "en": "Hyperactive people are advised to avoid.",
+      "ru": "Гиперактивным людям рекомендуется избегать."
     }
   },
   {
     "warning": 7,
     "desc": {
       "tr": "Karaciğer hastalıklarını artırma potansiyeline sahiptir.",
-      "en": "It has the potential to increase liver diseases."
+      "en": "It has the potential to increase liver diseases.",
+      "ru": "Это может увеличить заболевания печени."
     }
   },
   {
     "warning": 8,
     "desc": {
       "tr": "Kanser riskini artırma potansiyeline sahiptir.",
-      "en": "Has the potential to increase cancer risk."
+      "en": "Has the potential to increase cancer risk.",
+      "ru": "Это может увеличить риск рака."
     }
   },
   {
     "warning": 9,
     "desc": {
       "tr": "Kron (Crohn) hastalarının kaçınması önerilir.",
-      "en": "Patients with Crohn's disease are advised to avoid."
+      "en": "Patients with Crohn's disease are advised to avoid.",
+      "ru": "Пациентам с болезнью Крона рекомендуется избегать."
     }
   },
   {
     "warning": 10,
     "desc": {
       "tr": "Migren veya baş ağrısı olanların kaçınması önerilir.",
-      "en": "Those with migraines or headaches are advised to avoid."
+      "en": "Those with migraines or headaches are advised to avoid.",
+      "ru": "Людям с мигренью или головной болью рекомендуется избегать."
     }
   },
   {
     "warning": 11,
     "desc": {
       "tr": "Obeziteye yol açma veya artırma potansiyeline sahiptir.",
-      "en": "It has the potential to cause or increase obesity."
+      "en": "It has the potential to cause or increase obesity.",
+      "ru": "Это может вызвать или увеличить ожирение."
     }
   },
   {
     "warning": 12,
     "desc": {
       "tr": "Osteoporozu artırma potansiyeline sahiptir.",
-      "en": "It has the potential to increase osteoporosis."
+      "en": "It has the potential to increase osteoporosis.",
+      "ru": "Это может увеличить остеопороз."
     }
   },
   {
     "warning": 13,
     "desc": {
       "tr": "Pankreas hastalıklarını artırma potansiyeline sahiptir.",
-      "en": "It has the potential to increase pancreatic diseases."
+      "en": "It has the potential to increase pancreatic diseases.",
+      "ru": "Это может увеличить заболевания поджелудочной железы."
     }
   },
   {
     "warning": 14,
     "desc": {
       "tr": "Sinir sistemine zarar verme potansiyeline sahiptir.",
-      "en": "It has the potential to damage the nervous system."
+      "en": "It has the potential to damage the nervous system.",
+      "ru": "Это может повредить нервную систему."
     }
   },
   {
     "warning": 15,
     "desc": {
       "tr": "Spastik kolonlu hastaların kaçınması önerilir.",
-      "en": "Patients with spastic colon are advised to avoid."
+      "en": "Patients with spastic colon are advised to avoid.",
+      "ru": "Пациентам с спастическим колитом рекомендуется избегать."
     }
   },
   {
     "warning": 16,
     "desc": {
       "tr": "Sentetik tatlandırıcı olduğu için öngörülemeyen sağlık risklerine yol açabilir.",
-      "en": "As it is a synthetic sweetener, it can lead to unforeseen health risks."
+      "en": "As it is a synthetic sweetener, it can lead to unforeseen health risks.",
+      "ru": "Так как это синтетический подсластитель, он может привести к непредсказуемым рискам для здоровья."
     }
   },
   {
     "warning": 17,
     "desc": {
       "tr": "Şeker hastalığına yol açma/artırma potansiyeline sahiptir.",
-      "en": "It has the potential to cause/increase diabetes."
+      "en": "It has the potential to cause/increase diabetes.",
+      "ru": "Это может вызвать или увеличить диабет."
     }
   },
   {
     "warning": 18,
     "desc": {
       "tr": "İdrar yolları taşı olan hastaların kaçınması önerilir.",
-      "en": "Patients with urinary tract stones are advised to avoid."
+      "en": "Patients with urinary tract stones are advised to avoid.",
+      "ru": "Пациентам с камнями в мочевых путях рекомендуется избегать."
     }
   },
   {
     "warning": 19,
     "desc": {
       "tr": "Ülseratif kolitli hastaların kaçınması önerililir.",
-      "en": "Patients with ulcerative colitis are advised to avoid."
+      "en": "Patients with ulcerative colitis are advised to avoid.",
+      "ru": "Пациентам с язвенным колитом рекомендуется избегать."
     }
   },
   {
     "warning": 20,
     "desc": {
       "tr": "Yeterli araştırma verisi bulunmadığı için öngörülemeyen sağlık riski içerebilir.",
-      "en": "May pose unpredictable health risks due to lack of sufficient research data."
+      "en": "May pose unpredictable health risks due to lack of sufficient research data.",
+      "ru": "Может представлять непредсказуемые риски для здоровья из-за недостатка достаточных данных исследований."
     }
   },
   {
     "warning": 21,
     "desc": {
       "tr": "Yenidoğan ve bebeklik dönemlerinde sorun olabilir.",
-      "en": "It can be a problem in newborns and infancy."
+      "en": "It can be a problem in newborns and infancy.",
+      "ru": "Это может быть проблемой для новорожденных и младенцев."
     }
   }
 ]

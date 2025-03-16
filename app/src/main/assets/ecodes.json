@@ -6,7 +6,8 @@
         "warning": "1",
         "names": {
             "tr": "Kurkumin",
-            "en": "Curcumin"
+            "en": "Curcumin",
+            "ru": "Куркумин"
         }
     },
     {
@@ -16,7 +17,8 @@
         "warning": "0",
         "names": {
             "tr": "Riboflavin",
-            "en": "Riboflavin"
+            "en": "Riboflavin",
+            "ru": "Рибофлавин"
         }
     },
     {
@@ -26,7 +28,8 @@
         "warning": "1",
         "names": {
             "tr": "Riboflavin-5’-fosfat",
-            "en": "Riboflavin-5-phosphate"
+            "en": "Riboflavin-5-phosphate",
+            "ru": "Рибофлавин-5-фосфат"
         }
     },
     {
@@ -36,7 +39,8 @@
         "warning": "1|6|14|7|5",
         "names": {
             "tr": "Tartrazin",
-            "en": "Tartrazine"
+            "en": "Tartrazine",
+            "ru": "Тартразин"
         }
     },
     {
@@ -46,7 +50,8 @@
         "warning": "6",
         "names": {
             "tr": "Kinolin sarısı",
-            "en": "Quinoline yellow"
+            "en": "Quinoline yellow",
+            "ru": "Хинолиновый желтый"
         }
     },
     {
@@ -56,7 +61,8 @@
         "warning": "6|5",
         "names": {
             "tr": "Sunset yellow FCF",
-            "en": "Sunset yellow FCF"
+            "en": "Sunset yellow FCF",
+            "ru": "Сансет желтый FCF"
         }
     },
     {
@@ -66,7 +72,8 @@
         "warning": "1",
         "names": {
             "tr": "Karminik asit",
-            "en": "Carminic acid"
+            "en": "Carminic acid",
+            "ru": "Карминовая кислота"
         }
     },
     {
@@ -76,7 +83,8 @@
         "warning": "1",
         "names": {
             "tr": "Karmin",
-            "en": "Carmin"
+            "en": "Carmin",
+            "ru": "Кармин"
         }
     },
     {
@@ -86,7 +94,8 @@
         "warning": "6|7|3",
         "names": {
             "tr": "Azorubin",
-            "en": "Azorubine"
+            "en": "Azorubine",
+            "ru": "Азорубин"
         }
     },
     {
@@ -96,7 +105,8 @@
         "warning": "6",
         "names": {
             "tr": "Karmosin",
-            "en": "Carmoisine"
+            "en": "Carmoisine",
+            "ru": "Кармуазин"
         }
     },
     {
@@ -106,7 +116,8 @@
         "warning": "6|5|14",
         "names": {
             "tr": "Amarant",
-            "en": "Amaranth"
+            "en": "Amaranth",
+            "ru": "Амарант"
         }
     },
     {
@@ -116,7 +127,8 @@
         "warning": "1|6",
         "names": {
             "tr": "Koşineal Red A",
-            "en": "Cochineal Red A"
+            "en": "Cochineal Red A",
+            "ru": "Кохинхин красный A"
         }
     },
     {
@@ -126,7 +138,8 @@
         "warning": "1|6",
         "names": {
             "tr": "Ponzo 4R",
-            "en": "Ponceau 4R"
+            "en": "Ponceau 4R",
+            "ru": "Понсо 4R"
         }
     },
     {
@@ -136,7 +149,8 @@
         "warning": "1|6|5|14",
         "names": {
             "tr": "Eritrosin",
-            "en": "Erythrosine"
+            "en": "Erythrosine",
+            "ru": "Эритрозин"
         }
     },
     {
@@ -146,7 +160,8 @@
         "warning": "1|6|14|5",
         "names": {
             "tr": "Allura red AC",
-            "en": "Allura red AC"
+            "en": "Allura red AC",
+            "ru": "Аллюр красный AC"
         }
     },
     {
@@ -156,7 +171,8 @@
         "warning": "1|6|5",
         "names": {
             "tr": "Patent blue V",
-            "en": "Patent blue V"
+            "en": "Patent blue V",
+            "ru": "Патентный синий V"
         }
     },
     {
@@ -166,7 +182,8 @@
         "warning": "1|6",
         "names": {
             "tr": "İndigotin",
-            "en": "Indigotine"
+            "en": "Indigotine",
+            "ru": "Индиготин"
         }
     },
     {
@@ -176,7 +193,8 @@
         "warning": "1|6",
         "names": {
             "tr": "İndigo karmin",
-            "en": "Indigo carmine"
+            "en": "Indigo carmine",
+            "ru": "Индигокармин"
         }
     },
     {
@@ -186,7 +204,8 @@
         "warning": "6|5|14",
         "names": {
             "tr": "Brilliant blue FCF",
-            "en": "Brilliant blue FCF"
+            "en": "Brilliant blue FCF",
+            "ru": "Бриллиантовый синий FCF"
         }
     },
     {
@@ -196,7 +215,8 @@
         "warning": "0",
         "names": {
             "tr": "Klorofiller ve klorofilinler",
-            "en": "Chlorophylis and chlorophyllins"
+            "en": "Chlorophylis and chlorophyllins",
+            "ru": "Хлорофиллы и хлорофиллины"
         }
     },
     {
@@ -206,7 +226,8 @@
         "warning": "0",
         "names": {
             "tr": "Klorofiller",
-            "en": "Chlorophylls"
+            "en": "Chlorophylls",
+            "ru": "Хлорофиллы"
         }
     },
     {
@@ -216,7 +237,8 @@
         "warning": "0",
         "names": {
             "tr": "Klorofilinler",
-            "en": "Chlorophyllins"
+            "en": "Chlorophyllins",
+            "ru": "Хлорофиллины"
         }
     },
     {
@@ -226,7 +248,8 @@
         "warning": "0",
         "names": {
             "tr": "Klorofiller ve klorofilinlerin bakır kompleksleri",
-            "en": "Copper complexes of chlorophylls and chlorophyllins"
+            "en": "Copper complexes of chlorophylls and chlorophyllins",
+            "ru": "Медные комплексы хлорофиллов и хлорофиллинов"
         }
     },
     {
@@ -236,7 +259,8 @@
         "warning": "0",
         "names": {
             "tr": "Klorofillerin bakır kompleksleri",
-            "en": "Copper complexes of chlorophylls"
+            "en": "Copper complexes of chlorophylls",
+            "ru": "Медные комплексы хлорофиллов"
         }
     },
     {
@@ -246,7 +270,8 @@
         "warning": "0",
         "names": {
             "tr": "Klorofilinlerin bakır kompleksleri",
-            "en": "Copper complexes of chlorophyllins"
+            "en": "Copper complexes of chlorophyllins",
+            "ru": "Медные комплексы хлорофиллинов"
         }
     },
     {
@@ -256,7 +281,8 @@
         "warning": "6",
         "names": {
             "tr": "Green S",
-            "en": "Green S"
+            "en": "Green S",
+            "ru": "Зеленый S"
         }
     },
     {
@@ -266,7 +292,8 @@
         "warning": "5|8",
         "names": {
             "tr": "Sade Karamel",
-            "en": "Plain caramel"
+            "en": "Plain caramel",
+            "ru": "Обычная карамель"
         }
     },
     {
@@ -276,7 +303,8 @@
         "warning": "5|8",
         "names": {
             "tr": "Kostik sülfit karamel",
-            "en": "Caustic sulphite caramel"
+            "en": "Caustic sulphite caramel",
+            "ru": "Карамель с каустическим сульфитом"
         }
     },
     {
@@ -286,7 +314,8 @@
         "warning": "5|6|8",
         "names": {
             "tr": "Amonyak karamel",
-            "en": "Ammonia caramel"
+            "en": "Ammonia caramel",
+            "ru": "Аммиачная карамель"
         }
     },
     {
@@ -296,7 +325,8 @@
         "warning": "5|6|8",
         "names": {
             "tr": "Amonyum sülfit karamel",
-            "en": "Sulphite ammonia caramel"
+            "en": "Sulphite ammonia caramel",
+            "ru": "Сульфитно-аммиачная карамель"
         }
     },
     {
@@ -306,7 +336,8 @@
         "warning": "6|5",
         "names": {
             "tr": "Brilliant black BN,Black PN",
-            "en": "Brilliant black BN,Black PN"
+            "en": "Brilliant black BN,Black PN",
+            "ru": "Блестящий черный BN, Черный PN"
         }
     },
     {
@@ -316,7 +347,8 @@
         "warning": "0",
         "names": {
             "tr": "Bitkisel karbon",
-            "en": "Vegetable carbon"
+            "en": "Vegetable carbon",
+            "ru": "Растительный уголь"
         }
     },
     {
@@ -326,7 +358,8 @@
         "warning": "6",
         "names": {
             "tr": "Brown HT",
-            "en": "Brown HT"
+            "en": "Brown HT",
+            "ru": "Коричневый HT"
         }
     },
     {
@@ -336,7 +369,8 @@
         "warning": "0",
         "names": {
             "tr": "Blakeslea trispora’dan beta karoten",
-            "en": "beta-Carotene derived from Blakeslea trispora"
+            "en": "beta-Carotene derived from Blakeslea trispora",
+            "ru": "Бета-каротин, полученный из Blakeslea trispora"
         }
     },
     {
@@ -346,7 +380,8 @@
         "warning": "0",
         "names": {
             "tr": "Kırmızı domates likopeni",
-            "en": "Lycopene extracted from tomatoes"
+            "en": "Lycopene extracted from tomatoes",
+            "ru": "Ликопин, полученный из томатов"
         }
     },
     {
@@ -356,7 +391,8 @@
         "warning": "0",
         "names": {
             "tr": "Blakeslea trispora’dan likopen",
-            "en": "Lycopene from Blakeslea trispora"
+            "en": "Lycopene from Blakeslea trispora",
+            "ru": "Ликопин из Blakeslea trispora"
         }
     },
     {
@@ -366,7 +402,8 @@
         "warning": "0",
         "names": {
             "tr": "Karotenler",
-            "en": "Carotenes"
+            "en": "Carotenes",
+            "ru": "Каротины"
         }
     },
     {
@@ -376,7 +413,8 @@
         "warning": "0",
         "names": {
             "tr": "Beta-karoten",
-            "en": "Beta-carotene"
+            "en": "Beta-carotene",
+            "ru": "Бета-каротин"
         }
     },
     {
@@ -386,7 +424,8 @@
         "warning": "0",
         "names": {
             "tr": "Bitkisel karotenler",
-            "en": "Carotenes (vegetable)"
+            "en": "Carotenes (vegetable)",
+            "ru": "Каротины (растительные)"
         }
     },
     {
@@ -396,7 +435,8 @@
         "warning": "0",
         "names": {
             "tr": "Kapsantin",
-            "en": "Capsanthin"
+            "en": "Capsanthin",
+            "ru": "Капсантин"
         }
     },
     {
@@ -406,7 +446,8 @@
         "warning": "0",
         "names": {
             "tr": "Kapsorubin",
-            "en": "Capsorubin"
+            "en": "Capsorubin",
+            "ru": "Капсорубин"
         }
     },
     {
@@ -416,7 +457,8 @@
         "warning": "0",
         "names": {
             "tr": "Paprika ekstraktı",
-            "en": "Paprika extract"
+            "en": "Paprika extract",
+            "ru": "Экстракт паприки"
         }
     },
     {
@@ -426,7 +468,8 @@
         "warning": "0",
         "names": {
             "tr": "Likopen",
-            "en": "Lycopene"
+            "en": "Lycopene",
+            "ru": "Ликопин"
         }
     },
     {
@@ -436,7 +479,8 @@
         "warning": "5",
         "names": {
             "tr": "Beta-apo-8’karotenal (C 30)",
-            "en": "Beta-apo-8-carotenal (C 30)"
+            "en": "Beta-apo-8-carotenal (C 30)",
+            "ru": "Бета-апо-8-каротиналь (C 30)"
         }
     },
     {
@@ -446,7 +490,8 @@
         "warning": "0",
         "names": {
             "tr": "Algal karotenler",
-            "en": "Carotenes (Algea)"
+            "en": "Carotenes (Algea)",
+            "ru": "Каротины (Algea)"
         }
     },
     {
@@ -456,7 +501,8 @@
         "warning": "1|18",
         "names": {
             "tr": "Çözücü ile ekstrakte edilen biksin ve norbiksin",
-            "en": "Solvent-extracted bixin/ norbixin)"
+            "en": "Solvent-extracted bixin/ norbixin)",
+            "ru": "Экстрагированный растворителем биксин/норбиксин)"
         }
     },
     {
@@ -466,7 +512,8 @@
         "warning": "1|15",
         "names": {
             "tr": "Yağ ile ekstrakte edilen anatto",
-            "en": "Oil-extracted annatto"
+            "en": "Oil-extracted annatto",
+            "ru": "Экстракт масла аннато"
         }
     },
     {
@@ -476,7 +523,8 @@
         "warning": "0",
         "names": {
             "tr": "Sentetik likopen",
-            "en": "Synthetic lycopene"
+            "en": "Synthetic lycopene",
+            "ru": "Синтетический ликопин"
         }
     },
     {
@@ -486,7 +534,8 @@
         "warning": "0",
         "names": {
             "tr": "Lutein",
-            "en": "Lutein"
+            "en": "Lutein",
+            "ru": "Лютеин"
         }
     },
     {
@@ -496,7 +545,8 @@
         "warning": "0",
         "names": {
             "tr": "Kantaksantin",
-            "en": "Canthaxanthin"
+            "en": "Canthaxanthin",
+            "ru": "Кантаксантин"
         }
     },
     {
@@ -506,7 +556,8 @@
         "warning": "0",
         "names": {
             "tr": "Betanin",
-            "en": "Betanin"
+            "en": "Betanin",
+            "ru": "Бетанин"
         }
     },
     {
@@ -516,7 +567,8 @@
         "warning": "0",
         "names": {
             "tr": "Pancar kökü kırmızısı",
-            "en": "Beetroot red"
+            "en": "Beetroot red",
+            "ru": "Свекла красная"
         }
     },
     {
@@ -526,7 +578,8 @@
         "warning": "0",
         "names": {
             "tr": "Antosiyaninler",
-            "en": "Anthocyanins"
+            "en": "Anthocyanins",
+            "ru": "Антоцианы"
         }
     },
     {
@@ -536,7 +589,8 @@
         "warning": "0",
         "names": {
             "tr": "Kalsiyum karbonatlar",
-            "en": "Calcium carbonates"
+            "en": "Calcium carbonates",
+            "ru": "Карбонаты кальция"
         }
     },
     {
@@ -546,7 +600,8 @@
         "warning": "19|9|14",
         "names": {
             "tr": "Titanyum dioksit",
-            "en": "Titanium dioxide"
+            "en": "Titanium dioxide",
+            "ru": "Диоксид титана"
         }
     },
     {
@@ -556,7 +611,8 @@
         "warning": "0",
         "names": {
             "tr": "Demir oksit ve hidroksitler",
-            "en": "Iron oxides and hydroxides"
+            "en": "Iron oxides and hydroxides",
+            "ru": "Оксиды и гидроксиды железа"
         }
     },
     {
@@ -566,7 +622,8 @@
         "warning": "3|9|14|8",
         "names": {
             "tr": "Alüminyum",
-            "en": "Aluminium"
+            "en": "Aluminium",
+            "ru": "Алюминий"
         }
     },
     {
@@ -576,7 +633,8 @@
         "warning": "2",
         "names": {
             "tr": "Gümüş",
-            "en": "Silver"
+            "en": "Silver",
+            "ru": "Серебро"
         }
     },
     {
@@ -586,7 +644,8 @@
         "warning": "2",
         "names": {
             "tr": "Altın",
-            "en": "Gold"
+            "en": "Gold",
+            "ru": "Золото"
         }
     },
     {
@@ -596,7 +655,8 @@
         "warning": "1",
         "names": {
             "tr": "Litolrubin BK",
-            "en": "Lithol rubine BK"
+            "en": "Lithol rubine BK",
+            "ru": "Литол рубин БК"
         }
     },
     {
@@ -606,7 +666,8 @@
         "warning": "15|5",
         "names": {
             "tr": "Sorbik asit",
-            "en": "Sorbic acid"
+            "en": "Sorbic acid",
+            "ru": "Сорбиновая кислота"
         }
     },
     {
@@ -616,7 +677,8 @@
         "warning": "13|5",
         "names": {
             "tr": "Potasyum sorbat",
-            "en": "Potassium sorbate"
+            "en": "Potassium sorbate",
+            "ru": "Сорбат калия"
         }
     },
     {
@@ -626,7 +688,8 @@
         "warning": "1|5|6|14|7",
         "names": {
             "tr": "Benzoik asit",
-            "en": "Benzoic acid"
+            "en": "Benzoic acid",
+            "ru": "Бензойная кислота"
         }
     },
     {
@@ -636,7 +699,8 @@
         "warning": "1|5|6|14|7",
         "names": {
             "tr": "Sodyum benzoat",
-            "en": "Sodium benzoate"
+            "en": "Sodium benzoate",
+            "ru": "Бензоат натрия"
         }
     },
     {
@@ -646,7 +710,8 @@
         "warning": "1|5|6|14|7",
         "names": {
             "tr": "Potasyum benzoat",
-            "en": "Potassium benzoate"
+            "en": "Potassium benzoate",
+            "ru": "Бензоат калия"
         }
     },
     {
@@ -656,7 +721,8 @@
         "warning": "1|5|6|14|7",
         "names": {
             "tr": "Kalsiyum benzoat",
-            "en": "Calcium benzoate"
+            "en": "Calcium benzoate",
+            "ru": "Бензоат кальция"
         }
     },
     {
@@ -666,7 +732,8 @@
         "warning": "1|11|8",
         "names": {
             "tr": "Etil p-hidroksibenzoat",
-            "en": "Ethyl p-hydroxybenzoate"
+            "en": "Ethyl p-hydroxybenzoate",
+            "ru": "Этил п-гидроксибензоат"
         }
     },
     {
@@ -676,7 +743,8 @@
         "warning": "1|11|8",
         "names": {
             "tr": "Sodyum etil p-hidroksibenzoat",
-            "en": "Sodium ethyl p-hydroxybenzoate"
+            "en": "Sodium ethyl p-hydroxybenzoate",
+            "ru": "Этил п-гидроксибензоат натрия"
         }
     },
     {
@@ -686,7 +754,8 @@
         "warning": "1|11|8",
         "names": {
             "tr": "Metil p-hidroksibenzoat",
-            "en": "Methyl p-hydroxybenzoate"
+            "en": "Methyl p-hydroxybenzoate",
+            "ru": "Метил п-гидроксибензоат"
         }
     },
     {
@@ -696,7 +765,8 @@
         "warning": "1|11|8",
         "names": {
             "tr": "Sodyum metil p-hidroksibenzoat",
-            "en": "Sodium methyl p-hydroxybenzoate"
+            "en": "Sodium methyl p-hydroxybenzoate",
+            "ru": "Натрий метил п-гидроксибензоат"
         }
     },
     {
@@ -706,7 +776,8 @@
         "warning": "1",
         "names": {
             "tr": "Kükürt dioksit",
-            "en": "Sulphur dioxide"
+            "en": "Sulphur dioxide",
+            "ru": "Диоксид серы"
         }
     },
     {
@@ -716,7 +787,8 @@
         "warning": "1|10|19",
         "names": {
             "tr": "Sodyum sülfit",
-            "en": "Sodium sulphite"
+            "en": "Sodium sulphite",
+            "ru": "Сульфит натрия"
         }
     },
     {
@@ -726,7 +798,8 @@
         "warning": "1|10|19",
         "names": {
             "tr": "Sodyum hidrojen sülfit",
-            "en": "Sodium hydrogen sulphite"
+            "en": "Sodium hydrogen sulphite",
+            "ru": "Натрий гидроген сульфит"
         }
     },
     {
@@ -736,7 +809,8 @@
         "warning": "1|10|19",
         "names": {
             "tr": "Sodyum metabisülfit",
-            "en": "Sodium metabisulphite"
+            "en": "Sodium metabisulphite",
+            "ru": "Метабисульфит натрия"
         }
     },
     {
@@ -746,7 +820,8 @@
         "warning": "1|10|19",
         "names": {
             "tr": "Potasyum metabisülfit",
-            "en": "Potassium metabisulphite"
+            "en": "Potassium metabisulphite",
+            "ru": "Метабисульфит калия"
         }
     },
     {
@@ -756,7 +831,8 @@
         "warning": "1|10|19",
         "names": {
             "tr": "Kalsiyum sülfit",
-            "en": "Calcium sulphite"
+            "en": "Calcium sulphite",
+            "ru": "Сульфит кальция"
         }
     },
     {
@@ -766,7 +842,8 @@
         "warning": "1|10|19",
         "names": {
             "tr": "Kalsiyum hidrojen sülfit",
-            "en": "Calcium hydrogen sulphite"
+            "en": "Calcium hydrogen sulphite",
+            "ru": "Сульфит водорода кальция"
         }
     },
     {
@@ -776,7 +853,8 @@
         "warning": "1|10|19",
         "names": {
             "tr": "Potasyum hidrojen sülfit",
-            "en": "Potassium hydrogen sulphite"
+            "en": "Potassium hydrogen sulphite",
+            "ru": "Сульфит водорода калия"
         }
     },
     {
@@ -786,7 +864,8 @@
         "warning": "0",
         "names": {
             "tr": "Nisin",
-            "en": "Nisin"
+            "en": "Nisin",
+            "ru": "Низин"
         }
     },
     {
@@ -796,7 +875,8 @@
         "warning": "5",
         "names": {
             "tr": "Natamisin",
-            "en": "Natamycin"
+            "en": "Natamycin",
+            "ru": "Натамицин"
         }
     },
     {
@@ -806,7 +886,8 @@
         "warning": "0",
         "names": {
             "tr": "Hekzametilen tetramin",
-            "en": "Hexamethylenetetramine"
+            "en": "Hexamethylenetetramine",
+            "ru": "Гексаметилентетрамин"
         }
     },
     {
@@ -816,7 +897,8 @@
         "warning": "0",
         "names": {
             "tr": "Dimetil dikarbonat",
-            "en": "Dimethyl dicarbonate"
+            "en": "Dimethyl dicarbonate",
+            "ru": "Диметилдикарбонат"
         }
     },
     {
@@ -826,7 +908,8 @@
         "warning": "0",
         "names": {
             "tr": "Etil laurol arjinat",
-            "en": "Ethyl lauroyl arginate"
+            "en": "Ethyl lauroyl arginate",
+            "ru": "Этил лауроил аргинат"
         }
     },
     {
@@ -836,7 +919,8 @@
         "warning": "10|8",
         "names": {
             "tr": "Potasyum nitrit",
-            "en": "Potassium nitrite"
+            "en": "Potassium nitrite",
+            "ru": "Нитрит калия"
         }
     },
     {
@@ -846,7 +930,8 @@
         "warning": "10|8",
         "names": {
             "tr": "Sodyum nitrit",
-            "en": "Sodium nitrite"
+            "en": "Sodium nitrite",
+            "ru": "Нитрит натрия"
         }
     },
     {
@@ -856,7 +941,8 @@
         "warning": "10|8",
         "names": {
             "tr": "Sodyum nitrat",
-            "en": "Sodium nitrate"
+            "en": "Sodium nitrate",
+            "ru": "Нитрат натрия"
         }
     },
     {
@@ -866,7 +952,8 @@
         "warning": "10|8",
         "names": {
             "tr": "Katı sodyum nitrat",
-            "en": "Solid sodium nitrate"
+            "en": "Solid sodium nitrate",
+            "ru": "Твердый нитрат натрия"
         }
     },
     {
@@ -876,7 +963,8 @@
         "warning": "10|8",
         "names": {
             "tr": "Sıvı sodyum nitrat",
-            "en": "Liquid sodium nitrate"
+            "en": "Liquid sodium nitrate",
+            "ru": "Жидкий нитрат натрия"
         }
     },
     {
@@ -886,7 +974,8 @@
         "warning": "10|8",
         "names": {
             "tr": "Potasyum nitrat",
-            "en": "Potassium nitrate"
+            "en": "Potassium nitrate",
+            "ru": "Нитрат калия"
         }
     },
     {
@@ -896,7 +985,8 @@
         "warning": "0",
         "names": {
             "tr": "Asetik asit",
-            "en": "Acetic acid"
+            "en": "Acetic acid",
+            "ru": "Уксусная кислота"
         }
     },
     {
@@ -906,7 +996,8 @@
         "warning": "0",
         "names": {
             "tr": "Potasyum asetat",
-            "en": "Potassium acetate"
+            "en": "Potassium acetate",
+            "ru": "Ацетат калия"
         }
     },
     {
@@ -916,7 +1007,8 @@
         "warning": "0",
         "names": {
             "tr": "Potasyum diasetat",
-            "en": "Potassium diacetate"
+            "en": "Potassium diacetate",
+            "ru": "Диацетат калия"
         }
     },
     {
@@ -926,7 +1018,8 @@
         "warning": "0",
         "names": {
             "tr": "Sodyum asetatlar",
-            "en": "Sodium acetates"
+            "en": "Sodium acetates",
+            "ru": "Ацетаты натрия"
         }
     },
     {
@@ -936,7 +1029,8 @@
         "warning": "0",
         "names": {
             "tr": "Sodyum asetat",
-            "en": "Sodium acetate"
+            "en": "Sodium acetate",
+            "ru": "Ацетат натрия"
         }
     },
     {
@@ -946,7 +1040,8 @@
         "warning": "0",
         "names": {
             "tr": "Sodyum diasetat",
-            "en": "Sodium diacetate"
+            "en": "Sodium diacetate",
+            "ru": "Диацетат натрия"
         }
     },
     {
@@ -956,7 +1051,8 @@
         "warning": "0",
         "names": {
             "tr": "Sodyum hidrojen asetat",
-            "en": "Sodium hydrogen acetate"
+            "en": "Sodium hydrogen acetate",
+            "ru": "Гидроацетат натрия"
         }
     },
     {
@@ -966,7 +1062,8 @@
         "warning": "0",
         "names": {
             "tr": "Kalsiyum asetat",
-            "en": "Calcium acetate"
+            "en": "Calcium acetate",
+            "ru": "Ацетат кальция"
         }
     },
     {
@@ -976,7 +1073,8 @@
         "warning": "21",
         "names": {
             "tr": "Laktik asit",
-            "en": "Lactic acid"
+            "en": "Lactic acid",
+            "ru": "Молочная кислота"
         }
     },
     {
@@ -986,7 +1084,8 @@
         "warning": "17|11|5",
         "names": {
             "tr": "Propiyonik asit",
-            "en": "Propionic acid"
+            "en": "Propionic acid",
+            "ru": "Пропионовая кислота"
         }
     },
     {
@@ -996,7 +1095,8 @@
         "warning": "17|11|5",
         "names": {
             "tr": "Sodyum propiyonat",
-            "en": "Sodium propionate"
+            "en": "Sodium propionate",
+            "ru": "Пропионат натрия"
         }
     },
     {
@@ -1006,7 +1106,8 @@
         "warning": "17|11|5",
         "names": {
             "tr": "Kalsiyum propiyonat",
-            "en": "Calcium propionate"
+            "en": "Calcium propionate",
+            "ru": "Пропионат кальция"
         }
     },
     {
@@ -1016,7 +1117,8 @@
         "warning": "17|11|5",
         "names": {
             "tr": "Potasyum propiyonat",
-            "en": "Potassium propionate"
+            "en": "Potassium propionate",
+            "ru": "Пропионат калия"
         }
     },
     {
@@ -1026,7 +1128,8 @@
         "warning": "0",
         "names": {
             "tr": "Borik asit",
-            "en": "Boric acid"
+            "en": "Boric acid",
+            "ru": "Борная кислота"
         }
     },
     {
@@ -1036,7 +1139,8 @@
         "warning": "0",
         "names": {
             "tr": "Boraks",
-            "en": "Borax"
+            "en": "Borax",
+            "ru": "Боракс"
         }
     },
     {
@@ -1046,7 +1150,8 @@
         "warning": "0",
         "names": {
             "tr": "Sodyum tetraborat",
-            "en": "Sodium tetraborate"
+            "en": "Sodium tetraborate",
+            "ru": "Тетраборат натрия"
         }
     },
     {
@@ -1056,7 +1161,8 @@
         "warning": "0",
         "names": {
             "tr": "Karbon dioksit",
-            "en": "Carbon dioxide"
+            "en": "Carbon dioxide",
+            "ru": "Диоксид углерода"
         }
     },
     {
@@ -1066,7 +1172,8 @@
         "warning": "21",
         "names": {
             "tr": "Malik asit",
-            "en": "Malic acid"
+            "en": "Malic acid",
+            "ru": "Яблочная кислота"
         }
     },
     {
@@ -1076,7 +1183,8 @@
         "warning": "9|19",
         "names": {
             "tr": "Fumarik asit",
-            "en": "Fumaric acid"
+            "en": "Fumaric acid",
+            "ru": "Фумаровая кислота"
         }
     },
     {
@@ -1086,7 +1194,8 @@
         "warning": "18",
         "names": {
             "tr": "Askorbik asit,C vitamini",
-            "en": "Ascorbic acid,Vitamin C"
+            "en": "Ascorbic acid,Vitamin C",
+            "ru": "Аскорбиновая кислота, витамин C"
         }
     },
     {
@@ -1096,7 +1205,8 @@
         "warning": "18",
         "names": {
             "tr": "C vitamini",
-            "en": "Vitamin C"
+            "en": "Vitamin C",
+            "ru": "Витамин C"
         }
     },
     {
@@ -1106,7 +1216,8 @@
         "warning": "18",
         "names": {
             "tr": "L-Askorbik asit",
-            "en": "L-Ascorbic acid"
+            "en": "L-Ascorbic acid",
+            "ru": "L-аскорбиновая кислота"
         }
     },
     {
@@ -1116,7 +1227,8 @@
         "warning": "18",
         "names": {
             "tr": "Sodyum askorbat",
-            "en": "Sodium ascorbate"
+            "en": "Sodium ascorbate",
+            "ru": "Аскорбат натрия"
         }
     },
     {
@@ -1126,7 +1238,8 @@
         "warning": "18",
         "names": {
             "tr": "Kalsiyum askorbat",
-            "en": "Calcium ascorbate"
+            "en": "Calcium ascorbate",
+            "ru": "Аскорбат кальция"
         }
     },
     {
@@ -1136,7 +1249,8 @@
         "warning": "0",
         "names": {
             "tr": "Askorbil palmitat",
-            "en": "Ascorbyl palmitate"
+            "en": "Ascorbyl palmitate",
+            "ru": "Аскорбил пальмитат"
         }
     },
     {
@@ -1146,7 +1260,8 @@
         "warning": "0",
         "names": {
             "tr": "Askorbil stearat",
-            "en": "Ascorbyl stearate"
+            "en": "Ascorbyl stearate",
+            "ru": "Аскорбил стеарат"
         }
     },
     {
@@ -1156,7 +1271,8 @@
         "warning": "0",
         "names": {
             "tr": "Tokoferolce zengin ekstrakt",
-            "en": "Tocopherol-rich extract"
+            "en": "Tocopherol-rich extract",
+            "ru": "Экстракт, богатый токоферолом"
         }
     },
     {
@@ -1166,7 +1282,8 @@
         "warning": "0",
         "names": {
             "tr": "Alfa-tokoferol",
-            "en": "Alpha-tocopherol"
+            "en": "Alpha-tocopherol",
+            "ru": "Альфа-токоферол"
         }
     },
     {
@@ -1176,7 +1293,8 @@
         "warning": "0",
         "names": {
             "tr": "Gama-tokoferol",
-            "en": "Gamma-tocopherol"
+            "en": "Gamma-tocopherol",
+            "ru": "Гамма-токоферол"
         }
     },
     {
@@ -1186,7 +1304,8 @@
         "warning": "0",
         "names": {
             "tr": "Delta-tokoferol",
-            "en": "Delta-tocopherol"
+            "en": "Delta-tocopherol",
+            "ru": "Дельта-токоферол"
         }
     },
     {
@@ -1196,7 +1315,8 @@
         "warning": "0",
         "names": {
             "tr": "Eritorbik asit",
-            "en": "Erythorbic acid"
+            "en": "Erythorbic acid",
+            "ru": "Эриторбовая кислота"
         }
     },
     {
@@ -1206,7 +1326,8 @@
         "warning": "0",
         "names": {
             "tr": "Sodyum eritorbat",
-            "en": "Sodium erythorbate"
+            "en": "Sodium erythorbate",
+            "ru": "Эриторбат натрия"
         }
     },
     {
@@ -1216,7 +1337,8 @@
         "warning": "21|5",
         "names": {
             "tr": "Tersiyer – bütil hidrokinon,TBHQ",
-            "en": "Tert-butylhydroquinone"
+            "en": "Tert-butylhydroquinone",
+            "ru": "Терт-бутилгидрохинон"
         }
     },
     {
@@ -1226,7 +1348,8 @@
         "warning": "1|5|8",
         "names": {
             "tr": "Bütillendirilmiş hidroksianisol (BHA)",
-            "en": "Butylated hydroxyanisole (BHA)"
+            "en": "Butylated hydroxyanisole (BHA)",
+            "ru": "Бутилированный гидроксианизол (BHA)"
         }
     },
     {
@@ -1236,7 +1359,8 @@
         "warning": "1|5|8",
         "names": {
             "tr": "Bütillendirilmiş hidroksitoluen (BHT)",
-            "en": "Butylated hydroxytoluene (BHT)"
+            "en": "Butylated hydroxytoluene (BHT)",
+            "ru": "Бутилированный гидрокситолуол (BHT)"
         }
     },
     {
@@ -1246,7 +1370,8 @@
         "warning": "1",
         "names": {
             "tr": "Lesitinler",
-            "en": "Lecithins"
+            "en": "Lecithins",
+            "ru": "Лецитины"
         }
     },
     {
@@ -1256,7 +1381,8 @@
         "warning": "21",
         "names": {
             "tr": "Sodyum laktat",
-            "en": "Sodium lactate"
+            "en": "Sodium lactate",
+            "ru": "Лактат натрия"
         }
     },
     {
@@ -1266,7 +1392,8 @@
         "warning": "21",
         "names": {
             "tr": "Potasyum laktat",
-            "en": "Potassium lactate"
+            "en": "Potassium lactate",
+            "ru": "Лактат калия"
         }
     },
     {
@@ -1276,7 +1403,8 @@
         "warning": "21",
         "names": {
             "tr": "Kalsiyum laktat",
-            "en": "Calcium lactate"
+            "en": "Calcium lactate",
+            "ru": "Лактат кальция"
         }
     },
     {
@@ -1286,7 +1414,8 @@
         "warning": "0",
         "names": {
             "tr": "Sitrik asit",
-            "en": "Citric acid"
+            "en": "Citric acid",
+            "ru": "Лимонная кислота"
         }
     },
     {
@@ -1296,7 +1425,8 @@
         "warning": "0",
         "names": {
             "tr": "Sodyum sitratlar",
-            "en": "Sodium citrates"
+            "en": "Sodium citrates",
+            "ru": "Цитраты натрия"
         }
     },
     {
@@ -1306,7 +1436,8 @@
         "warning": "0",
         "names": {
             "tr": "Monosodyum sitrat",
-            "en": "Monosodium citrate"
+            "en": "Monosodium citrate",
+            "ru": "Мононатриевый цитрат"
         }
     },
     {
@@ -1316,7 +1447,8 @@
         "warning": "0",
         "names": {
             "tr": "Disodyum sitrat",
-            "en": "Disodium citrate"
+            "en": "Disodium citrate",
+            "ru": "Дисодиум цитрат"
         }
     },
     {
@@ -1326,7 +1458,8 @@
         "warning": "0",
         "names": {
             "tr": "Trisodyum sitrat",
-            "en": "Trisodium citrate"
+            "en": "Trisodium citrate",
+            "ru": "Тринатрий цитрат"
         }
     },
     {
@@ -1336,7 +1469,8 @@
         "warning": "0",
         "names": {
             "tr": "Potasyum sitratlar",
-            "en": "Potassium citrates"
+            "en": "Potassium citrates",
+            "ru": "Цитраты калия"
         }
     },
     {
@@ -1346,7 +1480,8 @@
         "warning": "0",
         "names": {
             "tr": "Monopotasyum sitrat",
-            "en": "Monopotassium citrate"
+            "en": "Monopotassium citrate",
+            "ru": "Монопотассиум цитрат"
         }
     },
     {
@@ -1356,7 +1491,8 @@
         "warning": "0",
         "names": {
             "tr": "Tripotasyum sitrat",
-            "en": "Tripotassium citrate"
+            "en": "Tripotassium citrate",
+            "ru": "Трипотассиум цитрат"
         }
     },
     {
@@ -1366,7 +1502,8 @@
         "warning": "0",
         "names": {
             "tr": "Kalsiyum sitratlar",
-            "en": "Calcium citrates"
+            "en": "Calcium citrates",
+            "ru": "Цитраты кальция"
         }
     },
     {
@@ -1376,7 +1513,8 @@
         "warning": "0",
         "names": {
             "tr": "Monokalsiyum sitrat",
-            "en": "Monocalcium citrate"
+            "en": "Monocalcium citrate",
+            "ru": "Монокальций цитрат"
         }
     },
     {
@@ -1386,7 +1524,8 @@
         "warning": "0",
         "names": {
             "tr": "Dikalsiyum sitrat",
-            "en": "Dicalcium citrate"
+            "en": "Dicalcium citrate",
+            "ru": "Цитрат дикальция"
         }
     },
     {
@@ -1396,7 +1535,8 @@
         "warning": "0",
         "names": {
             "tr": "Trikalsiyum sitrat",
-            "en": "Tricalcium citrate"
+            "en": "Tricalcium citrate",
+            "ru": "Трикальций цитрат"
         }
     },
     {
@@ -1406,7 +1546,8 @@
         "warning": "0",
         "names": {
             "tr": "Tartarik asit",
-            "en": "Tartaric acid"
+            "en": "Tartaric acid",
+            "ru": "Винная кислота"
         }
     },
     {
@@ -1416,7 +1557,8 @@
         "warning": "0",
         "names": {
             "tr": "Monosodyum tartarat",
-            "en": "Monosodium tartrate"
+            "en": "Monosodium tartrate",
+            "ru": "Мононатриевый тартрат"
         }
     },
     {
@@ -1426,7 +1568,8 @@
         "warning": "0",
         "names": {
             "tr": "Disodyum tartarat",
-            "en": "Disodium tartrate"
+            "en": "Disodium tartrate",
+            "ru": "Дисодиум тартрат"
         }
     },
     {
@@ -1436,7 +1579,8 @@
         "warning": "0",
         "names": {
             "tr": "Monopotasyum tartarat",
-            "en": "Monopotassium tartrate"
+            "en": "Monopotassium tartrate",
+            "ru": "Монопотассиум тартрат"
         }
     },
     {
@@ -1446,7 +1590,8 @@
         "warning": "0",
         "names": {
             "tr": "Dipotasyum tartarat",
-            "en": "Dipotassium tartrate"
+            "en": "Dipotassium tartrate",
+            "ru": "Дипотассиум тартрат"
         }
     },
     {
@@ -1456,7 +1601,8 @@
         "warning": "0",
         "names": {
             "tr": "Sodyum potasyum tartarat",
-            "en": "Sodium potassium tartrate"
+            "en": "Sodium potassium tartrate",
+            "ru": "Тартрат калия-натрия"
         }
     },
     {
@@ -1466,7 +1612,8 @@
         "warning": "3|12",
         "names": {
             "tr": "Fosforik asit",
-            "en": "Phosphoric acid"
+            "en": "Phosphoric acid",
+            "ru": "Фосфорная кислота"
         }
     },
     {
@@ -1476,7 +1623,8 @@
         "warning": "3",
         "names": {
             "tr": "Sodyum fosfatlar",
-            "en": "Sodium phosphates"
+            "en": "Sodium phosphates",
+            "ru": "Фосфаты натрия"
         }
     },
     {
@@ -1486,7 +1634,8 @@
         "warning": "3|18",
         "names": {
             "tr": "Monosodyum fosfat",
-            "en": "Monosodium phosphate"
+            "en": "Monosodium phosphate",
+            "ru": "Мононатрий фосфат"
         }
     },
     {
@@ -1496,7 +1645,8 @@
         "warning": "3|18",
         "names": {
             "tr": "Disodyum fosfat",
-            "en": "Disodium phosphate"
+            "en": "Disodium phosphate",
+            "ru": "Дисодиум фосфат"
         }
     },
     {
@@ -1506,7 +1656,8 @@
         "warning": "3|18",
         "names": {
             "tr": "Trisodyum fosfat",
-            "en": "Trisodium phosphate"
+            "en": "Trisodium phosphate",
+            "ru": "Тринатрийфосфат"
         }
     },
     {
@@ -1516,7 +1667,8 @@
         "warning": "3",
         "names": {
             "tr": "Potasyum fosfatlar",
-            "en": "Potassium phosphates"
+            "en": "Potassium phosphates",
+            "ru": "Фосфаты калия"
         }
     },
     {
@@ -1526,7 +1678,8 @@
         "warning": "3|18",
         "names": {
             "tr": "Monopotasyum fosfat,Potasyum ortofosfat",
-            "en": "Monopotassium phosphate,Potassium orthophosphate"
+            "en": "Monopotassium phosphate,Potassium orthophosphate",
+            "ru": "Монопотассиум фосфат, ортофосфат калия"
         }
     },
     {
@@ -1536,7 +1689,8 @@
         "warning": "3|18",
         "names": {
             "tr": "Dipotasyum fosfat,Potasyum fosfat dibazik",
-            "en": "Dipotassium phosphate,Potassium phosphate,dibasic"
+            "en": "Dipotassium phosphate,Potassium phosphate,dibasic",
+            "ru": "Дипотассиум фосфат, дибазиум фосфат калия"
         }
     },
     {
@@ -1546,7 +1700,8 @@
         "warning": "3|18",
         "names": {
             "tr": "Tripotasyum fosfat",
-            "en": "Tripotassium phosphate"
+            "en": "Tripotassium phosphate",
+            "ru": "Трипотассиум фосфат"
         }
     },
     {
@@ -1556,7 +1711,8 @@
         "warning": "3",
         "names": {
             "tr": "Kalsiyum fosfatlar",
-            "en": "Calcium phosphates"
+            "en": "Calcium phosphates",
+            "ru": "Фосфаты кальция"
         }
     },
     {
@@ -1566,7 +1722,8 @@
         "warning": "3|18",
         "names": {
             "tr": "Monokalsiyum fosfat",
-            "en": "Monocalcium phosphate"
+            "en": "Monocalcium phosphate",
+            "ru": "Монокальций фосфат"
         }
     },
     {
@@ -1576,7 +1733,8 @@
         "warning": "3|18",
         "names": {
             "tr": "Dikalsiyum fosfat",
-            "en": "Dicalcium phosphate"
+            "en": "Dicalcium phosphate",
+            "ru": "Дикальций фосфат"
         }
     },
     {
@@ -1586,7 +1744,8 @@
         "warning": "3|18",
         "names": {
             "tr": "Trikalsiyum fosfat",
-            "en": "Tricalcium phosphate"
+            "en": "Tricalcium phosphate",
+            "ru": "Трикальцийфосфат"
         }
     },
     {
@@ -1596,7 +1755,8 @@
         "warning": "3",
         "names": {
             "tr": "Magnezyum fosfatlar",
-            "en": "Magnesium phosphates"
+            "en": "Magnesium phosphates",
+            "ru": "Фосфаты магния"
         }
     },
     {
@@ -1606,7 +1766,8 @@
         "warning": "3|18",
         "names": {
             "tr": "Monomagnezyum fosfat",
-            "en": "Monomagnesium phosphate"
+            "en": "Monomagnesium phosphate",
+            "ru": "Мономагний фосфат"
         }
     },
     {
@@ -1616,7 +1777,8 @@
         "warning": "3|18",
         "names": {
             "tr": "Dimagnezyum fosfat",
-            "en": "Dimagnesium phosphate"
+            "en": "Dimagnesium phosphate",
+            "ru": "Димагний фосфат"
         }
     },
     {
@@ -1626,7 +1788,8 @@
         "warning": "21",
         "names": {
             "tr": "Sodyum malatlar",
-            "en": "Sodium malates"
+            "en": "Sodium malates",
+            "ru": "Малаты натрия"
         }
     },
     {
@@ -1636,7 +1799,8 @@
         "warning": "21",
         "names": {
             "tr": "Sodyum malat",
-            "en": "Sodium malate"
+            "en": "Sodium malate",
+            "ru": "Малат натрия"
         }
     },
     {
@@ -1646,7 +1810,8 @@
         "warning": "21",
         "names": {
             "tr": "Sodyum hidrojen malat",
-            "en": "Sodium hydrogen malate"
+            "en": "Sodium hydrogen malate",
+            "ru": "Малат натрия гидроген"
         }
     },
     {
@@ -1656,7 +1821,8 @@
         "warning": "21",
         "names": {
             "tr": "Potasyum malat",
-            "en": "Potassium malate"
+            "en": "Potassium malate",
+            "ru": "Малат калия"
         }
     },
     {
@@ -1666,7 +1832,8 @@
         "warning": "21",
         "names": {
             "tr": "Kalsiyum malatlar",
-            "en": "Calcium malates"
+            "en": "Calcium malates",
+            "ru": "Малаты кальция"
         }
     },
     {
@@ -1676,7 +1843,8 @@
         "warning": "21",
         "names": {
             "tr": "Kalsiyum malat",
-            "en": "Calcium malate"
+            "en": "Calcium malate",
+            "ru": "Малат кальция"
         }
     },
     {
@@ -1686,7 +1854,8 @@
         "warning": "21",
         "names": {
             "tr": "Kalsiyum hidrojen malat",
-            "en": "Calcium hydrogen malate"
+            "en": "Calcium hydrogen malate",
+            "ru": "Малат кальция гидроген"
         }
     },
     {
@@ -1696,7 +1865,8 @@
         "warning": "0",
         "names": {
             "tr": "Metatartarik asit",
-            "en": "Metatartaric acid"
+            "en": "Metatartaric acid",
+            "ru": "Метатартратная кислота"
         }
     },
     {
@@ -1706,7 +1876,8 @@
         "warning": "0",
         "names": {
             "tr": "Kalsiyum tartarat",
-            "en": "Calcium tartrate"
+            "en": "Calcium tartrate",
+            "ru": "Тартрат кальция"
         }
     },
     {
@@ -1716,7 +1887,8 @@
         "warning": "0",
         "names": {
             "tr": "Adipik asit",
-            "en": "Adipic acid"
+            "en": "Adipic acid",
+            "ru": "Адипиновая кислота"
         }
     },
     {
@@ -1726,7 +1898,8 @@
         "warning": "0",
         "names": {
             "tr": "Sodyum adipat",
-            "en": "Sodium adipate"
+            "en": "Sodium adipate",
+            "ru": "Адипат натрия"
         }
     },
     {
@@ -1736,7 +1909,8 @@
         "warning": "0",
         "names": {
             "tr": "Potasyum adipat",
-            "en": "Potassium adipate"
+            "en": "Potassium adipate",
+            "ru": "Адипат калия"
         }
     },
     {
@@ -1746,7 +1920,8 @@
         "warning": "0",
         "names": {
             "tr": "Süksinik asit",
-            "en": "Succinic acid"
+            "en": "Succinic acid",
+            "ru": "Янтарная кислота"
         }
     },
     {
@@ -1756,7 +1931,8 @@
         "warning": "0",
         "names": {
             "tr": "Triamonyum sitrat",
-            "en": "Triammonium citrate"
+            "en": "Triammonium citrate",
+            "ru": "Цитрат триаммония"
         }
     },
     {
@@ -1766,7 +1942,8 @@
         "warning": "7",
         "names": {
             "tr": "Kalsiyum disodyum etilen diamin tetra-asetat (Kalsiyum disodyum EDTA)",
-            "en": "Calcium disodium ethylene diamine tetra-acetate (Calcium disodium EDTA)"
+            "en": "Calcium disodium ethylene diamine tetra-acetate (Calcium disodium EDTA)",
+            "ru": "Кальция дисодиум этилендиаминтетраацетат (кальция дисодиум ЭДТА)"
         }
     },
     {
@@ -1776,7 +1953,8 @@
         "warning": "0",
         "names": {
             "tr": "Biberiye ekstraktları",
-            "en": "Extracts of rosemary"
+            "en": "Extracts of rosemary",
+            "ru": "Экстракты розмарина"
         }
     },
     {
@@ -1786,7 +1964,8 @@
         "warning": "18|21",
         "names": {
             "tr": "Aljinik asit",
-            "en": "Alginic acid"
+            "en": "Alginic acid",
+            "ru": "Альгиновая кислота"
         }
     },
     {
@@ -1796,7 +1975,8 @@
         "warning": "18|21",
         "names": {
             "tr": "Sodyum aljinat",
-            "en": "Sodium alginate"
+            "en": "Sodium alginate",
+            "ru": "Альгинат натрия"
         }
     },
     {
@@ -1806,7 +1986,8 @@
         "warning": "18|21",
         "names": {
             "tr": "Potasyum aljinat",
-            "en": "Potassium alginate"
+            "en": "Potassium alginate",
+            "ru": "Альгинат калия"
         }
     },
     {
@@ -1816,7 +1997,8 @@
         "warning": "18|21",
         "names": {
             "tr": "Amonyum aljinat",
-            "en": "Ammonium alginate"
+            "en": "Ammonium alginate",
+            "ru": "Альгинат аммония"
         }
     },
     {
@@ -1826,7 +2008,8 @@
         "warning": "18|21",
         "names": {
             "tr": "Kalsiyum aljinat",
-            "en": "Calcium alginate"
+            "en": "Calcium alginate",
+            "ru": "Альгинат кальция"
         }
     },
     {
@@ -1836,7 +2019,8 @@
         "warning": "1|21",
         "names": {
             "tr": "Propan-1,2-diol aljinat",
-            "en": "Propan-1,2-diol alginate"
+            "en": "Propan-1,2-diol alginate",
+            "ru": "Альгинат пропан-1,2-диола"
         }
     },
     {
@@ -1846,7 +2030,8 @@
         "warning": "0",
         "names": {
             "tr": "Agar",
-            "en": "Agar"
+            "en": "Agar",
+            "ru": "Агар"
         }
     },
     {
@@ -1856,7 +2041,8 @@
         "warning": "19|9|8",
         "names": {
             "tr": "Karragenan",
-            "en": "Carrageenan"
+            "en": "Carrageenan",
+            "ru": "Каррагинан"
         }
     },
     {
@@ -1866,7 +2052,8 @@
         "warning": "19",
         "names": {
             "tr": "İşlenmiş eucheuma seaweed",
-            "en": "Processed eucheuma seaweed"
+            "en": "Processed eucheuma seaweed",
+            "ru": "Переработанная морская водоросль эвхейма"
         }
     },
     {
@@ -1876,7 +2063,8 @@
         "warning": "1",
         "names": {
             "tr": "Keçiboynuzu gamı",
-            "en": "Locust bean gum"
+            "en": "Locust bean gum",
+            "ru": "Камедь бобов саранки"
         }
     },
     {
@@ -1886,7 +2074,8 @@
         "warning": "1",
         "names": {
             "tr": "Locust bean gum",
-            "en": "Locust bean gum"
+            "en": "Locust bean gum",
+            "ru": "Камедь бобов саранки"
         }
     },
     {
@@ -1896,7 +2085,8 @@
         "warning": "1|21",
         "names": {
             "tr": "Guar gam",
-            "en": "Guar gum"
+            "en": "Guar gum",
+            "ru": "Гуаровая камедь"
         }
     },
     {
@@ -1906,7 +2096,8 @@
         "warning": "1",
         "names": {
             "tr": "Kitre gamı",
-            "en": "Tragacanth"
+            "en": "Tragacanth",
+            "ru": "Трагакант"
         }
     },
     {
@@ -1916,7 +2107,8 @@
         "warning": "1",
         "names": {
             "tr": "Tragacanth",
-            "en": "Tragacanth"
+            "en": "Tragacanth",
+            "ru": "Трагакант"
         }
     },
     {
@@ -1926,7 +2118,8 @@
         "warning": "1|7",
         "names": {
             "tr": "Akasya gamı,Gam arabik,Arap zamkı",
-            "en": "Acacia gum,Gum arabic"
+            "en": "Acacia gum,Gum arabic",
+            "ru": "Камедь акации, камедь арабика"
         }
     },
     {
@@ -1936,7 +2129,8 @@
         "warning": "0",
         "names": {
             "tr": "Ksantan gam,Ksantan zamkı",
-            "en": "Xanthan gum"
+            "en": "Xanthan gum",
+            "ru": "Ксантановая камедь"
         }
     },
     {
@@ -1946,7 +2140,8 @@
         "warning": "1",
         "names": {
             "tr": "Karaya gam",
-            "en": "Karaya gum"
+            "en": "Karaya gum",
+            "ru": "Камедь Карая"
         }
     },
     {
@@ -1956,7 +2151,8 @@
         "warning": "0",
         "names": {
             "tr": "Tara gam",
-            "en": "Tara gum"
+            "en": "Tara gum",
+            "ru": "Камедь тары"
         }
     },
     {
@@ -1966,7 +2162,8 @@
         "warning": "0",
         "names": {
             "tr": "Jellan gam",
-            "en": "Gellan gum"
+            "en": "Gellan gum",
+            "ru": "Геллановая камедь"
         }
     },
     {
@@ -1976,7 +2173,8 @@
         "warning": "15|5",
         "names": {
             "tr": "Sorbitol",
-            "en": "Sorbitol"
+            "en": "Sorbitol",
+            "ru": "Сорбит"
         }
     },
     {
@@ -1986,7 +2184,8 @@
         "warning": "15|5",
         "names": {
             "tr": "Sorbitol şurubu",
-            "en": "Sorbitol syrup"
+            "en": "Sorbitol syrup",
+            "ru": "Сорбитовый сироп"
         }
     },
     {
@@ -1996,7 +2195,8 @@
         "warning": "15",
         "names": {
             "tr": "Mannitol",
-            "en": "Mannitol"
+            "en": "Mannitol",
+            "ru": "Маннит"
         }
     },
     {
@@ -2006,7 +2206,8 @@
         "warning": "15",
         "names": {
             "tr": "Hidrojenasyon yoluyla mannitol",
-            "en": "Mannitol by hydrogenation"
+            "en": "Mannitol by hydrogenation",
+            "ru": "Маннитол, полученный гидрогенизацией"
         }
     },
     {
@@ -2016,7 +2217,8 @@
         "warning": "15",
         "names": {
             "tr": "Fermentasyon ile üretilen mannitol",
-            "en": "Mannitol manufactured by fermentation"
+            "en": "Mannitol manufactured by fermentation",
+            "ru": "Маннитол, полученный путем ферментации"
         }
     },
     {
@@ -2026,7 +2228,8 @@
         "warning": "0",
         "names": {
             "tr": "Gliserol,Gliserin",
-            "en": "Glycerol,Glycerin"
+            "en": "Glycerol,Glycerin",
+            "ru": "Глицерин, глицерин"
         }
     },
     {
@@ -2036,7 +2239,8 @@
         "warning": "0",
         "names": {
             "tr": "Gam arabikle modifiye edilmiş oktenil süksinik asit",
-            "en": "Octenyl succinic acid modified gum arabic"
+            "en": "Octenyl succinic acid modified gum arabic",
+            "ru": "Модифицированный камедью арабик с октенил-янтарной кислотой"
         }
     },
     {
@@ -2046,7 +2250,8 @@
         "warning": "1",
         "names": {
             "tr": "Konjak",
-            "en": "Konjac"
+            "en": "Konjac",
+            "ru": "Konjac"
         }
     },
     {
@@ -2056,7 +2261,8 @@
         "warning": "1",
         "names": {
             "tr": "Konjak gam",
-            "en": "Konjac gum"
+            "en": "Konjac gum",
+            "ru": "Камедь конжака"
         }
     },
     {
@@ -2066,7 +2272,8 @@
         "warning": "1",
         "names": {
             "tr": "Konjak glukomannan",
-            "en": "Konjac glucomannane"
+            "en": "Konjac glucomannane",
+            "ru": "Глюкоманнан конжака"
         }
     },
     {
@@ -2076,7 +2283,8 @@
         "warning": "1",
         "names": {
             "tr": "Soya fasulyesi hemiselülozu",
-            "en": "Soybean hemicellulose"
+            "en": "Soybean hemicellulose",
+            "ru": "Гемицеллюлоза соевых бобов"
         }
     },
     {
@@ -2086,7 +2294,8 @@
         "warning": "0",
         "names": {
             "tr": "Cassia gum",
-            "en": "Cassia gum"
+            "en": "Cassia gum",
+            "ru": "Камедь кассии"
         }
     },
     {
@@ -2096,7 +2305,8 @@
         "warning": "0",
         "names": {
             "tr": "Sinameki gam",
-            "en": "Cassia gum"
+            "en": "Cassia gum",
+            "ru": "Камедь кассии"
         }
     },
     {
@@ -2106,7 +2316,8 @@
         "warning": "0",
         "names": {
             "tr": "Polioksietilen (40) stearat",
-            "en": "Polyoxyethylene (40) stearate"
+            "en": "Polyoxyethylene (40) stearate",
+            "ru": "Полиоксиэтилен (40) стеарат"
         }
     },
     {
@@ -2116,7 +2327,8 @@
         "warning": "0",
         "names": {
             "tr": "Polioksietilen sorbitan monolaurat (polisorbat 20)",
-            "en": "Polyoxyethylene sorbitan monolaurate (polysorbate 20)"
+            "en": "Polyoxyethylene sorbitan monolaurate (polysorbate 20)",
+            "ru": "Полиоксиэтилен сорбитан монолаурат (полисорбат 20)"
         }
     },
     {
@@ -2126,7 +2338,8 @@
         "warning": "0",
         "names": {
             "tr": "Polisorbat 20",
-            "en": "Polysorbate 20"
+            "en": "Polysorbate 20",
+            "ru": "Полисорбат 20"
         }
     },
     {
@@ -2136,7 +2349,8 @@
         "warning": "0",
         "names": {
             "tr": "Polioksietilen sorbitan monooleat (polisorbat 80)",
-            "en": "Polyoxyethylene sorbitan monooleate (polysorbate 80)"
+            "en": "Polyoxyethylene sorbitan monooleate (polysorbate 80)",
+            "ru": "Полиоксиэтилен сорбитан моноолеат (полисорбат 80)"
         }
     },
     {
@@ -2146,7 +2360,8 @@
         "warning": "0",
         "names": {
             "tr": "Polisorbat 80",
-            "en": "Polysorbate 80"
+            "en": "Polysorbate 80",
+            "ru": "Полисорбат 80"
         }
     },
     {
@@ -2156,7 +2371,8 @@
         "warning": "0",
         "names": {
             "tr": "Polioksietilen sorbitan monopalmitat (polisorbat 40)",
-            "en": "Polyoxyethylene sorbitan monopalmitate (polysorbate 40)"
+            "en": "Polyoxyethylene sorbitan monopalmitate (polysorbate 40)",
+            "ru": "Полиоксиэтилен сорбитан монопальмитат (полисорбат 40)"
         }
     },
     {
@@ -2166,7 +2382,8 @@
         "warning": "0",
         "names": {
             "tr": "Polisorbat 40",
-            "en": "Polysorbate 40"
+            "en": "Polysorbate 40",
+            "ru": "Полисорбат 40"
         }
     },
     {
@@ -2176,7 +2393,8 @@
         "warning": "0",
         "names": {
             "tr": "Polioksietilen sorbitan monostearat (polisorbat 60)",
-            "en": "Polyoxyethylene sorbitan monostearate (polysorbate 60)"
+            "en": "Polyoxyethylene sorbitan monostearate (polysorbate 60)",
+            "ru": "Полиоксиэтилен сорбитан моностеарат (полисорбат 60)"
         }
     },
     {
@@ -2186,7 +2404,8 @@
         "warning": "0",
         "names": {
             "tr": "Polisorbat 60",
-            "en": "Polysorbate 60"
+            "en": "Polysorbate 60",
+            "ru": "Полисорбат 60"
         }
     },
     {
@@ -2196,7 +2415,8 @@
         "warning": "0",
         "names": {
             "tr": "Polioksietilen sorbitan tristearat (polisorbat 65)",
-            "en": "Polyoxyethylene sorbitan tristearate (polysorbate 65)"
+            "en": "Polyoxyethylene sorbitan tristearate (polysorbate 65)",
+            "ru": "Полиоксиэтилен сорбитан тристеарат (полисорбат 65)"
         }
     },
     {
@@ -2206,7 +2426,8 @@
         "warning": "0",
         "names": {
             "tr": "Polisorbat 65",
-            "en": "Polysorbate 65"
+            "en": "Polysorbate 65",
+            "ru": "Полисорбат 65"
         }
     },
     {
@@ -2216,7 +2437,8 @@
         "warning": "1",
         "names": {
             "tr": "Pektin",
-            "en": "Pectin"
+            "en": "Pectin",
+            "ru": "Пектин"
         }
     },
     {
@@ -2226,7 +2448,8 @@
         "warning": "21",
         "names": {
             "tr": "Amidize pektin",
-            "en": "Amidated pectin"
+            "en": "Amidated pectin",
+            "ru": "Амидированный пектин"
         }
     },
     {
@@ -2236,7 +2459,8 @@
         "warning": "0",
         "names": {
             "tr": "Amonyum fosfatidler",
-            "en": "Ammonium phosphatides"
+            "en": "Ammonium phosphatides",
+            "ru": "Фосфатиды аммония"
         }
     },
     {
@@ -2246,7 +2470,8 @@
         "warning": "0",
         "names": {
             "tr": "Sukroz asetat izobütirat",
-            "en": "Sucrose acetate isobutyrate"
+            "en": "Sucrose acetate isobutyrate",
+            "ru": "Изобутират ацетата сахарозы"
         }
     },
     {
@@ -2256,7 +2481,8 @@
         "warning": "1",
         "names": {
             "tr": "Ağaç reçinesinin gliserol esterleri",
-            "en": "Glycerol esters of wood rosins"
+            "en": "Glycerol esters of wood rosins",
+            "ru": "Глицериновые эфиры древесных канифолей"
         }
     },
     {
@@ -2266,7 +2492,8 @@
         "warning": "3|18",
         "names": {
             "tr": "Difosfatlar",
-            "en": "Diphosphates"
+            "en": "Diphosphates",
+            "ru": "Дифосфаты"
         }
     },
     {
@@ -2276,7 +2503,8 @@
         "warning": "3|18",
         "names": {
             "tr": "Disodyum difosfat",
-            "en": "Disodium diphosphate"
+            "en": "Disodium diphosphate",
+            "ru": "Дифосфат натрия"
         }
     },
     {
@@ -2286,7 +2514,8 @@
         "warning": "3",
         "names": {
             "tr": "Sodyum asit pirofosfat",
-            "en": "Sodium acid pyrophosphate"
+            "en": "Sodium acid pyrophosphate",
+            "ru": "Пирофосфат натрия кислый"
         }
     },
     {
@@ -2296,7 +2525,8 @@
         "warning": "3|18",
         "names": {
             "tr": "Trisodyum difosfat",
-            "en": "Trisodium diphosphate"
+            "en": "Trisodium diphosphate",
+            "ru": "Тринатрий дифосфат"
         }
     },
     {
@@ -2306,7 +2536,8 @@
         "warning": "3|18",
         "names": {
             "tr": "Sodyum difosfat",
-            "en": "Sodium diphosphate"
+            "en": "Sodium diphosphate",
+            "ru": "Дифосфат натрия"
         }
     },
     {
@@ -2316,7 +2547,8 @@
         "warning": "3|18",
         "names": {
             "tr": "Tetrasodyum difosfat",
-            "en": "Tetrasodium diphosphate"
+            "en": "Tetrasodium diphosphate",
+            "ru": "Тетрасодиум дифосфат"
         }
     },
     {
@@ -2326,7 +2558,8 @@
         "warning": "3",
         "names": {
             "tr": "Tetrasodyum pirofosfat",
-            "en": "Tetrasodium pyrophosphate"
+            "en": "Tetrasodium pyrophosphate",
+            "ru": "Тетрасодиум пирофосфат"
         }
     },
     {
@@ -2336,7 +2569,8 @@
         "warning": "3|18",
         "names": {
             "tr": "Magnezyum dihidrojen difosfat",
-            "en": "Magnesium dihydrogen diphosphate"
+            "en": "Magnesium dihydrogen diphosphate",
+            "ru": "Дигидроген дифосфат магния"
         }
     },
     {
@@ -2346,7 +2580,8 @@
         "warning": "3|18",
         "names": {
             "tr": "Tetrapotasyum difosfat",
-            "en": "Tetrapotassium diphosphate"
+            "en": "Tetrapotassium diphosphate",
+            "ru": "Тетрапотассиум дифосфат"
         }
     },
     {
@@ -2356,7 +2591,8 @@
         "warning": "3|18",
         "names": {
             "tr": "Dikalsiyum difosfat",
-            "en": "Dicalcium diphosphate"
+            "en": "Dicalcium diphosphate",
+            "ru": "Дикальций дифосфат"
         }
     },
     {
@@ -2366,7 +2602,8 @@
         "warning": "4|18",
         "names": {
             "tr": "Kalsiyum dihidrojen difosfat",
-            "en": "Calcium dihydrogen diphosphate"
+            "en": "Calcium dihydrogen diphosphate",
+            "ru": "Дигидроген дифосфат кальция"
         }
     },
     {
@@ -2376,7 +2613,8 @@
         "warning": "3|18",
         "names": {
             "tr": "Trifosfatlar",
-            "en": "Triphosphates"
+            "en": "Triphosphates",
+            "ru": "Трифосфаты"
         }
     },
     {
@@ -2386,7 +2624,8 @@
         "warning": "3",
         "names": {
             "tr": "Pentasodyum trifosfat",
-            "en": "Pentasodium triphosphate"
+            "en": "Pentasodium triphosphate",
+            "ru": "Трифосфат пентасодиума"
         }
     },
     {
@@ -2396,7 +2635,8 @@
         "warning": "3",
         "names": {
             "tr": "Pentapotasyum trifosfat",
-            "en": "Pentapotassium triphosphate"
+            "en": "Pentapotassium triphosphate",
+            "ru": "Пентапотассиум трифосфат"
         }
     },
     {
@@ -2406,7 +2646,8 @@
         "warning": "3",
         "names": {
             "tr": "Potasyum tripolifosfat",
-            "en": "Potassium tripolyphosphate"
+            "en": "Potassium tripolyphosphate",
+            "ru": "Триполифосфат калия"
         }
     },
     {
@@ -2416,7 +2657,8 @@
         "warning": "3",
         "names": {
             "tr": "Polifosfatlar",
-            "en": "Polyphosphates"
+            "en": "Polyphosphates",
+            "ru": "Полифосфаты"
         }
     },
     {
@@ -2426,7 +2668,8 @@
         "warning": "3",
         "names": {
             "tr": "Sodyum hekzametafosfat",
-            "en": "Sodium hexametaphosphate"
+            "en": "Sodium hexametaphosphate",
+            "ru": "Гексаметафосфат натрия"
         }
     },
     {
@@ -2436,7 +2679,8 @@
         "warning": "3",
         "names": {
             "tr": "Sodyum polifosfat,Sodyum hekzametafosfat",
-            "en": "Sodium polyphosphates,Sodium hexametaphosphate"
+            "en": "Sodium polyphosphates,Sodium hexametaphosphate",
+            "ru": "Полифосфаты натрия, гексаметафосфат натрия"
         }
     },
     {
@@ -2446,7 +2690,8 @@
         "warning": "3",
         "names": {
             "tr": "Potasyum polifosfat",
-            "en": "Potassium polyphosphates"
+            "en": "Potassium polyphosphates",
+            "ru": "Полифосфаты калия"
         }
     },
     {
@@ -2456,7 +2701,8 @@
         "warning": "3",
         "names": {
             "tr": "Sodyum kalsiyum polifosfat",
-            "en": "Sodium calcium polyphosphate"
+            "en": "Sodium calcium polyphosphate",
+            "ru": "Полифосфат кальция натрия"
         }
     },
     {
@@ -2466,7 +2712,8 @@
         "warning": "3",
         "names": {
             "tr": "Kalsiyum polifosfat",
-            "en": "Calcium polyphophates"
+            "en": "Calcium polyphophates",
+            "ru": "Полифосфаты кальция"
         }
     },
     {
@@ -2476,7 +2723,8 @@
         "warning": "0",
         "names": {
             "tr": "Potasyum poliaspartat",
-            "en": "Potassium polyaspartate"
+            "en": "Potassium polyaspartate",
+            "ru": "Полиаспартат калия"
         }
     },
     {
@@ -2486,7 +2734,8 @@
         "warning": "0",
         "names": {
             "tr": "Beta-siklodekstrin",
-            "en": "Beta-cyclodextrine"
+            "en": "Beta-cyclodextrine",
+            "ru": "Бета-циклодекстрин"
         }
     },
     {
@@ -2496,7 +2745,8 @@
         "warning": "0",
         "names": {
             "tr": "Mikrokristalin selüloz",
-            "en": "Microcrystalline cellulose"
+            "en": "Microcrystalline cellulose",
+            "ru": "Микрокристаллическая целлюлоза"
         }
     },
     {
@@ -2506,7 +2756,8 @@
         "warning": "0",
         "names": {
             "tr": "Toz selüloz",
-            "en": "Powdered cellulose"
+            "en": "Powdered cellulose",
+            "ru": "Порошкообразная целлюлоза"
         }
     },
     {
@@ -2516,7 +2767,8 @@
         "warning": "0",
         "names": {
             "tr": "Metil selüloz",
-            "en": "Methyl cellulose"
+            "en": "Methyl cellulose",
+            "ru": "Метилцеллюлоза"
         }
     },
     {
@@ -2526,7 +2778,8 @@
         "warning": "0",
         "names": {
             "tr": "Etil selüloz",
-            "en": "Ethyl cellulose"
+            "en": "Ethyl cellulose",
+            "ru": "Этилцеллюлоза"
         }
     },
     {
@@ -2536,7 +2789,8 @@
         "warning": "0",
         "names": {
             "tr": "Hidroksipropil selüloz",
-            "en": "Hydroxypropyl cellulose"
+            "en": "Hydroxypropyl cellulose",
+            "ru": "Гидроксипропилцеллюлоза"
         }
     },
     {
@@ -2546,7 +2800,8 @@
         "warning": "0",
         "names": {
             "tr": "Düşük sübstitüe-hidroksipropil selüloz (L-HPC)",
-            "en": "Low-substituted hydroxypropyl cellulose"
+            "en": "Low-substituted hydroxypropyl cellulose",
+            "ru": "Низкозамещенная гидроксипропилцеллюлоза"
         }
     },
     {
@@ -2556,7 +2811,8 @@
         "warning": "0",
         "names": {
             "tr": "Hidroksipropil metil selüloz",
-            "en": "Hydroxypropyl methyl cellulose"
+            "en": "Hydroxypropyl methyl cellulose",
+            "ru": "Гидроксипропилметилцеллюлоза"
         }
     },
     {
@@ -2566,7 +2822,8 @@
         "warning": "0",
         "names": {
             "tr": "Etil metil selüloz",
-            "en": "Ethyl methyl cellulose"
+            "en": "Ethyl methyl cellulose",
+            "ru": "Этилметилцеллюлоза"
         }
     },
     {
@@ -2576,7 +2833,8 @@
         "warning": "18",
         "names": {
             "tr": "Karboksimetil selüloz,Sodyum karboksimetil selüloz",
-            "en": "Carboxymethyl cellulose,Sodium carboxymethyl cellulose"
+            "en": "Carboxymethyl cellulose,Sodium carboxymethyl cellulose",
+            "ru": "Карбоксиметилцеллюлоза, карбоксиметилцеллюлоза натрия"
         }
     },
     {
@@ -2586,7 +2844,8 @@
         "warning": "18",
         "names": {
             "tr": "Çapraz bağlı sodyum karboksimetil selüloz",
-            "en": "Crosslinked sodium carboxymethyl cellulose"
+            "en": "Crosslinked sodium carboxymethyl cellulose",
+            "ru": "Сшитая карбоксиметилцеллюлоза натрия"
         }
     },
     {
@@ -2596,7 +2855,8 @@
         "warning": "18",
         "names": {
             "tr": "Enzimatik hidrolize karboksimetil selüloz",
-            "en": "Enzymatically hydrolysed carboxymethyl cellulose"
+            "en": "Enzymatically hydrolysed carboxymethyl cellulose",
+            "ru": "Ферментативно гидролизованная карбоксиметилцеллюлоза"
         }
     },
     {
@@ -2606,7 +2866,8 @@
         "warning": "0",
         "names": {
             "tr": "Yağ asitlerinin sodyum,potasyum ve kalsiyum tuzları",
-            "en": "Sodium,potassium and calcium salts of fatty acids"
+            "en": "Sodium,potassium and calcium salts of fatty acids",
+            "ru": "Натриевые, калиевые и кальциевые соли жирных кислот"
         }
     },
     {
@@ -2616,7 +2877,8 @@
         "warning": "0",
         "names": {
             "tr": "Yağ asitlerinin magnezyum tuzları",
-            "en": "Magnesium salts of fatty acids"
+            "en": "Magnesium salts of fatty acids",
+            "ru": "Магниевые соли жирных кислот"
         }
     },
     {
@@ -2626,7 +2888,8 @@
         "warning": "0",
         "names": {
             "tr": "Gliseril distearat",
-            "en": "Glyceryl distearate"
+            "en": "Glyceryl distearate",
+            "ru": "Глицерил дистеарат"
         }
     },
     {
@@ -2636,7 +2899,8 @@
         "warning": "0",
         "names": {
             "tr": "Gliseril monostearat",
-            "en": "Glyceryl monostearate"
+            "en": "Glyceryl monostearate",
+            "ru": "Глицерил моностеарат"
         }
     },
     {
@@ -2646,7 +2910,8 @@
         "warning": "0",
         "names": {
             "tr": "Yağ asitlerinin mono ve digliseritleri",
-            "en": "Mono- and diglycerides of fatty acids"
+            "en": "Mono- and diglycerides of fatty acids",
+            "ru": "Моно- и диглицериды жирных кислот"
         }
     },
     {
@@ -2656,7 +2921,8 @@
         "warning": "0",
         "names": {
             "tr": "Yağ asitlerinin mono ve digliseridlerinin asetik asit esterleri",
-            "en": "Acetic acid esters of mono- and diglycerides of fatty acids"
+            "en": "Acetic acid esters of mono- and diglycerides of fatty acids",
+            "ru": "Эфиры уксусной кислоты моно- и диглицеридов жирных кислот"
         }
     },
     {
@@ -2666,7 +2932,8 @@
         "warning": "0",
         "names": {
             "tr": "Yağ asitlerinin mono ve digliseridlerinin laktik asit esterleri",
-            "en": "Lactic acid esters of mono- and diglycerides of fatty acids"
+            "en": "Lactic acid esters of mono- and diglycerides of fatty acids",
+            "ru": "Эфиры молочной кислоты моно- и диглицеридов жирных кислот"
         }
     },
     {
@@ -2676,7 +2943,8 @@
         "warning": "0",
         "names": {
             "tr": "Yağ asitlerinin mono ve digliseridlerinin sitrik asit esterleri",
-            "en": "Citric acid esters of mono- and diglycerides of fatty acids"
+            "en": "Citric acid esters of mono- and diglycerides of fatty acids",
+            "ru": "Эфиры лимонной кислоты моно- и диглицеридов жирных кислот"
         }
     },
     {
@@ -2686,7 +2954,8 @@
         "warning": "0",
         "names": {
             "tr": "Yağ asitlerinin mono ve digliseritlerinin tartarik asit esterleri",
-            "en": "Tartaric acid esters of mono- and diglycerides of fatty acids"
+            "en": "Tartaric acid esters of mono- and diglycerides of fatty acids",
+            "ru": "Эфиры винной кислоты моно- и диглицеридов жирных кислот"
         }
     },
     {
@@ -2696,7 +2965,8 @@
         "warning": "0",
         "names": {
             "tr": "Yağ asitlerinin mono ve digliseritlerinin mono ve diasetil tartarik asit esterleri",
-            "en": "Mono- and diacetyl tartaric acid esters of mono- and diglycerides of fatty acids"
+            "en": "Mono- and diacetyl tartaric acid esters of mono- and diglycerides of fatty acids",
+            "ru": "Моно- и диацетиловые эфиры винной кислоты моно- и диглицеридов жирных кислот"
         }
     },
     {
@@ -2706,7 +2976,8 @@
         "warning": "0",
         "names": {
             "tr": "Yağ asitlerinin mono ve digliseritlerinin karışık asetik ve tartarik asit esterleri",
-            "en": "Mixed acetic and tartaric acid esters of mono- and diglycerides of fatty acids"
+            "en": "Mixed acetic and tartaric acid esters of mono- and diglycerides of fatty acids",
+            "ru": "Смешанные эфиры уксусной и винной кислот моно- и диглицеридов жирных кислот"
         }
     },
     {
@@ -2716,7 +2987,8 @@
         "warning": "0",
         "names": {
             "tr": "Yağ asitlerinin sukroz esterleri",
-            "en": "Sucrose esters of fatty acids"
+            "en": "Sucrose esters of fatty acids",
+            "ru": "Эфиры сахарозы жирных кислот"
         }
     },
     {
@@ -2726,7 +2998,8 @@
         "warning": "0",
         "names": {
             "tr": "Sukrogliseridler",
-            "en": "Sucroglycerides"
+            "en": "Sucroglycerides",
+            "ru": "Сукроглицериды"
         }
     },
     {
@@ -2736,7 +3009,8 @@
         "warning": "0",
         "names": {
             "tr": "Yağ asitlerinin poligliserol esterleri",
-            "en": "Polyglycerol esters of fatty acids"
+            "en": "Polyglycerol esters of fatty acids",
+            "ru": "Полиглицериновые эфиры жирных кислот"
         }
     },
     {
@@ -2746,7 +3020,8 @@
         "warning": "0",
         "names": {
             "tr": "Poligliserol polirisinolat",
-            "en": "Polyglycerol polyricinoleate"
+            "en": "Polyglycerol polyricinoleate",
+            "ru": "Полиглицерин полирицинолеат"
         }
     },
     {
@@ -2756,7 +3031,8 @@
         "warning": "0",
         "names": {
             "tr": "Yağ asitlerinin propan-1,2-diol esterleri",
-            "en": "Propane-1,2-diol esters of fatty acids"
+            "en": "Propane-1,2-diol esters of fatty acids",
+            "ru": "Пропан-1,2-диоловые эфиры жирных кислот"
         }
     },
     {
@@ -2766,7 +3042,8 @@
         "warning": "0",
         "names": {
             "tr": "Yağ asitlerinin mono ve digliseridleri ile reaksiyona girmiş,ısıl işlemle okside edilmiş soya fasulyesi yağı",
-            "en": "Thermally oxidized soya bean oil interacted with mono- and diglycerides of fatty acids"
+            "en": "Thermally oxidized soya bean oil interacted with mono- and diglycerides of fatty acids",
+            "ru": "Термически окисленное масло соевых бобов, взаимодействующее с моно- и диглицеридами жирных кислот"
         }
     },
     {
@@ -2776,7 +3053,8 @@
         "warning": "1",
         "names": {
             "tr": "Sodyum stearol-2-laktilat",
-            "en": "Sodium stearoyl-2-lactylate"
+            "en": "Sodium stearoyl-2-lactylate",
+            "ru": "Стеароил-2-лактилат натрия"
         }
     },
     {
@@ -2786,7 +3064,8 @@
         "warning": "1",
         "names": {
             "tr": "Kalsiyum stearol-2-laktilat",
-            "en": "Calcium stearoyl-2-lactylate"
+            "en": "Calcium stearoyl-2-lactylate",
+            "ru": "Стеароил-2-лактилат кальция"
         }
     },
     {
@@ -2796,7 +3075,8 @@
         "warning": "0",
         "names": {
             "tr": "Stearil tartarat",
-            "en": "Stearyl tartrate"
+            "en": "Stearyl tartrate",
+            "ru": "Стеариловый тартрат"
         }
     },
     {
@@ -2806,7 +3086,8 @@
         "warning": "0",
         "names": {
             "tr": "Sorbitan monostearat",
-            "en": "Sorbitan monostearate"
+            "en": "Sorbitan monostearate",
+            "ru": "Сорбитан моностеарат"
         }
     },
     {
@@ -2816,7 +3097,8 @@
         "warning": "0",
         "names": {
             "tr": "Sorbitan tristearat",
-            "en": "Sorbitan tristearate"
+            "en": "Sorbitan tristearate",
+            "ru": "Сорбитан тристеарат"
         }
     },
     {
@@ -2826,7 +3108,8 @@
         "warning": "0",
         "names": {
             "tr": "Sorbitan monolaurat",
-            "en": "Sorbitan monolaurate"
+            "en": "Sorbitan monolaurate",
+            "ru": "Сорбитан монолаурат"
         }
     },
     {
@@ -2836,7 +3119,8 @@
         "warning": "0",
         "names": {
             "tr": "Sorbitan monooleat",
-            "en": "Sorbitan monooleate"
+            "en": "Sorbitan monooleate",
+            "ru": "Сорбитан моноолеат"
         }
     },
     {
@@ -2846,7 +3130,8 @@
         "warning": "0",
         "names": {
             "tr": "Sorbitan monopalmitat",
-            "en": "Sorbitan monopalmitate"
+            "en": "Sorbitan monopalmitate",
+            "ru": "Сорбитан монопальмитат"
         }
     },
     {
@@ -2856,7 +3141,8 @@
         "warning": "0",
         "names": {
             "tr": "Stigmasterol yönünden zengin bitki sterolleri",
-            "en": "Stigmasterol-rich plant sterols"
+            "en": "Stigmasterol-rich plant sterols",
+            "ru": "Растительные стерины, богатые стигмастеролом"
         }
     },
     {
@@ -2866,7 +3152,8 @@
         "warning": "0",
         "names": {
             "tr": "Sodyum karbonatlar",
-            "en": "Sodium carbonates"
+            "en": "Sodium carbonates",
+            "ru": "Карбонаты натрия"
         }
     },
     {
@@ -2876,7 +3163,8 @@
         "warning": "0",
         "names": {
             "tr": "Sodyum karbonat",
-            "en": "Sodium carbonate"
+            "en": "Sodium carbonate",
+            "ru": "Карбонат натрия"
         }
     },
     {
@@ -2886,7 +3174,8 @@
         "warning": "0",
         "names": {
             "tr": "Sodyum hidrojen karbonat",
-            "en": "Sodium hydrogen carbonate"
+            "en": "Sodium hydrogen carbonate",
+            "ru": "Гидрокарбонат натрия"
         }
     },
     {
@@ -2896,7 +3185,8 @@
         "warning": "0",
         "names": {
             "tr": "Sodyum seskui karbonat",
-            "en": "Sodium sesquicarbonate"
+            "en": "Sodium sesquicarbonate",
+            "ru": "Сесквикарбонат натрия"
         }
     },
     {
@@ -2906,7 +3196,8 @@
         "warning": "0",
         "names": {
             "tr": "Potasyum karbonatlar",
-            "en": "Potassium carbonates"
+            "en": "Potassium carbonates",
+            "ru": "Карбонаты калия"
         }
     },
     {
@@ -2916,7 +3207,8 @@
         "warning": "0",
         "names": {
             "tr": "Potasyum karbonat",
-            "en": "Potassium carbonate"
+            "en": "Potassium carbonate",
+            "ru": "Карбонат калия"
         }
     },
     {
@@ -2926,7 +3218,8 @@
         "warning": "0",
         "names": {
             "tr": "Potasyum hidrojen karbonat",
-            "en": "Potassium hydrogen carbonate"
+            "en": "Potassium hydrogen carbonate",
+            "ru": "Гидрокарбонат калия"
         }
     },
     {
@@ -2936,7 +3229,8 @@
         "warning": "0",
         "names": {
             "tr": "Amonyum karbonatlar",
-            "en": "Ammonium carbonates"
+            "en": "Ammonium carbonates",
+            "ru": "Карбонаты аммония"
         }
     },
     {
@@ -2946,7 +3240,8 @@
         "warning": "0",
         "names": {
             "tr": "Amonyum karbonat",
-            "en": "Ammonium carbonate"
+            "en": "Ammonium carbonate",
+            "ru": "Карбонат аммония"
         }
     },
     {
@@ -2956,7 +3251,8 @@
         "warning": "0",
         "names": {
             "tr": "Amonyum bikarbonat",
-            "en": "Ammonium bicarbonate"
+            "en": "Ammonium bicarbonate",
+            "ru": "Бикарбонат аммония"
         }
     },
     {
@@ -2966,7 +3262,8 @@
         "warning": "0",
         "names": {
             "tr": "Amonyum hidrojen karbonat,Amonyum bikarbonat",
-            "en": "Ammonium hydrogen carbonate,Ammonium bicarbonate"
+            "en": "Ammonium hydrogen carbonate,Ammonium bicarbonate",
+            "ru": "Гидрокарбонат аммония, бикарбонат аммония"
         }
     },
     {
@@ -2976,7 +3273,8 @@
         "warning": "0",
         "names": {
             "tr": "Magnezyum karbonatlar",
-            "en": "Magnesium carbonates"
+            "en": "Magnesium carbonates",
+            "ru": "Карбонаты магния"
         }
     },
     {
@@ -2986,7 +3284,8 @@
         "warning": "0",
         "names": {
             "tr": "Magnezyum karbonat",
-            "en": "Magnesium carbonate"
+            "en": "Magnesium carbonate",
+            "ru": "Карбонат магния"
         }
     },
     {
@@ -2996,7 +3295,8 @@
         "warning": "0",
         "names": {
             "tr": "Magnezyum hidrojen karbonat",
-            "en": "Magnesium hydrogen carbonate"
+            "en": "Magnesium hydrogen carbonate",
+            "ru": "Гидрокарбонат магния"
         }
     },
     {
@@ -3006,7 +3306,8 @@
         "warning": "0",
         "names": {
             "tr": "Magnezyum hidroksit karbonat",
-            "en": "Magnesium hydroxide carbonate"
+            "en": "Magnesium hydroxide carbonate",
+            "ru": "Карбонат гидроксида магния"
         }
     },
     {
@@ -3016,7 +3317,8 @@
         "warning": "0",
         "names": {
             "tr": "Hidroklorik asit",
-            "en": "Hydrochloric acid"
+            "en": "Hydrochloric acid",
+            "ru": "Соляная кислота"
         }
     },
     {
@@ -3026,7 +3328,8 @@
         "warning": "0",
         "names": {
             "tr": "Potasyum klorür",
-            "en": "Potassium chloride"
+            "en": "Potassium chloride",
+            "ru": "Хлорид калия"
         }
     },
     {
@@ -3036,7 +3339,8 @@
         "warning": "0",
         "names": {
             "tr": "Kalsiyum klorür",
-            "en": "Calcium chloride"
+            "en": "Calcium chloride",
+            "ru": "Хлорид кальция"
         }
     },
     {
@@ -3046,7 +3350,8 @@
         "warning": "3",
         "names": {
             "tr": "Magnezyum klorür",
-            "en": "Magnesium chloride"
+            "en": "Magnesium chloride",
+            "ru": "Хлорид магния"
         }
     },
     {
@@ -3056,7 +3361,8 @@
         "warning": "2",
         "names": {
             "tr": "Stanöz klorür",
-            "en": "Stannous chloride"
+            "en": "Stannous chloride",
+            "ru": "Хлористый калий"
         }
     },
     {
@@ -3066,7 +3372,8 @@
         "warning": "0",
         "names": {
             "tr": "Sülfürik asit",
-            "en": "Sulfuric acid"
+            "en": "Sulfuric acid",
+            "ru": "Серная кислота"
         }
     },
     {
@@ -3076,7 +3383,8 @@
         "warning": "0",
         "names": {
             "tr": "Sodyum sülfatlar",
-            "en": "Sodium sulphates"
+            "en": "Sodium sulphates",
+            "ru": "Сульфаты натрия"
         }
     },
     {
@@ -3086,7 +3394,8 @@
         "warning": "0",
         "names": {
             "tr": "Sodyum sülfat",
-            "en": "Sodium sulphate"
+            "en": "Sodium sulphate",
+            "ru": "Сульфат натрия"
         }
     },
     {
@@ -3096,7 +3405,8 @@
         "warning": "0",
         "names": {
             "tr": "Sodyum hidrojen sülfat",
-            "en": "Sodium hydrogen sulphate"
+            "en": "Sodium hydrogen sulphate",
+            "ru": "Гидросульфат натрия"
         }
     },
     {
@@ -3106,7 +3416,8 @@
         "warning": "0",
         "names": {
             "tr": "Potasyum sülfatlar",
-            "en": "Potassium sulphates"
+            "en": "Potassium sulphates",
+            "ru": "Сульфаты калия"
         }
     },
     {
@@ -3116,7 +3427,8 @@
         "warning": "0",
         "names": {
             "tr": "Potasyum sülfat",
-            "en": "Potassium sulphate"
+            "en": "Potassium sulphate",
+            "ru": "Сульфат калия"
         }
     },
     {
@@ -3126,7 +3438,8 @@
         "warning": "0",
         "names": {
             "tr": "Potasyum hidrojen sülfat",
-            "en": "Potassium hydrogen sulphate"
+            "en": "Potassium hydrogen sulphate",
+            "ru": "Гидрогенсульфат калия"
         }
     },
     {
@@ -3136,7 +3449,8 @@
         "warning": "0",
         "names": {
             "tr": "Kalsiyum sülfat",
-            "en": "Calcium sulphate"
+            "en": "Calcium sulphate",
+            "ru": "Сульфат кальция"
         }
     },
     {
@@ -3146,7 +3460,8 @@
         "warning": "0",
         "names": {
             "tr": "Amonyum sülfat",
-            "en": "Ammonium sulphate"
+            "en": "Ammonium sulphate",
+            "ru": "Сульфат аммония"
         }
     },
     {
@@ -3156,7 +3471,8 @@
         "warning": "3|9|14|8",
         "names": {
             "tr": "Alüminyum sülfat",
-            "en": "Aluminium sulphate"
+            "en": "Aluminium sulphate",
+            "ru": "Сульфат алюминия"
         }
     },
     {
@@ -3166,7 +3482,8 @@
         "warning": "3|9|14|8",
         "names": {
             "tr": "Alüminyum sodyum sülfat",
-            "en": "Aluminium sodium sulphate"
+            "en": "Aluminium sodium sulphate",
+            "ru": "Алюминия сульфат натрия"
         }
     },
     {
@@ -3176,7 +3493,8 @@
         "warning": "3|9|14|8",
         "names": {
             "tr": "Alüminyum potasyum sülfat",
-            "en": "Aluminium potassium sulphate"
+            "en": "Aluminium potassium sulphate",
+            "ru": "Сульфат калия"
         }
     },
     {
@@ -3186,7 +3504,8 @@
         "warning": "3|9|14|8",
         "names": {
             "tr": "Alüminyum amonyum sülfat",
-            "en": "Aluminium ammonium sulphate"
+            "en": "Aluminium ammonium sulphate",
+            "ru": "Сульфат аммония"
         }
     },
     {
@@ -3196,7 +3515,8 @@
         "warning": "0",
         "names": {
             "tr": "Sodyum hidroksit",
-            "en": "Sodium hydroxide"
+            "en": "Sodium hydroxide",
+            "ru": "Гидроксид натрия"
         }
     },
     {
@@ -3206,7 +3526,8 @@
         "warning": "0",
         "names": {
             "tr": "Potasyum hidroksit",
-            "en": "Potassium hydroxide"
+            "en": "Potassium hydroxide",
+            "ru": "Гидроксид калия"
         }
     },
     {
@@ -3216,7 +3537,8 @@
         "warning": "0",
         "names": {
             "tr": "Kalsiyum hidroksit",
-            "en": "Calcium hydroxide"
+            "en": "Calcium hydroxide",
+            "ru": "Гидроксид кальция"
         }
     },
     {
@@ -3226,7 +3548,8 @@
         "warning": "0",
         "names": {
             "tr": "Amonyum hidroksit",
-            "en": "Ammonium hydroxide"
+            "en": "Ammonium hydroxide",
+            "ru": "Гидроксид аммония"
         }
     },
     {
@@ -3236,7 +3559,8 @@
         "warning": "0",
         "names": {
             "tr": "Magnezyum hidroksit",
-            "en": "Magnesium hydroxide"
+            "en": "Magnesium hydroxide",
+            "ru": "Гидроксид магния"
         }
     },
     {
@@ -3246,7 +3570,8 @@
         "warning": "0",
         "names": {
             "tr": "Kalsiyum oksit",
-            "en": "Calcium oxide"
+            "en": "Calcium oxide",
+            "ru": "Оксид кальция"
         }
     },
     {
@@ -3256,7 +3581,8 @@
         "warning": "0",
         "names": {
             "tr": "Magnezyum oksit",
-            "en": "Magnesium oxide"
+            "en": "Magnesium oxide",
+            "ru": "Оксид магния"
         }
     },
     {
@@ -3266,7 +3592,8 @@
         "warning": "20",
         "names": {
             "tr": "Demir tartarat",
-            "en": "Ferrous tartrate"
+            "en": "Ferrous tartrate",
+            "ru": "Тартрат железа"
         }
     },
     {
@@ -3276,7 +3603,8 @@
         "warning": "3|33|8",
         "names": {
             "tr": "Sodyum ferrosiyanür",
-            "en": "Sodium ferrocyanide"
+            "en": "Sodium ferrocyanide",
+            "ru": "Ферроцианид натрия"
         }
     },
     {
@@ -3286,7 +3614,8 @@
         "warning": "3",
         "names": {
             "tr": "Potasyum ferrosiyanür",
-            "en": "Potassium ferrocyanide"
+            "en": "Potassium ferrocyanide",
+            "ru": "Ферроцианид калия"
         }
     },
     {
@@ -3296,7 +3625,8 @@
         "warning": "3",
         "names": {
             "tr": "Kalsiyum ferrosiyanür",
-            "en": "Calcium ferrocyanide"
+            "en": "Calcium ferrocyanide",
+            "ru": "Ферроцианид кальция"
         }
     },
     {
@@ -3306,7 +3636,8 @@
         "warning": "3|9|14|8",
         "names": {
             "tr": "Sodyum alüminyum fosfat (asidik)",
-            "en": "Sodium aluminium phosphate,acidic"
+            "en": "Sodium aluminium phosphate,acidic",
+            "ru": "Фосфат натрия алюминия, кислый"
         }
     },
     {
@@ -3316,7 +3647,8 @@
         "warning": "0",
         "names": {
             "tr": "Silikon dioksit",
-            "en": "Silicon dioxide"
+            "en": "Silicon dioxide",
+            "ru": "Диоксид кремния"
         }
     },
     {
@@ -3326,7 +3658,8 @@
         "warning": "0",
         "names": {
             "tr": "Kalsiyum silikat",
-            "en": "Calcium silicate"
+            "en": "Calcium silicate",
+            "ru": "Силикат кальция"
         }
     },
     {
@@ -3336,7 +3669,8 @@
         "warning": "0",
         "names": {
             "tr": "Magnezyum silikat",
-            "en": "Magnesium silicate"
+            "en": "Magnesium silicate",
+            "ru": "Силикат магния"
         }
     },
     {
@@ -3346,7 +3680,8 @@
         "warning": "0",
         "names": {
             "tr": "Magnezyum trisilikat (asbestsiz)",
-            "en": "Magnesium trisilicate"
+            "en": "Magnesium trisilicate",
+            "ru": "Трисиликат магния"
         }
     },
     {
@@ -3356,7 +3691,8 @@
         "warning": "8",
         "names": {
             "tr": "Talk",
-            "en": "Talc"
+            "en": "Talc",
+            "ru": "Тальк"
         }
     },
     {
@@ -3366,7 +3702,8 @@
         "warning": "3|9|14|8",
         "names": {
             "tr": "Sodyum alüminosilikat",
-            "en": "Sodium aluminosilicate"
+            "en": "Sodium aluminosilicate",
+            "ru": "Алюмосиликат натрия"
         }
     },
     {
@@ -3376,7 +3713,8 @@
         "warning": "3|9|14|8",
         "names": {
             "tr": "Sodyum alüminyum silikat",
-            "en": "Sodium aluminium silicate"
+            "en": "Sodium aluminium silicate",
+            "ru": "Алюминиевый силикат натрия"
         }
     },
     {
@@ -3386,7 +3724,8 @@
         "warning": "3|9|14|8",
         "names": {
             "tr": "Potasyum alüminyum silikat",
-            "en": "Potassium aluminium silicate"
+            "en": "Potassium aluminium silicate",
+            "ru": "Алюминиевый силикат калия"
         }
     },
     {
@@ -3396,7 +3735,8 @@
         "warning": "3|9|14|8",
         "names": {
             "tr": "Kalsiyum alüminyum silikat",
-            "en": "Calcium aluminium silicate"
+            "en": "Calcium aluminium silicate",
+            "ru": "Силикат алюминия кальция"
         }
     },
     {
@@ -3406,7 +3746,8 @@
         "warning": "0",
         "names": {
             "tr": "Bentonit",
-            "en": "Bentonite"
+            "en": "Bentonite",
+            "ru": "Бентонит"
         }
     },
     {
@@ -3416,7 +3757,8 @@
         "warning": "3|9|14|8",
         "names": {
             "tr": "Alüminyum silikat,Kaolin",
-            "en": "Aluminium silicate,Kaolin"
+            "en": "Aluminium silicate,Kaolin",
+            "ru": "Силикат алюминия, каолин"
         }
     },
     {
@@ -3426,7 +3768,8 @@
         "warning": "3|9|14|8",
         "names": {
             "tr": "Kaolin",
-            "en": "Kaolin"
+            "en": "Kaolin",
+            "ru": "Каолин"
         }
     },
     {
@@ -3436,7 +3779,8 @@
         "warning": "0",
         "names": {
             "tr": "Yağ asitleri",
-            "en": "Fatty acids"
+            "en": "Fatty acids",
+            "ru": "Жирные кислоты"
         }
     },
     {
@@ -3446,7 +3790,8 @@
         "warning": "0",
         "names": {
             "tr": "Glukonik asit",
-            "en": "Gluconic acid"
+            "en": "Gluconic acid",
+            "ru": "Глюконовая кислота"
         }
     },
     {
@@ -3456,7 +3801,8 @@
         "warning": "0",
         "names": {
             "tr": "Glukonodeltalakton",
-            "en": "Glucono-delta-lactone"
+            "en": "Glucono-delta-lactone",
+            "ru": "Глюконо-дельта-лактон"
         }
     },
     {
@@ -3466,7 +3812,8 @@
         "warning": "0",
         "names": {
             "tr": "Sodyum glukonat",
-            "en": "Sodium gluconate"
+            "en": "Sodium gluconate",
+            "ru": "Глюконат натрия"
         }
     },
     {
@@ -3476,7 +3823,8 @@
         "warning": "0",
         "names": {
             "tr": "Potasyum glukonat",
-            "en": "Potassium gluconate"
+            "en": "Potassium gluconate",
+            "ru": "Глюконат калия"
         }
     },
     {
@@ -3486,7 +3834,8 @@
         "warning": "0",
         "names": {
             "tr": "Kalsiyum glukonat",
-            "en": "Calcium gluconate"
+            "en": "Calcium gluconate",
+            "ru": "Глюконат кальция"
         }
     },
     {
@@ -3496,7 +3845,8 @@
         "warning": "7",
         "names": {
             "tr": "Ferroglukonat",
-            "en": "Ferrous gluconate"
+            "en": "Ferrous gluconate",
+            "ru": "Глюконат железа"
         }
     },
     {
@@ -3506,7 +3856,8 @@
         "warning": "1",
         "names": {
             "tr": "Ferrolaktat",
-            "en": "Ferrous lactate"
+            "en": "Ferrous lactate",
+            "ru": "Лактат железа"
         }
     },
     {
@@ -3516,7 +3867,8 @@
         "warning": "1",
         "names": {
             "tr": "4-Heksilresorsinol",
-            "en": "4-Hexylresorcinol"
+            "en": "4-Hexylresorcinol",
+            "ru": "4-гексилрезорцинол"
         }
     },
     {
@@ -3526,7 +3878,8 @@
         "warning": "1|10|3|14|11|17",
         "names": {
             "tr": "Glutamik asit",
-            "en": "Glutamic acid"
+            "en": "Glutamic acid",
+            "ru": "Глутаминовая кислота"
         }
     },
     {
@@ -3536,7 +3889,8 @@
         "warning": "1|10|3|14|11|17",
         "names": {
             "tr": "Monosodyum glutamat",
-            "en": "Monosodium glutamate"
+            "en": "Monosodium glutamate",
+            "ru": "Мононатриевый глутамат"
         }
     },
     {
@@ -3546,7 +3900,8 @@
         "warning": "10",
         "names": {
             "tr": "Monopotasyum glutamat",
-            "en": "Monopotassium glutamate"
+            "en": "Monopotassium glutamate",
+            "ru": "Монопотассиум глутамат"
         }
     },
     {
@@ -3556,7 +3911,8 @@
         "warning": "10",
         "names": {
             "tr": "Kalsiyum diglutamat",
-            "en": "Calcium diglutamate"
+            "en": "Calcium diglutamate",
+            "ru": "Диглутамат кальция"
         }
     },
     {
@@ -3566,7 +3922,8 @@
         "warning": "10",
         "names": {
             "tr": "Monoamonyum glutamat",
-            "en": "Monoammonium glutamate"
+            "en": "Monoammonium glutamate",
+            "ru": "Моноаммоний глутамат"
         }
     },
     {
@@ -3576,7 +3933,8 @@
         "warning": "10",
         "names": {
             "tr": "Magnezyum diglutamat",
-            "en": "Magnesium diglutamate"
+            "en": "Magnesium diglutamate",
+            "ru": "Диглютамат магния"
         }
     },
     {
@@ -3586,7 +3944,8 @@
         "warning": "4|18",
         "names": {
             "tr": "Guanilik asit",
-            "en": "Guanylic acid"
+            "en": "Guanylic acid",
+            "ru": "Гуаниловая кислота"
         }
     },
     {
@@ -3596,7 +3955,8 @@
         "warning": "4|18",
         "names": {
             "tr": "Disodyum guanilat",
-            "en": "Disodium guanylate"
+            "en": "Disodium guanylate",
+            "ru": "Гуанилат натрия"
         }
     },
     {
@@ -3606,7 +3966,8 @@
         "warning": "4|18",
         "names": {
             "tr": "Dipotasyum guanilat",
-            "en": "Dipotassium guanylate"
+            "en": "Dipotassium guanylate",
+            "ru": "Дипотассиум гуанилат"
         }
     },
     {
@@ -3616,7 +3977,8 @@
         "warning": "4|18",
         "names": {
             "tr": "Kalsiyum guanilat",
-            "en": "Calcium guanylate"
+            "en": "Calcium guanylate",
+            "ru": "Гуанилат кальция"
         }
     },
     {
@@ -3626,7 +3988,8 @@
         "warning": "4|18",
         "names": {
             "tr": "İnosinik asit",
-            "en": "Inosinic acid"
+            "en": "Inosinic acid",
+            "ru": "Инозиновая кислота"
         }
     },
     {
@@ -3636,7 +3999,8 @@
         "warning": "4|18",
         "names": {
             "tr": "Disodyum inosinat",
-            "en": "Disodium inosinate"
+            "en": "Disodium inosinate",
+            "ru": "Инозинат натрия"
         }
     },
     {
@@ -3646,7 +4010,8 @@
         "warning": "4|18",
         "names": {
             "tr": "Dipotasyum inosinat",
-            "en": "Dipotassium inosinate"
+            "en": "Dipotassium inosinate",
+            "ru": "Дипотассиум инозинат"
         }
     },
     {
@@ -3656,7 +4021,8 @@
         "warning": "4|18",
         "names": {
             "tr": "Kalsiyum inosinat",
-            "en": "Calcium inosinate"
+            "en": "Calcium inosinate",
+            "ru": "Инозинат кальция"
         }
     },
     {
@@ -3666,7 +4032,8 @@
         "warning": "4|18",
         "names": {
             "tr": "Kalsiyum 5’-ribonükleotidler",
-            "en": "Calcium 5-ribonucleotides"
+            "en": "Calcium 5-ribonucleotides",
+            "ru": "5-рибонуклеотиды кальция"
         }
     },
     {
@@ -3676,7 +4043,8 @@
         "warning": "4|18",
         "names": {
             "tr": "Disodyum 5’-ribonükleotidler",
-            "en": "Disodium 5-ribonucleotides"
+            "en": "Disodium 5-ribonucleotides",
+            "ru": "Дисодиевые 5-рибонуклеотиды"
         }
     },
     {
@@ -3686,7 +4054,8 @@
         "warning": "0",
         "names": {
             "tr": "Glisin ve sodyum tuzu",
-            "en": "Glycine and its sodium salt"
+            "en": "Glycine and its sodium salt",
+            "ru": "Глицин и его натриевая соль"
         }
     },
     {
@@ -3696,7 +4065,8 @@
         "warning": "0",
         "names": {
             "tr": "Sodyum glisinat",
-            "en": "Sodium glycinate"
+            "en": "Sodium glycinate",
+            "ru": "Глицинат натрия"
         }
     },
     {
@@ -3706,7 +4076,8 @@
         "warning": "0",
         "names": {
             "tr": "Çinko asetat",
-            "en": "Zinc acetate"
+            "en": "Zinc acetate",
+            "ru": "Ацетат цинка"
         }
     },
     {
@@ -3716,7 +4087,8 @@
         "warning": "0",
         "names": {
             "tr": "Dimetil polisiloksan",
-            "en": "Dimethyl polysiloxane"
+            "en": "Dimethyl polysiloxane",
+            "ru": "Диметилполисилоксан"
         }
     },
     {
@@ -3726,7 +4098,8 @@
         "warning": "1",
         "names": {
             "tr": "Balmumu (beyaz ve sarı)",
-            "en": "Beeswax,white and yellow"
+            "en": "Beeswax,white and yellow",
+            "ru": "Пчелиный воск, белый и желтый"
         }
     },
     {
@@ -3736,7 +4109,8 @@
         "warning": "0",
         "names": {
             "tr": "Kandelila mumu",
-            "en": "Candelilla wax"
+            "en": "Candelilla wax",
+            "ru": "Канделильский воск"
         }
     },
     {
@@ -3746,7 +4120,8 @@
         "warning": "1",
         "names": {
             "tr": "Karnauba mumu",
-            "en": "Carnauba wax"
+            "en": "Carnauba wax",
+            "ru": "Карнаубский воск"
         }
     },
     {
@@ -3756,7 +4131,8 @@
         "warning": "1",
         "names": {
             "tr": "Şellak",
-            "en": "Shellac"
+            "en": "Shellac",
+            "ru": "Шеллак"
         }
     },
     {
@@ -3766,7 +4142,8 @@
         "warning": "0",
         "names": {
             "tr": "Mikrokristalin mum",
-            "en": "Microcrystalline wax"
+            "en": "Microcrystalline wax",
+            "ru": "Микрокристаллический воск"
         }
     },
     {
@@ -3776,7 +4153,8 @@
         "warning": "20",
         "names": {
             "tr": "Hidrojenize poli-1-deken",
-            "en": "Hydrogenated poly-1-decene"
+            "en": "Hydrogenated poly-1-decene",
+            "ru": "Гидрогенизированный поли-1-децен"
         }
     },
     {
@@ -3786,7 +4164,8 @@
         "warning": "0",
         "names": {
             "tr": "Montan asit esterleri",
-            "en": "Montanic acid esters"
+            "en": "Montanic acid esters",
+            "ru": "Эфиры монтановой кислоты"
         }
     },
     {
@@ -3796,7 +4175,8 @@
         "warning": "0",
         "names": {
             "tr": "Oksitlenmiş polietilen mumu",
-            "en": "Oxidized polyethylene wax"
+            "en": "Oxidized polyethylene wax",
+            "ru": "Окисленный полиэтиленовый воск"
         }
     },
     {
@@ -3806,7 +4186,8 @@
         "warning": "0",
         "names": {
             "tr": "L-Sistein",
-            "en": "L-Cysteine"
+            "en": "L-Cysteine",
+            "ru": "L-цистеин"
         }
     },
     {
@@ -3816,7 +4197,8 @@
         "warning": "3",
         "names": {
             "tr": "Karbamid",
-            "en": "Carbamide"
+            "en": "Carbamide",
+            "ru": "Карбамид"
         }
     },
     {
@@ -3826,7 +4208,8 @@
         "warning": "0",
         "names": {
             "tr": "Argon",
-            "en": "Argon"
+            "en": "Argon",
+            "ru": "Аргон"
         }
     },
     {
@@ -3836,7 +4219,8 @@
         "warning": "0",
         "names": {
             "tr": "Helyum",
-            "en": "Helium"
+            "en": "Helium",
+            "ru": "Гелий"
         }
     },
     {
@@ -3846,7 +4230,8 @@
         "warning": "0",
         "names": {
             "tr": "Azot",
-            "en": "Nitrogen"
+            "en": "Nitrogen",
+            "ru": "Азот"
         }
     },
     {
@@ -3856,7 +4241,8 @@
         "warning": "0",
         "names": {
             "tr": "Azot oksit",
-            "en": "Nitrous oxide"
+            "en": "Nitrous oxide",
+            "ru": "Закись азота"
         }
     },
     {
@@ -3866,7 +4252,8 @@
         "warning": "0",
         "names": {
             "tr": "Bütan",
-            "en": "Butane"
+            "en": "Butane",
+            "ru": "Бутан"
         }
     },
     {
@@ -3876,7 +4263,8 @@
         "warning": "0",
         "names": {
             "tr": "İzobütan",
-            "en": "Isobutane"
+            "en": "Isobutane",
+            "ru": "Изобутан"
         }
     },
     {
@@ -3886,7 +4274,8 @@
         "warning": "0",
         "names": {
             "tr": "Propan",
-            "en": "Propane"
+            "en": "Propane",
+            "ru": "Пропан"
         }
     },
     {
@@ -3896,7 +4285,8 @@
         "warning": "0",
         "names": {
             "tr": "Oksijen",
-            "en": "Oxygen"
+            "en": "Oxygen",
+            "ru": "Кислород"
         }
     },
     {
@@ -3906,7 +4296,8 @@
         "warning": "0",
         "names": {
             "tr": "Hidrojen",
-            "en": "Hydrogen"
+            "en": "Hydrogen",
+            "ru": "Водород"
         }
     },
     {
@@ -3916,7 +4307,8 @@
         "warning": "5|11|14|16",
         "names": {
             "tr": "Asesülfam-K",
-            "en": "Acesulfame K"
+            "en": "Acesulfame K",
+            "ru": "Ацесульфам К"
         }
     },
     {
@@ -3926,7 +4318,8 @@
         "warning": "1|6|10|3|8|14|5|11|16|17",
         "names": {
             "tr": "Aspartam",
-            "en": "Aspartame"
+            "en": "Aspartame",
+            "ru": "Аспартам"
         }
     },
     {
@@ -3936,7 +4329,8 @@
         "warning": "1|8|5|16",
         "names": {
             "tr": "Siklamik asit",
-            "en": "Cyclamic acid"
+            "en": "Cyclamic acid",
+            "ru": "Цикламовая кислота"
         }
     },
     {
@@ -3946,7 +4340,8 @@
         "warning": "1|8|5|16",
         "names": {
             "tr": "Sodyum siklamat",
-            "en": "Sodium cyclamate"
+            "en": "Sodium cyclamate",
+            "ru": "Цикламат натрия"
         }
     },
     {
@@ -3956,7 +4351,8 @@
         "warning": "1|8|5|16",
         "names": {
             "tr": "Kalsiyum siklamat",
-            "en": "Calcium cyclamate"
+            "en": "Calcium cyclamate",
+            "ru": "Цикламат кальция"
         }
     },
     {
@@ -3966,7 +4362,8 @@
         "warning": "15|18|16",
         "names": {
             "tr": "İzomalt",
-            "en": "Isomalt"
+            "en": "Isomalt",
+            "ru": "Изомальт"
         }
     },
     {
@@ -3976,7 +4373,8 @@
         "warning": "1|5|17|7|14|16|8",
         "names": {
             "tr": "Sodyum sakkarin",
-            "en": "Sodium saccharin"
+            "en": "Sodium saccharin",
+            "ru": "Сахарин натрия"
         }
     },
     {
@@ -3986,7 +4384,8 @@
         "warning": "1|5|17|7|14|16|8",
         "names": {
             "tr": "Kalsiyum sakkarin",
-            "en": "Calcium saccharin"
+            "en": "Calcium saccharin",
+            "ru": "Сахарин кальция"
         }
     },
     {
@@ -3996,7 +4395,8 @@
         "warning": "A|Gn|Ş|Kc|Sn|St|Kn",
         "names": {
             "tr": "Potasyum sakkarin",
-            "en": "Potassium saccharin"
+            "en": "Potassium saccharin",
+            "ru": "Сахарин калия"
         }
     },
     {
@@ -4006,7 +4406,8 @@
         "warning": "10|14|16|17",
         "names": {
             "tr": "Sukraloz",
-            "en": "Sucralose"
+            "en": "Sucralose",
+            "ru": "Сукралоза"
         }
     },
     {
@@ -4016,7 +4417,8 @@
         "warning": "1",
         "names": {
             "tr": "Taumatin",
-            "en": "Thaumatin"
+            "en": "Thaumatin",
+            "ru": "Тауматин"
         }
     },
     {
@@ -4026,7 +4428,8 @@
         "warning": "0",
         "names": {
             "tr": "Neohesperidin dihidrokalkon",
-            "en": "Neohesperidine dihydrochalcone"
+            "en": "Neohesperidine dihydrochalcone",
+            "ru": "Дигидрохалкон неогесперидина"
         }
     },
     {
@@ -4036,7 +4439,8 @@
         "warning": "1",
         "names": {
             "tr": "Steviol glikozitleri",
-            "en": "Steviol glycosides"
+            "en": "Steviol glycosides",
+            "ru": "Гликозиды стевии"
         }
     },
     {
@@ -4046,7 +4450,8 @@
         "warning": "16",
         "names": {
             "tr": "Neotam",
-            "en": "Neotame"
+            "en": "Neotame",
+            "ru": "Неотам"
         }
     },
     {
@@ -4056,7 +4461,8 @@
         "warning": "1|6|10|3|8|14|5|11|16|17",
         "names": {
             "tr": "Aspartam - asesülfam tuzu",
-            "en": "Salt of aspartame - acesulfame"
+            "en": "Salt of aspartame - acesulfame",
+            "ru": "Соль аспартама - ацесульфам"
         }
     },
     {
@@ -4066,7 +4472,8 @@
         "warning": "15|5",
         "names": {
             "tr": "Poliglisitol şurup",
-            "en": "Polyglycitol syrup"
+            "en": "Polyglycitol syrup",
+            "ru": "Полиглицитоловый сироп"
         }
     },
     {
@@ -4076,7 +4483,8 @@
         "warning": "15",
         "names": {
             "tr": "Maltitol",
-            "en": "Maltitol"
+            "en": "Maltitol",
+            "ru": "Мальтитол"
         }
     },
     {
@@ -4086,7 +4494,8 @@
         "warning": "15",
         "names": {
             "tr": "Maltitol",
-            "en": "Maltitol"
+            "en": "Maltitol",
+            "ru": "Мальтитол"
         }
     },
     {
@@ -4096,7 +4505,8 @@
         "warning": "15",
         "names": {
             "tr": "Maltitol şurubu",
-            "en": "Maltitol syrup"
+            "en": "Maltitol syrup",
+            "ru": "Мальтитоловый сироп"
         }
     },
     {
@@ -4106,7 +4516,8 @@
         "warning": "15",
         "names": {
             "tr": "Laktitol",
-            "en": "Lactitol"
+            "en": "Lactitol",
+            "ru": "Лактитол"
         }
     },
     {
@@ -4116,7 +4527,8 @@
         "warning": "1|15",
         "names": {
             "tr": "Ksilitol",
-            "en": "Xylitol"
+            "en": "Xylitol",
+            "ru": "Ксилит"
         }
     },
     {
@@ -4126,7 +4538,8 @@
         "warning": "1|15",
         "names": {
             "tr": "Eritritol",
-            "en": "Erythritol"
+            "en": "Erythritol",
+            "ru": "Эритрит"
         }
     },
     {
@@ -4136,7 +4549,8 @@
         "warning": "16",
         "names": {
             "tr": "Advantam",
-            "en": "Advantame"
+            "en": "Advantame",
+            "ru": "Адвантам"
         }
     },
     {
@@ -4146,7 +4560,8 @@
         "warning": "0",
         "names": {
             "tr": "Kuilaya ekstraktı",
-            "en": "Quillaia extract"
+            "en": "Quillaia extract",
+            "ru": "Экстракт квиллии"
         }
     },
     {
@@ -4156,7 +4571,8 @@
         "warning": "0",
         "names": {
             "tr": "İnvertaz",
-            "en": "Invertase"
+            "en": "Invertase",
+            "ru": "Инвертаза"
         }
     },
     {
@@ -4166,7 +4582,8 @@
         "warning": "1",
         "names": {
             "tr": "Lizozim",
-            "en": "Lysozyme"
+            "en": "Lysozyme",
+            "ru": "Лизоцим"
         }
     },
     {
@@ -4176,7 +4593,8 @@
         "warning": "0",
         "names": {
             "tr": "Polidekstroz",
-            "en": "Polydextrose"
+            "en": "Polydextrose",
+            "ru": "Полидекстроза"
         }
     },
     {
@@ -4186,7 +4604,8 @@
         "warning": "0",
         "names": {
             "tr": "Polivinilpirolidon",
-            "en": "Polyvinylpyrrolidone"
+            "en": "Polyvinylpyrrolidone",
+            "ru": "Поливинилпирролидон"
         }
     },
     {
@@ -4196,7 +4615,8 @@
         "warning": "0",
         "names": {
             "tr": "Polivinil polipirolidon",
-            "en": "Polyvinylpolypyrrolidone"
+            "en": "Polyvinylpolypyrrolidone",
+            "ru": "Поливинилпирролидон"
         }
     },
     {
@@ -4206,7 +4626,8 @@
         "warning": "0",
         "names": {
             "tr": "Polivinil alkol",
-            "en": "Polyvinyl alcohol"
+            "en": "Polyvinyl alcohol",
+            "ru": "Поливиниловый спирт"
         }
     },
     {
@@ -4216,7 +4637,8 @@
         "warning": "0",
         "names": {
             "tr": "Pullulan",
-            "en": "Pullulan"
+            "en": "Pullulan",
+            "ru": "Пуллулан"
         }
     },
     {
@@ -4226,7 +4648,8 @@
         "warning": "20",
         "names": {
             "tr": "Bazik Metakrilat Kopolimeri",
-            "en": "Basic methacrylate copolymer"
+            "en": "Basic methacrylate copolymer",
+            "ru": "Основной метакрилатный сополимер"
         }
     },
     {
@@ -4236,7 +4659,8 @@
         "warning": "20",
         "names": {
             "tr": "Nötr Metakrilat Kopolimeri",
-            "en": "Neutral methacrylate copolymer"
+            "en": "Neutral methacrylate copolymer",
+            "ru": "Нейтральный метакрилатный сополимер"
         }
     },
     {
@@ -4246,7 +4670,8 @@
         "warning": "20",
         "names": {
             "tr": "Anyonik Metakrilat Kopolimeri",
-            "en": "Anionic methacrylate copolymer"
+            "en": "Anionic methacrylate copolymer",
+            "ru": "Анионный сополимер метакрилата"
         }
     },
     {
@@ -4256,7 +4681,8 @@
         "warning": "20",
         "names": {
             "tr": "Polivinilpirolidon-vinil asetat kopolimeri",
-            "en": "Polyvinylpyrrolidone-vinyl acetate copolymer"
+            "en": "Polyvinylpyrrolidone-vinyl acetate copolymer",
+            "ru": "Поливинилпирролидон-винилацетатный сополимер"
         }
     },
     {
@@ -4266,7 +4692,8 @@
         "warning": "20",
         "names": {
             "tr": "Polivinil alkol-polietilen glikol-aşılı-kopolimer",
-            "en": "Polyvinyl alcohol-polyethylene glycol-graft-co-polymer"
+            "en": "Polyvinyl alcohol-polyethylene glycol-graft-co-polymer",
+            "ru": "Поливиниловый спирт-полиэтиленгликоль-графт-сополимер"
         }
     },
     {
@@ -4276,7 +4703,8 @@
         "warning": "0",
         "names": {
             "tr": "Oksitlenmiş nişasta",
-            "en": "Oxidized starch"
+            "en": "Oxidized starch",
+            "ru": "Окисленный крахмал"
         }
     },
     {
@@ -4286,7 +4714,8 @@
         "warning": "0",
         "names": {
             "tr": "Mononişasta fosfat",
-            "en": "Monostarch phosphate"
+            "en": "Monostarch phosphate",
+            "ru": "Монокрахмал фосфат"
         }
     },
     {
@@ -4296,7 +4725,8 @@
         "warning": "0",
         "names": {
             "tr": "Dinişasta fosfat",
-            "en": "Distarch phosphate"
+            "en": "Distarch phosphate",
+            "ru": "Дистарх фосфат"
         }
     },
     {
@@ -4306,7 +4736,8 @@
         "warning": "18",
         "names": {
             "tr": "Fosfatlandırılmış dinişasta fosfat",
-            "en": "Phosphated distarch phosphate"
+            "en": "Phosphated distarch phosphate",
+            "ru": "Фосфатированный дистарх фосфат"
         }
     },
     {
@@ -4316,7 +4747,8 @@
         "warning": "18",
         "names": {
             "tr": "Asetillendirilmiş dinişasta fosfat",
-            "en": "Acetylated distarch phosphate"
+            "en": "Acetylated distarch phosphate",
+            "ru": "Ацетилированный дистарх фосфат"
         }
     },
     {
@@ -4326,7 +4758,8 @@
         "warning": "18",
         "names": {
             "tr": "Asetillendirilmiş nişasta",
-            "en": "Acetylated starch"
+            "en": "Acetylated starch",
+            "ru": "Ацетилированный крахмал"
         }
     },
     {
@@ -4336,7 +4769,8 @@
         "warning": "18",
         "names": {
             "tr": "Asetillendirilmiş dinişasta adipat",
-            "en": "Acetylated distarch adipate"
+            "en": "Acetylated distarch adipate",
+            "ru": "Ацетилированный адипат дистарха"
         }
     },
     {
@@ -4346,7 +4780,8 @@
         "warning": "0",
         "names": {
             "tr": "Hidroksipropil nişasta",
-            "en": "Hydroxypropyl starch"
+            "en": "Hydroxypropyl starch",
+            "ru": "Гидроксипропиловый крахмал"
         }
     },
     {
@@ -4356,7 +4791,8 @@
         "warning": "18",
         "names": {
             "tr": "Hidroksipropil dinişasta fosfat",
-            "en": "Hydroxypropyl distarch phosphate"
+            "en": "Hydroxypropyl distarch phosphate",
+            "ru": "Гидроксипропил дистарх фосфат"
         }
     },
     {
@@ -4366,7 +4802,8 @@
         "warning": "18",
         "names": {
             "tr": "Nişasta sodyum oktenil süksinat",
-            "en": "Starch sodium octenyl succinate"
+            "en": "Starch sodium octenyl succinate",
+            "ru": "Крахмал натрия октенил сукцинат"
         }
     },
     {
@@ -4376,7 +4813,8 @@
         "warning": "18",
         "names": {
             "tr": "Asetillendirilmiş okside nişasta",
-            "en": "Acetylated oxidized starch"
+            "en": "Acetylated oxidized starch",
+            "ru": "Ацетилированный окисленный крахмал"
         }
     },
     {
@@ -4386,7 +4824,8 @@
         "warning": "3|9|14|8",
         "names": {
             "tr": "Nişasta alüminyum oktenil süksinat",
-            "en": "Starch aluminium octenyl succinate"
+            "en": "Starch aluminium octenyl succinate",
+            "ru": "Крахмал алюминия октенил сукцинат"
         }
     },
     {
@@ -4396,7 +4835,8 @@
         "warning": "0",
         "names": {
             "tr": "Trietil sitrat",
-            "en": "Triethyl citrate"
+            "en": "Triethyl citrate",
+            "ru": "Триэтил цитрат"
         }
     },
     {
@@ -4406,7 +4846,8 @@
         "warning": "0",
         "names": {
             "tr": "Diasetin",
-            "en": "Diacetin"
+            "en": "Diacetin",
+            "ru": "Диацетин"
         }
     },
     {
@@ -4416,7 +4857,8 @@
         "warning": "0",
         "names": {
             "tr": "Gliseril diasetat,Diasetin",
-            "en": "Glyceryl diacetate,Diacetin"
+            "en": "Glyceryl diacetate,Diacetin",
+            "ru": "Глицерил диацетат, диацетин"
         }
     },
     {
@@ -4426,7 +4868,8 @@
         "warning": "0",
         "names": {
             "tr": "Gliseril triasetat,Triasetin",
-            "en": "Glyceryl triacetate,Triacetin"
+            "en": "Glyceryl triacetate,Triacetin",
+            "ru": "Глицерил триацетат, триацетин"
         }
     },
     {
@@ -4436,7 +4879,8 @@
         "warning": "0",
         "names": {
             "tr": "Triasetin",
-            "en": "Triacetin"
+            "en": "Triacetin",
+            "ru": "Триацетин"
         }
     },
     {
@@ -4446,7 +4890,8 @@
         "warning": "1|5",
         "names": {
             "tr": "Benzil alkol",
-            "en": "Benzyl alcohol"
+            "en": "Benzyl alcohol",
+            "ru": "Бензиловый спирт"
         }
     },
     {
@@ -4456,7 +4901,8 @@
         "warning": "1",
         "names": {
             "tr": "Propan 1,2-diol",
-            "en": "Propan-1,2-diol"
+            "en": "Propan-1,2-diol",
+            "ru": "Пропан-1,2-диол"
         }
     },
     {
@@ -4466,7 +4912,8 @@
         "warning": "1",
         "names": {
             "tr": "Polietilen glikol",
-            "en": "Polyethylene glycol"
+            "en": "Polyethylene glycol",
+            "ru": "Полиэтиленгликоль"
         }
     }
 ]

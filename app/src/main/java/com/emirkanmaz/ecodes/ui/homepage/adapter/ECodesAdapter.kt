@@ -15,7 +15,8 @@ import com.google.android.gms.ads.nativead.NativeAdView
 import java.util.Locale
 
 class ECodesAdapter(
-    private val onECodeClick: (eCode: ECodeItemUI) -> Unit
+    private val onECodeClick: (eCode: ECodeItemUI) -> Unit,
+    private val onEmptyAddClick: () -> Unit,
 ) : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
 
     private var originalList: List<ECodeItemUI> = emptyList()
@@ -63,6 +64,15 @@ class ECodesAdapter(
 
         fun bind(nativeAd: NativeAd) {
             populateNativeAdView(nativeAd, binding.nativeAdView)
+        }
+
+        fun bindEmptyAd() {
+            binding.nativeAdView.setOnClickListener {
+                onEmptyAddClick()
+            }
+            binding.cta.setOnClickListener{
+                onEmptyAddClick()
+            }
         }
 
         private fun populateNativeAdView(nativeAd: NativeAd, adView: NativeAdView) {
@@ -124,6 +134,8 @@ class ECodesAdapter(
             val adIndex = position / AD_REPEAT_COUNT - 1
             if (adIndex in nativeAdList.indices) {
                 holder.bind(nativeAdList[adIndex])
+            } else {
+                holder.bindEmptyAd()
             }
         }
     }

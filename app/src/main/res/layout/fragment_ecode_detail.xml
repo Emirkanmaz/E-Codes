@@ -65,8 +65,8 @@
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="16dp"
                 android:background="@drawable/background_item_ecode"
-                android:fontFamily="@font/inter_bold"
                 android:backgroundTint="@color/primary_red"
+                android:fontFamily="@font/inter_bold"
                 android:paddingHorizontal="16dp"
                 android:paddingVertical="3dp"
                 android:text="E173"
@@ -78,45 +78,47 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
-                android:paddingHorizontal="16dp"
                 android:layout_marginTop="5dp"
-                android:paddingVertical="3dp"
                 android:fontFamily="@font/inter"
                 android:gravity="center_horizontal"
-                android:textColor="@color/neutral_black"
+                android:paddingHorizontal="16dp"
+                android:paddingVertical="3dp"
                 android:text="Alüminyum"
+                android:textColor="@color/neutral_black"
                 android:textSize="26sp" />
 
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:layout_gravity="center">
+                android:layout_gravity="center"
+                android:orientation="horizontal">
 
                 <ImageView
                     android:id="@+id/warningImageView"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
-                    android:layout_margin="5dp"
                     android:layout_gravity="center_vertical"
-                    android:visibility="gone"
-                    android:src="@drawable/warning"/>
+                    android:layout_margin="5dp"
+                    android:src="@drawable/warning"
+                    android:visibility="gone" />
+
                 <ImageView
                     android:id="@+id/halalImageView"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
-                    android:layout_margin="5dp"
                     android:layout_gravity="center_vertical"
-                    android:visibility="gone"
-                    android:src="@drawable/halal"/>
+                    android:layout_margin="5dp"
+                    android:src="@drawable/halal"
+                    android:visibility="gone" />
+
                 <ImageView
                     android:id="@+id/veganImageView"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
-                    android:layout_margin="5dp"
                     android:layout_gravity="center_vertical"
-                    android:visibility="gone"
-                    android:src="@drawable/vegan"/>
+                    android:layout_margin="5dp"
+                    android:src="@drawable/vegan"
+                    android:visibility="gone" />
 
 
             </LinearLayout>
@@ -126,19 +128,19 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
-                android:gravity="center"
-                android:paddingHorizontal="10dp"
-                android:paddingVertical="8dp"
-                android:orientation="vertical"
+                android:background="@drawable/background_result_item"
                 android:backgroundTint="@color/primary_red"
-                android:background="@drawable/background_result_item">
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingHorizontal="10dp"
+                android:paddingVertical="8dp">
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/inter_bold"
-                    android:textColor="@color/neutral_gray_1"
                     android:text="@string/health_perspective"
+                    android:textColor="@color/neutral_gray_1"
                     android:textSize="18sp" />
 
                 <TextView
@@ -146,9 +148,9 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/inter"
+                    android:text="Dikkat ediniz! Sağlığınız için risklidir."
                     android:textAlignment="center"
                     android:textColor="@color/neutral_black"
-                    android:text="Dikkat ediniz! Sağlığınız için risklidir."
                     android:textSize="22sp" />
 
             </LinearLayout>
@@ -158,19 +160,19 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
-                android:gravity="center"
-                android:paddingHorizontal="10dp"
-                android:paddingVertical="8dp"
-                android:orientation="vertical"
+                android:background="@drawable/background_result_item"
                 android:backgroundTint="@color/primary_green"
-                android:background="@drawable/background_result_item">
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingHorizontal="10dp"
+                android:paddingVertical="8dp">
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/inter_bold"
-                    android:textColor="@color/neutral_gray_1"
                     android:text="@string/halal_status"
+                    android:textColor="@color/neutral_gray_1"
                     android:textSize="18sp" />
 
                 <TextView
@@ -178,17 +180,17 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/inter"
-                    android:textAlignment="center"
                     android:text="Helal"
+                    android:textAlignment="center"
                     android:textSize="22sp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:fontFamily="@font/inter_bold"
-                    android:textColor="@color/neutral_gray_1"
                     android:layout_marginTop="6dp"
+                    android:fontFamily="@font/inter_bold"
                     android:text="@string/source"
+                    android:textColor="@color/neutral_gray_1"
                     android:textSize="18sp" />
 
                 <TextView
@@ -196,9 +198,9 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/inter"
+                    android:text="Hayvansal kaynaklardan üretilmemiştir."
                     android:textAlignment="center"
                     android:textColor="@color/neutral_black"
-                    android:text="Hayvansal kaynaklardan üretilmemiştir."
                     android:textSize="22sp" />
 
             </LinearLayout>
@@ -208,42 +210,39 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
-                android:paddingHorizontal="10dp"
-                android:paddingVertical="8dp"
-                android:orientation="vertical"
+                android:background="@drawable/background_result_item"
                 android:backgroundTint="@color/primary_red"
-                android:background="@drawable/background_result_item">
+                android:orientation="vertical"
+                android:paddingHorizontal="10dp"
+                android:paddingVertical="8dp">
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:fontFamily="@font/inter_bold"
                     android:layout_gravity="start"
-                    android:textColor="@color/neutral_gray_1"
+                    android:fontFamily="@font/inter_bold"
                     android:text="@string/warning"
+                    android:textColor="@color/neutral_gray_1"
                     android:textSize="18sp" />
 
             </LinearLayout>
 
-
         </LinearLayout>
-
 
     </androidx.core.widget.NestedScrollView>
 
     <com.google.android.gms.ads.AdView
         android:id="@+id/adView"
-        android:backgroundTint="@color/neutral_white"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
+        android:backgroundTint="@color/neutral_white"
         app:adSize="BANNER"
-        app:adUnitId="ca-app-pub-3940256099942544/9214589741"
-        app:layout_constraintTop_toBottomOf="@id/nestedScrollView"
+        app:adUnitId="ca-app-pub-6542807046143275/2385268028"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"/>
-
+        app:layout_constraintTop_toBottomOf="@id/nestedScrollView" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

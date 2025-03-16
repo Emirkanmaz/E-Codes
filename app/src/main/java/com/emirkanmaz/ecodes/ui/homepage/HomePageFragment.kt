@@ -1,7 +1,6 @@
 package com.emirkanmaz.ecodes.ui.homepage
 
 import android.app.Activity
-import android.content.ActivityNotFoundException
 import android.content.Context
 import android.content.Intent
 import android.graphics.Typeface
@@ -26,6 +25,7 @@ import com.emirkanmaz.ecodes.ui.homepage.camerahandler.CameraHandler
 import com.emirkanmaz.ecodes.ui.homepage.navigationevent.HomePageNavigationEvent
 import com.emirkanmaz.ecodes.utils.extensions.isValid
 import com.emirkanmaz.ecodes.utils.pressbackagaintoexit.pressBackAgainToExit
+import com.emirkanmaz.ecodes.utils.rateus.rateUs
 import com.emirkanmaz.ecodes.utils.singleclicklistener.setOnSingleClickListener
 import com.getkeepsafe.taptargetview.TapTarget
 import com.getkeepsafe.taptargetview.TapTargetView
@@ -137,18 +137,14 @@ class HomePageFragment : BaseFragment<FragmentHomePageBinding, HomePageViewModel
                         shareApp()
                     }
                     R.id.rateUs -> {
-                        rateUs()
+                        requireContext().rateUs()
                     }
                     R.id.eCodeRecognition -> {
                         viewModel.navigateToCamera()
                     }
                     R.id.privacyPolicy -> {
                         viewModel.navigateToPrivacyPolicy()
-//                        val privacyPolicyUrl = "https://emirkanmaz.github.io/E-Codes/privacy-policy.html"
-//                        val customTabsIntent = CustomTabsIntent.Builder().build()
-//                        customTabsIntent.launchUrl(requireContext(), Uri.parse(privacyPolicyUrl))
                     }
-
                 }
                 drawerLayout.closeDrawer(GravityCompat.START)
                 true
@@ -196,11 +192,15 @@ class HomePageFragment : BaseFragment<FragmentHomePageBinding, HomePageViewModel
 
     private fun setupRecyclerView() {
         binding?.let {
-            eCodesAdapter = ECodesAdapter(onECodeClick = { eCodeItemUI ->
-                viewModel.navigateToDetail(eCodeItemUI.eCode)
-            })
+            eCodesAdapter = ECodesAdapter(
+                onECodeClick = { eCodeItemUI ->
+                    viewModel.navigateToDetail(eCodeItemUI.eCode)
+                },
+                onEmptyAddClick = {
+                    requireContext().rateUs()
+                }
+            )
             it.eCodesRecyclerView.adapter = eCodesAdapter
-
         }
     }
 
@@ -219,21 +219,7 @@ class HomePageFragment : BaseFragment<FragmentHomePageBinding, HomePageViewModel
         startActivity(Intent.createChooser(shareIntent, "Share"))
     }
 
-    private fun rateUs() {
-        val packageName = "com.emirkanmaz.ecodes"
-        val playStoreLink = "market://details?id=$packageName"
-        val webLink = "https://play.google.com/store/apps/details?id=$packageName"
-        try {
-            val intent = Intent(Intent.ACTION_VIEW, Uri.parse(playStoreLink))
-            startActivity(intent)
-        } catch (e: ActivityNotFoundException) {
-            val webIntent = Intent(Intent.ACTION_VIEW, Uri.parse(webLink))
-            startActivity(webIntent)
-        }
-    }
-
     private fun showOverlay() {
-
         TapTargetView.showFor(requireActivity(),
             TapTarget.forView(
                 binding.searchView,

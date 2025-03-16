@@ -38,7 +38,7 @@ class HomePageViewModel @Inject constructor(
     init {
         getECodeDetails()
         if (_nativeAdList.value?.isEmpty() ?: true){
-            preloadAds("ca-app-pub-3940256099942544/2247696110", 5)
+            preloadAds("ca-app-pub-6542807046143275/9196715238", 5)
         }
     }
 

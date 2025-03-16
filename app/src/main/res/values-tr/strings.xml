@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">E Kodları</string>
+    <string name="app_name">E Kod</string>
     <string name="success_snackbar_message">Başarılı.</string>
     <string name="error_snackbar_message">Bir hatayla karşılaşıldı.</string>
     <string name="info_snackbar_message">Bilgi mesajı.</string>

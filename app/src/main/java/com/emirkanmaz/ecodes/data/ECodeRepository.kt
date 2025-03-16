@@ -109,8 +109,10 @@ class ECodeRepository @Inject constructor(
         } else {
             eCodes.find { eCode ->
                 eCode.names.tr.equals(cleanQuery, ignoreCase = true) ||
-                        eCode.names.en.equals(cleanQuery, ignoreCase = true)||
-                        eCode.names.ru.equals(cleanQuery, ignoreCase = true)
+                        eCode.names.en.equals(cleanQuery, ignoreCase = true) ||
+                        eCode.names.ru.equals(cleanQuery, ignoreCase = true) ||
+                        eCode.names.de.equals(cleanQuery, ignoreCase = true) ||
+                        eCode.names.ar.equals(cleanQuery, ignoreCase = true)
             }
         }
 

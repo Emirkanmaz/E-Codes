@@ -4,7 +4,9 @@
     "desc": {
       "tr": "Herhangi bir uyarı yok.",
       "en": "There is no warning.",
-      "ru": "Нет предупреждений."
+      "ru": "Нет предупреждений.",
+      "de": "Es gibt keine Warnung.",
+      "ar": "لا يوجد تحذير."
     }
   },
   {
@@ -12,7 +14,9 @@
     "desc": {
       "tr": "Alerjik bünyelilerin kaçınması önerilir.",
       "en": "Allergic people are advised to avoid.",
-      "ru": "Людям с аллергией рекомендуется избегать."
+      "ru": "Людям с аллергией рекомендуется избегать.",
+      "de": "Allergiker wird geraten, dies zu vermeiden.",
+      "ar": "يُنصح الأشخاص الذين يعانون من الحساسية بتجنب ذلك."
     }
   },
   {
@@ -20,7 +24,9 @@
     "desc": {
       "tr": "Ağır metal içerdiğinden sağlığa zararlı olabilir.",
       "en": "May be hazardous to health as it contains heavy metals.",
-      "ru": "Может быть опасно для здоровья, так как содержит тяжёлые металлы."
+      "ru": "Может быть опасно для здоровья, так как содержит тяжёлые металлы.",
+      "de": "Kann gesundheitsschädlich sein, da es Schwermetalle enthält.",
+      "ar": "قد يكون ضارًا بالصحة لأنه يحتوي على معادن ثقيلة."
     }
   },
   {
@@ -28,7 +34,9 @@
     "desc": {
       "tr": "Böbrek hastalarının kaçınması önerilir.",
       "en": "Kidney patients are advised to avoid.",
-      "ru": "Пациентам с заболеваниями почек рекомендуется избегать."
+      "ru": "Пациентам с заболеваниями почек рекомендуется избегать.",
+      "de": "Nierenkranke wird geraten, dies zu vermeiden.",
+      "ar": "يُنصح مرضى الكلى بتجنب ذلك."
     }
   },
   {
@@ -36,7 +44,9 @@
     "desc": {
       "tr": "Gut hastalarının kaçınması önerilir.",
       "en": "Gout patients are advised to avoid.",
-      "ru": "Пациентам с подагрой рекомендуется избегать."
+      "ru": "Пациентам с подагрой рекомендуется избегать.",
+      "de": "Gichtpatienten wird geraten, dies zu vermeiden.",
+      "ar": "يُنصح مرضى النقرس بتجنب ذلك."
     }
   },
   {
@@ -44,7 +54,9 @@
     "desc": {
       "tr": "Gen hasarına yol açma potansiyeline sahiptir.",
       "en": "It has the potential to cause gene damage.",
-      "ru": "Это может вызвать повреждение генов."
+      "ru": "Это может вызвать повреждение генов.",
+      "de": "Es hat das Potenzial, Gen-Schäden zu verursachen.",
+      "ar": "له القدرة على التسبب في تلف الجينات."
     }
   },
   {
@@ -52,7 +64,9 @@
     "desc": {
       "tr": "Hiperaktif kişilerin kaçınması önerilir.",
       "en": "Hyperactive people are advised to avoid.",
-      "ru": "Гиперактивным людям рекомендуется избегать."
+      "ru": "Гиперактивным людям рекомендуется избегать.",
+      "de": "Hyperaktive Menschen wird geraten, dies zu vermeiden.",
+      "ar": "يُنصح الأشخاص ذوو النشاط المفرط بتجنب ذلك."
     }
   },
   {
@@ -60,7 +74,9 @@
     "desc": {
       "tr": "Karaciğer hastalıklarını artırma potansiyeline sahiptir.",
       "en": "It has the potential to increase liver diseases.",
-      "ru": "Это может увеличить заболевания печени."
+      "ru": "Это может увеличить заболевания печени.",
+      "de": "Es hat das Potenzial, Lebererkrankungen zu erhöhen.",
+      "ar": "له القدرة على زيادة أمراض الكبد."
     }
   },
   {
@@ -68,7 +84,9 @@
     "desc": {
       "tr": "Kanser riskini artırma potansiyeline sahiptir.",
       "en": "Has the potential to increase cancer risk.",
-      "ru": "Это может увеличить риск рака."
+      "ru": "Это может увеличить риск рака.",
+      "de": "Hat das Potenzial, das Krebsrisiko zu erhöhen.",
+      "ar": "له القدرة على زيادة خطر الإصابة بالسرطان."
     }
   },
   {
@@ -76,7 +94,9 @@
     "desc": {
       "tr": "Kron (Crohn) hastalarının kaçınması önerilir.",
       "en": "Patients with Crohn's disease are advised to avoid.",
-      "ru": "Пациентам с болезнью Крона рекомендуется избегать."
+      "ru": "Пациентам с болезнью Крона рекомендуется избегать.",
+      "de": "Patienten mit Morbus Crohn wird geraten, dies zu vermeiden.",
+      "ar": "يُنصح مرضى داء كرون بتجنب ذلك."
     }
   },
   {
@@ -84,7 +104,9 @@
     "desc": {
       "tr": "Migren veya baş ağrısı olanların kaçınması önerilir.",
       "en": "Those with migraines or headaches are advised to avoid.",
-      "ru": "Людям с мигренью или головной болью рекомендуется избегать."
+      "ru": "Людям с мигренью или головной болью рекомендуется избегать.",
+      "de": "Migräne- oder Kopfschmerzpatienten wird geraten, dies zu vermeiden.",
+      "ar": "يُنصح الأشخاص الذين يعانون من الصداع النصفي أو الصداع بتجنب ذلك."
     }
   },
   {
@@ -92,7 +114,9 @@
     "desc": {
       "tr": "Obeziteye yol açma veya artırma potansiyeline sahiptir.",
       "en": "It has the potential to cause or increase obesity.",
-      "ru": "Это может вызвать или увеличить ожирение."
+      "ru": "Это может вызвать или увеличить ожирение.",
+      "de": "Es hat das Potenzial, Fettleibigkeit zu verursachen oder zu erhöhen.",
+      "ar": "له القدرة على التسبب في السمنة أو زيادتها."
     }
   },
   {
@@ -100,7 +124,9 @@
     "desc": {
       "tr": "Osteoporozu artırma potansiyeline sahiptir.",
       "en": "It has the potential to increase osteoporosis.",
-      "ru": "Это может увеличить остеопороз."
+      "ru": "Это может увеличить остеопороз.",
+      "de": "Es hat das Potenzial, Osteoporose zu erhöhen.",
+      "ar": "له القدرة على زيادة هشاشة العظام."
     }
   },
   {
@@ -108,7 +134,9 @@
     "desc": {
       "tr": "Pankreas hastalıklarını artırma potansiyeline sahiptir.",
       "en": "It has the potential to increase pancreatic diseases.",
-      "ru": "Это может увеличить заболевания поджелудочной железы."
+      "ru": "Это может увеличить заболевания поджелудочной железы.",
+      "de": "Es hat das Potenzial, Bauchspeicheldrüsenerkrankungen zu erhöhen.",
+      "ar": "له القدرة على زيادة أمراض البنكرياس."
     }
   },
   {
@@ -116,7 +144,9 @@
     "desc": {
       "tr": "Sinir sistemine zarar verme potansiyeline sahiptir.",
       "en": "It has the potential to damage the nervous system.",
-      "ru": "Это может повредить нервную систему."
+      "ru": "Это может повредить нервную систему.",
+      "de": "Es hat das Potenzial, das Nervensystem zu schädigen.",
+      "ar": "له القدرة على إلحاق الضرر بالجهاز العصبي."
     }
   },
   {
@@ -124,7 +154,9 @@
     "desc": {
       "tr": "Spastik kolonlu hastaların kaçınması önerilir.",
       "en": "Patients with spastic colon are advised to avoid.",
-      "ru": "Пациентам с спастическим колитом рекомендуется избегать."
+      "ru": "Пациентам с спастическим колитом рекомендуется избегать.",
+      "de": "Patienten mit spastischem Kolon wird geraten, dies zu vermeiden.",
+      "ar": "يُنصح مرضى القولون التشنجي بتجنب ذلك."
     }
   },
   {
@@ -132,7 +164,9 @@
     "desc": {
       "tr": "Sentetik tatlandırıcı olduğu için öngörülemeyen sağlık risklerine yol açabilir.",
       "en": "As it is a synthetic sweetener, it can lead to unforeseen health risks.",
-      "ru": "Так как это синтетический подсластитель, он может привести к непредсказуемым рискам для здоровья."
+      "ru": "Так как это синтетический подсластитель, он может привести к непредсказуемым рискам для здоровья.",
+      "de": "Da es sich um einen synthetischen Süßstoff handelt, kann es zu unvorhergesehenen Gesundheitsrisiken führen.",
+      "ar": "نظرًا لأنه محلي صناعي، فقد يؤدي إلى مخاطر صحية غير متوقعة."
     }
   },
   {
@@ -140,7 +174,9 @@
     "desc": {
       "tr": "Şeker hastalığına yol açma/artırma potansiyeline sahiptir.",
       "en": "It has the potential to cause/increase diabetes.",
-      "ru": "Это может вызвать или увеличить диабет."
+      "ru": "Это может вызвать или увеличить диабет.",
+      "de": "Es hat das Potenzial, Diabetes zu verursachen oder zu erhöhen.",
+      "ar": "له القدرة على التسبب في مرض السكري أو زيادته."
     }
   },
   {
@@ -148,7 +184,9 @@
     "desc": {
       "tr": "İdrar yolları taşı olan hastaların kaçınması önerilir.",
       "en": "Patients with urinary tract stones are advised to avoid.",
-      "ru": "Пациентам с камнями в мочевых путях рекомендуется избегать."
+      "ru": "Пациентам с камнями в мочевых путях рекомендуется избегать.",
+      "de": "Patienten mit Harnwegsteinen wird geraten, dies zu vermeiden.",
+      "ar": "يُنصح مرضى حصوات المسالك البولية بتجنب ذلك."
     }
   },
   {
@@ -156,7 +194,9 @@
     "desc": {
       "tr": "Ülseratif kolitli hastaların kaçınması önerililir.",
       "en": "Patients with ulcerative colitis are advised to avoid.",
-      "ru": "Пациентам с язвенным колитом рекомендуется избегать."
+      "ru": "Пациентам с язвенным колитом рекомендуется избегать.",
+      "de": "Patienten mit Colitis ulcerosa wird geraten, dies zu vermeiden.",
+      "ar": "يُنصح مرضى التهاب القولون التقرحي بتجنب ذلك."
     }
   },
   {
@@ -164,7 +204,9 @@
     "desc": {
       "tr": "Yeterli araştırma verisi bulunmadığı için öngörülemeyen sağlık riski içerebilir.",
       "en": "May pose unpredictable health risks due to lack of sufficient research data.",
-      "ru": "Может представлять непредсказуемые риски для здоровья из-за недостатка достаточных данных исследований."
+      "ru": "Может представлять непредсказуемые риски для здоровья из-за недостатка достаточных данных исследований.",
+      "de": "Kann unvorhersehbare Gesundheitsrisiken aufgrund fehlender ausreichender Forschungsdaten darstellen.",
+      "ar": "قد يشكل مخاطر صحية غير متوقعة بسبب نقص البيانات البحثية الكافية."
     }
   },
   {
@@ -172,7 +214,9 @@
     "desc": {
       "tr": "Yenidoğan ve bebeklik dönemlerinde sorun olabilir.",
       "en": "It can be a problem in newborns and infancy.",
-      "ru": "Это может быть проблемой для новорожденных и младенцев."
+      "ru": "Это может быть проблемой для новорожденных и младенцев.",
+      "de": "Es kann ein Problem bei Neugeborenen und im Säuglingsalter sein.",
+      "ar": "قد يكون مشكلة في المواليد الجدد وفترة الرضاعة."
     }
   }
 ]

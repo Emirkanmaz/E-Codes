@@ -4,7 +4,9 @@
     "desc": {
       "tr": "Tüketebilirsiniz. Sağlık riski yoktur.",
       "en": "You can consume it. There is no health risk.",
-      "ru": "Вы можете потреблять. Нет угрозы для здоровья."
+      "ru": "Вы можете потреблять. Нет угрозы для здоровья.",
+      "de": "Sie können es konsumieren. Es besteht kein Gesundheitsrisiko.",
+      "ar": "يمكنك استهلاكه. لا يوجد خطر على الصحة."
     }
   },
   {
@@ -12,7 +14,9 @@
     "desc": {
       "tr": "Kullanımını azaltınız. Kısmen risklidir.",
       "en": "Reduce its use. It is partly risky.",
-      "ru": "Сократите использование. Это частично рискованно."
+      "ru": "Сократите использование. Это частично рискованно.",
+      "de": "Reduzieren Sie die Nutzung. Es ist teilweise riskant.",
+      "ar": "قلل من استخدامه. إنه محفوف بالمخاطر جزئيًا."
     }
   },
   {
@@ -20,7 +24,9 @@
     "desc": {
       "tr": "Dikkat ediniz! Sağlığınız için risklidir.",
       "en": "Beware! It is risky for your health.",
-      "ru": "Осторожно! Это риск для вашего здоровья."
+      "ru": "Осторожно! Это риск для вашего здоровья.",
+      "de": "Vorsicht! Es ist gesundheitsschädlich.",
+      "ar": "انتبه! إنه خطر على صحتك."
     }
   }
 ]

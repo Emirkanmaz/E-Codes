@@ -4,12 +4,16 @@
     "desc": {
       "tr": "Helal",
       "en": "Halal",
-      "ru": "Халяль"
+      "ru": "Халяль",
+      "de": "Halal",
+      "ar": "حلال"
     },
     "type": {
       "tr": "Hayvansal kaynak içermez.",
       "en": "Not produced from animal sources.",
-      "ru": "Не производится из животных источников."
+      "ru": "Не производится из животных источников.",
+      "de": "Nicht aus tierischen Quellen hergestellt.",
+      "ar": "لا يحتوي على مصادر حيوانية."
     }
   },
   {
@@ -17,12 +21,16 @@
     "desc": {
       "tr": "Helal fakat helal olmayan yağlarla karışmış olabilir.",
       "en": "It is halal but may be mixed with non-halal fats.",
-      "ru": "Халяль, но может быть смешан с не халяльными жирами."
+      "ru": "Халяль, но может быть смешан с не халяльными жирами.",
+      "de": "Es ist halal, kann aber mit nicht-halal Fetten vermischt sein.",
+      "ar": "حلال ولكنه قد يختلط بدهون غير حلال."
     },
     "type": {
       "tr": "Hayvansal kaynaklardan üretilmemiştir fakat üretim aşamasında helal olmayan hayvansal yağlarla karışmış olabilir.",
       "en": "It is not produced from animal sources, but may be mixed with non-halal animal fats during the production process.",
-      "ru": "Не производится из животных источников, но может быть смешан с не халяльными жирами животных в процессе производства."
+      "ru": "Не производится из животных источников, но может быть смешан с не халяльными жирами животных в процессе производства.",
+      "de": "Es wird nicht aus tierischen Quellen hergestellt, kann aber während des Produktionsprozesses mit nicht-halal tierischen Fetten vermischt sein.",
+      "ar": "لم يتم إنتاجه من مصادر حيوانية، لكنه قد يختلط بدهون حيوانية غير حلال أثناء عملية الإنتاج."
     }
   },
   {
@@ -30,12 +38,16 @@
     "desc": {
       "tr": "Helalliği şüpheli",
       "en": "Doubtful halalness.",
-      "ru": "Сомнительная халяльность."
+      "ru": "Сомнительная халяльность.",
+      "de": "Halalität zweifelhaft.",
+      "ar": "حلاليته مشكوك فيها."
     },
     "type": {
       "tr": "Hem hayvansal hem diğer kaynaklardan üretilebilir.",
       "en": "It can be produced from both animal and other sources.",
-      "ru": "Может производиться из животных и других источников."
+      "ru": "Может производиться из животных и других источников.",
+      "de": "Es kann aus tierischen und anderen Quellen hergestellt werden.",
+      "ar": "يمكن إنتاجه من مصادر حيوانية وغير حيوانية."
     }
   },
   {
@@ -43,12 +55,16 @@
     "desc": {
       "tr": "Helal",
       "en": "Halal",
-      "ru": "Халяль"
+      "ru": "Халяль",
+      "de": "Halal",
+      "ar": "حلال"
     },
     "type": {
       "tr": "Hayvansal kaynaklardan üretilmiştir.",
       "en": "Produced from animal sources.",
-      "ru": "Произведено из животных источников."
+      "ru": "Произведено из животных источников.",
+      "de": "Hergestellt aus tierischen Quellen.",
+      "ar": "منتج من مصادر حيوانية."
     }
   },
   {
@@ -56,12 +72,16 @@
     "desc": {
       "tr": "Bazı mesheplere göre helal olup, bazı mesheplere göre caiz değildir.",
       "en": "It is permissible according to some Madhhabs and not permissible according to others.",
-      "ru": "Халяль согласно некоторым мазхабам, но не разрешен согласно другим."
+      "ru": "Халяль согласно некоторым мазхабам, но не разрешен согласно другим.",
+      "de": "Nach einigen Madhhabs erlaubt, nach anderen nicht erlaubt.",
+      "ar": "يُعتبر حلالًا وفقًا لبعض المذاهب وغير جائز وفقًا لأخرى."
     },
     "type": {
       "tr": "Hayvansal kaynaklardan üretilmiştir.",
       "en": "Produced from animal sources.",
-      "ru": "Произведено из животных источников."
+      "ru": "Произведено из животных источников.",
+      "de": "Hergestellt aus tierischen Quellen.",
+      "ar": "منتج من مصادر حيوانية."
     }
   },
   {
@@ -69,12 +89,16 @@
     "desc": {
       "tr": "Helalliği şüpheli",
       "en": "Doubtful halalness",
-      "ru": "Сомнительная халяльность"
+      "ru": "Сомнительная халяльность",
+      "de": "Halalität zweifelhaft",
+      "ar": "حلاليته مشكوك فيها"
     },
     "type": {
       "tr": "Etil alkol içerebilir.",
       "en": "May contain ethyl alcohol.",
-      "ru": "Может содержать этиловый спирт."
+      "ru": "Может содержать этиловый спирт.",
+      "de": "Kann Ethylalkohol enthalten.",
+      "ar": "قد يحتوي على كحول الإيثيل."
     }
   }
 ]

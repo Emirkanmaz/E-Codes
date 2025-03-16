@@ -124,6 +124,8 @@ class ResultViewModel @Inject constructor(
                         it.names.tr.equals(cleanLineText, ignoreCase = true) ||
                                 it.names.en.equals(cleanLineText, ignoreCase = true) ||
                                 it.names.ru.equals(cleanLineText, ignoreCase = true) ||
+                                it.names.de.equals(cleanLineText, ignoreCase = true) ||
+                                it.names.ar.equals(cleanLineText, ignoreCase = true) ||
                                 it.eCode.equals(cleanLineText, ignoreCase = true)
                     }) {
                     line.boundingBox?.let { box ->
@@ -138,6 +140,8 @@ class ResultViewModel @Inject constructor(
                             it.names.tr.equals(cleanElementText, ignoreCase = true) ||
                                     it.names.en.equals(cleanElementText, ignoreCase = true) ||
                                     it.names.ru.equals(cleanElementText, ignoreCase = true) ||
+                                    it.names.de.equals(cleanLineText, ignoreCase = true) ||
+                                    it.names.ar.equals(cleanLineText, ignoreCase = true) ||
                                     it.eCode.equals(cleanElementText, ignoreCase = true)
                         }) {
                         element.boundingBox?.let { box ->

@@ -165,6 +165,8 @@ class ECodesAdapter(
                 it.names.tr.contains(query, ignoreCase = true) ||
                         it.names.en.contains(query, ignoreCase = true) ||
                         it.names.ru.contains(query, ignoreCase = true) ||
+                        it.names.de.contains(query, ignoreCase = true) ||
+                        it.names.ar.contains(query, ignoreCase = true) ||
                         it.eCode.contains(query, ignoreCase = true)
             }
         }

@@ -7,6 +7,9 @@ import androidx.lifecycle.viewModelScope
 import com.emirkanmaz.ecodes.base.BaseViewModel
 import com.emirkanmaz.ecodes.data.ECodeRepository
 import com.emirkanmaz.ecodes.data.SharedPreferencesManager
+import com.emirkanmaz.ecodes.domain.helpers.AnalyticsHelper
+import com.emirkanmaz.ecodes.domain.helpers.AnalyticsHelper.Companion.EVENT_NAME_CAMERA_OPEN
+import com.emirkanmaz.ecodes.domain.helpers.AnalyticsHelper.Companion.EVENT_NAME_DETAIL_CLICK
 import com.emirkanmaz.ecodes.domain.models.ecode.ECodeItemUI
 import com.emirkanmaz.ecodes.ui.homepage.navigationevent.HomePageNavigationEvent
 import com.google.android.gms.ads.AdLoader
@@ -23,6 +26,7 @@ import javax.inject.Inject
 class HomePageViewModel @Inject constructor(
     val eCodeRepository: ECodeRepository,
     val sharedPreferencesManager: SharedPreferencesManager,
+    val analyticsHelper: AnalyticsHelper,
     @ApplicationContext private val context: Context
 ) : BaseViewModel<HomePageNavigationEvent>() {
 
@@ -40,6 +44,19 @@ class HomePageViewModel @Inject constructor(
         if (_nativeAdList.value?.isEmpty() ?: true){
             preloadAds("ca-app-pub-6542807046143275/9196715238", 5)
         }
+    }
+
+    fun onDetailClicked(eCodeName: String) {
+        analyticsHelper.logEvent(
+            EVENT_NAME_DETAIL_CLICK,
+            mapOf(
+                "e_code" to eCodeName,
+            )
+        )
+    }
+
+    fun onCameraClicked() {
+        analyticsHelper.logEvent(EVENT_NAME_CAMERA_OPEN)
     }
 
     fun preloadAds(adUnitId: String, count: Int) {

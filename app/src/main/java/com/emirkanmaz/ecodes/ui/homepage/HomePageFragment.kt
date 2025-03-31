@@ -6,8 +6,6 @@ import android.content.Intent
 import android.graphics.Typeface
 import android.net.Uri
 import android.os.Bundle
-import android.text.Editable
-import android.text.TextWatcher
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -15,6 +13,7 @@ import android.widget.ImageView
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.core.content.ContextCompat
 import androidx.core.view.GravityCompat
+import androidx.core.widget.doOnTextChanged
 import androidx.navigation.fragment.findNavController
 import com.emirkanmaz.ecodes.R
 import com.emirkanmaz.ecodes.base.BaseFragment
@@ -151,25 +150,14 @@ class HomePageFragment : BaseFragment<FragmentHomePageBinding, HomePageViewModel
             }
 
             CameraFloatingActionButton.setOnSingleClickListener {
+                viewModel.onCameraClicked()
                 viewModel.navigateToCamera()
             }
 
-            searchEditText.addTextChangedListener(object : TextWatcher {
-                override fun beforeTextChanged(
-                    s: CharSequence?,
-                    start: Int,
-                    count: Int,
-                    after: Int
-                ) {
-                }
-
-                override fun onTextChanged(s: CharSequence?, start: Int, before: Int, count: Int) {
-                    viewModel.setSearchQuery(s.toString())
-                    clearButton.visibility = if (s.isNullOrEmpty()) View.GONE else View.VISIBLE
-                }
-
-                override fun afterTextChanged(s: Editable?) {}
-            })
+            searchEditText.doOnTextChanged { text, _, _, _ ->
+                viewModel.setSearchQuery(text.toString())
+                clearButton.visibility = if (text.isNullOrEmpty()) View.GONE else View.VISIBLE
+            }
 
             clearButton.setOnClickListener {
                 searchEditText.text.clear()
@@ -194,6 +182,7 @@ class HomePageFragment : BaseFragment<FragmentHomePageBinding, HomePageViewModel
         binding?.let {
             eCodesAdapter = ECodesAdapter(
                 onECodeClick = { eCodeItemUI ->
+                    viewModel.onDetailClicked(eCodeItemUI.eCode)
                     viewModel.navigateToDetail(eCodeItemUI.eCode)
                 },
                 onEmptyAddClick = {

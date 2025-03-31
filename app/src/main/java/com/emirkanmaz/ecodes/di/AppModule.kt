@@ -8,6 +8,7 @@ import com.emirkanmaz.ecodes.data.ECodeRepository
 import com.emirkanmaz.ecodes.security.KeystoreManager
 import com.emirkanmaz.ecodes.utils.stringprovider.DefaultStringProvider
 import com.emirkanmaz.ecodes.utils.stringprovider.StringProvider
+import com.google.firebase.analytics.FirebaseAnalytics
 import com.google.mlkit.vision.text.TextRecognition
 import com.google.mlkit.vision.text.TextRecognizer
 import com.google.mlkit.vision.text.latin.TextRecognizerOptions
@@ -63,5 +64,10 @@ object AppModule {
         return DefaultStringProvider(context)
     }
 
+    @Provides
+    @Singleton
+    fun provideFirebaseAnalytics(@ApplicationContext context: Context): FirebaseAnalytics {
+        return FirebaseAnalytics.getInstance(context)
+    }
 
 }
